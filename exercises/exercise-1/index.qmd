@@ -1,60 +1,71 @@
 ---
-title: "Übung 1: Tutor erstellen"
+title: "Exercise: Think Instead of Delegate"
 ---
 
+This activity investigates how we process information by probing various research modes and reflecting on how each affects comprehension and reasoning.
 
-## Aufgabe
-Passen Sie das gegebene Prompt-Template so an, dass der Chatbot in einen Tutor-Modus versetzt wird. Ziel ist es, dass der Chatbot didaktisch sinnvoll auf noch undefinierte Nutzereingaben reagiert und lernförderliches Verhalten zeigt.
+## Learning Objectives
+
+ - Strengthen knowledge of cognitive psychology principles and their application in learning and research.
+ - Gain insight into how AI influences cognitive processes like critical thinking and comprehension.
+ - Foster the ability to critically assess the role of AI in educational and research contexts.
+
+
+## Task (15 minutes)
+
+In this exercise, we will explore four questions through different research modes, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows.
+For each mode, you should answer a different question, and while you can choose any question for each mode, it's important to follow the sequence of the modes in order.
+
 
 ::: {.callout-note collapse="true"}
-## Prompt-Template
+## Research Questions
 
-```
-# Lern-Tutor
-
-Du bist ein Tutor, der Nutzer dabei  unterstützt, ein tieferes Verständnis für ein Thema zu erlangen. 
-
----
-
-## Ziel
-
-*Der Nutzer soll ein echtes Verständnis für ein Thema entwickeln – nicht nur auswendig lernen, sondern nachvollziehen, wie und warum etwas funktioniert.*
+1. How does text-only learning shape comprehension, and what factors govern its effectiveness?
+2. How do brief summaries influence comprehension, and which elements drive their success?
+3. How does crafting a personal explanation boost critical thinking, and what are its limits?
+4. How does partner feedback on your understanding boost learning? When and how is it most effective?
 
 ---
 
-## Verhaltensleitfaden
+## Task per Session
 
-### Wenn der Nutzer eine Frage stellt:
-- **[Platzhalter]**
+For a given question, focus on the following:
+- How does the learner acquire knowledge using this approach?
+- When and how is that approach beneficial?
+- What are the pros and cons of this approach?
 
-### Wenn der Nutzer eine Erklärung abgibt:
-- **[Platzhalter]**
-
-### Wenn der Nutzer eine Wissenslücke bemerkt:
-- **[Platzhalter]**
-
-### Wenn der Nutzer Fortschritte zeigt:
-- **[Platzhalter]**
-
-### Allgemein:
-- **[Platzhalter]**
-
-```
+Add your answer as a sticky note in this [Miro Board](https://miro.com/app/board/uXjVImDtm9s=/?share_link_id=59226697931) (Password: ThinkAIWS), within the frame for your question.
 :::
-
 
 ::: {.pro-tip collapse="false"}
-## Hinweis zur Verwendung
+## Research Modes
 
-Der Initial-Prompt wird einmalig zu Beginn eingegeben und dient dazu, den Chatbot in einen gewünschten Tutormodus zu versetzen. Er bildet die Grundlage für das Verhalten und die didaktische Interaktion im weiteren Verlauf. Wenn der Prompt weiter geändert werden soll, dann muss er direkt ganz oben im Chat editiert werden, oder mit dem geänderten Prompt ein neuer Chat gestartet werden.
+There are 3 sessions (5 minutes each) to approach the question differently:
 
+1. **Without Chatbot:** Research or discuss using classical sources or prior knowledge.
+2. **With Chatbot Only:** Use a single well-crafted prompt to get the best possible answer.
+3. **With Chatbot Collaboration:** Interact with the chatbot iteratively—ask follow-up questions, refine the answer collaboratively.
+
+A short example will be shown for each mode before starting.
 :::
 
-## Beispielfragen an den Tutor
 
-- Wie funktioniert ein Initial-Prompt?
-- Was sind `System` und `User` Prompt und wo liegt der Unterschied?
-- Wie lernen LLMs?
-- Wie wählt ein LLM zufällig passende Worte?
-- Während das LLM eine Antwort schreibt, welchen Einfluss haben die schon geschriebenen Worte auf jene, die noch kommen?
-- Welchen Einfluss hat die Struktur  eines Prompts auf die Antwort des LLM?
+::: {.callout-note collapse="true"}
+## Reflection (10 minutes)
+
+After engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps:
+1. **Think (1 minute):** Take a moment to reflect individually on questions below.  
+2. **Pair (3 minutes):** Discuss your reflections with a partner and compare your insights.  
+3. **Share (6 minutes):** Share key takeaways with the group.
+
+### Questions to Consider
+1. How did the different sessions differ regarding how you learned and how you experienced that learning?
+2. What Pros and Cons did you experience using chatbots for learning?
+3. What's your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?
+
+### Key Takeaway
+
+We explored how AI processes information and its impact on human learning.
+We generally find that using chatbots can reduce cognitive engagement.
+According to a new study by MIT, this actually shows in lower brain activity, resulting in a lack of comprehension as well as in worse memorization of their own original text written on the topic.
+The key take away is: students and researches should use chatbots for learning new information only so to reduce mental load from irrelevant sidetasks and to foster cognitive engagement rather than to replace it, by letting it help develop and evaluate independent thoughts rather than reducing everything to executive summaries.
