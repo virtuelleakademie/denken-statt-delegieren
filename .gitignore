@@ -41,6 +41,8 @@ pages/config.yaml
 
 # assets
 /assets/ppt/~*
+/assets/pdf/*
+
 
 /.luarc.json
 
