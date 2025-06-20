@@ -3,7 +3,7 @@ project:
   resources:
     - assets/*
     - assets/images/*
-    - assets/pdfs/*
+    # - assets/pdfs/*
   preview:
     port: 8800
     browser: false
