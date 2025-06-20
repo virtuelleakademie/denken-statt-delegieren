@@ -1,0 +1,465 @@
+---
+title: "How We Build Expertise"
+subtitle: "The Science of Skill Acquisition"
+---
+
+## Connecting to Your Experience {.transition}
+
+:::: {.columns}
+::: {.column width="50%"}
+### What you just experienced:
+
+- **Without AI**: Deep thinking, struggle
+- **Single prompt**: Quick answer, low effort  
+- **Iterative AI**: Some engagement
+:::
+
+::: {.column width="50%"}
+### The key question:
+
+*Which mode built lasting understanding?*
+
+Let's explore the science...
+:::
+::::
+
+## Why Some Knowledge Needs to Be Taught
+
+::: {.columns}
+::: {.column width="50%"}
+### Biologically Primary
+**We evolved to:**
+- Speak and understand language
+- Recognize faces
+- Read social cues
+- Navigate physical spaces
+
+*Natural learning works!*
+:::
+
+::: {.column width="50%"}
+### Biologically Secondary
+**We didn't evolve to:**
+- Read and write
+- Calculate mathematics
+- Code computers
+- Analyze data
+
+*Requires explicit instruction!*
+:::
+:::
+
+. . .
+
+::: {.callout-important}
+AI assumes all knowledge is primary—but academic skills need structured teaching and effortful practice.
+:::
+
+## The Journey: Weak → Strong Methods
+
+```{mermaid}
+graph LR
+    A[Novice<br/>Weak Methods] --> B[Intermediate<br/>Proceduralization]
+    B --> C[Expert<br/>Compilation]
+    
+    style A fill:#ff6b6b,stroke:#333,stroke-width:2px
+    style B fill:#ffe66d,stroke:#333,stroke-width:2px
+    style C fill:#4ecdc4,stroke:#333,stroke-width:2px
+```
+
+::: {.incremental}
+- **Novice**: Means-end analysis, trial & error (high effort)
+- **Intermediate**: Patterns emerge, chunking begins (moderate effort)
+- **Expert**: Automatic recognition, can't explain! (low effort)
+:::
+
+## The Compilation Process in Detail
+
+| Stage | What's Happening | What It Looks Like |
+|-------|------------------|-------------------|
+| **Declarative** | Following memorized rules | "The teacher said to..." |
+| **Compilation** | Repeated sequences chunking | Increasing speed, some errors |
+| **Procedural** | Automated expertise | Can't explain steps, just "knows" |
+
+::: {.incremental}
+- Each stage requires hundreds of practice episodes
+- Knowledge literally becomes IF-THEN production rules
+- Neural pathways strengthen through repetition
+- **Critical**: Can't skip stages—each builds on the previous
+:::
+
+## The ACT-R Insight: Two Memory Systems
+
+::: {.columns}
+::: {.column width="50%"}
+### Declarative Memory
+**"Knowing that"**
+- Facts: "Paris is capital of France"
+- Instructions: "Isolate the variable"
+- Examples: "Like problem #3"
+
+*Slow, conscious retrieval*
+:::
+
+::: {.column width="50%"}
+### Procedural Memory
+**"Knowing how"**
+- IF see equation THEN isolate x
+- IF see pattern THEN apply rule
+- Automatic, unconscious
+
+*Fast, automatic execution*
+:::
+:::
+
+. . .
+
+**The journey**: Declarative → Practice → Production Rules → Procedural
+
+## Example: The Expert's Dilemma
+
+::: {.columns}
+::: {.column width="50%"}
+### Novice solving 3x + 5 = 20
+"Goal: find x"  
+"Current: 3x + 5 = 20"  
+"Maybe subtract 5?"  
+"So 3x = 15"  
+"Divide by 3?"  
+"x = 5"
+:::
+
+::: {.column width="50%"}
+### Expert solving same
+Sees equation → "x = 5"
+
+Asked to explain:  
+"I just... know?"  
+"You subtract and divide..."  
+"How did I know? Um..."
+
+**Expertise = automatic procedures!**
+:::
+:::
+
+## Cognitive Load in Action
+
+::: {.columns}
+::: {.column width="33%"}
+### Novice sees:
+**(x + 3)(x - 2) = 0**
+
+7+ elements:
+- What is x?
+- Parentheses?
+- Operations?
+- Equal zero?
+- How to solve?
+
+**High load** 🧠💥
+:::
+
+::: {.column width="33%"}
+### Expert sees:
+**(x + 3)(x - 2) = 0**
+
+1 pattern:
+- "Factors, so x = -3 or 2"
+
+**Low load** 🧠✓
+:::
+
+::: {.column width="33%"}
+### With AI:
+**(x + 3)(x - 2) = 0**
+
+0 processing:
+- Copy → Paste → Answer
+
+**No load = No learning** 🧠❌
+:::
+:::
+
+## How Experts Achieve Low Load: Schemas vs Mental Models
+
+::: {.columns}
+::: {.column width="50%"}
+### Schemas: Templates
+**Parameterizable frameworks**
+- Variable slots to fill
+- Hierarchical organization
+- O(log n) efficiency
+- Pattern matching
+
+```
+RESTAURANT_SCHEMA {
+  type: [CUISINE]
+  formality: [LEVEL]
+  service: [STYLE]
+}
+```
+:::
+
+::: {.column width="50%"}
+### Mental Models: Simulations
+**Executed instances**
+- Variables bound to values
+- Forward simulation runs
+- O(2^n) complexity
+- Specific predictions
+
+```
+"Italian restaurant, 
+ casual dining,
+ table service"
+→ Run simulation of 
+  dining experience
+```
+:::
+:::
+
+## The Variable Binding Process
+
+```{mermaid}
+graph LR
+    A[Schema<br/>Template with variables] --> B[Context provides values]
+    B --> C[Variables bind]
+    C --> D[Mental Model<br/>Specific simulation]
+    D --> E[Forward execution]
+    
+    style A fill:#ffe66d
+    style D fill:#4ecdc4
+```
+
+::: {.incremental}
+- **Schema**: ARITHMETIC[operation, operand1, operand2]
+- **Context**: "What's 47 + 89?"
+- **Binding**: operation=add, operand1=47, operand2=89
+- **Mental Model**: Execute specific calculation simulation
+- **Result**: 136 (through effortful computation)
+:::
+
+## Why Struggle Matters: The Biology
+
+::: {.incremental}
+- **Prediction errors** → Dopamine release → Learning signal
+- **Neural pathways** → Physical brain changes
+- **Sleep consolidation** → Memory solidification  
+- **Grokking phenomenon** → Extended practice → Sudden mastery
+:::
+
+. . .
+
+> "Learning physically rewires your brain—no shortcuts!"
+
+## The Research Evidence {.smaller}
+
+Recent studies show the cost of AI cognitive offloading:
+
+::: {.incremental}
+- **68% reduction** in critical thinking (Lee et al., 2025)
+- **Surface learning only** in programming (Yang et al., 2025)
+- **Decreased problem-solving** in math (Bastani et al.)
+- **Flynn Effect reversal** since 1970s—IQ declining!
+:::
+
+. . .
+
+::: {.callout-warning}
+We abandoned memorization just as neuroscience proved it builds thinking!
+:::
+
+## The AI Bypass Problem
+
+```{mermaid}
+graph TD
+    A[Problem] --> B{Choose Path}
+    B -->|AI Path| C[Instant Answer]
+    B -->|Learning Path| D[Struggle]
+    C --> E[Surface Understanding]
+    D --> F[Pattern Recognition]
+    F --> G[Genuine Expertise]
+    E --> H[Dependency]
+    
+    style C fill:#ff6b6b
+    style E fill:#ff6b6b
+    style H fill:#ff6b6b
+    style D fill:#4ecdc4
+    style F fill:#4ecdc4
+    style G fill:#4ecdc4
+```
+
+## What Really Builds Expertise?
+
+::: {.columns}
+::: {.column width="50%"}
+### ✅ Compilation happens through:
+- Thousands of practice cycles
+- Progressive skill building
+- Corrective feedback
+- Effortful retrieval
+:::
+
+::: {.column width="50%"}
+### ❌ Compilation blocked by:
+- Skipping to answers
+- Avoiding confusion
+- Outsourcing thinking
+- Surface processing
+:::
+:::
+
+## How Production Compilation Works
+
+**The mechanism that transforms declarative facts into automatic procedures:**
+
+::: {.incremental}
+1. **Step 1**: Retrieve fact from memory ("3 + 4 = 7")
+2. **Step 2**: Apply fact to solve problem
+3. **Compilation**: Create new IF-THEN rule: "IF see 3+4 THEN answer 7"
+4. **Result**: Direct path bypasses memory retrieval
+:::
+
+. . .
+
+```{mermaid}
+graph LR
+    A[Declarative<br/>"3+4=7"] --> B[Retrieval<br/>Process]
+    B --> C[Application]
+    C --> D[Production Rule<br/>"IF 3+4 THEN 7"]
+    
+    style A fill:#ffe66d
+    style D fill:#4ecdc4
+```
+
+## The Power Law of Practice
+
+**Performance improves as a power function of practice:**
+
+::: {.columns}
+::: {.column width="60%"}
+```{mermaid}
+graph BT
+    A[Practice Episodes] -->|Power Function| B[Performance Speed]
+    
+    subgraph "Mathematical Reality"
+    C[Time = a × Practice^-b]
+    end
+```
+:::
+
+::: {.column width="40%"}
+- Steep gains early
+- Diminishing returns
+- But improvement continues
+- Even after 10,000+ trials!
+:::
+:::
+
+. . .
+
+::: {.callout-note}
+Each practice strengthens production rules. Stronger rules fire faster and more reliably.
+:::
+
+## How Production Rules Compete
+
+**When multiple rules could apply, the strongest wins:**
+
+```{mermaid}
+graph TD
+    A[Problem State] --> B{Which Rule?}
+    B --> C[Rule 1: Utility = 0.8]
+    B --> D[Rule 2: Utility = 0.3]
+    B --> E[Rule 3: Utility = 0.9]
+    E --> F[Rule 3 Fires!]
+    
+    style E fill:#4ecdc4
+    style F fill:#4ecdc4
+```
+
+::: {.incremental}
+- **Utility** = Probability of success × Goal value - Cost
+- Successful use → Higher utility → More likely selection
+- Failed attempts → Lower utility → Less likely selection
+- This creates adaptive expertise through experience
+:::
+
+## Key Insight
+
+::: {.callout-important}
+## The Fundamental Trade-off
+
+**Using AI for learning** creates an illusion:
+- Fast answers ≠ Deep understanding
+- Perfect output ≠ Skill development
+- Avoided struggle = Missed growth
+:::
+
+. . .
+
+**Remember**: Your confusion is not a bug—it's the feature that enables learning!
+
+## Your Choice
+
+::: {.columns}
+::: {.column width="50%"}
+### Path A: Cognitive Offloading
+- Immediate results
+- Low effort
+- Fragile knowledge
+- AI dependency
+:::
+
+::: {.column width="50%"}
+### Path B: Cognitive Engagement
+- Gradual mastery
+- High effort initially
+- Robust understanding
+- True autonomy
+:::
+:::
+
+. . .
+
+::: {.callout-tip}
+Choose your tools to **enhance** thinking, not **replace** it.
+:::
+
+## The Red Line Rule
+
+::: {.callout-warning}
+## Dependency Test
+
+**If a student can't solve a problem without AI after using AI 5 times, they're not learning—they're dependent.**
+
+Step back to worked examples and rebuild.
+:::
+
+## Teaching for Each Stage
+
+| Stage | Student Behavior | Teaching Approach |
+|-------|-----------------|-------------------|
+| **Novice** | Using weak methods, high errors | Worked examples, manage element interactivity |
+| **Intermediate** | Some patterns emerging | Scaffolded practice, gradual release |
+| **Expert** | Automatic recognition | Open problems, minimal guidance |
+
+::: {.callout-note}
+AI provides expert solutions regardless of student stage—breaking the natural progression.
+:::
+
+## The Ultimate Goal
+
+Create an environment where students say:
+
+> "I could use AI, but then I wouldn't learn anything. Let me struggle with this first—that's where the real learning happens."
+
+. . .
+
+When students understand and value their own cognitive development, they become **partners in protecting their learning journey** rather than adversaries trying to game the system.
+
+. . .
+
+::: {.callout-important}
+This is the future of education: Not banning AI, but building learners who choose growth over shortcuts.
+:::

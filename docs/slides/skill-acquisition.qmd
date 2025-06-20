@@ -1,0 +1,225 @@
+---
+title: "How We Build Expertise"
+subtitle: "The Science of Skill Acquisition"
+format:
+  revealjs:
+    # theme: [default, ../styles/reveal-theme.scss]
+    slide-number: true
+    navigation-mode: linear
+    controls: true
+    logo: ../assets/bfh-logo.png
+    footer: "Denken statt Delegieren | BFH 2024"
+---
+
+## Connecting to Your Experience {.transition}
+
+:::: {.columns}
+::: {.column width="50%"}
+### What you just experienced:
+
+- **Without AI**: Deep thinking, struggle
+- **Single prompt**: Quick answer, low effort  
+- **Iterative AI**: Some engagement
+:::
+
+::: {.column width="50%"}
+### The key question:
+
+*Which mode built lasting understanding?*
+
+Let's explore the science...
+:::
+::::
+
+## The Journey: Weak → Strong Methods
+
+```{mermaid}
+graph LR
+    A[Novice<br/>Weak Methods] --> B[Intermediate<br/>Proceduralization]
+    B --> C[Expert<br/>Compilation]
+    
+    style A fill:#ff6b6b,stroke:#333,stroke-width:2px
+    style B fill:#ffe66d,stroke:#333,stroke-width:2px
+    style C fill:#4ecdc4,stroke:#333,stroke-width:2px
+```
+
+::: {.incremental}
+- **Novice**: Means-end analysis, trial & error (high effort)
+- **Intermediate**: Patterns emerge, chunking begins (moderate effort)
+- **Expert**: Automatic recognition, can't explain! (low effort)
+:::
+
+## Example: The Expert's Dilemma
+
+::: {.columns}
+::: {.column width="50%"}
+### Novice solving 3x + 5 = 20
+"Goal: find x"  
+"Current: 3x + 5 = 20"  
+"Maybe subtract 5?"  
+"So 3x = 15"  
+"Divide by 3?"  
+"x = 5"
+:::
+
+::: {.column width="50%"}
+### Expert solving same
+Sees equation → "x = 5"
+
+Asked to explain:  
+"I just... know?"  
+"You subtract and divide..."  
+"How did I know? Um..."
+
+**Expertise = automatic procedures!**
+:::
+:::
+
+## Cognitive Load in Action
+
+::: {.columns}
+::: {.column width="33%"}
+### Novice sees:
+**(x + 3)(x - 2) = 0**
+
+7+ elements:
+- What is x?
+- Parentheses?
+- Operations?
+- Equal zero?
+- How to solve?
+
+**High load** 🧠💥
+:::
+
+::: {.column width="33%"}
+### Expert sees:
+**(x + 3)(x - 2) = 0**
+
+1 pattern:
+- "Factors, so x = -3 or 2"
+
+**Low load** 🧠✓
+:::
+
+::: {.column width="33%"}
+### With AI:
+**(x + 3)(x - 2) = 0**
+
+0 processing:
+- Copy → Paste → Answer
+
+**No load = No learning** 🧠❌
+:::
+:::
+
+## Why Struggle Matters: The Biology
+
+::: {.incremental}
+- **Prediction errors** → Dopamine release → Learning signal
+- **Neural pathways** → Physical brain changes
+- **Sleep consolidation** → Memory solidification  
+- **Grokking phenomenon** → Extended practice → Sudden mastery
+:::
+
+. . .
+
+> "Learning physically rewires your brain—no shortcuts!"
+
+## The Research Evidence {.smaller}
+
+Recent studies show the cost of AI cognitive offloading:
+
+::: {.incremental}
+- **68% reduction** in critical thinking (Lee et al., 2025)
+- **Surface learning only** in programming (Yang et al., 2025)
+- **Decreased problem-solving** in math (Bastani et al.)
+- **Flynn Effect reversal** since 1970s—IQ declining!
+:::
+
+. . .
+
+::: {.callout-warning}
+We abandoned memorization just as neuroscience proved it builds thinking!
+:::
+
+## The AI Bypass Problem
+
+```{mermaid}
+graph TD
+    A[Problem] --> B{Choose Path}
+    B -->|AI Path| C[Instant Answer]
+    B -->|Learning Path| D[Struggle]
+    C --> E[Surface Understanding]
+    D --> F[Pattern Recognition]
+    F --> G[Genuine Expertise]
+    E --> H[Dependency]
+    
+    style C fill:#ff6b6b
+    style E fill:#ff6b6b
+    style H fill:#ff6b6b
+    style D fill:#4ecdc4
+    style F fill:#4ecdc4
+    style G fill:#4ecdc4
+```
+
+## What Really Builds Expertise?
+
+::: {.columns}
+::: {.column width="50%"}
+### ✅ Compilation happens through:
+- Thousands of practice cycles
+- Progressive skill building
+- Corrective feedback
+- Effortful retrieval
+:::
+
+::: {.column width="50%"}
+### ❌ Compilation blocked by:
+- Skipping to answers
+- Avoiding confusion
+- Outsourcing thinking
+- Surface processing
+:::
+:::
+
+## Key Insight
+
+::: {.callout-important}
+## The Fundamental Trade-off
+
+**Using AI for learning** creates an illusion:
+- Fast answers ≠ Deep understanding
+- Perfect output ≠ Skill development
+- Avoided struggle = Missed growth
+:::
+
+. . .
+
+**Remember**: Your confusion is not a bug—it's the feature that enables learning!
+
+## Your Choice
+
+::: {.columns}
+::: {.column width="50%"}
+### Path A: Cognitive Offloading
+- Immediate results
+- Low effort
+- Fragile knowledge
+- AI dependency
+:::
+
+::: {.column width="50%"}
+### Path B: Cognitive Engagement
+- Gradual mastery
+- High effort initially
+- Robust understanding
+- True autonomy
+:::
+:::
+
+. . .
+
+::: {.callout-tip}
+Choose your tools to **enhance** thinking, not **replace** it.
+:::
