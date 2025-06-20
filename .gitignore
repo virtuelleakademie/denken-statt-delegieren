@@ -45,6 +45,7 @@ pages/config.yaml
 /.luarc.json
 
 # AI tools
+CLAUDE.md
 .aider*
 .cursor*
 .env
