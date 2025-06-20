@@ -41,7 +41,7 @@ pages/config.yaml
 
 # assets
 /assets/ppt/~*
-/assets/pdf/*
+/assets/pdfs/*
 
 # AI tools
 CLAUDE.md
