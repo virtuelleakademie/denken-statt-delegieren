@@ -38,8 +38,10 @@ website:
 
       - icon: pencil
         href: exercises/index.qmd
-        text: Übungen
-
+        text: Exercise
+      - icon: file-slides
+        href: exercises/miro-board/index.qmd
+        text: Miro Board
     # right:
       # - icon: file-slides
       #   text: "Dokumente" # {{< fa person-chalkboard >}}
@@ -73,16 +75,16 @@ website:
         - workshop/wie-chatbots-denken/index.qmd
         - workshop/prompting/index.qmd
 
-    - title: "Übungen"
-      style: "docked"
-      search: true
-      background: light
-      contents:
-        - exercises/index.qmd
-        - exercises/exercise-1/index.qmd
-        - exercises/exercise-2/index.qmd
-        - exercises/exercise-3/index.qmd
-        - exercises/miro-board/index.qmd
+    # - title: "Übungen"
+    #   style: "docked"
+    #   search: true
+    #   background: light
+    #   contents:
+    #     - exercises/index.qmd
+        # - exercises/exercise-1/index.qmd
+        # - exercises/exercise-2/index.qmd
+        # - exercises/exercise-3/index.qmd
+        # - exercises/miro-board/index.qmd
 
 page-footer:
   right:
