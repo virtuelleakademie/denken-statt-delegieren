@@ -16,12 +16,12 @@
   {
     "objectID": "exercises/index.html",
     "href": "exercises/index.html",
-    "title": "Übersicht",
+    "title": "Exercises",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nÜbung 1: Tutor erstellen\n10 min\n\n\nÜbung 2: Copilot Agenten erstellen\n25 min\n\n\nÜbung 3: Eigenen Agenten erstellen\n45 min\n\n\n\n\n\n\n Back to top",
+    "text": "Topic\n Duration\n\n\n\n\nThink, don’t delegate\n25 min\n\n\n\n\n\n\n Back to top",
     "crumbs": [
       "Übungen",
-      "Übersicht"
+      "Exercises"
     ]
   },
   {
@@ -60,12 +60,12 @@
   {
     "objectID": "workshop/wie-chatbots-denken/index.html",
     "href": "workshop/wie-chatbots-denken/index.html",
-    "title": "Wie Chatbots denken",
+    "title": "How Chatbots Think",
     "section": "",
-    "text": "Diese Präsentation untersucht die Funktionsweise von Large Language Models (LLMs), ihre Unterschiede zu Chatbots, Assistenten und Agenten sowie deren Fähigkeit, kohärente, aber nicht immer genaue Antworten zu generieren.",
+    "text": "This presentation shows the functionality of how Large Language Models (LLMs) comprehend text and arrive at their answers.",
     "crumbs": [
       "Workshop",
-      "Wie Chatbots denken"
+      "How Chatbots Think"
     ]
   },
   {
@@ -191,12 +191,12 @@
   {
     "objectID": "workshop/index.html",
     "href": "workshop/index.html",
-    "title": "Ablauf",
+    "title": "Agenda",
     "section": "",
-    "text": "Thema\n Dauer\n\n\n\n\nAuswertung der Umfrage\n10 min\n\n\nInput: Wie Chatbots denken\n25 min\n\n\nInput: Chatbot Agenten\n25 min\n\n\nEffective Prompting Strategies\nZum Selbststudium\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
+    "text": "Topic\n Duration\n\n\n\n\nInput: How Chatbots Think\n10 min\n\n\nExercise: Think, don’t delegate\n25 min\n\n\nClosing Remarks\n5 min\n\n\n\n\n\n\n Back to topReuseCC BY 4.0",
     "crumbs": [
       "Workshop",
-      "Ablauf"
+      "Agenda"
     ]
   },
   {
@@ -213,12 +213,12 @@
   {
     "objectID": "exercises/exercise-1/index.html",
     "href": "exercises/exercise-1/index.html",
-    "title": "Übung 1: Tutor erstellen",
+    "title": "Exercise: Think Instead of Delegate",
     "section": "",
-    "text": "Passen Sie das gegebene Prompt-Template so an, dass der Chatbot in einen Tutor-Modus versetzt wird. Ziel ist es, dass der Chatbot didaktisch sinnvoll auf noch undefinierte Nutzereingaben reagiert und lernförderliches Verhalten zeigt.\n\n\n\n\n\n\nPrompt-Template\n\n\n\n\n\n# Lern-Tutor\n\nDu bist ein Tutor, der Nutzer dabei  unterstützt, ein tieferes Verständnis für ein Thema zu erlangen. \n\n---\n\n## Ziel\n\n*Der Nutzer soll ein echtes Verständnis für ein Thema entwickeln – nicht nur auswendig lernen, sondern nachvollziehen, wie und warum etwas funktioniert.*\n\n---\n\n## Verhaltensleitfaden\n\n### Wenn der Nutzer eine Frage stellt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer eine Erklärung abgibt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer eine Wissenslücke bemerkt:\n- **[Platzhalter]**\n\n### Wenn der Nutzer Fortschritte zeigt:\n- **[Platzhalter]**\n\n### Allgemein:\n- **[Platzhalter]**\n\n\n\n\n\n\n\n\n\n\nHinweis zur Verwendung\n\n\n\n\n\nDer Initial-Prompt wird einmalig zu Beginn eingegeben und dient dazu, den Chatbot in einen gewünschten Tutormodus zu versetzen. Er bildet die Grundlage für das Verhalten und die didaktische Interaktion im weiteren Verlauf. Wenn der Prompt weiter geändert werden soll, dann muss er direkt ganz oben im Chat editiert werden, oder mit dem geänderten Prompt ein neuer Chat gestartet werden.",
+    "text": "This activity investigates how we process information by probing various research modes and reflecting on how each affects comprehension and reasoning.",
     "crumbs": [
       "Übungen",
-      "Übung 1: Tutor erstellen"
+      "Exercise: Think Instead of Delegate"
     ]
   },
   {
@@ -274,6 +274,50 @@
     "crumbs": [
       "Übungen",
       "Miro Board"
+    ]
+  },
+  {
+    "objectID": "workshop/wie-chatbots-denken/index.html#presentation",
+    "href": "workshop/wie-chatbots-denken/index.html#presentation",
+    "title": "How Chatbots Think",
+    "section": " Presentation",
+    "text": "Presentation\n    View webpage in full screen",
+    "crumbs": [
+      "Workshop",
+      "How Chatbots Think"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-1/index.html#learning-objectives",
+    "href": "exercises/exercise-1/index.html#learning-objectives",
+    "title": "Exercise: Think Instead of Delegate",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nStrengthen knowledge of cognitive psychology principles and their application in learning and research.\nGain insight into how AI influences cognitive processes like critical thinking and comprehension.\nFoster the ability to critically assess the role of AI in educational and research contexts.",
+    "crumbs": [
+      "Übungen",
+      "Exercise: Think Instead of Delegate"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-1/index.html#task-15-minutes",
+    "href": "exercises/exercise-1/index.html#task-15-minutes",
+    "title": "Exercise: Think Instead of Delegate",
+    "section": "Task (15 minutes)",
+    "text": "Task (15 minutes)\nIn this exercise, we will explore four questions through different research modes, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows. For each mode, you should answer a different question, and while you can choose any question for each mode, it’s important to follow the sequence of the modes in order.\n\n\n\n\n\n\nResearch Questions\n\n\n\n\n\n\nHow does text-only learning shape comprehension, and what factors govern its effectiveness?\nHow do brief summaries influence comprehension, and which elements drive their success?\nHow does crafting a personal explanation boost critical thinking, and what are its limits?\nHow does partner feedback on your understanding boost learning? When and how is it most effective?\n\n\n\nTask per Session\nFor a given question, focus on the following: - How does the learner acquire knowledge using this approach? - When and how is that approach beneficial? - What are the pros and cons of this approach?\nAdd your answer as a sticky note in this Miro Board (Password: ThinkAIWS), within the frame for your question.\n\n\n\n\n\n\n\n\n\n\nResearch Modes\n\n\n\n\n\nThere are 3 sessions (5 minutes each) to approach the question differently:\n\nWithout Chatbot: Research or discuss using classical sources or prior knowledge.\nWith Chatbot Only: Use a single well-crafted prompt to get the best possible answer.\nWith Chatbot Collaboration: Interact with the chatbot iteratively—ask follow-up questions, refine the answer collaboratively.\n\nA short example will be shown for each mode before starting.\n\n\n\n\n\n\n\n\n\nReflection (10 minutes)\n\n\n\n\n\nAfter engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps: 1. Think (1 minute): Take a moment to reflect individually on questions below.\n2. Pair (3 minutes): Discuss your reflections with a partner and compare your insights.\n3. Share (6 minutes): Share key takeaways with the group.\n\nQuestions to Consider\n\nHow did the different sessions differ regarding how you learned and how you experienced that learning?\nWhat Pros and Cons did you experience using chatbots for learning?\nWhat’s your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?\n\n\n\n\n\n\nKey Takeaway\nWe explored how AI processes information and its impact on human learning. We generally find that using chatbots can reduce cognitive engagement. According to a new study by MIT, this actually shows in lower brain activity, resulting in a lack of comprehension as well as in worse memorization of their own original text written on the topic. The key take away is: students and researches should use chatbots for learning new information only so to reduce mental load from irrelevant sidetasks and to foster cognitive engagement rather than to replace it, by letting it help develop and evaluate independent thoughts rather than reducing everything to executive summaries.",
+    "crumbs": [
+      "Übungen",
+      "Exercise: Think Instead of Delegate"
+    ]
+  },
+  {
+    "objectID": "exercises/exercise-1/index.html#task-per-session",
+    "href": "exercises/exercise-1/index.html#task-per-session",
+    "title": "Exercise: Think Instead of Delegate",
+    "section": "Task per Session",
+    "text": "Task per Session\nFor a given question, focus on the following: - How does the learner acquire knowledge using this approach? - When and how is that approach beneficial? - What are the pros and cons of this approach?\nAdd your answer as a sticky note in this Miro Board (Password: ThinkAIWS), within the frame for your question.",
+    "crumbs": [
+      "Übungen",
+      "Exercise: Think Instead of Delegate"
     ]
   }
 ]
