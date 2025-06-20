@@ -2,8 +2,13 @@
 title: "Agenda"
 ---
 
-| {{< bi collection >}} Topic | {{< bi clock >}} Duration |
-|-------|--------|
-| [Input: How Chatbots Think](wie-chatbots-denken/index.qmd) | 10 min |
-| [Exercise: Think, don't delegate](../exercises/exercise-1/index.qmd) | 25 min |
-| Closing Remarks | 5 min|
+| {{< bi collection >}} Topic                                                                                           | {{< bi clock >}} Duration |
+| --------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| [Input: How Chatbots Think](wie-chatbots-denken/index.qmd)                                                            | 7 min                     |
+| [Exercise: Think, don't delegate](../exercises/exercise-1/index.qmd)                                                  | 25 min                    |
+| [Input: How Humans Learn](skill-acquisition/index.qmd) ([{{< bi file-slides >}} Slides](../slides/how-humans-learn/index.qmd)) | 7 min                     |
+| Closing Remarks                                                                                                       | 1 min                     |
+
+## Additional Resources
+
+- [{{< bi lightbulb >}} Creating Learning Environments That Foster Deep Thinking](learning-environment/index.qmd) - Practical strategies for educators
