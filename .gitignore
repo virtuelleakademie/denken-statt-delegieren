@@ -43,11 +43,7 @@ pages/config.yaml
 /assets/ppt/~*
 /assets/pdf/*
 
-
-/.luarc.json
-
 # AI tools
 CLAUDE.md
 .aider*
-.cursor*
 .env
