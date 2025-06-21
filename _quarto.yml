@@ -74,7 +74,7 @@ website:
         - workshop/index.qmd
         - workshop/wie-chatbots-denken/index.qmd
         - exercises/exercise-1/index.qmd
-        - slides/how-humans-learn/index.qmd
+        - workshop/how-humans-learn/index.qmd
 
     # - title: "Übungen"
     #   style: "docked"
