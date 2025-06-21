@@ -1,0 +1,23 @@
+---
+title: "How Humans Learn"
+---
+
+In der folgenden Präsentation diskutieren wir folgende Prompting-Regeln:
+
+
+1. Sei klar und präzise
+2. Fange einfach an und verbessere
+3. Verwende Beispiele und Kontext
+4. Leite den Denkprozess
+5. Nutze ChatGPT/Copilots "Wissen"
+6. Verwende Rollenspieltechniken
+
+
+## {{< bi file-slides >}} Presentation
+
+{{< revealjs file="../../slides/how-humans-learn/index.html" height="500px" class="ratio ratio-16x9" >}}
+
+
+<br> <br>
+
+
