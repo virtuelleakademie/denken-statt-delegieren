@@ -13,4 +13,5 @@ title: "Agenda"
 
 ## Further Reading
 
-[Creating Learning Environments That Foster Deep Thinking](learning-environment/index.qmd) - Practical strategies for educators
+- [How Skill Acquisition Works](skill-acquisition/index.qmd) - From Novice to Expert: The Science of Learning
+- [Creating Learning Environments That Promote Deep Thinking](learning-environment/index.qmd) - Practical strategies for educators
