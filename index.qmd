@@ -1,5 +1,4 @@
 ---
-# title: "KI in der Lehre"
 format:
   html:
     toc: false
@@ -17,35 +16,31 @@ about:
       text: Knowledge Base
       href: https://virtuelleakademie.ch/knowledge-base/
     - icon: mortarboard-fill
-      text: Weiterbildungsangebote
+      text: Courses
       href: https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/
 ---
 
 
-{{< bi calendar-event >}} 23. Juni 2025
+{{< bi calendar-event >}} June 23, 2025
 
-{{< bi clock >}} 13:00–18:00 Uhr
+{{< bi clock >}} 1:00 PM – 6:00 PM
 
 {{< bi map >}} SIPBB, Aarbergstrasse 46, 2503 Biel
 
 <br>
 
-## Dozenten
+## Instructors
 
-<!-- [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. 
+[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) is a cognitive psychologist and research associate at the [Virtual Academy](https://virtuelleakademie.ch/) of Bern University of Applied Sciences. His research focuses on human learning processes and the cognitive impacts of AI-assisted education.
 
-[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. -->
-[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
-Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
+[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) is a physicist and data scientist working as a research associate at the Virtual Academy of Bern University of Applied Sciences. He specializes in developing AI-powered educational tools and analyzing their effectiveness in learning environments.
+
+Together, they investigate how artificial intelligence can be thoughtfully integrated into educational systems to enhance rather than replace human cognitive engagement.
 
 ## Website
 
 {{< bi link >}} [virtuelleakademie.github.io/denken-statt-delegieren/](https://virtuelleakademie.github.io/denken-statt-delegieren/)
 
 <br>
-<!-- ## QR Code -->
+
 {{< qrcode https://virtuelleakademie.github.io/denken-statt-delegieren/ width=200 height=200 colorDark='#000000' >}}
-
-
-
-
