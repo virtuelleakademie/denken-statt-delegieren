@@ -2,8 +2,8 @@
 title: "Miro Board"
 ---
 
-{{< bi link >}} [View Miro board in new tab](https://miro.com/app/board/uXjVILmeGtU=/?share_link_id=416238961121)
+{{< bi link >}} [View Miro board in new tab](https://miro.com/app/board/uXjVImDtm9s=/?share_link_id=895124647795)
 
 ```{=html}
-<iframe src="https://miro.com/app/board/uXjVILmeGtU=/?share_link_id=416238961121" width="100%" height="600px"></iframe>
+<iframe src="https://miro.com/app/board/uXjVImDtm9s=/?share_link_id=895124647795" width="100%" height="600px"></iframe>
 ```
