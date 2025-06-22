@@ -3,6 +3,16 @@ title: "How Skill Acquisition Works"
 subtitle: "From Novice to Expert: The Science of Learning"
 ---
 
+## Connecting to Your Experience
+
+Think back to the exercise you just completed:
+
+- **Without AI**: You engaged in deep thinking and struggle
+- **Single prompt**: You got quick answers with low effort
+- **Iterative AI**: You maintained some cognitive engagement
+
+Which mode built lasting understanding? Let's explore the science behind skill acquisition to understand why struggle matters for learning.
+
 ## The Journey from Novice to Expert
 
 When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why shortcuts through AI can prevent genuine expertise development—and why expert-level tools can actively harm novice learning.
@@ -55,6 +65,7 @@ During this stage, knowledge begins forming into **production rules**. These are
 - IF code won't compile THEN check for syntax errors first
 
 ### 3. **Compilation** (Expert Stage)
+
 - Knowledge becomes automatic through **many practice episodes**
 - Pattern recognition dominates
 - Minimal cognitive load
@@ -87,6 +98,12 @@ In a landmark study, 40 participants learning LISP programming ALL showed the sa
 - Not through sudden understanding, but through compilation
 
 **Key insight**: The struggle patterns are predictable and necessary!
+
+## Why Cognitive Effort Matters: The Biology of Learning
+
+### The Prediction Error Learning System
+
+The human brain learns through a sophisticated prediction error system that AI completely bypasses. This biological reality explains why struggle is essential for learning.
 
 ## Understanding Cognitive Load Theory
 
@@ -181,9 +198,11 @@ As De Groot first demonstrated in 1965, expertise is **domain-specific** and res
 - **Access procedures** without conscious effort
 - **Free up working memory** for higher-level thinking
 
-### The AI Disruption of Cognitive Architecture
+## The AI Bypass Problem
 
-AI short-circuits this entire system:
+### How AI Disrupts Cognitive Architecture
+
+AI short-circuits this entire learning system:
 
 1. **Bypasses working memory processing**: No cognitive effort means no encoding
 2. **Prevents long-term memory storage**: Information that isn't processed isn't stored
@@ -276,11 +295,7 @@ This isn't just "not learning"—it's **unlearning** existing capabilities.
 - Provide worked examples that show the process, not just answers
 - Gradually fade support as competence develops
 
-## Why Cognitive Effort Matters
-
-### The Prediction Error Learning System
-
-The human brain learns through a sophisticated prediction error system that AI completely bypasses:
+### How Prediction Errors Drive Learning
 
 #### How Prediction Errors Drive Learning
 
@@ -362,9 +377,7 @@ Each cycle:
 
 **How expertise actually works**: When you encounter a problem, multiple production rules compete. The rule with highest "utility" (based on past success through prediction errors) fires. Each successful use strengthens that rule, making it more likely to win future competitions. This is why experts seem to "just know"—their strongest productions fire automatically.
 
-## The AI Bypass Problem
-
-When we use AI to skip the struggle:
+### What We Lose When We Skip the Struggle
 
 ::: {.callout-warning}
 ## What We Lose
@@ -376,13 +389,23 @@ When we use AI to skip the struggle:
 5. **No Prediction Error Learning**: The fundamental mechanism of learning is bypassed
 :::
 
-## The Expertise Illusion
+### The Expertise Illusion
 
 AI creates a dangerous illusion:
+
 - **Surface Fluency**: Perfect answers without understanding
 - **False Confidence**: Believing we "get it" without practice
 - **Fragile Knowledge**: Collapses without AI support
 - **Limited Transfer**: Can't adapt to novel situations
+
+### Research Evidence: The Cost of Cognitive Offloading
+
+Recent studies show alarming impacts of AI use on learning:
+
+- **68% reduction in critical thinking** among knowledge workers with high AI confidence (Lee et al., 2025)
+- **Surface learning only** for programming students using ChatGPT (Yang et al., 2025)
+- **Decreased problem-solving ability** in math students using AI tools [@bastaniGenerativeAICan2024]
+- **"The fluency illusion"**: Mistaking AI's competence for your own
 
 ## The Biological Reality of Learning
 
@@ -419,15 +442,6 @@ Since the 1970s-80s, when education moved away from memorization:
 - Exactly when neuroscience was proving memorization builds critical thinking
 - We abandoned proven methods just as we discovered why they work [@oakleyMemoryParadoxWhy2025]
 :::
-
-## Research Evidence: The Cost of Cognitive Offloading
-
-Recent studies show alarming impacts of AI use on learning:
-
-- **68% reduction in critical thinking** among knowledge workers with high AI confidence (Lee et al., 2025)
-- **Surface learning only** for programming students using ChatGPT (Yang et al., 2025)
-- **Decreased problem-solving ability** in math students using AI tools [@bastaniGenerativeAICan2024]
-- **"The fluency illusion"**: Mistaking AI's competence for your own
 
 ## Building Real Expertise
 
@@ -509,6 +523,7 @@ Notice how your understanding differed across modes? That's the compilation proc
 
 ## Red Flags
 Watch for these signs of cognitive bypassing:
+
 - Smooth performance without ability to explain
 - Cannot handle problem variations
 - No improvement despite practice
