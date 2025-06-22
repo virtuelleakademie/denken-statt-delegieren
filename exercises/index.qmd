@@ -8,13 +8,13 @@ This activity investigates how we process information by probing various researc
 
  - Strengthen knowledge of cognitive psychology principles and their application in learning and research.
  - Gain insight into how AI influences cognitive processes like critical thinking and comprehension.
- - Foster the ability to critically assess the role of AI in educational and research contexts.
+ - Learn to evaluate when and how AI helps or hinders learning in educational and research contexts.
 
 
 ## Task (15 minutes)
 
 In this exercise, we will explore four questions through different research modes, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows.
-For each mode, you should answer a different question, and while you can choose any question for each mode, it's important to follow the sequence of the modes in order.
+For each mode, you should answer a different question, and while you may choose any question for each mode, it's important to follow the sequence of the modes in order.
 
 
 ::: {.callout-note collapse="true"}
@@ -23,13 +23,15 @@ For each mode, you should answer a different question, and while you can choose 
 1. How does text-only learning shape comprehension, and what factors govern its effectiveness?
 2. How do brief summaries influence comprehension, and which elements drive their success?
 3. How does crafting a personal explanation boost critical thinking, and what are its limits?
-4. How does partner feedback on your understanding boost learning? When and how is it most effective?
+4. What makes partner feedback such an effective learning tool, and how can you use it best?
+:::
 
----
 
+::: {.pro-tip collapse="false"}
 ## Task per Session
 
 For a given question, focus on the following:
+
 - How does the learner acquire knowledge using this approach?
 - When and how is that approach beneficial?
 - What are the pros and cons of this approach?
@@ -54,6 +56,7 @@ A short example will be shown for each mode before starting.
 ## Reflection (10 minutes)
 
 After engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps:
+
 1. **Think (1 minute):** Take a moment to reflect individually on questions below.  
 2. **Pair (3 minutes):** Discuss your reflections with a partner and compare your insights.  
 3. **Share (6 minutes):** Share key takeaways with the group.
