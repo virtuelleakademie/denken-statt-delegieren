@@ -142,6 +142,116 @@
   <script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
   <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
   <style>
+  div.callout-screens-down.callout {
+    border-left-color: orange;
+  }
+  div.callout-screens-down.callout-style-default > .callout-header {
+    background-color: rgb(from orange r g b / 13%);
+  }
+  div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
+    content: '🔽';
+    background-image: none;
+  }
+  div.callout-screens-up.callout {
+    border-left-color: green;
+  }
+  div.callout-screens-up.callout-style-default > .callout-header {
+    background-color: rgb(from green r g b / 13%);
+  }
+  div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
+    content: '🔼';
+    background-image: none;
+  }
+  div.callout-pair.callout {
+    border-left-color: forestgreen;
+  }
+  div.callout-pair.callout-style-default > .callout-header {
+    background-color: rgb(from forestgreen r g b / 13%);
+  }
+  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+    content: '👥';
+    background-image: none;
+  }
+  div.callout-prompt-template.callout {
+    border-left-color: indigo;
+  }
+  div.callout-prompt-template.callout-style-default > .callout-header {
+    background-color: rgb(from indigo r g b / 13%);
+  }
+  div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
+    content: '📋';
+    background-image: none;
+  }
+  div.callout-caution.callout {
+    border-left-color: orange;
+  }
+  div.callout-caution.callout-style-default > .callout-header {
+    background-color: rgb(from orange r g b / 13%);
+  }
+  div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
+    content: '⚠️';
+    background-image: none;
+  }
+  div.callout-try.callout {
+    border-left-color: blue;
+  }
+  div.callout-try.callout-style-default > .callout-header {
+    background-color: rgb(from blue r g b / 13%);
+  }
+  div.callout-try .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-try.callout-style-default .callout-icon::before, div.callout-try.callout-titled .callout-icon::before {
+    content: '🔄';
+    background-image: none;
+  }
+  div.callout-testing.callout {
+    border-left-color: green;
+  }
+  div.callout-testing.callout-style-default > .callout-header {
+    background-color: rgb(from green r g b / 13%);
+  }
+  div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
+    content: '🧪';
+    background-image: none;
+  }
+  div.callout-checkpoint.callout {
+    border-left-color: purple;
+  }
+  div.callout-checkpoint.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
+    content: '🎯';
+    background-image: none;
+  }
+  div.callout-break.callout {
+    border-left-color: yellow;
+  }
+  div.callout-break.callout-style-default > .callout-header {
+    background-color: rgb(from yellow r g b / 13%);
+  }
+  div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
+    content: '☕';
+    background-image: none;
+  }
+  div.callout-pro-tip.callout {
+    border-left-color: gold;
+  }
+  div.callout-pro-tip.callout-style-default > .callout-header {
+    background-color: rgb(from gold r g b / 13%);
+  }
+  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+    content: '💡';
+    background-image: none;
+  }
   div.callout-export.callout {
     border-left-color: brown;
   }
@@ -151,6 +261,17 @@
   div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
     content: '📤';
+    background-image: none;
+  }
+  div.callout-reflect.callout {
+    border-left-color: purple;
+  }
+  div.callout-reflect.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
+  }
+  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+    content: '💭';
     background-image: none;
   }
   div.callout-schedule.callout {
@@ -175,50 +296,6 @@
     content: '⏱️';
     background-image: none;
   }
-  div.callout-setup.callout {
-    border-left-color: gray;
-  }
-  div.callout-setup.callout-style-default > .callout-header {
-    background-color: rgb(from gray r g b / 13%);
-  }
-  div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
-    content: '⚙️';
-    background-image: none;
-  }
-  div.callout-individual.callout {
-    border-left-color: steelblue;
-  }
-  div.callout-individual.callout-style-default > .callout-header {
-    background-color: rgb(from steelblue r g b / 13%);
-  }
-  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
-    content: '💻';
-    background-image: none;
-  }
-  div.callout-checkpoint.callout {
-    border-left-color: purple;
-  }
-  div.callout-checkpoint.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
-    content: '🎯';
-    background-image: none;
-  }
-  div.callout-reflect.callout {
-    border-left-color: purple;
-  }
-  div.callout-reflect.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-    content: '💭';
-    background-image: none;
-  }
   div.callout-feedback.callout {
     border-left-color: teal;
   }
@@ -228,83 +305,6 @@
   div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
   div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
     content: '📝';
-    background-image: none;
-  }
-  div.callout-screens-up.callout {
-    border-left-color: green;
-  }
-  div.callout-screens-up.callout-style-default > .callout-header {
-    background-color: rgb(from green r g b / 13%);
-  }
-  div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
-    content: '🔼';
-    background-image: none;
-  }
-  div.callout-testing.callout {
-    border-left-color: green;
-  }
-  div.callout-testing.callout-style-default > .callout-header {
-    background-color: rgb(from green r g b / 13%);
-  }
-  div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
-    content: '🧪';
-    background-image: none;
-  }
-  div.callout-tutor-example.callout {
-    border-left-color: purple;
-  }
-  div.callout-tutor-example.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-tutor-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-tutor-example.callout-style-default .callout-icon::before, div.callout-tutor-example.callout-titled .callout-icon::before {
-    content: '📄';
-    background-image: none;
-  }
-  div.callout-group.callout {
-    border-left-color: purple;
-  }
-  div.callout-group.callout-style-default > .callout-header {
-    background-color: rgb(from purple r g b / 13%);
-  }
-  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-    content: '👥';
-    background-image: none;
-  }
-  div.callout-prompt-template.callout {
-    border-left-color: indigo;
-  }
-  div.callout-prompt-template.callout-style-default > .callout-header {
-    background-color: rgb(from indigo r g b / 13%);
-  }
-  div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
-    content: '📋';
-    background-image: none;
-  }
-  div.callout-pro-tip.callout {
-    border-left-color: gold;
-  }
-  div.callout-pro-tip.callout-style-default > .callout-header {
-    background-color: rgb(from gold r g b / 13%);
-  }
-  div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-    content: '💡';
-    background-image: none;
-  }
-  div.callout-break.callout {
-    border-left-color: yellow;
-  }
-  div.callout-break.callout-style-default > .callout-header {
-    background-color: rgb(from yellow r g b / 13%);
-  }
-  div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
-    content: '☕';
     background-image: none;
   }
   div.callout-prompt-example.callout {
@@ -318,53 +318,53 @@
     content: '👩🏼‍🔧';
     background-image: none;
   }
-  div.callout-caution.callout {
-    border-left-color: orange;
+  div.callout-setup.callout {
+    border-left-color: gray;
   }
-  div.callout-caution.callout-style-default > .callout-header {
-    background-color: rgb(from orange r g b / 13%);
+  div.callout-setup.callout-style-default > .callout-header {
+    background-color: rgb(from gray r g b / 13%);
   }
-  div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
-    content: '⚠️';
+  div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
+    content: '⚙️';
     background-image: none;
   }
-  div.callout-screens-down.callout {
-    border-left-color: orange;
+  div.callout-tutor-example.callout {
+    border-left-color: purple;
   }
-  div.callout-screens-down.callout-style-default > .callout-header {
-    background-color: rgb(from orange r g b / 13%);
+  div.callout-tutor-example.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
   }
-  div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
-    content: '🔽';
+  div.callout-tutor-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-tutor-example.callout-style-default .callout-icon::before, div.callout-tutor-example.callout-titled .callout-icon::before {
+    content: '📄';
     background-image: none;
   }
-  div.callout-try.callout {
-    border-left-color: blue;
+  div.callout-individual.callout {
+    border-left-color: steelblue;
   }
-  div.callout-try.callout-style-default > .callout-header {
-    background-color: rgb(from blue r g b / 13%);
+  div.callout-individual.callout-style-default > .callout-header {
+    background-color: rgb(from steelblue r g b / 13%);
   }
-  div.callout-try .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-try.callout-style-default .callout-icon::before, div.callout-try.callout-titled .callout-icon::before {
-    content: '🔄';
+  div.callout-individual .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-individual.callout-style-default .callout-icon::before, div.callout-individual.callout-titled .callout-icon::before {
+    content: '💻';
     background-image: none;
   }
-  div.callout-pair.callout {
-    border-left-color: forestgreen;
+  div.callout-group.callout {
+    border-left-color: purple;
   }
-  div.callout-pair.callout-style-default > .callout-header {
-    background-color: rgb(from forestgreen r g b / 13%);
+  div.callout-group.callout-style-default > .callout-header {
+    background-color: rgb(from purple r g b / 13%);
   }
-  div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-  div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+  div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
     content: '👥';
     background-image: none;
   }
   </style>
 <meta property="og:title" content="How We Build Expertise – Denken statt delegieren">
-<meta property="og:description" content="The Science of Skill Acquisition">
+<meta property="og:description" content="Why AI Can’t Replace the Learning Journey">
 <meta property="og:site_name" content="Denken statt delegieren">
 </head>
 <body class="quarto-light">
@@ -373,7 +373,7 @@
 
 <section id="title-slide" data-background-opacity="1" class="quarto-title-block center">
   <h1 class="title">How We Build Expertise</h1>
-  <p class="subtitle">The Science of Skill Acquisition</p>
+  <p class="subtitle">Why AI Can’t Replace the Learning Journey</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -385,34 +385,45 @@ Andrew Ellis
 
   <p class="date">05 December, 2024</p>
 </section>
-<section id="connecting-to-your-experience" class="slide level2 transition">
-<h2>Connecting to Your Experience</h2>
+<section id="the-question-that-started-it-all" class="slide level2 transition">
+<h2>The Question That Started It All</h2>
+<p>After your exercise:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
-<h3 id="what-you-just-experienced">What you just experienced:</h3>
-<ul>
-<li><strong>Without AI</strong>: Deep thinking, struggle</li>
-<li><strong>Single prompt</strong>: Quick answer, low effort<br>
-</li>
-<li><strong>Iterative AI</strong>: Some engagement</li>
-</ul>
+<p><strong>Without AI</strong>: Deep thinking, struggle<br>
+<strong>Single prompt</strong>: Quick answer, low effort<br>
+<strong>Iterative AI</strong>: Some engagement</p>
 </div><div class="column" style="width:50%;">
-<h3 id="the-key-question">The key question:</h3>
-<p><em>Which mode built lasting understanding?</em></p>
-<p>Let’s explore the science…</p>
+<h3 id="which-mode-built-lasting-understanding">Which mode built lasting understanding?</h3>
+<p><em>The answer reveals why shortcuts can harm learning…</em></p>
 </div></div>
 </section>
-<section id="why-some-knowledge-needs-to-be-taught" class="slide level2">
-<h2>Why Some Knowledge Needs to Be Taught</h2>
+<section id="why-schools-exist-the-knowledge-divide" class="slide level2">
+<h2>Why Schools Exist: The Knowledge Divide</h2>
 <div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="biologically-primary">Biologically Primary</h3>
-<p><strong>We evolved to:</strong> - Speak and understand language - Recognize faces - Read social cues - Navigate physical spaces</p>
-<p><em>Natural learning works!</em></p>
-</div><div class="column" style="width:50%;">
-<h3 id="biologically-secondary">Biologically Secondary</h3>
-<p><strong>We didn’t evolve to:</strong> - Read and write - Calculate mathematics - Code computers - Analyze data</p>
-<p><em>Requires explicit instruction!</em></p>
+<div class="column" style="width:45%;">
+<h3 id="biologically-primary">🧬 Biologically Primary</h3>
+<p><strong>We evolved to learn:</strong></p>
+<ul>
+<li>Speaking &amp; understanding</li>
+<li>Recognizing faces<br>
+</li>
+<li>Reading social cues</li>
+<li>Basic problem solving</li>
+</ul>
+<p><em>Natural discovery works!</em></p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:45%;">
+<h3 id="biologically-secondary">🎓 Biologically Secondary</h3>
+<p><strong>We didn’t evolve to learn:</strong></p>
+<ul>
+<li>Reading &amp; writing</li>
+<li>Mathematics &amp; algebra</li>
+<li>Programming &amp; analysis</li>
+<li>Scientific reasoning</li>
+</ul>
+<p><em>Needs explicit teaching!</em></p>
 </div></div>
 <div class="fragment">
 <div class="callout callout-important callout-titled callout-style-default">
@@ -424,25 +435,85 @@ Andrew Ellis
 <p><strong>Important</strong></p>
 </div>
 <div class="callout-content">
-<p>AI assumes all knowledge is primary—but academic skills need structured teaching and effortful practice.</p>
+<p><strong>AI assumes all knowledge is primary—but academic skills need structured struggle.</strong></p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="the-journey-weak-strong-methods" class="slide level2">
-<h2>The Journey: Weak → Strong Methods</h2>
+<section id="the-learning-journey-novice-expert" class="slide level2">
+<h2>The Learning Journey: Novice → Expert</h2>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
 <pre class="mermaid mermaid-js">graph LR
-    A[Novice&lt;br/&gt;Weak Methods] --&gt; B[Intermediate&lt;br/&gt;Proceduralization]
-    B --&gt; C[Expert&lt;br/&gt;Compilation]
+    A[😰 Novice&lt;br/&gt;Struggle &amp; Errors] --&gt; B[🤔 Intermediate&lt;br/&gt;Patterns Emerge]
+    B --&gt; C[🎯 Expert&lt;br/&gt;Automatic &amp; Fast]
     
-    style A fill:#ff6b6b,stroke:#333,stroke-width:2px
-    style B fill:#ffe66d,stroke:#333,stroke-width:2px
+    style A fill:#ff6b6b,stroke:#333,stroke-width:3px
+    style B fill:#ffe66d,stroke:#333,stroke-width:3px
+    style C fill:#4ecdc4,stroke:#333,stroke-width:3px
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<ul>
+<li class="fragment"><strong>Novice</strong>: Step-by-step conscious reasoning (high effort)</li>
+<li class="fragment"><strong>Intermediate</strong>: Chunking patterns, some automation (moderate effort)<br>
+</li>
+<li class="fragment"><strong>Expert</strong>: Instant recognition, can’t explain! (low effort)</li>
+</ul>
+<div class="fragment">
+<p><strong>Key insight</strong>: The struggle <em>creates</em> the expertise—you can’t skip it!</p>
+</div>
+</section>
+<section id="act-r-theory-how-minds-actually-work" class="slide level2">
+<h2>ACT-R Theory: How Minds Actually Work</h2>
+<h3 id="two-memory-systems-working-together">Two Memory Systems Working Together:</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<h3 id="declarative-memory">🧠 Declarative Memory</h3>
+<p><strong>“Knowing That”</strong></p>
+<ul>
+<li>Facts: “Paris is capital of France”</li>
+<li>Rules: “To isolate x, subtract from both sides”</li>
+<li>Examples: “Like problem #3 we did”</li>
+</ul>
+<p><em>Slow, conscious retrieval</em></p>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:45%;">
+<h3 id="procedural-memory">⚡ Procedural Memory</h3>
+<p><strong>“Knowing How”</strong></p>
+<ul>
+<li>IF see equation THEN isolate x</li>
+<li>IF recognize pattern THEN apply rule</li>
+<li>Automatic, unconscious execution</li>
+</ul>
+<p><em>Fast, effortless performance</em></p>
+</div></div>
+<div class="fragment">
+<p><strong>The learning journey</strong>: Declarative facts → Practice → Production rules → Procedural expertise</p>
+</div>
+</section>
+<section id="knowledge-compilation-in-action" class="slide level2">
+<h2>Knowledge Compilation in Action</h2>
+<p><strong>How declarative knowledge becomes automatic procedures:</strong></p>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">graph LR
+    A[📚 Declarative&lt;br/&gt;"To solve 3x+5=20,&lt;br/&gt;subtract 5, then divide"] --&gt; B[🔄 Practice&lt;br/&gt;Apply rule&lt;br/&gt;many times]
+    B --&gt; C[⚡ Production Rule&lt;br/&gt;"IF see 3x+5=20&lt;br/&gt;THEN answer x=5"]
+    
+    style A fill:#ffe66d,stroke:#333,stroke-width:2px
+    style B fill:#ffb3ba,stroke:#333,stroke-width:2px
     style C fill:#4ecdc4,stroke:#333,stroke-width:2px
 </pre>
 </div>
@@ -450,182 +521,102 @@ Andrew Ellis
 </div>
 </div>
 </div>
-<ul>
-<li class="fragment"><strong>Novice</strong>: Means-end analysis, trial &amp; error (high effort)</li>
-<li class="fragment"><strong>Intermediate</strong>: Patterns emerge, chunking begins (moderate effort)</li>
-<li class="fragment"><strong>Expert</strong>: Automatic recognition, can’t explain! (low effort)</li>
-</ul>
-</section>
-<section id="the-compilation-process-in-detail" class="slide level2">
-<h2>The Compilation Process in Detail</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 40%">
-<col style="width: 43%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Stage</th>
-<th>What’s Happening</th>
-<th>What It Looks Like</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Declarative</strong></td>
-<td>Following memorized rules</td>
-<td>“The teacher said to…”</td>
-</tr>
-<tr class="even">
-<td><strong>Compilation</strong></td>
-<td>Repeated sequences chunking</td>
-<td>Increasing speed, some errors</td>
-</tr>
-<tr class="odd">
-<td><strong>Procedural</strong></td>
-<td>Automated expertise</td>
-<td>Can’t explain steps, just “knows”</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li class="fragment">Each stage requires hundreds of practice episodes</li>
-<li class="fragment">Knowledge literally becomes IF-THEN production rules</li>
-<li class="fragment">Neural pathways strengthen through repetition</li>
-<li class="fragment"><strong>Critical</strong>: Can’t skip stages—each builds on the previous</li>
-</ul>
-</section>
-<section id="the-act-r-insight-two-memory-systems" class="slide level2">
-<h2>The ACT-R Insight: Two Memory Systems</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="declarative-memory">Declarative Memory</h3>
-<p><strong>“Knowing that”</strong> - Facts: “Paris is capital of France” - Instructions: “Isolate the variable” - Examples: “Like problem #3”</p>
-<p><em>Slow, conscious retrieval</em></p>
-</div><div class="column" style="width:50%;">
-<h3 id="procedural-memory">Procedural Memory</h3>
-<p><strong>“Knowing how”</strong> - IF see equation THEN isolate x - IF see pattern THEN apply rule - Automatic, unconscious</p>
-<p><em>Fast, automatic execution</em></p>
-</div></div>
-<div class="fragment">
-<p><strong>The journey</strong>: Declarative → Practice → Production Rules → Procedural</p>
-</div>
-</section>
-<section id="example-the-experts-dilemma" class="slide level2">
-<h2>Example: The Expert’s Dilemma</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="novice-solving-3x-5-20">Novice solving 3x + 5 = 20</h3>
-<p>“Goal: find x”<br>
-“Current: 3x + 5 = 20”<br>
-“Maybe subtract 5?”<br>
-“So 3x = 15”<br>
-“Divide by 3?”<br>
-“x = 5”</p>
-</div><div class="column" style="width:50%;">
-<h3 id="expert-solving-same">Expert solving same</h3>
-<p>Sees equation → “x = 5”</p>
-<p>Asked to explain:<br>
-“I just… know?”<br>
-“You subtract and divide…”<br>
-“How did I know? Um…”</p>
-<p><strong>Expertise = automatic procedures!</strong></p>
-</div></div>
-</section>
-<section id="cognitive-load-in-action" class="slide level2">
-<h2>Cognitive Load in Action</h2>
-<div class="columns">
-<div class="column" style="width:33%;">
-<h3 id="novice-sees">Novice sees:</h3>
-<p><strong>(x + 3)(x - 2) = 0</strong></p>
-<p>7+ elements: - What is x? - Parentheses? - Operations? - Equal zero? - How to solve?</p>
-<p><strong>High load</strong> 🧠💥</p>
-</div><div class="column" style="width:33%;">
-<h3 id="expert-sees">Expert sees:</h3>
-<p><strong>(x + 3)(x - 2) = 0</strong></p>
-<p>1 pattern: - “Factors, so x = -3 or 2”</p>
-<p><strong>Low load</strong> 🧠✓</p>
-</div><div class="column" style="width:33%;">
-<h3 id="with-ai">With AI:</h3>
-<p><strong>(x + 3)(x - 2) = 0</strong></p>
-<p>0 processing: - Copy → Paste → Answer</p>
-<p><strong>No load = No learning</strong> 🧠❌</p>
-</div></div>
-</section>
-<section id="how-experts-achieve-low-load-schemas-vs-mental-models" class="slide level2">
-<h2>How Experts Achieve Low Load: Schemas vs Mental Models</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="schemas-templates">Schemas: Templates</h3>
-<p><strong>Parameterizable frameworks</strong> - Variable slots to fill - Hierarchical organization - O(log n) efficiency - Pattern matching</p>
-<pre><code>RESTAURANT_SCHEMA {
-  type: [CUISINE]
-  formality: [LEVEL]
-  service: [STYLE]
-}</code></pre>
-</div><div class="column" style="width:50%;">
-<h3 id="mental-models-simulations">Mental Models: Simulations</h3>
-<p><strong>Executed instances</strong> - Variables bound to values - Forward simulation runs - O(2^n) complexity - Specific predictions</p>
-<pre><code>"Italian restaurant, 
- casual dining,
- table service"
-→ Run simulation of 
-  dining experience</code></pre>
-</div></div>
-</section>
-<section id="the-variable-binding-process" class="slide level2">
-<h2>The Variable Binding Process</h2>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">graph LR
-    A[Schema&lt;br/&gt;Template with variables] --&gt; B[Context provides values]
-    B --&gt; C[Variables bind]
-    C --&gt; D[Mental Model&lt;br/&gt;Specific simulation]
-    D --&gt; E[Forward execution]
-    
-    style A fill:#ffe66d
-    style D fill:#4ecdc4
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<ul>
-<li class="fragment"><strong>Schema</strong>: ARITHMETIC[operation, operand1, operand2]</li>
-<li class="fragment"><strong>Context</strong>: “What’s 47 + 89?”</li>
-<li class="fragment"><strong>Binding</strong>: operation=add, operand1=47, operand2=89</li>
-<li class="fragment"><strong>Mental Model</strong>: Execute specific calculation simulation</li>
-<li class="fragment"><strong>Result</strong>: 136 (through effortful computation)</li>
-</ul>
-</section>
-<section id="why-struggle-matters-the-biology" class="slide level2">
-<h2>Why Struggle Matters: The Biology</h2>
-<ul>
-<li class="fragment"><strong>Prediction errors</strong> → Dopamine release → Learning signal</li>
-<li class="fragment"><strong>Neural pathways</strong> → Physical brain changes</li>
-<li class="fragment"><strong>Sleep consolidation</strong> → Memory solidification<br>
+<ol type="1">
+<li class="fragment"><strong>Start</strong>: Conscious rule-following (slow, effortful)</li>
+<li class="fragment"><strong>Practice</strong>: Repeated application strengthens neural pathways<br>
 </li>
-<li class="fragment"><strong>Grokking phenomenon</strong> → Extended practice → Sudden mastery</li>
-</ul>
+<li class="fragment"><strong>Compilation</strong>: Direct stimulus→response connections form</li>
+<li class="fragment"><strong>Result</strong>: Automatic expertise (fast, effortless)</li>
+</ol>
 <div class="fragment">
-<blockquote>
-<p>“Learning physically rewires your brain—no shortcuts!”</p>
-</blockquote>
+<p><strong>AI skips steps 1-3 entirely!</strong></p>
 </div>
 </section>
-<section id="the-research-evidence" class="slide level2 smaller">
-<h2>The Research Evidence</h2>
-<p>Recent studies show the cost of AI cognitive offloading:</p>
+<section id="the-working-memory-bottleneck" class="slide level2">
+<h2>The Working Memory Bottleneck</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<h3 id="novice-problem">😰 Novice Problem:</h3>
+<p><strong>(x + 3)(x - 2) = 0</strong></p>
+<p><strong>7+ pieces to track:</strong> - What is x? - Parentheses meaning? - Operations involved? - Why equals zero? - How to solve?</p>
+<p><strong>🧠💥 Overload!</strong></p>
+</div><div class="column" style="width:30%;">
+<h3 id="expert-problem">🎯 Expert Problem:</h3>
+<p><strong>(x + 3)(x - 2) = 0</strong></p>
+<p><strong>1 pattern recognized:</strong> - “Factored form → x = -3 or x = 2”</p>
+<p><strong>🧠✓ Easy!</strong></p>
+</div><div class="column" style="width:30%;">
+<h3 id="ai-problem">🤖 AI Problem:</h3>
+<p><strong>(x + 3)(x - 2) = 0</strong></p>
+<p><strong>0 processing:</strong> - Copy → Paste → Answer</p>
+<p><strong>🧠❌ No learning!</strong></p>
+</div></div>
+</section>
+<section id="how-the-brain-actually-learns" class="slide level2">
+<h2>How the Brain Actually Learns</h2>
+<h3 id="the-prediction-error-system">The Prediction Error System:</h3>
+<ol type="1">
+<li class="fragment"><strong>Brain predicts</strong>: “If I try this approach, it should work”</li>
+<li class="fragment"><strong>Reality check</strong>: “Did it work as expected?”</li>
+<li class="fragment"><strong>Prediction error</strong>: Gap between expected and actual</li>
+<li class="fragment"><strong>Neural update</strong>: Brain adjusts based on the error</li>
+</ol>
+<p>. . .</p>
+<div class="callout callout-warning callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>AI Eliminates Learning Signals</strong></p>
+</div>
+<div class="callout-content">
 <ul>
-<li class="fragment"><strong>68% reduction</strong> in critical thinking (Lee et al., 2025)</li>
-<li class="fragment"><strong>Surface learning only</strong> in programming (Yang et al., 2025)</li>
-<li class="fragment"><strong>Decreased problem-solving</strong> in math (Bastani et al.)</li>
-<li class="fragment"><strong>Flynn Effect reversal</strong> since 1970s—IQ declining!</li>
+<li><strong>No predictions</strong> (AI provides instant answers)</li>
+<li><strong>No attempts</strong> (students don’t try solutions)<br>
+</li>
+<li><strong>No errors</strong> (AI is always “correct”)</li>
+<li><strong>No learning</strong> (brain has nothing to update)</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<section id="the-expertise-illusion" class="slide level2">
+<h2>The Expertise Illusion</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<h3 id="what-ai-creates">❌ What AI Creates:</h3>
+<ul>
+<li>Perfect answers without understanding</li>
+<li>Surface fluency, fragile knowledge</li>
+<li>False confidence in abilities</li>
+<li>Complete dependency on tools</li>
+</ul>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:45%;">
+<h3 id="what-real-learning-creates">✅ What Real Learning Creates:</h3>
+<ul>
+<li>Deep understanding through struggle</li>
+<li>Robust knowledge that transfers</li>
+<li>Accurate self-assessment</li>
+<li>True intellectual autonomy</li>
+</ul>
+</div></div>
+<div class="fragment">
+<p><strong>The dangerous mistake</strong>: Confusing AI’s performance with your own learning.</p>
+</div>
+</section>
+<section id="the-research-reality-check" class="slide level2">
+<h2>The Research Reality Check</h2>
+<p>Recent studies reveal alarming trends:</p>
+<ul>
+<li class="fragment"><strong>68% reduction in critical thinking</strong> among high AI users</li>
+<li class="fragment"><strong>Surface learning only</strong> in programming students using ChatGPT<br>
+</li>
+<li class="fragment"><strong>Flynn Effect reversal</strong>: IQ scores declining since we stopped memorizing</li>
+<li class="fragment">Students can’t solve basic problems without AI assistance</li>
 </ul>
 <div class="fragment">
 <div class="callout callout-warning callout-titled callout-style-default">
@@ -637,34 +628,30 @@ Andrew Ellis
 <p><strong>Warning</strong></p>
 </div>
 <div class="callout-content">
-<p>We abandoned memorization just as neuroscience proved it builds thinking!</p>
+<p>We abandoned proven learning methods just as neuroscience proved why they work!</p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section id="the-ai-bypass-problem" class="slide level2">
-<h2>The AI Bypass Problem</h2>
+<section id="the-two-paths-forward" class="slide level2">
+<h2>The Two Paths Forward</h2>
 <div class="cell" data-reveal="true" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
 <pre class="mermaid mermaid-js">graph TD
-    A[Problem] --&gt; B{Choose Path}
-    B --&gt;|AI Path| C[Instant Answer]
-    B --&gt;|Learning Path| D[Struggle]
-    C --&gt; E[Surface Understanding]
-    D --&gt; F[Pattern Recognition]
-    F --&gt; G[Genuine Expertise]
-    E --&gt; H[Dependency]
+    A[Learning Challenge] --&gt; B{Your Choice}
+    B --&gt;|AI Shortcut| C[🏃‍♂️ Fast Answer]
+    B --&gt;|Learning Path| D[🧗‍♀️ Productive Struggle]
+    C --&gt; E[❌ Dependency &amp; Fragility]
+    D --&gt; F[✅ Expertise &amp; Transfer]
     
-    style C fill:#ff6b6b
-    style E fill:#ff6b6b
-    style H fill:#ff6b6b
-    style D fill:#4ecdc4
-    style F fill:#4ecdc4
-    style G fill:#4ecdc4
+    style C fill:#ff6b6b,stroke:#333,stroke-width:2px
+    style E fill:#ff6b6b,stroke:#333,stroke-width:2px
+    style D fill:#4ecdc4,stroke:#333,stroke-width:2px
+    style F fill:#4ecdc4,stroke:#333,stroke-width:2px
 </pre>
 </div>
 <p></p></figure><p></p>
@@ -672,251 +659,147 @@ Andrew Ellis
 </div>
 </div>
 </section>
-<section id="what-really-builds-expertise" class="slide level2">
-<h2>What Really Builds Expertise?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="compilation-happens-through">✅ Compilation happens through:</h3>
-<ul>
-<li>Thousands of practice cycles</li>
-<li>Progressive skill building</li>
-<li>Corrective feedback</li>
-<li>Effortful retrieval</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<h3 id="compilation-blocked-by">❌ Compilation blocked by:</h3>
-<ul>
-<li>Skipping to answers</li>
-<li>Avoiding confusion</li>
-<li>Outsourcing thinking</li>
-<li>Surface processing</li>
-</ul>
-</div></div>
-</section>
-<section id="how-production-compilation-works" class="slide level2">
-<h2>How Production Compilation Works</h2>
-<p><strong>The mechanism that transforms declarative facts into automatic procedures:</strong></p>
-<ol type="1">
-<li class="fragment"><strong>Step 1</strong>: Retrieve fact from memory (“3 + 4 = 7”)</li>
-<li class="fragment"><strong>Step 2</strong>: Apply fact to solve problem</li>
-<li class="fragment"><strong>Compilation</strong>: Create new IF-THEN rule: “IF see 3+4 THEN answer 7”</li>
-<li class="fragment"><strong>Result</strong>: Direct path bypasses memory retrieval</li>
-</ol>
-<div class="fragment">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">graph LR
-    A[Declarative&lt;br/&gt;"3+4=7"] --&gt; B[Retrieval&lt;br/&gt;Process]
-    B --&gt; C[Application]
-    C --&gt; D[Production Rule&lt;br/&gt;"IF 3+4 THEN 7"]
-    
-    style A fill:#ffe66d
-    style D fill:#4ecdc4
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="the-power-law-of-practice" class="slide level2">
-<h2>The Power Law of Practice</h2>
-<p><strong>Performance improves as a power function of practice:</strong></p>
-<div class="columns">
-<div class="column" style="width:60%;">
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">graph BT
-    A[Practice Episodes] --&gt;|Power Function| B[Performance Speed]
-    
-    subgraph "Mathematical Reality"
-    C[Time = a × Practice^-b]
-    end
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-</div><div class="column" style="width:40%;">
-<ul>
-<li>Steep gains early</li>
-<li>Diminishing returns</li>
-<li>But improvement continues</li>
-<li>Even after 10,000+ trials!</li>
-</ul>
-</div></div>
-<div class="fragment">
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>Each practice strengthens production rules. Stronger rules fire faster and more reliably.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="how-production-rules-compete" class="slide level2">
-<h2>How Production Rules Compete</h2>
-<p><strong>When multiple rules could apply, the strongest wins:</strong></p>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">graph TD
-    A[Problem State] --&gt; B{Which Rule?}
-    B --&gt; C[Rule 1: Utility = 0.8]
-    B --&gt; D[Rule 2: Utility = 0.3]
-    B --&gt; E[Rule 3: Utility = 0.9]
-    E --&gt; F[Rule 3 Fires!]
-    
-    style E fill:#4ecdc4
-    style F fill:#4ecdc4
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
-</div>
-<ul>
-<li class="fragment"><strong>Utility</strong> = Probability of success × Goal value - Cost</li>
-<li class="fragment">Successful use → Higher utility → More likely selection</li>
-<li class="fragment">Failed attempts → Lower utility → Less likely selection</li>
-<li class="fragment">This creates adaptive expertise through experience</li>
-</ul>
-</section>
-<section id="key-insight" class="slide level2">
-<h2>Key Insight</h2>
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>The Fundamental Trade-off</strong></p>
-</div>
-<div class="callout-content">
-<p><strong>Using AI for learning</strong> creates an illusion: - Fast answers ≠ Deep understanding - Perfect output ≠ Skill development - Avoided struggle = Missed growth</p>
-</div>
-</div>
-</div>
-<div class="fragment">
-<p><strong>Remember</strong>: Your confusion is not a bug—it’s the feature that enables learning!</p>
-</div>
-</section>
-<section id="your-choice" class="slide level2">
-<h2>Your Choice</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<h3 id="path-a-cognitive-offloading">Path A: Cognitive Offloading</h3>
-<ul>
-<li>Immediate results</li>
-<li>Low effort</li>
-<li>Fragile knowledge</li>
-<li>AI dependency</li>
-</ul>
-</div><div class="column" style="width:50%;">
-<h3 id="path-b-cognitive-engagement">Path B: Cognitive Engagement</h3>
-<ul>
-<li>Gradual mastery</li>
-<li>High effort initially</li>
-<li>Robust understanding</li>
-<li>True autonomy</li>
-</ul>
-</div></div>
-<div class="fragment">
+<section id="practical-guidelines-the-20-minute-rule" class="slide level2">
+<h2>Practical Guidelines: The 20-Minute Rule</h2>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Tip</strong></p>
+<p><strong>Before Any AI Consultation:</strong></p>
 </div>
 <div class="callout-content">
-<p>Choose your tools to <strong>enhance</strong> thinking, not <strong>replace</strong> it.</p>
+<ol type="1">
+<li><strong>Attempt independently</strong> for minimum 20 minutes</li>
+<li><strong>Document your thinking</strong>: What you tried and why</li>
+<li><strong>Identify where you’re stuck</strong> specifically</li>
+<li><strong>Then use AI</strong> to overcome specific obstacles, not replace thinking</li>
+</ol>
 </div>
 </div>
 </div>
+<div class="fragment">
+<p><strong>Red flag test</strong>: If you can’t solve similar problems without AI after 5 attempts, you’re building dependency, not expertise.</p>
 </div>
 </section>
-<section id="the-red-line-rule" class="slide level2">
-<h2>The Red Line Rule</h2>
-<div class="callout callout-warning callout-titled callout-style-default">
+<section id="designing-learning-environments-for-growth" class="slide level2">
+<h2>Designing Learning Environments for Growth</h2>
+<h3 id="the-cultural-shift-required">The Cultural Shift Required:</h3>
+<div class="columns">
+<div class="column" style="width:45%;">
+<h3 id="product-focused-culture">❌ Product-Focused Culture</h3>
+<ul>
+<li>“Get the right answer quickly”</li>
+<li>Struggle = failure or incompetence<br>
+</li>
+<li>Errors are problems to hide</li>
+<li>Speed and efficiency valued</li>
+<li>AI use = being “smart”</li>
+</ul>
+</div><div class="column" style="width:10%;">
+
+</div><div class="column" style="width:45%;">
+<h3 id="process-focused-culture">✅ Process-Focused Culture</h3>
+<ul>
+<li>“Show me your thinking”</li>
+<li>Struggle = growth in progress</li>
+<li>Errors are learning opportunities</li>
+<li>Depth and understanding valued</li>
+<li>AI use = strategic choice</li>
+</ul>
+</div></div>
+<div class="fragment">
+<div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Dependency Test</strong></p>
+<p><strong>Important</strong></p>
 </div>
 <div class="callout-content">
-<p><strong>If a student can’t solve a problem without AI after using AI 5 times, they’re not learning—they’re dependent.</strong></p>
-<p>Step back to worked examples and rebuild.</p>
+<p><strong>Key insight</strong>: Students avoid struggle when environments punish confusion and reward quick answers.</p>
+</div>
 </div>
 </div>
 </div>
 </section>
-<section id="teaching-for-each-stage" class="slide level2">
-<h2>Teaching for Each Stage</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 16%">
-<col style="width: 39%">
-<col style="width: 44%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Stage</th>
-<th>Student Behavior</th>
-<th>Teaching Approach</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Novice</strong></td>
-<td>Using weak methods, high errors</td>
-<td>Worked examples, manage element interactivity</td>
-</tr>
-<tr class="even">
-<td><strong>Intermediate</strong></td>
-<td>Some patterns emerging</td>
-<td>Scaffolded practice, gradual release</td>
-</tr>
-<tr class="odd">
-<td><strong>Expert</strong></td>
-<td>Automatic recognition</td>
-<td>Open problems, minimal guidance</td>
-</tr>
-</tbody>
-</table>
-<div class="callout callout-note callout-titled callout-style-default">
+<section id="creating-struggle-positive-classrooms" class="slide level2">
+<h2>Creating Struggle-Positive Classrooms</h2>
+<h3 id="what-this-looks-like-in-practice">What This Looks Like in Practice:</h3>
+<ul>
+<li class="fragment"><strong>Celebrate productive confusion</strong>: “That’s a great question—you’re thinking deeply!”</li>
+<li class="fragment"><strong>Assess process, not just products</strong>: Grade thinking steps, not just final answers</li>
+<li class="fragment"><strong>Share expert struggles</strong>: Show how professionals work through problems messily</li>
+<li class="fragment"><strong>Time for thinking</strong>: Built-in struggle time before any external help</li>
+<li class="fragment"><strong>Model uncertainty</strong>: Teachers saying “I’m not sure, let me think…”</li>
+</ul>
+<p>. . .</p>
+<div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Note</strong></p>
+<p><strong>The Environment Test</strong></p>
 </div>
 <div class="callout-content">
-<p>AI provides expert solutions regardless of student stage—breaking the natural progression.</p>
+<p>Students should feel <strong>safe to be confused</strong> and <strong>proud of their thinking process</strong>, not just their final answers.</p>
 </div>
 </div>
 </div>
+</section>
+<section id="what-this-means-for-teaching" class="slide level2">
+<h2>What This Means for Teaching</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="dont">❌ Don’t:</h3>
+<ul>
+<li>Allow immediate AI consultation</li>
+<li>Accept AI-generated work as learning</li>
+<li>Skip the “struggling” phase<br>
+</li>
+<li>Treat all students as experts</li>
+</ul>
+<h3 id="do">✅ Do:</h3>
+<ul>
+<li>Protect struggle time</li>
+<li>Teach process, not just content</li>
+<li>Scaffold complexity appropriately</li>
+<li>Celebrate productive confusion</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="the-goal">The Goal:</h3>
+<p>Students who say:</p>
+<p><em>“I could use AI, but then I wouldn’t learn anything. Let me try this myself first.”</em></p>
+<p><strong>This is the future</strong>: Learners who choose growth over shortcuts.</p>
+</div></div>
+</section>
+<section id="your-takeaway-challenge" class="slide level2">
+<h2>Your Takeaway Challenge</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>The Expertise Question</strong></p>
+</div>
+<div class="callout-content">
+<p>For your next learning challenge, ask yourself:</p>
+<p><strong>“Am I using this tool to enhance my thinking or replace it?”</strong></p>
+<p>Choose tools that make you <strong>think harder</strong>, not <strong>think less</strong>.</p>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p><strong>Remember</strong>: Your confusion isn’t a bug—it’s the feature that builds expertise!</p>
+</div>
+</section>
+<section id="questions-discussion" class="slide level2">
+<h2>Questions &amp; Discussion</h2>
+<p><em>How might we redesign learning experiences to embrace productive struggle while leveraging AI appropriately?</em></p>
 
 
 </section>
