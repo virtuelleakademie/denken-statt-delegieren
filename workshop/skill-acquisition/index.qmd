@@ -2,6 +2,15 @@
 title: "How Skill Acquisition Works"
 subtitle: "From Novice to Expert: The Science of Learning"
 ---
+## Key Takeaways
+
+1. **Expertise requires progressive skill building** through weak → strong methods
+2. **Cognitive effort is not a bug---it's the feature** that enables learning through prediction errors
+3. **AI bypasses the very struggles** that build lasting capabilities
+4. **Expert methods actively harm novices** by creating cognitive overload and dependency
+5. **Real understanding emerges** from thousands of effortful practice cycles with prediction errors
+6. **Choose your tools wisely**: Use AI to reduce irrelevant cognitive load, not to skip essential learning
+
 
 ## Connecting to Your Experience
 
@@ -282,7 +291,7 @@ This isn't just "not learning"---it's **unlearning** existing capabilities.
 
 #### Principle 3: Protect the Struggle Window
 
-- Minimum 20 minutes of independent work before any AI consultation
+- Allow sufficient time for independent struggle before AI consultation
 - Document thinking process before seeking external help
 - Multiple attempts required before accessing solutions
 
@@ -290,41 +299,49 @@ This isn't just "not learning"---it's **unlearning** existing capabilities.
 
 - Use AI to reduce irrelevant cognitive load, not eliminate all effort
 - Provide worked examples that show the process, not just answers
-- Gradually fade support as competence develops
+- Gradually fade support as competence develops (scaffolding)
 
 ### How Prediction Errors Drive Learning
 
 #### How Prediction Errors Drive Learning
 
 **Step 1: Prediction Formation**
-When you encounter a problem, your brain automatically predicts what should happen based on current knowledge:
-- "If I subtract 5 from both sides, I should get closer to solving for x"
+
+When you encounter a problem, your brain automatically predicts what should happen based on your current (prior) knowledge:
+
+- "If I subtract 5 from both sides, I should get closer to solving for $x$"
 - "If I apply this formula, I should get the right answer"
 - "This code structure should compile without errors"
 
 **Step 2: Reality Check**
+
 You attempt the solution and compare the actual outcome to your prediction:
+
 - **Positive prediction error**: "That worked better than expected!"
 - **Negative prediction error**: "That didn't work as I thought it would"
 - **Zero prediction error**: "That went exactly as predicted"
 
 **Step 3: Neural Update**
+
 Your brain uses these errors to update its knowledge:
+
 - **Dopamine release** marks prediction errors as important learning moments
 - **Eligibility traces** tag the neural pathways involved for strengthening
 - **Synaptic weights adjust** based on the magnitude and direction of the error
 - **Memory consolidation** during sleep makes these changes permanent
 
-::: {.callout-note}
+::: {.callout-note collapse="true"}
 ## Example: Learning Algebra Through Prediction Errors
 
 **Attempt 1**: Student thinks "I need to eliminate the 5, so I'll add 5 to both sides"
+
 - **Prediction**: This should help solve for x
 - **Reality**: Gets $3x + 10 = 25$ (moving away from solution)
 - **Prediction Error**: Negative! This approach made things worse
 - **Learning**: Brain tags "adding same number" as unsuccessful strategy
 
 **Attempt 2**: Student tries "I'll subtract 5 from both sides"
+
 - **Prediction**: This might work better
 - **Reality**: Gets $3x = 15$ (much cleaner!)
 - **Prediction Error**: Positive! This approach worked well
@@ -333,9 +350,10 @@ Your brain uses these errors to update its knowledge:
 **After many cycles**: The "subtract to isolate" rule becomes automatic
 :::
 
-#### Why AI Eliminates the Learning Signal
+#### Why Offloading Cognitive Processing to AI Eliminates the Learning Signal
 
 **AI provides perfect answers instantly**:
+
 - No prediction phase (student doesn't generate expectations)
 - No attempt phase (student doesn't try solutions)
 - No error phase (no comparison between expected and actual)
@@ -347,7 +365,7 @@ This explains why students can watch hundreds of worked examples or get thousand
 
 ### The Desirable Difficulties Principle
 
-Learning requires what researchers call "desirable difficulties" [@bjorkMakingThingsHard2011]—challenges that feel hard but promote long-term retention:
+Learning requires what researchers call "desirable difficulties" [@bjorkMakingThingsHard2011]---challenges that feel hard but promote long-term retention:
 
 1. **Retrieval Practice**: Pulling information from memory strengthens it
 2. **Spaced Repetition**: Forgetting and relearning creates durable knowledge
@@ -367,12 +385,13 @@ Encounter problem → Make prediction → Attempt solution → Compare to predic
 ```
 
 Each cycle:
+
 - Strengthens neural connections through prediction errors
 - Reduces processing time through repetition
 - Frees working memory for higher-level thinking
 - Enables creative problem-solving through strong foundations
 
-**How expertise actually works**: When you encounter a problem, multiple production rules compete. The rule with highest "utility" (based on past success through prediction errors) fires. Each successful use strengthens that rule, making it more likely to win future competitions. This is why experts seem to "just know"—their strongest productions fire automatically.
+**How expertise actually works**: When you encounter a problem, multiple production rules compete. The rule with highest "utility" (based on past success through prediction errors) fires. Each successful use strengthens that rule, making it more likely to win future competitions. This is why experts seem to "just know"---their strongest productions fire automatically.
 
 ### What We Lose When We Skip the Struggle
 
@@ -388,7 +407,7 @@ Each cycle:
 
 ### The Expertise Illusion
 
-AI creates a dangerous illusion:
+Offloading cognitive processing to AI creates a dangerous illusion:
 
 - **Surface Fluency**: Perfect answers without understanding
 - **False Confidence**: Believing we "get it" without practice
@@ -399,14 +418,14 @@ AI creates a dangerous illusion:
 
 Recent studies show alarming impacts of AI use on learning:
 
-- **68% reduction in critical thinking** among knowledge workers with high AI confidence (Lee et al., 2025)
-- **Surface learning only** for programming students using ChatGPT (Yang et al., 2025)
+- **68% reduction in critical thinking** among knowledge workers with high AI confidence [@leeImpactGenerativeAI2025]
+- **Surface learning only** for programming students using ChatGPT [@yangEffectivenessChatGPTAssisting2025]
 - **Decreased problem-solving ability** in math students using AI tools [@bastaniGenerativeAICan2024]
 - **"The fluency illusion"**: Mistaking AI's competence for your own
 
 ## The Biological Reality of Learning
 
-Learning isn't just a cognitive process—it's a biological one that physically changes your brain:
+Learning isn't just a cognitive process---it's a biological one that physically changes your brain [@oakleyMemoryParadoxWhy2025]:
 
 ### Sleep Consolidation is Essential
 
@@ -420,13 +439,12 @@ Learning doesn't stop when practice ends:
 
 ### The Grokking Phenomenon
 
-Even AI models show this pattern:
+Even machinel learning models show this pattern:
 - Long plateau with no apparent progress
 - Sudden jump to generalization
 - Previously dismissed as "overfitting"
 - Now recognized as deep pattern learning
 
-**If machines need extended practice, how can humans skip it?**
 
 ## The Memory Paradox
 
@@ -446,7 +464,7 @@ Since the 1970s-80s, when education moved away from memorization:
 ## Evidence-Based Strategies
 
 1. **Embrace the Struggle**
-   - Your confusion indicates your learning edge
+   - Your confusion is a necessary stage of learning
    - Errors provide valuable prediction error signals
    - Difficulty signals brain growth
 
@@ -458,7 +476,7 @@ Since the 1970s-80s, when education moved away from memorization:
 3. **Space Your Learning**
    - Return to concepts over days/weeks
    - Allow forgetting between sessions
-   - Relearn from different angles
+   - Relearn in different contexts
 
 4. **Vary Your Practice**
    - Mix problem types
@@ -481,14 +499,6 @@ The exercise you just completed demonstrated these principles:
 
 Notice how your understanding differed across modes? That's the compilation process (or its absence) in action.
 
-## Key Takeaways
-
-1. **Expertise requires progressive skill building** through weak → strong methods
-2. **Cognitive effort is not a bug—it's the feature** that enables learning through prediction errors
-3. **AI bypasses the very struggles** that build lasting capabilities
-4. **Expert methods actively harm novices** by creating cognitive overload and dependency
-5. **Real understanding emerges** from thousands of effortful practice cycles with prediction errors
-6. **Choose your tools wisely**: Use AI to reduce irrelevant cognitive load, not to skip essential learning
 
 ## Reflection Questions
 
@@ -530,14 +540,4 @@ Watch for these signs of cognitive bypassing:
 - No prediction errors (always getting "right" answers)
 :::
 
-::: {.callout-note collapse="true"}
-## Further Reading
 
-- Anderson, J. R. (1993). *Rules of the Mind*. Lawrence Erlbaum Associates.
-- Sweller, J. (2011). *Cognitive Load Theory*. Springer.
-- Bjork, R. A., & Bjork, E. L. (2011). Making things hard on yourself, but in a good way.
-- Kahneman, D. (2011). *Thinking, Fast and Slow*. Farrar, Straus and Giroux.
-- Oakley, B. (2014). *A Mind for Numbers*. TarcherPerigee.
-- Chi, M. T., Glaser, R., & Farr, M. J. (1988). *The Nature of Expertise*. Psychology Press.
-- Kirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work.
-:::

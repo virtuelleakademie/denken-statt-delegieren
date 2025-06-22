@@ -4,7 +4,7 @@ title: "Schedule"
 
 | {{< bi tag >}} Type |  {{< bi collection >}} Topic | {{< bi clock >}} Duration |
 |------|-------|----------|
-| {{< bi journal-text >}} Input | [How Chatbots Think](wie-chatbots-denken/index.qmd) | 7 min |
+| {{< bi journal-text >}} Input | [How Chatbots Think](how-chatbots-think/index.qmd) | 7 min |
 | {{< bi pencil-square >}} Exercise | [Think, don't delegate](../exercises/exercise-1/index.qmd) | 25 min |
 | {{< bi journal-text >}} Input | [How Humans Learn](how-humans-learn/index.qmd) | 7 min |
 | {{< bi journal-text >}} Input | Closing Remarks | 1 min |
