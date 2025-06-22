@@ -166,9 +166,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Denken statt delegieren",
+    "title": "Think, Don't Delegate",
     "section": "",
-    "text": "June 23, 2025\n1:00 PM – 6:00 PM\nSIPBB, Aarbergstrasse 46, 2503 Biel"
+    "text": "June 23, 2025\n15:30 - 17:00\nSIPBB, Aarbergstrasse 46, 2503 Biel"
   },
   {
     "objectID": "index.html#dozenten",
@@ -180,19 +180,19 @@
   {
     "objectID": "index.html#website",
     "href": "index.html#website",
-    "title": "Denken statt delegieren",
+    "title": "Think, Don't Delegate",
     "section": "Website",
     "text": "Website\n virtuelleakademie.github.io/denken-statt-delegieren/"
   },
   {
     "objectID": "workshop/index.html",
     "href": "workshop/index.html",
-    "title": "Agenda",
+    "title": "Schedule",
     "section": "",
     "text": "Type\n Topic\n Duration\n\n\n\n\n Input\nHow Chatbots Think\n7 min\n\n\n Exercise\nThink, don’t delegate\n25 min\n\n\n Input\nHow Humans Learn\n7 min\n\n\n Input\nClosing Remarks\n1 min",
     "crumbs": [
       "Workshop",
-      "Agenda"
+      "Schedule"
     ]
   },
   {
@@ -349,7 +349,7 @@
     "href": "workshop/skill-acquisition/index.html",
     "title": "How Skill Acquisition Works",
     "section": "",
-    "text": "When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why shortcuts through AI can prevent genuine expertise development—and why expert-level tools can actively harm novice learning.",
+    "text": "Think back to the exercise you just completed:\n\nWithout AI: You engaged in deep thinking and struggle\nSingle prompt: You got quick answers with low effort\nIterative AI: You maintained some cognitive engagement\n\nWhich mode built lasting understanding? Let’s explore the science behind skill acquisition to understand why struggle matters for learning.",
     "crumbs": [
       "Workshop",
       "How Skill Acquisition Works"
@@ -359,8 +359,8 @@
     "objectID": "workshop/skill-acquisition/index.html#the-journey-from-novice-to-expert",
     "href": "workshop/skill-acquisition/index.html#the-journey-from-novice-to-expert",
     "title": "How Skill Acquisition Works",
-    "section": "",
-    "text": "When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why shortcuts through AI can prevent genuine expertise development—and why expert-level tools can actively harm novice learning.",
+    "section": "The Journey from Novice to Expert",
+    "text": "The Journey from Novice to Expert\nWhen we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why shortcuts through AI can prevent genuine expertise development—and why expert-level tools can actively harm novice learning.",
     "crumbs": [
       "Workshop",
       "How Skill Acquisition Works"
@@ -382,7 +382,7 @@
     "href": "workshop/skill-acquisition/index.html#understanding-cognitive-load",
     "title": "How Skill Acquisition Works",
     "section": "Understanding Cognitive Load",
-    "text": "Understanding Cognitive Load\n\n\n\n\n\n\nElement Interactivity in Action\n\n\n\nConsider solving: (x + 3)(x - 2) = 0\nFor a novice, each element must be held in working memory:\n\nWhat \\(x\\) represents\nThe meaning of parentheses\nAddition and subtraction operations\nImplied multiplication\nThe significance of “equals zero”\nHow to find solutions\n\nTotal: 7+ interacting elements = High cognitive load\nFor an expert, this is one chunk: - “Factored form, so \\(x = -3\\) or \\(x = 2\\)”\nTotal: 1 chunk = Low cognitive load\nWith AI assistance: - Input → Answer\nTotal: 0 cognitive processing = No learning",
+    "text": "Understanding Cognitive Load\n\nThe Working Memory Bottleneck\nLearning happens when information moves from working memory (limited) to long-term memory (unlimited):\nWorking Memory: - Limited to 4±1 chunks - Lasts 15-30 seconds - Where conscious learning occurs\nLong-Term Memory: - No known limits - Where expertise lives - Goal of all learning\n\n\n\n\n\n\nCognitive Load in Action: (x + 3)(x - 2) = 0\n\n\n\nNovice sees 7+ elements: - What is x? - Parentheses meaning - Operations involved - Equals zero significance - How to solve Result: Overload!\nExpert sees 1 pattern: - “Factored form → x = -3 or 2” Result: Easy!\nWith AI: 0 processing: - Copy → Paste → Answer Result: No learning!\n\n\n\n\n\n\n\n\nWhy Schools Exist: Primary vs. Secondary Knowledge\n\n\n\n\n\nBiologically Primary (we evolved to learn): - Speaking, recognizing faces - Social interactions - Basic problem solving\nBiologically Secondary (must be taught): - Reading and writing - Mathematics - Programming - Scientific reasoning\nAI disrupts secondary knowledge acquisition—the very reason schools exist.",
     "crumbs": [
       "Workshop",
       "How Skill Acquisition Works"
@@ -404,7 +404,7 @@
     "href": "workshop/skill-acquisition/index.html#the-ai-bypass-problem",
     "title": "How Skill Acquisition Works",
     "section": "The AI Bypass Problem",
-    "text": "The AI Bypass Problem\nWhen we use AI to skip the struggle:\n\n\n\n\n\n\nWhat We Lose\n\n\n\n\nNo Memory Formation: The brain doesn’t encode what it doesn’t process\nNo Pattern Development: Can’t recognize what we haven’t practiced\nNo Transfer Ability: Can’t apply unlearned principles to new contexts\nNo Metacognition: Don’t develop awareness of our own thinking\nNo Prediction Error Learning: The fundamental mechanism of learning is bypassed",
+    "text": "The AI Bypass Problem\n\nHow AI Disrupts Cognitive Architecture\nAI short-circuits this entire learning system:\n\nBypasses working memory processing: No cognitive effort means no encoding\nPrevents long-term memory storage: Information that isn’t processed isn’t stored\nEliminates schema construction: Students get answers without building knowledge structures\nBlocks the novice→expert transition: No pathway from limited to unlimited knowledge\n\nThe fundamental problem: AI provides the benefits of expertise (instant access to organized knowledge) without requiring the process that creates expertise (working memory struggle → long-term memory storage).",
     "crumbs": [
       "Workshop",
       "How Skill Acquisition Works"
@@ -468,111 +468,111 @@
   {
     "objectID": "workshop/learning-environment/index.html",
     "href": "workshop/learning-environment/index.html",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "",
     "text": "The goal is not to ban AI tools, but to create environments where students choose cognitive effort over shortcuts because they understand its value for their learning.",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#core-principle",
     "href": "workshop/learning-environment/index.html#core-principle",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "",
     "text": "The goal is not to ban AI tools, but to create environments where students choose cognitive effort over shortcuts because they understand its value for their learning.",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#key-strategies",
     "href": "workshop/learning-environment/index.html#key-strategies",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "Key Strategies",
     "text": "Key Strategies\n\n1. Restructure Assessment to Value Process\n\n\n\n\n\n\nThe “Thinking Portfolio” Approach\n\n\n\nInstead of grading only final answers, create portfolios that showcase the learning journey:\n\n25% - Initial attempts (even if wrong)\n25% - Error analysis and corrections\n25% - Progressive improvement\n25% - Final understanding demonstration\n\nThis makes AI shortcuts counterproductive—students need authentic struggles to document.\n\n\n\n\n2. Design AI-Resistant Tasks\nTransform generic assignments into personal, contextual challenges:\n\nTraditionalAI-ResistantWhy It Works\n\n\n“Write an essay about climate change”\n\n\n“Connect climate change to three specific observations from your neighborhood this week”\n\n\nPersonal observations can’t be generated by AI, requiring genuine engagement with the topic.\n\n\n\n\n\n3. Implement Progressive Problem Sets\nCreate assignments where each problem builds on insights from previous attempts:\nProblem 1: Solve 2x + 3 = 7\nProblem 2: Explain why your method from Problem 1 would fail for 2(x+3) = 7\nProblem 3: Create a problem that looks similar but requires a different approach\nAI can’t help when each step requires reflection on YOUR previous work.\n\n\n4. The Struggle Window Policy\nStructure class time to normalize and require cognitive effort:\n\n\n\n\n\n\nTimed Resource Access\n\n\n\nMinutes 0-10: Just you and the problem\nMinutes 10-20: Peer discussion allowed\nMinutes 20-30: Textbook/notes available\nMinutes 30+: Teacher consultation\nNever during class: AI consultation\n\n\n\n\n5. Create a Culture of Productive Failure\n\n\n\n\nCelebrate Errors\n\nError Museum: Display “magnificent mistakes”\nStruggle Journals: Daily reflection on confusion\nRed Pen Revolution: Red marks = growth opportunities\n\n\n\n\nMake Struggle Visible\n\nTrack time in productive struggle\nShare teacher’s own mistakes\nReward error analysis quality\n\n\n\n\n\n6. The Learning Gym Model\nFrame learning as mental fitness training:\n\n\n\n\n\n\nLearning = Exercise for Your Brain\n\n\n\nJust like physical fitness, cognitive fitness requires:\n\nWorkout Plans: Posted topic-specific practice sequences\nReps: Practice problems (no shortcuts to mental fitness!)\nSpotters: Peer helpers who support but don’t do the lifting\nForm Check: Teacher feedback on technique\nProgress Tracking: Visible improvement charts\n\nPost this analogy prominently: “You wouldn’t expect muscles from watching someone else exercise. Why expect learning from watching AI think?”\n\n\n\n\n7. The Cognitive Load Meter\nTeach students to monitor and communicate their cognitive state:\n\n\n\n\n\n\nStudent Self-Assessment Tool\n\n\n\nHave students regularly indicate their cognitive load:\n\n🟢 Green: “Too easy—I’m not learning”\n🟡 Yellow: “Just right—productive struggle”\n🔴 Red: “Overloaded—need scaffolding”\n\nKey insight: 🟡 is the target zone! Green means you need harder problems. Red means you need support, not answers.\nUse hand signals, color cards, or digital polls for quick class-wide checks.",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#subject-specific-strategies",
     "href": "workshop/learning-environment/index.html#subject-specific-strategies",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "Subject-Specific Strategies",
     "text": "Subject-Specific Strategies\n\nMathematicsWritingScienceProgramming\n\n\n\nRequire multiple solution methods\n“Show three wrong approaches before the right one”\nCreate problems for peers to solve\nAnalyze error patterns in data sets\n\n\n\n\nMandatory “awful first drafts”\nDocument revision thinking process\nVoice recordings of thought evolution\nPeer editing before any tech tools\n\n\n\n\nFailed experiment reflections worth more points\nHypothesis revision journals\n“What went wrong?” lab reports\nPredict-observe-explain cycles\n\n\n\n\nDebug broken code (no running allowed)\nExplain code line-by-line to a partner\nWrite code that accomplishes task in 3 different ways\nProgressive complexity building on previous solutions",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#assessment-innovations",
     "href": "workshop/learning-environment/index.html#assessment-innovations",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "Assessment Innovations",
     "text": "Assessment Innovations\n\nMulti-Stage Assessments\nBreak evaluations into phases that require authentic engagement:\n\nStage 1 (33%): Attempt without resources\nStage 2 (33%): Revise based on peer discussion\n\nStage 3 (34%): Final solution with teaching demonstration\n\nStudents need their own errors from Stage 1 to succeed in Stage 2.\n\n\nThe “Explain to a Novice” Test\nFinal assessments require teaching the concept to someone else: - Can’t fake understanding when teaching - Rewards deep comprehension - Makes AI-generated answers insufficient",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#quick-implementation-ideas",
     "href": "workshop/learning-environment/index.html#quick-implementation-ideas",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "Quick Implementation Ideas",
     "text": "Quick Implementation Ideas\n\n\n\n\n\n\nFor Tomorrow’s Class\n\n\n\n\n\n\nStart with a Struggle Window: First 10 minutes, no resources\nAdd an Error Reflection: “What confused you? Why was it valuable?”\nCreate Progressive Problems: Each builds on the previous\nCelebrate a Mistake: Share your own or highlight a student’s\n\n\n\n\n\n\n\n\n\n\nCommon Pitfalls to Avoid\n\n\n\n\n\n\nDon’t punish AI use—make it unnecessary\nDon’t create busywork—ensure struggle has purpose\nDon’t grade harshly—reward growth over perfection\nDon’t work alone—collaborate with colleagues",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#measuring-success",
     "href": "workshop/learning-environment/index.html#measuring-success",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "Measuring Success",
     "text": "Measuring Success\nTrack these indicators to know your environment promotes deep learning:\n\n✅ Increased time before help-seeking\n✅ More detailed error analyses\n✅ Students choosing harder problems\n✅ Better peer teaching quality\n✅ Decreased AI usage by choice\n✅ Improved transfer to new contexts",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#your-next-steps",
     "href": "workshop/learning-environment/index.html#your-next-steps",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "Your Next Steps",
     "text": "Your Next Steps\n\nChoose one strategy to implement this week\nApply the Red Line Rule to monitor AI dependency\nDocument the results (both successes and challenges)\nShare with colleagues to build momentum\nIterate based on feedback from students",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#key-messages-to-reinforce",
     "href": "workshop/learning-environment/index.html#key-messages-to-reinforce",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "Key Messages to Reinforce",
     "text": "Key Messages to Reinforce\n\n\n\n\n\n\nDaily Reminders for Students\n\n\n\n\n“Your confusion is data about your learning edge”\n“Errors are information, not failures”\n\n“If it feels easy, you’re not learning”\n“Your brain grows when you struggle”\n“AI gives answers but robs understanding”",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#the-ultimate-goal",
     "href": "workshop/learning-environment/index.html#the-ultimate-goal",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "The Ultimate Goal",
     "text": "The Ultimate Goal\n\nCreate an environment where students say: “I could use AI, but then I wouldn’t learn anything. Let me struggle with this first—that’s where the real learning happens.”\n\nWhen students understand and value their own cognitive development, they become partners in protecting their learning journey rather than adversaries trying to game the system.\n\n\n\n\n\n\n\nAdditional Resources\n\n\n\n\n\n\nResearch on Desirable Difficulties\nCognitive Load Theory Applications\nGrowth Mindset Interventions\nShare your experiences: #ThinkDontDelegate",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
@@ -613,7 +613,7 @@
     "href": "workshop/skill-acquisition/index.html#quick-reference-how-theories-work-together",
     "title": "How Skill Acquisition Works",
     "section": "Quick Reference: How Theories Work Together",
-    "text": "Quick Reference: How Theories Work Together\n\nWeak → Strong MethodsKnowledge CompilationRed Flags\n\n\n\n\n\nWeak Methods (Novices)\nStrong Methods (Experts)\n\n\n\n\nMeans-end analysis\nPattern recognition\n\n\nWorking backward from goal\nForward chaining from principles\n\n\nTrial and error\nAutomated procedures\n\n\nSurface analogies\nDeep structure\n\n\nStep-by-step conscious\nChunked automatic\n\n\n\n\n\n\n\n\n\n\n\n\n\nStage\nWhat’s Happening\nTeaching Implications\n\n\n\n\nDeclarative\nFollowing memorized rules\nProvide clear worked examples\n\n\nCompilation\nRepeated sequences chunking\nMany similar practice problems\n\n\nProcedural\nAutomated expertise\nReady for complex applications\n\n\n\n\n\nWatch for these signs of cognitive bypassing: - Smooth performance without ability to explain - Cannot handle problem variations - No improvement despite practice - Dependent on AI for basic tasks - Mistaking AI output for understanding - Immediate AI consultation without attempt - No prediction errors (always getting “right” answers)\n\n\n\n\n\n\n\n\n\nFurther Reading\n\n\n\n\n\n\nAnderson, J. R. (1993). Rules of the Mind. Lawrence Erlbaum Associates.\nSweller, J. (2011). Cognitive Load Theory. Springer.\nBjork, R. A., & Bjork, E. L. (2011). Making things hard on yourself, but in a good way.\nKahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux.\nOakley, B. (2014). A Mind for Numbers. TarcherPerigee.\nChi, M. T., Glaser, R., & Farr, M. J. (1988). The Nature of Expertise. Psychology Press.\nKirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work.",
+    "text": "Quick Reference: How Theories Work Together\n\nWeak → Strong MethodsKnowledge CompilationRed Flags\n\n\n\n\n\nWeak Methods (Novices)\nStrong Methods (Experts)\n\n\n\n\nMeans-end analysis\nPattern recognition\n\n\nWorking backward from goal\nForward chaining from principles\n\n\nTrial and error\nAutomated procedures\n\n\nSurface analogies\nDeep structure\n\n\nStep-by-step conscious\nChunked automatic\n\n\n\n\n\n\n\n\n\n\n\n\n\nStage\nWhat’s Happening\nTeaching Implications\n\n\n\n\nDeclarative\nFollowing memorized rules\nProvide clear worked examples\n\n\nCompilation\nRepeated sequences chunking\nMany similar practice problems\n\n\nProcedural\nAutomated expertise\nReady for complex applications\n\n\n\n\n\nWatch for these signs of cognitive bypassing:\n\nSmooth performance without ability to explain\nCannot handle problem variations\nNo improvement despite practice\nDependent on AI for basic tasks\nMistaking AI output for understanding\nImmediate AI consultation without attempt\nNo prediction errors (always getting “right” answers)\n\n\n\n\n\n\n\n\n\n\nFurther Reading\n\n\n\n\n\n\nAnderson, J. R. (1993). Rules of the Mind. Lawrence Erlbaum Associates.\nSweller, J. (2011). Cognitive Load Theory. Springer.\nBjork, R. A., & Bjork, E. L. (2011). Making things hard on yourself, but in a good way.\nKahneman, D. (2011). Thinking, Fast and Slow. Farrar, Straus and Giroux.\nOakley, B. (2014). A Mind for Numbers. TarcherPerigee.\nChi, M. T., Glaser, R., & Farr, M. J. (1988). The Nature of Expertise. Psychology Press.\nKirschner, P. A., Sweller, J., & Clark, R. E. (2006). Why minimal guidance during instruction does not work.",
     "crumbs": [
       "Workshop",
       "How Skill Acquisition Works"
@@ -622,23 +622,23 @@
   {
     "objectID": "workshop/learning-environment/index.html#the-red-line-rule",
     "href": "workshop/learning-environment/index.html#the-red-line-rule",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "The Red Line Rule",
     "text": "The Red Line Rule\n\n\n\n\n\n\nPreventing AI Dependency\n\n\n\nIf a student can’t solve a problem without AI after using AI 5 times, they’re not learning—they’re dependent.\nWhen this happens: 1. Step back to worked examples 2. Rebuild from fundamentals 3. Practice without AI until mastery 4. Only then reintroduce AI as a tool\nThis clear boundary helps students recognize when tool use becomes crutch use.",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
     "objectID": "workshop/learning-environment/index.html#your-three-commitments",
     "href": "workshop/learning-environment/index.html#your-three-commitments",
-    "title": "Creating Learning Environments That Foster Deep Thinking",
+    "title": "Productive Struggle by Design",
     "section": "Your Three Commitments",
     "text": "Your Three Commitments\n\n1. Protect the Weak Methods Phase\n\nRecognize when students use means-end analysis (it’s normal!)\nDon’t provide expert shortcuts to novices\nDocument weak methods as evidence of learning\nSay: “I see you’re working backward—that’s exactly right!”\n\n\n\n2. Design for Knowledge Compilation\n\nProvide MANY similar problems (repetition drives compilation)\nProgress from worked examples to independence:\n\nWeek 1: Step-by-step worked examples\nWeek 2: Partially completed examples\nWeek 3: Hints only\nWeek 4: Independent practice\n\n\n\n\n3. Calibrate Cognitive Load by Expertise\n\nAssess element interactivity FOR YOUR STUDENTS\nHigh interactivity + novice = worked examples first\nLow interactivity OR growing expertise = productive struggle\nNever let AI eliminate load entirely",
     "crumbs": [
       "Workshop",
-      "Creating Learning Environments That Foster Deep Thinking"
+      "Productive Struggle by Design"
     ]
   },
   {
@@ -868,16 +868,16 @@
   {
     "objectID": "index.html#instructors",
     "href": "index.html#instructors",
-    "title": "Denken statt delegieren",
+    "title": "Think, Don't Delegate",
     "section": "Instructors",
-    "text": "Instructors\nDr. Andrew Ellis is a cognitive psychologist and research associate at the Virtual Academy of Bern University of Applied Sciences. His research focuses on human learning processes and the cognitive impacts of AI-assisted education.\nDr. Stefan Hackstein is a physicist and data scientist working as a research associate at the Virtual Academy of Bern University of Applied Sciences. He specializes in developing AI-powered educational tools and analyzing their effectiveness in learning environments.\nTogether, they investigate how artificial intelligence can be thoughtfully integrated into educational systems to enhance rather than replace human cognitive engagement."
+    "text": "Instructors\nDr. Andrew Ellis and Dr. Stefan Hackstein are research associates at the Virtual Academy of the Bern University of Applied Sciences. Together, they develop AI-powered educational tools that complement rather than replace human cognition.\nAndrew is your designated human for this workshop. A cognitive psychologist by trade, his focus for today is on why human brains need productive struggle to learn, and why clicking regenerate response doesn’t count as critical thinking.\nStefan will address all things AI in this workshop. With a background as a physicist and data scientist, he’s particularly skilled at explaining why your prompts aren’t quite working as expected.\nIn this workshop, they will explore the delicate balance between leveraging AI’s capabilities and preserving the cognitive work that makes learning stick—because sometimes the struggle really is the point."
   },
   {
     "objectID": "workshop/how-humans-learn/index.html",
     "href": "workshop/how-humans-learn/index.html",
     "title": "How Humans Learn",
     "section": "",
-    "text": "In der folgenden Präsentation diskutieren wir folgende Prompting-Regeln:",
+    "text": "This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R (Anderson 2013, 2007) theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.\nThe key takeaway: Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.",
     "crumbs": [
       "Workshop",
       "How Humans Learn"
@@ -886,12 +886,12 @@
   {
     "objectID": "workshop/index.html#further-reading",
     "href": "workshop/index.html#further-reading",
-    "title": "Agenda",
+    "title": "Schedule",
     "section": "Further Reading",
-    "text": "Further Reading\n\nHow Skill Acquisition Works - From Novice to Expert: The Science of Learning\nCreating Learning Environments That Promote Deep Thinking - Practical strategies for educators",
+    "text": "Further Reading\n\nHow Skill Acquisition Works - From Novice to Expert: The Science of Learning\nProductive Struggle by Design — Teaching in the Age of AI",
     "crumbs": [
       "Workshop",
-      "Agenda"
+      "Schedule"
     ]
   },
   {
@@ -910,7 +910,7 @@
     "href": "workshop/skill-acquisition/index.html#understanding-cognitive-load-theory",
     "title": "How Skill Acquisition Works",
     "section": "Understanding Cognitive Load Theory",
-    "text": "Understanding Cognitive Load Theory\n\nThe Evolutionary Foundation of Learning\nCognitive Load Theory (CLT) is specifically concerned with how humans acquire biologically secondary knowledge—the academic content that schools exist to teach. Understanding this distinction is crucial for grasping why AI disrupts learning so profoundly.\n\nBiologically Primary vs. Secondary Knowledge\nBiologically Primary Knowledge (we evolved to learn): - Recognizing faces and voices - Understanding basic social interactions - Learning spoken language - Basic spatial navigation - Recognizing danger and safety\nBiologically Secondary Knowledge (we didn’t evolve to learn): - Reading and writing - Mathematics and algebra - Programming and data analysis - Scientific reasoning - Historical analysis\n\n\n\n\n\n\nWhy This Distinction Matters\n\n\n\n\nPrimary knowledge can be learned through natural discovery and play\nSecondary knowledge requires explicit instruction and guided practice\nSchools exist precisely because secondary knowledge doesn’t develop naturally\nAI disruption is particularly damaging for secondary knowledge acquisition\n\n\n\n\n\n\nThe Cognitive Architecture of Learning\nCLT is based on how human cognition actually processes information, using an architecture that mirrors evolution by natural selection (Sweller 2023):\n\nTwo Pathways for Novel Information\nHumans can acquire new biologically secondary information through two routes:\n\nDiscovery During Problem Solving: Working through challenges independently\nLearning From Others: Receiving information through instruction\n\nCrucially: Both these acquisition skills are themselves biologically primary—we evolved to be excellent at discovering things and learning from others. This is why humans dominate the mammalian world.\n\n\nThe Processing Bottleneck\nOnce information is acquired through either pathway, it must be processed through:\nWorking Memory: - Severely limited capacity (Miller’s 7±2, more recently Cowan’s 4±1 chunks) - Severely limited duration (15-30 seconds without rehearsal) - The bottleneck where all conscious learning occurs\nLong-Term Memory: - No known limits of capacity or duration - Where expertise lives through domain-specific information storage - The goal of all instruction\n\n\n\n\n\n\nElement Interactivity in Action\n\n\n\nConsider solving: (x + 3)(x - 2) = 0\nFor a novice, each element must be held in working memory: - What x represents - The meaning of parentheses - Addition and subtraction operations - Implied multiplication - The significance of “equals zero” - How to find solutions\nTotal: 7+ interacting elements = Working memory overload\nFor an expert, this is one chunk retrieved from long-term memory: - “Factored form, so x = -3 or x = 2”\nTotal: 1 chunk = Minimal working memory load\nWith AI assistance: - Input → Answer\nTotal: 0 working memory processing = No learning, no long-term memory storage\n\n\n\n\n\nHow Expertise Actually Develops\nAs De Groot first demonstrated in 1965, expertise is domain-specific and results from enormous amounts of domain-specific information stored in long-term memory. This isn’t just “knowing more facts”—it’s having organized knowledge structures (schemas) that allow experts to:\n\nChunk multiple elements into single units\nRecognize patterns automatically\nAccess procedures without conscious effort\nFree up working memory for higher-level thinking\n\n\n\nThe AI Disruption of Cognitive Architecture\nAI short-circuits this entire system:\n\nBypasses working memory processing: No cognitive effort means no encoding\nPrevents long-term memory storage: Information that isn’t processed isn’t stored\nEliminates schema construction: Students get answers without building knowledge structures\nBlocks the novice→expert transition: No pathway from limited to unlimited knowledge\n\nThe fundamental problem: AI provides the benefits of expertise (instant access to organized knowledge) without requiring the process that creates expertise (working memory struggle → long-term memory storage).",
+    "text": "Understanding Cognitive Load Theory\n\nThe Evolutionary Foundation of Learning\nCognitive Load Theory (CLT) is specifically concerned with how humans acquire biologically secondary knowledge—the academic content that schools exist to teach. Understanding this distinction is crucial for grasping why AI disrupts learning so profoundly.\n\nBiologically Primary vs. Secondary Knowledge\nBiologically Primary Knowledge (we evolved to learn): - Recognizing faces and voices - Understanding basic social interactions - Learning spoken language - Basic spatial navigation - Recognizing danger and safety\nBiologically Secondary Knowledge (we didn’t evolve to learn): - Reading and writing - Mathematics and algebra - Programming and data analysis - Scientific reasoning - Historical analysis\n\n\n\n\n\n\nWhy This Distinction Matters\n\n\n\n\nPrimary knowledge can be learned through natural discovery and play\nSecondary knowledge requires explicit instruction and guided practice\nSchools exist precisely because secondary knowledge doesn’t develop naturally\nAI disruption is particularly damaging for secondary knowledge acquisition\n\n\n\n\n\n\nThe Cognitive Architecture of Learning\nCLT is based on how human cognition actually processes information, using an architecture that mirrors evolution by natural selection (Sweller 2023):\n\nTwo Pathways for Novel Information\nHumans can acquire new biologically secondary information through two routes:\n\nDiscovery During Problem Solving: Working through challenges independently\nLearning From Others: Receiving information through instruction\n\nCrucially: Both these acquisition skills are themselves biologically primary—we evolved to be excellent at discovering things and learning from others. This is why humans dominate the mammalian world.\n\n\nThe Processing Bottleneck\nOnce information is acquired through either pathway, it must be processed through:\nWorking Memory: - Severely limited capacity (Miller’s 7±2, more recently Cowan’s 4±1 chunks) - Severely limited duration (15-30 seconds without rehearsal) - The bottleneck where all conscious learning occurs\nLong-Term Memory: - No known limits of capacity or duration - Where expertise lives through domain-specific information storage - The goal of all instruction\n\n\n\n\n\n\nElement Interactivity in Action\n\n\n\nConsider solving: (x + 3)(x - 2) = 0\nFor a novice, each element must be held in working memory: - What x represents - The meaning of parentheses - Addition and subtraction operations - Implied multiplication - The significance of “equals zero” - How to find solutions\nTotal: 7+ interacting elements = Working memory overload\nFor an expert, this is one chunk retrieved from long-term memory: - “Factored form, so x = -3 or x = 2”\nTotal: 1 chunk = Minimal working memory load\nWith AI assistance: - Input → Answer\nTotal: 0 working memory processing = No learning, no long-term memory storage\n\n\n\n\n\nHow Expertise Actually Develops\nAs De Groot first demonstrated in 1965, expertise is domain-specific and results from enormous amounts of domain-specific information stored in long-term memory. This isn’t just “knowing more facts”—it’s having organized knowledge structures (schemas) that allow experts to:\n\nChunk multiple elements into single units\nRecognize patterns automatically\nAccess procedures without conscious effort\nFree up working memory for higher-level thinking",
     "crumbs": [
       "Workshop",
       "How Skill Acquisition Works"
@@ -921,7 +921,7 @@
     "href": "workshop/skill-acquisition/index.html#pedagogical-implications",
     "title": "How Skill Acquisition Works",
     "section": "Pedagogical Implications",
-    "text": "Pedagogical Implications\n\nThe Expert-Novice Teaching Trap\nThe most dangerous mistake in education is assuming that novices should learn the way experts work. This leads to what Kirschner calls confusing “the epistemology of the expert with the pedagogy for the learner.”\nWhat Experts Do (Producing Knowledge): - Work forward from automated principles - Recognize deep patterns instantly - Apply strong, domain-specific methods - Create and discover new knowledge - Process multiple elements simultaneously\nWhat Novices Need (Learning Knowledge): - Work backward using means-end analysis - Build basic pattern recognition through practice - Start with weak, general methods - Reconstruct and understand existing knowledge - Process elements sequentially to avoid overload\n\n\nWhy Expert Methods Actively Harm Novices\nGiving novices expert-level tools isn’t just ineffective—it’s actively harmful to learning:\n\n1. Cognitive Load Mismatch\n\nExperts can handle multiple interacting elements because they’ve chunked them into patterns\nNovices become overwhelmed when given the same complexity\nResult: Cognitive overload prevents any learning from occurring\n\n\n\n2. Production Rule Interference\n\nExperts have strong, successful production rules that fire automatically\nNovices need to build these rules through repeated weak-method practice\nAI shortcuts prevent the repetition needed for rule strengthening\nResult: Weak rules never develop, leaving permanent dependency\n\n\n\n3. Schema Construction Bypass\n\nExperts have rich schemas (organized knowledge structures) built through experience\nNovices must construct these schemas element by element\nAI answers provide the outcome without the construction process\nResult: No schemas form, preventing transfer to new situations\n\n\n\n4. Metacognitive Damage\n\nExperts know when and why to apply different strategies\nNovices develop this awareness through monitoring their own thinking\nAI dependency eliminates the need for self-monitoring\nResult: Students become unable to evaluate their own understanding\n\n\n\n\n\n\n\nThe Dependency Cascade\n\n\n\nWhen novices use expert-level tools prematurely:\n\nInitial success creates false confidence\nWeak methods atrophy from disuse\nProblem-solving skills deteriorate without practice\nDependency deepens as internal capabilities weaken\nTransfer fails when AI isn’t available\nLearned helplessness develops when facing novel challenges\n\nThis isn’t just “not learning”—it’s unlearning existing capabilities.\n\n\n\n\n\nDesigning Learning for Cognitive Architecture\nPrinciple 1: Respect the Developmental Sequence - Weak methods must come first—they’re not a bug, they’re a feature - Proceduralization requires extensive practice with conscious processes - Compilation happens automatically after sufficient repetition\nPrinciple 2: Calibrate Cognitive Load - Novices need simplified, sequential presentation - Experts can handle complex, parallel processing - The same material must be presented differently based on expertise level\nPrinciple 3: Protect the Struggle Window - Minimum 20 minutes of independent work before any AI consultation - Document thinking process before seeking external help - Multiple attempts required before accessing solutions\nPrinciple 4: Scaffold, Don’t Substitute - Use AI to reduce irrelevant cognitive load, not eliminate all effort - Provide worked examples that show the process, not just answers - Gradually fade support as competence develops",
+    "text": "Pedagogical Implications\n\nThe Expert-Novice Teaching Trap\nThe most dangerous mistake in education is assuming that novices should learn the way experts work. This leads to what Kirschner calls confusing “the epistemology of the expert with the pedagogy for the learner.”\nWhat Experts Do (Producing Knowledge): - Work forward from automated principles - Recognize deep patterns instantly - Apply strong, domain-specific methods - Create and discover new knowledge - Process multiple elements simultaneously\nWhat Novices Need (Learning Knowledge): - Work backward using means-end analysis - Build basic pattern recognition through practice - Start with weak, general methods - Reconstruct and understand existing knowledge - Process elements sequentially to avoid overload\n\n\nWhy Expert Methods Actively Harm Novices\nGiving novices expert-level tools isn’t just ineffective—it’s actively harmful to learning:\n\n1. Cognitive Load Mismatch\n\nExperts can handle multiple interacting elements because they’ve chunked them into patterns\nNovices become overwhelmed when given the same complexity\nResult: Cognitive overload prevents any learning from occurring\n\n\n\n2. Production Rule Interference\n\nExperts have strong, successful production rules that fire automatically\nNovices need to build these rules through repeated weak-method practice\nAI shortcuts prevent the repetition needed for rule strengthening\nResult: Weak rules never develop, leaving permanent dependency\n\n\n\n3. Schema Construction Bypass\n\nExperts have rich schemas (organized knowledge structures) built through experience\nNovices must construct these schemas element by element\nAI answers provide the outcome without the construction process\nResult: No schemas form, preventing transfer to new situations\n\n\n\n4. Metacognitive Damage\n\nExperts know when and why to apply different strategies\nNovices develop this awareness through monitoring their own thinking\nAI dependency eliminates the need for self-monitoring\nResult: Students become unable to evaluate their own understanding\n\n\n\n\n\n\n\nThe Dependency Cascade\n\n\n\nWhen novices use expert-level tools prematurely:\n\nInitial success creates false confidence\nWeak methods atrophy from disuse\nProblem-solving skills deteriorate without practice\nDependency deepens as internal capabilities weaken\nTransfer fails when AI isn’t available\nLearned helplessness develops when facing novel challenges\n\nThis isn’t just “not learning”—it’s unlearning existing capabilities.\n\n\n\n\n\nDesigning Learning for Cognitive Architecture\nPrinciple 1: Respect the Developmental Sequence - Weak methods must come first—they’re not a bug, they’re a feature - Proceduralization requires extensive practice with conscious processes - Compilation happens automatically after sufficient repetition\nPrinciple 2: Calibrate Cognitive Load - Novices need simplified, sequential presentation - Experts can handle complex, parallel processing - The same material must be presented differently based on expertise level\nPrinciple 3: Protect the Struggle Window - Minimum 20 minutes of independent work before any AI consultation - Document thinking process before seeking external help - Multiple attempts required before accessing solutions\nPrinciple 4: Scaffold, Don’t Substitute - Use AI to reduce irrelevant cognitive load, not eliminate all effort - Provide worked examples that show the process, not just answers - Gradually fade support as competence develops\n\n\nHow Prediction Errors Drive Learning\n\nHow Prediction Errors Drive Learning\nStep 1: Prediction Formation When you encounter a problem, your brain automatically predicts what should happen based on current knowledge: - “If I subtract 5 from both sides, I should get closer to solving for x” - “If I apply this formula, I should get the right answer” - “This code structure should compile without errors”\nStep 2: Reality Check You attempt the solution and compare the actual outcome to your prediction: - Positive prediction error: “That worked better than expected!” - Negative prediction error: “That didn’t work as I thought it would” - Zero prediction error: “That went exactly as predicted”\nStep 3: Neural Update Your brain uses these errors to update its knowledge: - Dopamine release marks prediction errors as important learning moments - Eligibility traces tag the neural pathways involved for strengthening - Synaptic weights adjust based on the magnitude and direction of the error - Memory consolidation during sleep makes these changes permanent\n\n\n\n\n\n\nExample: Learning Algebra Through Prediction Errors\n\n\n\nAttempt 1: Student thinks “I need to eliminate the 5, so I’ll add 5 to both sides” - Prediction: This should help solve for x - Reality: Gets \\(3x + 10 = 25\\) (moving away from solution) - Prediction Error: Negative! This approach made things worse - Learning: Brain tags “adding same number” as unsuccessful strategy\nAttempt 2: Student tries “I’ll subtract 5 from both sides” - Prediction: This might work better - Reality: Gets \\(3x = 15\\) (much cleaner!) - Prediction Error: Positive! This approach worked well - Learning: Brain strengthens “subtract to isolate” pathway\nAfter many cycles: The “subtract to isolate” rule becomes automatic\n\n\n\n\nWhy AI Eliminates the Learning Signal\nAI provides perfect answers instantly: - No prediction phase (student doesn’t generate expectations) - No attempt phase (student doesn’t try solutions) - No error phase (no comparison between expected and actual) - Result: Zero prediction errors = zero learning signal\nThe brain literally has nothing to learn from because the prediction-error cycle never occurs.\nThis explains why students can watch hundreds of worked examples or get thousands of correct AI answers and still not learn. Learning requires errors, not perfection.\n\n\n\nThe Desirable Difficulties Principle\nLearning requires what researchers call “desirable difficulties” (Bjork and Bjork 2011)—challenges that feel hard but promote long-term retention:\n\nRetrieval Practice: Pulling information from memory strengthens it\nSpaced Repetition: Forgetting and relearning creates durable knowledge\nInterleaving: Mixing problem types improves discrimination\nGeneration: Creating answers (even wrong ones) beats passive consumption\n\n\n\nThe Compilation Process\nReal expertise emerges through thousands of practice cycles:\nEncounter problem → Make prediction → Attempt solution → Compare to prediction → Get feedback → Neural adjustment\n                                                    ↓\n                                            Neural pathway strengthens\n                                                    ↓\n                                            Pattern becomes automatic\nEach cycle: - Strengthens neural connections through prediction errors - Reduces processing time through repetition - Frees working memory for higher-level thinking - Enables creative problem-solving through strong foundations\nHow expertise actually works: When you encounter a problem, multiple production rules compete. The rule with highest “utility” (based on past success through prediction errors) fires. Each successful use strengthens that rule, making it more likely to win future competitions. This is why experts seem to “just know”—their strongest productions fire automatically.\n\n\nWhat We Lose When We Skip the Struggle\n\n\n\n\n\n\nWhat We Lose\n\n\n\n\nNo Memory Formation: The brain doesn’t encode what it doesn’t process\nNo Pattern Development: Can’t recognize what we haven’t practiced\nNo Transfer Ability: Can’t apply unlearned principles to new contexts\nNo Metacognition: Don’t develop awareness of our own thinking\nNo Prediction Error Learning: The fundamental mechanism of learning is bypassed\n\n\n\n\n\nThe Expertise Illusion\nAI creates a dangerous illusion:\n\nSurface Fluency: Perfect answers without understanding\nFalse Confidence: Believing we “get it” without practice\nFragile Knowledge: Collapses without AI support\nLimited Transfer: Can’t adapt to novel situations\n\n\n\nResearch Evidence: The Cost of Cognitive Offloading\nRecent studies show alarming impacts of AI use on learning:\n\n68% reduction in critical thinking among knowledge workers with high AI confidence (Lee et al., 2025)\nSurface learning only for programming students using ChatGPT (Yang et al., 2025)\nDecreased problem-solving ability in math students using AI tools (Bastani et al. 2024)\n“The fluency illusion”: Mistaking AI’s competence for your own",
     "crumbs": [
       "Workshop",
       "How Skill Acquisition Works"
@@ -1058,14 +1058,14 @@
     "href": "slides/how-humans-learn/index.html#act-r-theory-how-minds-actually-work",
     "title": "How We Build Expertise",
     "section": "ACT-R Theory: How Minds Actually Work",
-    "text": "ACT-R Theory: How Minds Actually Work\nTwo Memory Systems Working Together:\n\n\n🧠 Declarative Memory\n“Knowing That”\n\nFacts: “Paris is capital of France”\nRules: “To isolate x, subtract from both sides”\nExamples: “Like problem #3 we did”\n\nSlow, conscious retrieval\n\n\n\n⚡ Procedural Memory\n“Knowing How”\n\nIF see equation THEN isolate x\nIF recognize pattern THEN apply rule\nAutomatic, unconscious execution\n\nFast, effortless performance\n\n\nThe learning journey: Declarative facts → Practice → Production rules → Procedural expertise"
+    "text": "ACT-R Theory: How Minds Actually Work\nTwo Memory Systems Working Together:\n\n\n🧠 Declarative Memory\n“Knowing That”\n\nChunks: ~3 pieces of info bound together\nFacts: “Paris is capital of France”\nRules: “To isolate x, subtract from both sides”\nLike a network: Connected nodes we search through\n\nSlow, conscious retrieval\n\n\n\n⚡ Procedural Memory\n“Knowing How”\n\nProductions: IF-THEN atomic thinking steps\n“IF see ax = b THEN rewrite as x = b/a”\nModular: Each learned independently\nCompete: Strongest production wins\n\nFast, effortless performance\n\n\nThe learning journey: Chunks → Practice → Productions → Expertise"
   },
   {
     "objectID": "slides/how-humans-learn/index.html#knowledge-compilation-in-action",
     "href": "slides/how-humans-learn/index.html#knowledge-compilation-in-action",
     "title": "How We Build Expertise",
     "section": "Knowledge Compilation in Action",
-    "text": "Knowledge Compilation in Action\nHow declarative knowledge becomes automatic procedures:\n\n\n\n\n\ngraph LR\n    A[📚 Declarative&lt;br/&gt;\"To solve 3x+5=20,&lt;br/&gt;subtract 5, then divide\"] --&gt; B[🔄 Practice&lt;br/&gt;Apply rule&lt;br/&gt;many times]\n    B --&gt; C[⚡ Production Rule&lt;br/&gt;\"IF see 3x+5=20&lt;br/&gt;THEN answer x=5\"]\n    \n    style A fill:#ffe66d,stroke:#333,stroke-width:2px\n    style B fill:#ffb3ba,stroke:#333,stroke-width:2px\n    style C fill:#4ecdc4,stroke:#333,stroke-width:2px\n\n\n\n\n\n\n\nStart: Conscious rule-following (slow, effortful)\nPractice: Repeated application strengthens neural pathways\n\nCompilation: Direct stimulus→response connections form\nResult: Automatic expertise (fast, effortless)\n\n\nAI skips steps 1-3 entirely!"
+    "text": "Knowledge Compilation in Action\nHow “atomic thinking steps” become automatic procedures:\n\n\n\n\n\ngraph LR\n    A[📚 Declarative Chunks&lt;br/&gt;\"ax = b means divide&lt;br/&gt;both sides by a\"] --&gt; B[🔄 Practice&lt;br/&gt;Apply rule in&lt;br/&gt;many problems]\n    B --&gt; C[⚡ Production Rule&lt;br/&gt;\"IF see ax = b&lt;br/&gt;THEN answer x = b/a\"]\n    \n    style A fill:#ffe66d,stroke:#333,stroke-width:2px\n    style B fill:#ffb3ba,stroke:#333,stroke-width:2px\n    style C fill:#4ecdc4,stroke:#333,stroke-width:2px\n\n\n\n\n\n\n\nStart: Hold rule consciously in working memory (slow, effortful)\nPractice: Each successful use strengthens the production\nCompetition: Stronger productions win over weaker alternatives\n\nCompilation: Direct pattern→response connection forms\nResult: Automatic “atomic thinking step” (fast, effortless)\n\n\nAI provides step 5 without steps 1-4!"
   },
   {
     "objectID": "slides/how-humans-learn/index.html#the-working-memory-bottleneck",
@@ -1143,5 +1143,385 @@
     "title": "How We Build Expertise",
     "section": "Creating Struggle-Positive Classrooms",
     "text": "Creating Struggle-Positive Classrooms\nWhat This Looks Like in Practice:\n\nCelebrate productive confusion: “That’s a great question—you’re thinking deeply!”\nAssess process, not just products: Grade thinking steps, not just final answers\nShare expert struggles: Show how professionals work through problems messily\nTime for thinking: Built-in struggle time before any external help\nModel uncertainty: Teachers saying “I’m not sure, let me think…”\n\n. . .\n\n\n\n\n\n\nThe Environment Test\n\n\nStudents should feel safe to be confused and proud of their thinking process, not just their final answers."
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#what-you-just-experienced",
+    "href": "slides/how-humans-learn/index.html#what-you-just-experienced",
+    "title": "How We Build Expertise",
+    "section": "What You Just Experienced",
+    "text": "What You Just Experienced\nYour Three Research Modes:\n\n\nMode 1: Without AI\nClassical sources, prior knowledge\nLikely felt: Slower, more effortful, uncertain\n\nMode 2: Single AI Prompt\nOne well-crafted question\nLikely felt: Fast, confident, comprehensive\n\nMode 3: Collaborative AI\nIterative, follow-up questions\nLikely felt: Engaging, interactive, refined\n\n\n\n\n\n\n\nThe Critical Question:\n\n\nWhich mode will you remember a week from now?\nThe immediate “feel” doesn’t predict long-term learning…"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#from-15-minutes-to-15-weeks",
+    "href": "slides/how-humans-learn/index.html#from-15-minutes-to-15-weeks",
+    "title": "How We Build Expertise",
+    "section": "From 15 Minutes to 15 Weeks",
+    "text": "From 15 Minutes to 15 Weeks\nWhy Short-Term Experience Misleads:\n\nYour exercise (15 minutes): Different modes felt different\nReal learning (15 weeks): Repeated practice literally rewires your brain\nThe gap: What feels efficient now may prevent expertise later\nThe illusion: AI collaboration felt engaging, but did it build lasting knowledge?\n\n. . .\n\n\n\n\n\n\nWarning\n\n\nKey insight: We optimize for immediate comfort, not long-term capability."
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#when-collaborative-ai-helps-vs.-hurts",
+    "href": "slides/how-humans-learn/index.html#when-collaborative-ai-helps-vs.-hurts",
+    "title": "How We Build Expertise",
+    "section": "When Collaborative AI Helps vs. Hurts",
+    "text": "When Collaborative AI Helps vs. Hurts\nThe Nuanced Reality:\n\n\n✅ Collaborative AI Can Help When:\n\nClarifying your thinking: “Does my logic make sense?”\nOvercoming specific obstacles: “I’m stuck on this one step”\nChecking understanding: “Is my interpretation correct?”\nReducing irrelevant load: Grammar, formatting, citations\n\nYou maintain cognitive control\n\n\n\n❌ Collaborative AI Hurts When:\n\nGenerating core ideas: “What should I think about this?”\nDoing the reasoning: “How should I solve this?”\nMaking connections: “How does this relate to…?”\nReplacing struggle: “This is hard, help me”\n\nAI drives the cognitive process\n\n\nThe test: Are you using AI to enhance your thinking or replace it?"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#productions-your-brains-if-then-rules",
+    "href": "slides/how-humans-learn/index.html#productions-your-brains-if-then-rules",
+    "title": "How We Build Expertise",
+    "section": "Productions: Your Brain’s IF-THEN Rules",
+    "text": "Productions: Your Brain’s IF-THEN Rules\nProductions are the “atomic thinking steps” of problem-solving:\n\nIF my goal is to solve for x, AND I see equation 3x + 5 = 20, THEN subtract 5 from both sides\nIF I’m stuck on a programming bug, AND code won’t compile, THEN check syntax first\n\nIF I need to remember a phone number, AND can’t write it down, THEN repeat it internally\n\n\n\n\n\n\n\n\nProduction Competition in Action\n\n\nWhen you see 3x + 5 = 20, multiple productions compete:\n\nProduction A: “Guess and check values” (weak, novice)\nProduction B: “Subtract 5 from both sides” (strong, practiced)\nWinner: Strongest production fires automatically\n\nPractice strengthens winning productions!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#why-transfer-is-so-limited",
+    "href": "slides/how-humans-learn/index.html#why-transfer-is-so-limited",
+    "title": "How We Build Expertise",
+    "section": "Why Transfer Is So Limited",
+    "text": "Why Transfer Is So Limited\nScott Young’s Key Insight:\n\n\nTransfer only occurs when skills share productions\n\nChess strategy ≠ Business strategy (no shared productions)\nAlgebra ≠ Geometry (few shared productions)\n\nPython ≠ JavaScript (some shared algorithmic thinking)\n\nThe data confirms: Transfer is linear in number of shared productions!\n\nWhy school feels “useless”:\n\nYou learn 50% of needed productions\nCan’t solve real problems (missing key steps)\nBUT learning the other 50% is now twice as fast!\n\nSchool creates learning potential, not immediate performance"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#why-some-things-are-easy-others-hard",
+    "href": "slides/how-humans-learn/index.html#why-some-things-are-easy-others-hard",
+    "title": "How We Build Expertise",
+    "section": "Why Some Things Are Easy, Others Hard",
+    "text": "Why Some Things Are Easy, Others Hard\nProcedural Memory Examples You Know:\n\nAlphabet forward: Automatic procedural memory → Easy!\nAlphabet backward: Must use declarative memory → Hard!\n\nRecite forward → Hold in working memory → Manually reverse → Say result\n\nTyping your name: Procedural muscle memory → Effortless\nSpelling your name aloud: Declarative retrieval → Requires thought\nPhone number repetition: Rehearsal keeps chunks active in declarative memory\nPhone number from memory: If practiced enough, becomes procedural\n\n. . .\n\n\n\n\n\n\nImportant\n\n\nKey insight: The same information accessed through different memory systems feels completely different to perform!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/index.html#practical-guidelines-beyond-the-exercise",
+    "href": "slides/how-humans-learn/index.html#practical-guidelines-beyond-the-exercise",
+    "title": "How We Build Expertise",
+    "section": "Practical Guidelines: Beyond the Exercise",
+    "text": "Practical Guidelines: Beyond the Exercise\n\n\n\n\n\n\nScaling Up From 5 to 20 Minutes\n\n\nYour exercise: 5-minute sessions showed immediate differences in experience\nReal learning: 20+ minutes of struggle creates the brain changes that build expertise\nBefore Any AI Consultation:\n\nMinimum 20 minutes of independent attempt (not the 5 from exercise!)\nDocument your thinking: What you tried and why\nIdentify specific obstacles: Where exactly are you stuck?\nThen use AI strategically: To overcome obstacles, not replace thinking\n\n\n\n\n\nRed flag test: If you can’t solve similar problems without AI after 5 attempts, you’re building dependency, not expertise."
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#what-you-just-experienced",
+    "href": "slides/how-humans-learn/long/index.html#what-you-just-experienced",
+    "title": "How We Build Expertise",
+    "section": "What You Just Experienced",
+    "text": "What You Just Experienced\nYour Three Research Modes:\n\n\nMode 1: Without AI\nClassical sources, prior knowledge\nLikely felt: Slower, more effortful, uncertain\n\nMode 2: Single AI Prompt\nOne well-crafted question\nLikely felt: Fast, confident, comprehensive\n\nMode 3: Collaborative AI\nIterative, follow-up questions\nLikely felt: Engaging, interactive, refined\n\n\n\n\n\n\n\nThe Critical Question:\n\n\nWhich mode will you remember a week from now?\nThe immediate “feel” doesn’t predict long-term learning…"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#from-15-minutes-to-15-weeks",
+    "href": "slides/how-humans-learn/long/index.html#from-15-minutes-to-15-weeks",
+    "title": "How We Build Expertise",
+    "section": "From 15 Minutes to 15 Weeks",
+    "text": "From 15 Minutes to 15 Weeks\nWhy Short-Term Experience Misleads:\n\nYour exercise (15 minutes): Different modes felt different\nReal learning (15 weeks): Repeated practice literally rewires your brain\nThe gap: What feels efficient now may prevent expertise later\nThe illusion: AI collaboration felt engaging, but did it build lasting knowledge?\n\n. . .\n\n\n\n\n\n\nWarning\n\n\nKey insight: We optimize for immediate comfort, not long-term capability."
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#when-collaborative-ai-helps-vs.-hurts",
+    "href": "slides/how-humans-learn/long/index.html#when-collaborative-ai-helps-vs.-hurts",
+    "title": "How We Build Expertise",
+    "section": "When Collaborative AI Helps vs. Hurts",
+    "text": "When Collaborative AI Helps vs. Hurts\nThe Nuanced Reality:\n\n\n✅ Collaborative AI Can Help When:\n\nClarifying your thinking: “Does my logic make sense?”\nOvercoming specific obstacles: “I’m stuck on this one step”\nChecking understanding: “Is my interpretation correct?”\nReducing irrelevant load: Grammar, formatting, citations\n\nYou maintain cognitive control\n\n\n\n❌ Collaborative AI Hurts When:\n\nGenerating core ideas: “What should I think about this?”\nDoing the reasoning: “How should I solve this?”\nMaking connections: “How does this relate to…?”\nReplacing struggle: “This is hard, help me”\n\nAI drives the cognitive process\n\n\nThe test: Are you using AI to enhance your thinking or replace it?"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#why-schools-exist-the-knowledge-divide",
+    "href": "slides/how-humans-learn/long/index.html#why-schools-exist-the-knowledge-divide",
+    "title": "How We Build Expertise",
+    "section": "Why Schools Exist: The Knowledge Divide",
+    "text": "Why Schools Exist: The Knowledge Divide\n\n\n🧬 Biologically Primary\nWe evolved to learn:\n\nSpeaking & understanding\nRecognizing faces\n\nReading social cues\nBasic problem solving\n\nNatural discovery works!\n\n\n\n🎓 Biologically Secondary\nWe didn’t evolve to learn:\n\nReading & writing\nMathematics & algebra\nProgramming & analysis\nScientific reasoning\n\nNeeds explicit teaching!\n\n\n\n\n\n\n\n\nImportant\n\n\nAI assumes all knowledge is primary—but academic skills need structured struggle."
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#the-learning-journey-novice-expert",
+    "href": "slides/how-humans-learn/long/index.html#the-learning-journey-novice-expert",
+    "title": "How We Build Expertise",
+    "section": "The Learning Journey: Novice → Expert",
+    "text": "The Learning Journey: Novice → Expert\n\n\n\n\n\ngraph LR\n    A[😰 Novice&lt;br/&gt;Struggle & Errors] --&gt; B[🤔 Intermediate&lt;br/&gt;Patterns Emerge]\n    B --&gt; C[🎯 Expert&lt;br/&gt;Automatic & Fast]\n    \n    style A fill:#ff6b6b,stroke:#333,stroke-width:3px\n    style B fill:#ffe66d,stroke:#333,stroke-width:3px\n    style C fill:#4ecdc4,stroke:#333,stroke-width:3px\n\n\n\n\n\n\n\nNovice: Step-by-step conscious reasoning (high effort)\nIntermediate: Chunking patterns, some automation (moderate effort)\n\nExpert: Instant recognition, can’t explain! (low effort)\n\n\nKey insight: The struggle creates the expertise—you can’t skip it!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#act-r-theory-how-minds-actually-work",
+    "href": "slides/how-humans-learn/long/index.html#act-r-theory-how-minds-actually-work",
+    "title": "How We Build Expertise",
+    "section": "ACT-R Theory: How Minds Actually Work",
+    "text": "ACT-R Theory: How Minds Actually Work\nTwo Memory Systems Working Together:\n\n\n🧠 Declarative Memory\n“Knowing That”\n\nChunks: ~3 pieces of info bound together\nFacts: “Paris is capital of France”\nRules: “To isolate x, subtract from both sides”\nLike a network: Connected nodes we search through\n\nSlow, conscious retrieval\n\n\n\n⚡ Procedural Memory\n“Knowing How”\n\nProductions: IF-THEN atomic thinking steps\n“IF see ax = b THEN rewrite as x = b/a”\nModular: Each learned independently\nCompete: Strongest production wins\n\nFast, effortless performance\n\n\nThe learning journey: Chunks → Practice → Productions → Expertise"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#productions-your-brains-if-then-rules",
+    "href": "slides/how-humans-learn/long/index.html#productions-your-brains-if-then-rules",
+    "title": "How We Build Expertise",
+    "section": "Productions: Your Brain’s IF-THEN Rules",
+    "text": "Productions: Your Brain’s IF-THEN Rules\nProductions are the “atomic thinking steps” of problem-solving:\n\nIF my goal is to solve for x, AND I see equation 3x + 5 = 20, THEN subtract 5 from both sides\nIF I’m stuck on a programming bug, AND code won’t compile, THEN check syntax first\n\nIF I need to remember a phone number, AND can’t write it down, THEN repeat it internally\n\n\n\n\n\n\n\n\nProduction Competition in Action\n\n\nWhen you see 3x + 5 = 20, multiple productions compete:\n\nProduction A: “Guess and check values” (weak, novice)\nProduction B: “Subtract 5 from both sides” (strong, practiced)\nWinner: Strongest production fires automatically\n\nPractice strengthens winning productions!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#why-transfer-is-so-limited",
+    "href": "slides/how-humans-learn/long/index.html#why-transfer-is-so-limited",
+    "title": "How We Build Expertise",
+    "section": "Why Transfer Is So Limited",
+    "text": "Why Transfer Is So Limited\nScott Young’s Key Insight:\n\n\nTransfer only occurs when skills share productions\n\nChess strategy ≠ Business strategy (no shared productions)\nAlgebra ≠ Geometry (few shared productions)\n\nPython ≠ JavaScript (some shared algorithmic thinking)\n\nThe data confirms: Transfer is linear in number of shared productions!\n\nWhy school feels “useless”:\n\nYou learn 50% of needed productions\nCan’t solve real problems (missing key steps)\nBUT learning the other 50% is now twice as fast!\n\nSchool creates learning potential, not immediate performance"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#knowledge-compilation-in-action",
+    "href": "slides/how-humans-learn/long/index.html#knowledge-compilation-in-action",
+    "title": "How We Build Expertise",
+    "section": "Knowledge Compilation in Action",
+    "text": "Knowledge Compilation in Action\nHow “atomic thinking steps” become automatic procedures:\n\n\n\n\n\ngraph LR\n    A[📚 Declarative Chunks&lt;br/&gt;\"ax = b means divide&lt;br/&gt;both sides by a\"] --&gt; B[🔄 Practice&lt;br/&gt;Apply rule in&lt;br/&gt;many problems]\n    B --&gt; C[⚡ Production Rule&lt;br/&gt;\"IF see ax = b&lt;br/&gt;THEN answer x = b/a\"]\n    \n    style A fill:#ffe66d,stroke:#333,stroke-width:2px\n    style B fill:#ffb3ba,stroke:#333,stroke-width:2px\n    style C fill:#4ecdc4,stroke:#333,stroke-width:2px\n\n\n\n\n\n\n\nStart: Hold rule consciously in working memory (slow, effortful)\nPractice: Each successful use strengthens the production\nCompetition: Stronger productions win over weaker alternatives\n\nCompilation: Direct pattern→response connection forms\nResult: Automatic “atomic thinking step” (fast, effortless)\n\n\nAI provides step 5 without steps 1-4!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#why-some-things-are-easy-others-hard",
+    "href": "slides/how-humans-learn/long/index.html#why-some-things-are-easy-others-hard",
+    "title": "How We Build Expertise",
+    "section": "Why Some Things Are Easy, Others Hard",
+    "text": "Why Some Things Are Easy, Others Hard\nProcedural Memory Examples You Know:\n\nAlphabet forward: Automatic procedural memory → Easy!\nAlphabet backward: Must use declarative memory → Hard!\n\nRecite forward → Hold in working memory → Manually reverse → Say result\n\nTyping your name: Procedural muscle memory → Effortless\nSpelling your name aloud: Declarative retrieval → Requires thought\nPhone number repetition: Rehearsal keeps chunks active in declarative memory\nPhone number from memory: If practiced enough, becomes procedural\n\n. . .\n\n\n\n\n\n\nImportant\n\n\nKey insight: The same information accessed through different memory systems feels completely different to perform!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#the-working-memory-bottleneck",
+    "href": "slides/how-humans-learn/long/index.html#the-working-memory-bottleneck",
+    "title": "How We Build Expertise",
+    "section": "The Working Memory Bottleneck",
+    "text": "The Working Memory Bottleneck\n\n\n😰 Novice Problem:\n(x + 3)(x - 2) = 0\n7+ pieces to track: - What is x? - Parentheses meaning? - Operations involved? - Why equals zero? - How to solve?\n🧠💥 Overload!\n\n🎯 Expert Problem:\n(x + 3)(x - 2) = 0\n1 pattern recognized: - “Factored form → x = -3 or x = 2”\n🧠✓ Easy!\n\n🤖 AI Problem:\n(x + 3)(x - 2) = 0\n0 processing: - Copy → Paste → Answer\n🧠❌ No learning!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#how-the-brain-actually-learns",
+    "href": "slides/how-humans-learn/long/index.html#how-the-brain-actually-learns",
+    "title": "How We Build Expertise",
+    "section": "How the Brain Actually Learns",
+    "text": "How the Brain Actually Learns\nThe Prediction Error System:\n\nBrain predicts: “If I try this approach, it should work”\nReality check: “Did it work as expected?”\nPrediction error: Gap between expected and actual\nNeural update: Brain adjusts based on the error\n\n. . .\n\n\n\n\n\n\nAI Eliminates Learning Signals\n\n\n\nNo predictions (AI provides instant answers)\nNo attempts (students don’t try solutions)\n\nNo errors (AI is always “correct”)\nNo learning (brain has nothing to update)"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#the-expertise-illusion",
+    "href": "slides/how-humans-learn/long/index.html#the-expertise-illusion",
+    "title": "How We Build Expertise",
+    "section": "The Expertise Illusion",
+    "text": "The Expertise Illusion\n\n\n❌ What AI Creates:\n\nPerfect answers without understanding\nSurface fluency, fragile knowledge\nFalse confidence in abilities\nComplete dependency on tools\n\n\n\n\n✅ What Real Learning Creates:\n\nDeep understanding through struggle\nRobust knowledge that transfers\nAccurate self-assessment\nTrue intellectual autonomy\n\n\n\nThe dangerous mistake: Confusing AI’s performance with your own learning."
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#the-research-reality-check",
+    "href": "slides/how-humans-learn/long/index.html#the-research-reality-check",
+    "title": "How We Build Expertise",
+    "section": "The Research Reality Check",
+    "text": "The Research Reality Check\nRecent studies reveal alarming trends:\n\n68% reduction in critical thinking among high AI users\nSurface learning only in programming students using ChatGPT\n\nFlynn Effect reversal: IQ scores declining since we stopped memorizing\nStudents can’t solve basic problems without AI assistance\n\n\n\n\n\n\n\n\nWarning\n\n\nWe abandoned proven learning methods just as neuroscience proved why they work!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#the-two-paths-forward",
+    "href": "slides/how-humans-learn/long/index.html#the-two-paths-forward",
+    "title": "How We Build Expertise",
+    "section": "The Two Paths Forward",
+    "text": "The Two Paths Forward\n\n\n\n\n\ngraph TD\n    A[Learning Challenge] --&gt; B{Your Choice}\n    B --&gt;|AI Shortcut| C[🏃‍♂️ Fast Answer]\n    B --&gt;|Learning Path| D[🧗‍♀️ Productive Struggle]\n    C --&gt; E[❌ Dependency & Fragility]\n    D --&gt; F[✅ Expertise & Transfer]\n    \n    style C fill:#ff6b6b,stroke:#333,stroke-width:2px\n    style E fill:#ff6b6b,stroke:#333,stroke-width:2px\n    style D fill:#4ecdc4,stroke:#333,stroke-width:2px\n    style F fill:#4ecdc4,stroke:#333,stroke-width:2px"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#practical-guidelines-beyond-the-exercise",
+    "href": "slides/how-humans-learn/long/index.html#practical-guidelines-beyond-the-exercise",
+    "title": "How We Build Expertise",
+    "section": "Practical Guidelines: Beyond the Exercise",
+    "text": "Practical Guidelines: Beyond the Exercise\n\n\n\n\n\n\nScaling Up From 5 to 20 Minutes\n\n\nYour exercise: 5-minute sessions showed immediate differences in experience\nReal learning: 20+ minutes of struggle creates the brain changes that build expertise\nBefore Any AI Consultation:\n\nMinimum 20 minutes of independent attempt (not the 5 from exercise!)\nDocument your thinking: What you tried and why\nIdentify specific obstacles: Where exactly are you stuck?\nThen use AI strategically: To overcome obstacles, not replace thinking\n\n\n\n\n\nRed flag test: If you can’t solve similar problems without AI after 5 attempts, you’re building dependency, not expertise."
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#designing-learning-environments-for-growth",
+    "href": "slides/how-humans-learn/long/index.html#designing-learning-environments-for-growth",
+    "title": "How We Build Expertise",
+    "section": "Designing Learning Environments for Growth",
+    "text": "Designing Learning Environments for Growth\nThe Cultural Shift Required:\n\n\n❌ Product-Focused Culture\n\n“Get the right answer quickly”\nStruggle = failure or incompetence\n\nErrors are problems to hide\nSpeed and efficiency valued\nAI use = being “smart”\n\n\n\n\n✅ Process-Focused Culture\n\n“Show me your thinking”\nStruggle = growth in progress\nErrors are learning opportunities\nDepth and understanding valued\nAI use = strategic choice\n\n\n\n\n\n\n\n\n\nImportant\n\n\nKey insight: Students avoid struggle when environments punish confusion and reward quick answers."
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#creating-struggle-positive-classrooms",
+    "href": "slides/how-humans-learn/long/index.html#creating-struggle-positive-classrooms",
+    "title": "How We Build Expertise",
+    "section": "Creating Struggle-Positive Classrooms",
+    "text": "Creating Struggle-Positive Classrooms\nWhat This Looks Like in Practice:\n\nCelebrate productive confusion: “That’s a great question—you’re thinking deeply!”\nAssess process, not just products: Grade thinking steps, not just final answers\nShare expert struggles: Show how professionals work through problems messily\nTime for thinking: Built-in struggle time before any external help\nModel uncertainty: Teachers saying “I’m not sure, let me think…”\n\n. . .\n\n\n\n\n\n\nThe Environment Test\n\n\nStudents should feel safe to be confused and proud of their thinking process, not just their final answers."
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#what-this-means-for-teaching",
+    "href": "slides/how-humans-learn/long/index.html#what-this-means-for-teaching",
+    "title": "How We Build Expertise",
+    "section": "What This Means for Teaching",
+    "text": "What This Means for Teaching\n\n\n❌ Don’t:\n\nAllow immediate AI consultation\nAccept AI-generated work as learning\nSkip the “struggling” phase\n\nTreat all students as experts\n\n✅ Do:\n\nProtect struggle time\nTeach process, not just content\nScaffold complexity appropriately\nCelebrate productive confusion\n\n\nThe Goal:\nStudents who say:\n“I could use AI, but then I wouldn’t learn anything. Let me try this myself first.”\nThis is the future: Learners who choose growth over shortcuts."
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#your-takeaway-challenge",
+    "href": "slides/how-humans-learn/long/index.html#your-takeaway-challenge",
+    "title": "How We Build Expertise",
+    "section": "Your Takeaway Challenge",
+    "text": "Your Takeaway Challenge\n\n\n\n\n\n\nThe Expertise Question\n\n\nFor your next learning challenge, ask yourself:\n“Am I using this tool to enhance my thinking or replace it?”\nChoose tools that make you think harder, not think less.\n\n\n\n\nRemember: Your confusion isn’t a bug—it’s the feature that builds expertise!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/long/index.html#questions-discussion",
+    "href": "slides/how-humans-learn/long/index.html#questions-discussion",
+    "title": "How We Build Expertise",
+    "section": "Questions & Discussion",
+    "text": "Questions & Discussion\nHow might we redesign learning experiences to embrace productive struggle while leveraging AI appropriately?"
+  },
+  {
+    "objectID": "exercises/research-modes/index.html",
+    "href": "exercises/research-modes/index.html",
+    "title": "Exercise: Think Instead of Delegate",
+    "section": "",
+    "text": "This activity investigates how we process information by probing various research modes and reflecting on how each affects comprehension and reasoning.",
+    "crumbs": [
+      "Workshop",
+      "Exercise: Think Instead of Delegate"
+    ]
+  },
+  {
+    "objectID": "exercises/research-modes/index.html#learning-objectives",
+    "href": "exercises/research-modes/index.html#learning-objectives",
+    "title": "Exercise: Think Instead of Delegate",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\n\nStrengthen knowledge of cognitive psychology principles and their application in learning and research.\nGain insight into how AI influences cognitive processes like critical thinking and comprehension.\nFoster the ability to critically assess the role of AI in educational and research contexts.",
+    "crumbs": [
+      "Workshop",
+      "Exercise: Think Instead of Delegate"
+    ]
+  },
+  {
+    "objectID": "exercises/research-modes/index.html#task-15-minutes",
+    "href": "exercises/research-modes/index.html#task-15-minutes",
+    "title": "Exercise: Think Instead of Delegate",
+    "section": "Task (15 minutes)",
+    "text": "Task (15 minutes)\nIn this exercise, we will explore four questions through different research modes, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows. For each mode, you should answer a different question, and while you can choose any question for each mode, it’s important to follow the sequence of the modes in order.\n\n\n\n\n\n\nResearch Questions\n\n\n\n\n\n\nHow does text-only learning shape comprehension, and what factors govern its effectiveness?\nHow do brief summaries influence comprehension, and which elements drive their success?\nHow does crafting a personal explanation boost critical thinking, and what are its limits?\nHow does partner feedback on your understanding boost learning? When and how is it most effective?\n\n\n\nTask per Session\nFor a given question, focus on the following: - How does the learner acquire knowledge using this approach? - When and how is that approach beneficial? - What are the pros and cons of this approach?\nAdd your answer as a sticky note in this Miro Board (Password: ThinkAIWS), within the frame for your question.\n\n\n\n\n\n\n\n\n\n\nResearch Modes\n\n\n\n\n\nThere are 3 sessions (5 minutes each) to approach the question differently:\n\nWithout Chatbot: Research or discuss using classical sources or prior knowledge.\nWith Chatbot Only: Use a single well-crafted prompt to get the best possible answer.\nWith Chatbot Collaboration: Interact with the chatbot iteratively—ask follow-up questions, refine the answer collaboratively.\n\nA short example will be shown for each mode before starting.\n\n\n\n\n\n\n\n\n\nReflection (10 minutes)\n\n\n\n\n\nAfter engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps: 1. Think (1 minute): Take a moment to reflect individually on questions below.\n2. Pair (3 minutes): Discuss your reflections with a partner and compare your insights.\n3. Share (6 minutes): Share key takeaways with the group.\n\nQuestions to Consider\n\nHow did the different sessions differ regarding how you learned and how you experienced that learning?\nWhat Pros and Cons did you experience using chatbots for learning?\nWhat’s your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?\n\n\n\n\n\n\nKey Takeaway\nWe explored how AI processes information and its impact on human learning. We generally find that using chatbots can reduce cognitive engagement. According to a new study by MIT, this actually shows in lower brain activity, resulting in a lack of comprehension as well as in worse memorization of their own original text written on the topic. The key take away is: students and researches should use chatbots for learning new information only so to reduce mental load from irrelevant sidetasks and to foster cognitive engagement rather than to replace it, by letting it help develop and evaluate independent thoughts rather than reducing everything to executive summaries.",
+    "crumbs": [
+      "Workshop",
+      "Exercise: Think Instead of Delegate"
+    ]
+  },
+  {
+    "objectID": "exercises/research-modes/index.html#task-per-session",
+    "href": "exercises/research-modes/index.html#task-per-session",
+    "title": "Exercise: Think Instead of Delegate",
+    "section": "Task per Session",
+    "text": "Task per Session\nFor a given question, focus on the following: - How does the learner acquire knowledge using this approach? - When and how is that approach beneficial? - What are the pros and cons of this approach?\nAdd your answer as a sticky note in this Miro Board (Password: ThinkAIWS), within the frame for your question.",
+    "crumbs": [
+      "Workshop",
+      "Exercise: Think Instead of Delegate"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-website",
+    "href": "index.html#workshop-website",
+    "title": "Think, Don't Delegate",
+    "section": "Workshop Website",
+    "text": "Workshop Website\n virtuelleakademie.github.io/denken-statt-delegieren/"
+  },
+  {
+    "objectID": "slides/how-humans-learn/short/index.html#what-you-just-experienced",
+    "href": "slides/how-humans-learn/short/index.html#what-you-just-experienced",
+    "title": "How We Build Expertise",
+    "section": "What You Just Experienced",
+    "text": "What You Just Experienced\nYour Three Research Modes:\n\n\nWithout AI\nClassical sources\nFelt: Slower, effortful, uncertain\n\nSingle AI Prompt\nOne question\nFelt: Fast, confident, comprehensive\n\nCollaborative AI\nIterative questions\nFelt: Engaging, interactive, refined\n\n. . .\n\n\n\n\n\n\nThe Critical Question:\n\n\nWhich mode will you remember and transfer a week from now?\nThe immediate “feel” doesn’t predict long-term learning…"
+  },
+  {
+    "objectID": "slides/how-humans-learn/short/index.html#why-schools-exist-the-knowledge-divide",
+    "href": "slides/how-humans-learn/short/index.html#why-schools-exist-the-knowledge-divide",
+    "title": "How We Build Expertise",
+    "section": "Why Schools Exist: The Knowledge Divide",
+    "text": "Why Schools Exist: The Knowledge Divide\n\n\n🧬 Biologically Primary\nWe evolved to learn:\n\nSpeaking & understanding\nRecognizing faces\n\nReading social cues\nBasic problem solving\n\nNatural discovery works!\n\n\n\n🎓 Biologically Secondary\nWe didn’t evolve to learn:\n\nReading & writing\nMathematics & algebra\nProgramming & analysis\nScientific reasoning\n\nNeeds explicit teaching & struggle!\n\n\n\n\n\n\n\n\nImportant\n\n\nAI assumes all knowledge is primary—but academic skills need structured practice."
+  },
+  {
+    "objectID": "slides/how-humans-learn/short/index.html#how-expertise-actually-develops",
+    "href": "slides/how-humans-learn/short/index.html#how-expertise-actually-develops",
+    "title": "How We Build Expertise",
+    "section": "How Expertise Actually Develops",
+    "text": "How Expertise Actually Develops\nThe Brain’s Learning System:\n\n\n🧠 Declarative Memory\n“Knowing That”\n\nFacts and rules you hold consciously\nSlow, effortful retrieval\nExample: “To solve 3x + 5 = 20, subtract 5 from both sides”\n\n\n\n\n⚡ Procedural Memory\n“Knowing How”\n\nAutomatic “atomic thinking steps”\nFast, effortless execution\nExample: See 3x + 5 = 20 → instantly know x = 5\n\n\n\nThe journey: Facts → Thousands of practice cycles → Automatic procedures → Expertise\nWhy struggle matters: Each practice attempt strengthens the neural pathways that create expertise"
+  },
+  {
+    "objectID": "slides/how-humans-learn/short/index.html#productions-your-brains-atomic-thinking-steps",
+    "href": "slides/how-humans-learn/short/index.html#productions-your-brains-atomic-thinking-steps",
+    "title": "How We Build Expertise",
+    "section": "Productions: Your Brain’s Atomic Thinking Steps",
+    "text": "Productions: Your Brain’s Atomic Thinking Steps\nHow Complex Skills Are Built:\n\n\nProductions = IF-THEN Rules\n\nIF see “3x + 5 = 20” THEN subtract 5 from both sides\nIF stuck on code THEN check syntax first\nIF need to remember phone number THEN repeat internally\n\nEach one is an “atomic thinking step”\n\n\n\nProduction Competition\nWhen you see 3x + 5 = 20: - Production A: “Guess and check” (weak) - Production B: “Subtract 5” (strong) - Winner: Strongest fires automatically\nPractice strengthens winning productions\n\n. . .\n\n\n\n\n\n\nNote\n\n\nWhy this matters: Complex expertise = thousands of these atomic steps compiled together. AI provides final answers without building the atomic steps."
+  },
+  {
+    "objectID": "slides/how-humans-learn/short/index.html#the-ai-bypass-problem",
+    "href": "slides/how-humans-learn/short/index.html#the-ai-bypass-problem",
+    "title": "How We Build Expertise",
+    "section": "The AI Bypass Problem",
+    "text": "The AI Bypass Problem\nThree Ways Learning Is Disrupted:\n\nNo Prediction Errors: Brain learns from gaps between “what I expect” and “what happens”—AI eliminates this entirely\nNo Memory Formation: Information that isn’t actively processed isn’t stored—AI provides answers without processing\nNo Procedural Development: Expertise requires thousands of “atomic thinking steps”—AI skips this building process\n\n. . .\n\n\n\n\n\n\nWarning\n\n\nResult: Surface fluency without deep understanding, complete dependency on tools"
+  },
+  {
+    "objectID": "slides/how-humans-learn/short/index.html#the-research-reality",
+    "href": "slides/how-humans-learn/short/index.html#the-research-reality",
+    "title": "How We Build Expertise",
+    "section": "The Research Reality",
+    "text": "The Research Reality\nWhat Studies Show About AI Use in Learning:\n\n68% reduction in critical thinking among high AI users\nSurface learning only in programming students using ChatGPT\n\nFlynn Effect reversal: IQ scores declining since we stopped memorizing\nStudents can’t solve basic problems without AI after repeated AI-assisted attempts\n\n. . .\n\n\n\n\n\n\nWarning\n\n\nWe abandoned proven learning methods just as neuroscience proved why they work!"
+  },
+  {
+    "objectID": "slides/how-humans-learn/short/index.html#practical-guidelines",
+    "href": "slides/how-humans-learn/short/index.html#practical-guidelines",
+    "title": "How We Build Expertise",
+    "section": "Practical Guidelines",
+    "text": "Practical Guidelines\n\n\n\n\n\n\nThe Strategic AI Use Framework\n\n\nBefore Any AI Consultation: 1. Minimum 20 minutes of independent struggle (not 5 from exercise!) 2. Document your thinking: What you tried and why you’re stuck 3. Use AI strategically: To overcome specific obstacles, not replace thinking\nThe Test: Are you using AI to enhance your thinking or replace it?\nRed Flag: If you can’t solve similar problems without AI after 5 attempts, you’re building dependency, not expertise"
+  },
+  {
+    "objectID": "slides/how-humans-learn/short/index.html#your-choice",
+    "href": "slides/how-humans-learn/short/index.html#your-choice",
+    "title": "How We Build Expertise",
+    "section": "Your Choice",
+    "text": "Your Choice\n\n\n❌ The Shortcut Path:\n\nPerfect answers without understanding\nFragile knowledge that doesn’t transfer\nComplete dependency on tools\nFalse confidence in abilities\n\n\n\n\n✅ The Learning Path:\n\nDeep understanding through struggle\nRobust knowledge that transfers\nTrue intellectual autonomy\nAccurate self-assessment\n\n\n\n\n\n\n\n\n\nThe Goal:\n\n\nStudents who say: “I could use AI, but then I wouldn’t learn anything. Let me try this myself first.”\nYour confusion isn’t a bug—it’s the feature that builds expertise!"
+  },
+  {
+    "objectID": "workshop/skill-acquisition/index.html#connecting-to-your-experience",
+    "href": "workshop/skill-acquisition/index.html#connecting-to-your-experience",
+    "title": "How Skill Acquisition Works",
+    "section": "",
+    "text": "Think back to the exercise you just completed:\n\nWithout AI: You engaged in deep thinking and struggle\nSingle prompt: You got quick answers with low effort\nIterative AI: You maintained some cognitive engagement\n\nWhich mode built lasting understanding? Let’s explore the science behind skill acquisition to understand why struggle matters for learning.",
+    "crumbs": [
+      "Workshop",
+      "How Skill Acquisition Works"
+    ]
+  },
+  {
+    "objectID": "workshop/skill-acquisition/index.html#the-journey-from-weak-to-strong-methods",
+    "href": "workshop/skill-acquisition/index.html#the-journey-from-weak-to-strong-methods",
+    "title": "How Skill Acquisition Works",
+    "section": "The Journey: From Weak to Strong Methods",
+    "text": "The Journey: From Weak to Strong Methods\nExpertise develops through three predictable stages:\n\n1. Novice Stage: Weak Methods\nNovices use general problem-solving strategies: - Means-End Analysis: “What’s the difference between where I am and where I need to be?” - Trial and Error: Testing different approaches - Working Backward: Starting from the goal\n\n\n2. Intermediate Stage: Pattern Formation\n\nRepeated patterns become procedures\nKnowledge forms into IF-THEN rules\nStill conscious but more fluid\n\n\n\n3. Expert Stage: Automatic Compilation\n\nInstant pattern recognition\nCannot explain steps anymore\nKnowledge fully automated\n\n\n\n\n\n\n\nOur Running Example: Solving \\(3x + 5 = 20\\)\n\n\n\nNovice approach: - “Goal: find x” - “Current: 3x + 5 = 20” - “Maybe subtract 5?” - “So 3x = 15” - “Divide by 3?” - “x = 5”\nConscious, step-by-step reasoning\nExpert approach: - Sees equation → “x = 5” - Asked to explain: “I just… know?”\nAutomatic, compiled knowledge\n\n\n\n\n\n\n\n\nResearch Evidence: Anderson’s LISP Study\n\n\n\n\n\n40 participants learning LISP programming ALL showed the same struggle pattern with function parameters. This wasn’t random—it revealed a necessary developmental stage. Through practice, the difficulty disappeared through compilation, not sudden understanding.",
+    "crumbs": [
+      "Workshop",
+      "How Skill Acquisition Works"
+    ]
+  },
+  {
+    "objectID": "workshop/skill-acquisition/index.html#why-expert-methods-harm-novices",
+    "href": "workshop/skill-acquisition/index.html#why-expert-methods-harm-novices",
+    "title": "How Skill Acquisition Works",
+    "section": "Why Expert Methods Harm Novices",
+    "text": "Why Expert Methods Harm Novices\n\nThe Teaching Trap\nNovices and experts need opposite approaches:\nExperts: - Work forward from principles - Process multiple elements at once - Apply automated procedures\nNovices: - Work backward from goals - Process elements sequentially - Build procedures through practice\n\n\n\n\n\n\nThe Dependency Cascade\n\n\n\nUsing expert-level tools (like AI) prematurely:\n\nInitial success → false confidence\nWeak methods atrophy from disuse\nProblem-solving skills deteriorate\nDependency deepens\nTransfer fails without AI\nLearned helplessness develops\n\nResult: Not just “not learning”—actively unlearning!",
+    "crumbs": [
+      "Workshop",
+      "How Skill Acquisition Works"
+    ]
+  },
+  {
+    "objectID": "workshop/skill-acquisition/index.html#how-the-brain-actually-learns",
+    "href": "workshop/skill-acquisition/index.html#how-the-brain-actually-learns",
+    "title": "How Skill Acquisition Works",
+    "section": "How the Brain Actually Learns",
+    "text": "How the Brain Actually Learns\n\nThe Prediction Error System\nYour brain learns by making predictions and comparing them to reality:\n\nMake prediction: “If I subtract 5, I should get closer to solving for x”\nTry solution: Attempt the approach\nCompare results: Did it work as expected?\nUpdate brain: Strengthen or weaken neural pathways\n\n\n\n\n\n\n\nLearning Through Errors: \\(3x + 5 = 20\\)\n\n\n\nWrong attempt: “I’ll add 5 to both sides” - Result: \\(3x + 10 = 25\\) (worse!) - Prediction error: Brain tags this as unsuccessful\nCorrect attempt: “I’ll subtract 5 from both sides” - Result: \\(3x = 15\\) (better!) - Prediction error: Brain strengthens this pathway\nAfter many cycles: Subtraction becomes automatic\n\n\n\n\nWhy AI Blocks Learning\nAI eliminates the learning signal: - No predictions (instant answers) - No attempts (no trying) - No errors (always “correct”) - Result: Brain has nothing to update\nKey insight: Learning requires errors, not perfection.\n\n\n\n\n\n\nDesirable Difficulties\n\n\n\n\n\nEffective learning strategies that feel hard: - Retrieval practice: Testing yourself - Spaced repetition: Returning to concepts over time - Interleaving: Mixing problem types - Generation: Creating answers before seeing them",
+    "crumbs": [
+      "Workshop",
+      "How Skill Acquisition Works"
+    ]
+  },
+  {
+    "objectID": "workshop/skill-acquisition/index.html#the-research-reality-check",
+    "href": "workshop/skill-acquisition/index.html#the-research-reality-check",
+    "title": "How Skill Acquisition Works",
+    "section": "The Research Reality Check",
+    "text": "The Research Reality Check\nRecent studies reveal concerning trends: - 68% reduction in critical thinking among high AI users - Surface learning only in programming with ChatGPT - Flynn Effect reversal: IQ declining since we stopped memorizing - “Fluency illusion”: Mistaking AI competence for personal understanding\n\n\n\n\n\n\nThe Memory Paradox\n\n\n\nWe abandoned memorization just as neuroscience proved it builds critical thinking. “Why memorize when you can look it up?” became the mantra precisely when we discovered why memorization works.",
+    "crumbs": [
+      "Workshop",
+      "How Skill Acquisition Works"
+    ]
+  },
+  {
+    "objectID": "workshop/skill-acquisition/index.html#quick-reference",
+    "href": "workshop/skill-acquisition/index.html#quick-reference",
+    "title": "How Skill Acquisition Works",
+    "section": "Quick Reference",
+    "text": "Quick Reference\n\nLearning StagesRed Flags\n\n\n\n\n\nNovice\nIntermediate\nExpert\n\n\n\n\nWeak methods\nPattern formation\nAutomatic compilation\n\n\nStep-by-step conscious\nSome chunking\nCannot explain steps\n\n\nHigh cognitive load\nModerate load\nMinimal load\n\n\n\n\n\nSigns of cognitive bypassing: - Cannot explain solutions - Struggles with problem variations - Immediate AI consultation - No improvement despite practice - Mistaking AI output for understanding\n\n\n\n\n\n\n\n\n\nFurther Reading\n\n\n\n\n\n\nAnderson, J. R. (1993). Rules of the Mind\nSweller, J. (2011). Cognitive Load Theory\nBjork, R. A. (2011). Making things hard on yourself, but in a good way\nKahneman, D. (2011). Thinking, Fast and Slow\nOakley, B. (2014). A Mind for Numbers\n\n\n\n\nYour choice: Use AI to enhance thinking, not replace it. Choose the path that builds expertise.",
+    "crumbs": [
+      "Workshop",
+      "How Skill Acquisition Works"
+    ]
+  },
+  {
+    "objectID": "workshop/skill-acquisition/index.html#why-cognitive-effort-matters-the-biology-of-learning",
+    "href": "workshop/skill-acquisition/index.html#why-cognitive-effort-matters-the-biology-of-learning",
+    "title": "How Skill Acquisition Works",
+    "section": "Why Cognitive Effort Matters: The Biology of Learning",
+    "text": "Why Cognitive Effort Matters: The Biology of Learning\n\nThe Prediction Error Learning System\nThe human brain learns through a sophisticated prediction error system that AI completely bypasses. This biological reality explains why struggle is essential for learning.",
+    "crumbs": [
+      "Workshop",
+      "How Skill Acquisition Works"
+    ]
   }
 ]

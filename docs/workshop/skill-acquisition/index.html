@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>How Skill Acquisition Works – Denken statt delegieren</title>
+<title>How Skill Acquisition Works – Think, Don’t Delegate</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,7 +62,7 @@ div.csl-indent {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-8ce2f644c6a6e96b07e73720f81be425.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-e639b9966457e778cf7699a853b2b087.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.js"></script>
 <link href="../../site_libs/quarto-contrib/quarto-timer-1.0.0/timer.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -104,26 +104,15 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-break.callout {
-  border-left-color: yellow;
+div.callout-prompt-example.callout {
+  border-left-color: steelblue;
 }
-div.callout-break.callout-style-default > .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
+div.callout-prompt-example.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
 }
-div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
-  content: '☕';
-  background-image: none;
-}
-div.callout-prompt-template.callout {
-  border-left-color: indigo;
-}
-div.callout-prompt-template.callout-style-default > .callout-header {
-  background-color: rgb(from indigo r g b / 13%);
-}
-div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
-  content: '📋';
+div.callout-prompt-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt-example.callout-style-default .callout-icon::before, div.callout-prompt-example.callout-titled .callout-icon::before {
+  content: '👩🏼‍🔧';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -137,59 +126,15 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
-div.callout-testing.callout {
+div.callout-screens-up.callout {
   border-left-color: green;
 }
-div.callout-testing.callout-style-default > .callout-header {
+div.callout-screens-up.callout-style-default > .callout-header {
   background-color: rgb(from green r g b / 13%);
 }
-div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
-  content: '🧪';
-  background-image: none;
-}
-div.callout-pro-tip.callout {
-  border-left-color: gold;
-}
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
-}
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-setup.callout {
-  border-left-color: gray;
-}
-div.callout-setup.callout-style-default > .callout-header {
-  background-color: rgb(from gray r g b / 13%);
-}
-div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
-  content: '⚙️';
-  background-image: none;
-}
-div.callout-caution.callout {
-  border-left-color: orange;
-}
-div.callout-caution.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
-  content: '⚠️';
+div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
+  content: '🔼';
   background-image: none;
 }
 div.callout-group.callout {
@@ -203,59 +148,15 @@ div.callout-group.callout-style-default .callout-icon::before, div.callout-group
   content: '👥';
   background-image: none;
 }
-div.callout-screens-up.callout {
+div.callout-testing.callout {
   border-left-color: green;
 }
-div.callout-screens-up.callout-style-default > .callout-header {
+div.callout-testing.callout-style-default > .callout-header {
   background-color: rgb(from green r g b / 13%);
 }
-div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
-  content: '🔼';
-  background-image: none;
-}
-div.callout-timing.callout {
-  border-left-color: red;
-}
-div.callout-timing.callout-style-default > .callout-header {
-  background-color: rgb(from red r g b / 13%);
-}
-div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
-  content: '⏱️';
-  background-image: none;
-}
-div.callout-prompt-example.callout {
-  border-left-color: steelblue;
-}
-div.callout-prompt-example.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-prompt-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt-example.callout-style-default .callout-icon::before, div.callout-prompt-example.callout-titled .callout-icon::before {
-  content: '👩🏼‍🔧';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-screens-down.callout {
-  border-left-color: orange;
-}
-div.callout-screens-down.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
-  content: '🔽';
+div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
+  content: '🧪';
   background-image: none;
 }
 div.callout-tutor-example.callout {
@@ -269,6 +170,28 @@ div.callout-tutor-example.callout-style-default .callout-icon::before, div.callo
   content: '📄';
   background-image: none;
 }
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-caution.callout {
+  border-left-color: orange;
+}
+div.callout-caution.callout-style-default > .callout-header {
+  background-color: rgb(from orange r g b / 13%);
+}
+div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
+  content: '⚠️';
+  background-image: none;
+}
 div.callout-schedule.callout {
   border-left-color: steelblue;
 }
@@ -280,15 +203,70 @@ div.callout-schedule.callout-style-default .callout-icon::before, div.callout-sc
   content: '⏰︎';
   background-image: none;
 }
-div.callout-checkpoint.callout {
+div.callout-setup.callout {
+  border-left-color: gray;
+}
+div.callout-setup.callout-style-default > .callout-header {
+  background-color: rgb(from gray r g b / 13%);
+}
+div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
+  content: '⚙️';
+  background-image: none;
+}
+div.callout-feedback.callout {
+  border-left-color: teal;
+}
+div.callout-feedback.callout-style-default > .callout-header {
+  background-color: rgb(from teal r g b / 13%);
+}
+div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-timing.callout {
+  border-left-color: red;
+}
+div.callout-timing.callout-style-default > .callout-header {
+  background-color: rgb(from red r g b / 13%);
+}
+div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
+  content: '⏱️';
+  background-image: none;
+}
+div.callout-break.callout {
+  border-left-color: yellow;
+}
+div.callout-break.callout-style-default > .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
+  content: '☕';
+  background-image: none;
+}
+div.callout-reflect.callout {
   border-left-color: purple;
 }
-div.callout-checkpoint.callout-style-default > .callout-header {
+div.callout-reflect.callout-style-default > .callout-header {
   background-color: rgb(from purple r g b / 13%);
 }
-div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
-  content: '🎯';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
   background-image: none;
 }
 div.callout-export.callout {
@@ -313,15 +291,37 @@ div.callout-try.callout-style-default .callout-icon::before, div.callout-try.cal
   content: '🔄';
   background-image: none;
 }
-div.callout-feedback.callout {
-  border-left-color: teal;
+div.callout-prompt-template.callout {
+  border-left-color: indigo;
 }
-div.callout-feedback.callout-style-default > .callout-header {
-  background-color: rgb(from teal r g b / 13%);
+div.callout-prompt-template.callout-style-default > .callout-header {
+  background-color: rgb(from indigo r g b / 13%);
 }
-div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
-  content: '📝';
+div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
+  content: '📋';
+  background-image: none;
+}
+div.callout-screens-down.callout {
+  border-left-color: orange;
+}
+div.callout-screens-down.callout-style-default > .callout-header {
+  background-color: rgb(from orange r g b / 13%);
+}
+div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
+  content: '🔽';
+  background-image: none;
+}
+div.callout-checkpoint.callout {
+  border-left-color: purple;
+}
+div.callout-checkpoint.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
+  content: '🎯';
   background-image: none;
 }
 </style>
@@ -356,9 +356,9 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="How Skill Acquisition Works – Denken statt delegieren">
+<meta property="og:title" content="How Skill Acquisition Works – Think, Don’t Delegate">
 <meta property="og:description" content="From Novice to Expert: The Science of Learning">
-<meta property="og:site_name" content="Denken statt delegieren">
+<meta property="og:site_name" content="Think, Don't Delegate">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -369,7 +369,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Denken statt delegieren</span>
+    <span class="navbar-title">Think, Don’t Delegate</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -443,7 +443,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Agenda</span></a>
+ <span class="menu-text">Schedule</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -454,7 +454,7 @@ window.Quarto = {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../exercises/exercise-1/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../exercises/research-modes/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Exercise: Think Instead of Delegate</span></a>
   </div>
 </li>
@@ -473,7 +473,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/learning-environment/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Creating Learning Environments That Foster Deep Thinking</span></a>
+ <span class="menu-text">Productive Struggle by Design</span></a>
   </div>
 </li>
     </ul>
@@ -486,7 +486,8 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-journey-from-novice-to-expert" id="toc-the-journey-from-novice-to-expert" class="nav-link active" data-scroll-target="#the-journey-from-novice-to-expert">The Journey from Novice to Expert</a></li>
+  <li><a href="#connecting-to-your-experience" id="toc-connecting-to-your-experience" class="nav-link active" data-scroll-target="#connecting-to-your-experience">Connecting to Your Experience</a></li>
+  <li><a href="#the-journey-from-novice-to-expert" id="toc-the-journey-from-novice-to-expert" class="nav-link" data-scroll-target="#the-journey-from-novice-to-expert">The Journey from Novice to Expert</a></li>
   <li><a href="#the-weak-to-strong-methods-progression" id="toc-the-weak-to-strong-methods-progression" class="nav-link" data-scroll-target="#the-weak-to-strong-methods-progression">The Weak-to-Strong Methods Progression</a>
   <ul class="collapse">
   <li><a href="#weak-methods-novice-stage" id="toc-weak-methods-novice-stage" class="nav-link" data-scroll-target="#weak-methods-novice-stage">1. <strong>Weak Methods</strong> (Novice Stage)</a></li>
@@ -494,34 +495,38 @@ window.Quarto = {
   <li><a href="#compilation-expert-stage" id="toc-compilation-expert-stage" class="nav-link" data-scroll-target="#compilation-expert-stage">3. <strong>Compilation</strong> (Expert Stage)</a></li>
   <li><a href="#evidence-andersons-lisp-study" id="toc-evidence-andersons-lisp-study" class="nav-link" data-scroll-target="#evidence-andersons-lisp-study">Evidence: Anderson’s LISP Study</a></li>
   </ul></li>
+  <li><a href="#why-cognitive-effort-matters-the-biology-of-learning" id="toc-why-cognitive-effort-matters-the-biology-of-learning" class="nav-link" data-scroll-target="#why-cognitive-effort-matters-the-biology-of-learning">Why Cognitive Effort Matters: The Biology of Learning</a>
+  <ul class="collapse">
+  <li><a href="#the-prediction-error-learning-system" id="toc-the-prediction-error-learning-system" class="nav-link" data-scroll-target="#the-prediction-error-learning-system">The Prediction Error Learning System</a></li>
+  </ul></li>
   <li><a href="#understanding-cognitive-load-theory" id="toc-understanding-cognitive-load-theory" class="nav-link" data-scroll-target="#understanding-cognitive-load-theory">Understanding Cognitive Load Theory</a>
   <ul class="collapse">
   <li><a href="#the-evolutionary-foundation-of-learning" id="toc-the-evolutionary-foundation-of-learning" class="nav-link" data-scroll-target="#the-evolutionary-foundation-of-learning">The Evolutionary Foundation of Learning</a></li>
   <li><a href="#the-cognitive-architecture-of-learning" id="toc-the-cognitive-architecture-of-learning" class="nav-link" data-scroll-target="#the-cognitive-architecture-of-learning">The Cognitive Architecture of Learning</a></li>
   <li><a href="#how-expertise-actually-develops" id="toc-how-expertise-actually-develops" class="nav-link" data-scroll-target="#how-expertise-actually-develops">How Expertise Actually Develops</a></li>
-  <li><a href="#the-ai-disruption-of-cognitive-architecture" id="toc-the-ai-disruption-of-cognitive-architecture" class="nav-link" data-scroll-target="#the-ai-disruption-of-cognitive-architecture">The AI Disruption of Cognitive Architecture</a></li>
+  </ul></li>
+  <li><a href="#the-ai-bypass-problem" id="toc-the-ai-bypass-problem" class="nav-link" data-scroll-target="#the-ai-bypass-problem">The AI Bypass Problem</a>
+  <ul class="collapse">
+  <li><a href="#how-ai-disrupts-cognitive-architecture" id="toc-how-ai-disrupts-cognitive-architecture" class="nav-link" data-scroll-target="#how-ai-disrupts-cognitive-architecture">How AI Disrupts Cognitive Architecture</a></li>
   </ul></li>
   <li><a href="#pedagogical-implications" id="toc-pedagogical-implications" class="nav-link" data-scroll-target="#pedagogical-implications">Pedagogical Implications</a>
   <ul class="collapse">
   <li><a href="#the-expert-novice-teaching-trap" id="toc-the-expert-novice-teaching-trap" class="nav-link" data-scroll-target="#the-expert-novice-teaching-trap">The Expert-Novice Teaching Trap</a></li>
   <li><a href="#why-expert-methods-actively-harm-novices" id="toc-why-expert-methods-actively-harm-novices" class="nav-link" data-scroll-target="#why-expert-methods-actively-harm-novices">Why Expert Methods Actively Harm Novices</a></li>
   <li><a href="#designing-learning-for-cognitive-architecture" id="toc-designing-learning-for-cognitive-architecture" class="nav-link" data-scroll-target="#designing-learning-for-cognitive-architecture">Designing Learning for Cognitive Architecture</a></li>
-  </ul></li>
-  <li><a href="#why-cognitive-effort-matters" id="toc-why-cognitive-effort-matters" class="nav-link" data-scroll-target="#why-cognitive-effort-matters">Why Cognitive Effort Matters</a>
-  <ul class="collapse">
-  <li><a href="#the-prediction-error-learning-system" id="toc-the-prediction-error-learning-system" class="nav-link" data-scroll-target="#the-prediction-error-learning-system">The Prediction Error Learning System</a></li>
+  <li><a href="#how-prediction-errors-drive-learning" id="toc-how-prediction-errors-drive-learning" class="nav-link" data-scroll-target="#how-prediction-errors-drive-learning">How Prediction Errors Drive Learning</a></li>
   <li><a href="#the-desirable-difficulties-principle" id="toc-the-desirable-difficulties-principle" class="nav-link" data-scroll-target="#the-desirable-difficulties-principle">The Desirable Difficulties Principle</a></li>
   <li><a href="#the-compilation-process" id="toc-the-compilation-process" class="nav-link" data-scroll-target="#the-compilation-process">The Compilation Process</a></li>
-  </ul></li>
-  <li><a href="#the-ai-bypass-problem" id="toc-the-ai-bypass-problem" class="nav-link" data-scroll-target="#the-ai-bypass-problem">The AI Bypass Problem</a></li>
+  <li><a href="#what-we-lose-when-we-skip-the-struggle" id="toc-what-we-lose-when-we-skip-the-struggle" class="nav-link" data-scroll-target="#what-we-lose-when-we-skip-the-struggle">What We Lose When We Skip the Struggle</a></li>
   <li><a href="#the-expertise-illusion" id="toc-the-expertise-illusion" class="nav-link" data-scroll-target="#the-expertise-illusion">The Expertise Illusion</a></li>
+  <li><a href="#research-evidence-the-cost-of-cognitive-offloading" id="toc-research-evidence-the-cost-of-cognitive-offloading" class="nav-link" data-scroll-target="#research-evidence-the-cost-of-cognitive-offloading">Research Evidence: The Cost of Cognitive Offloading</a></li>
+  </ul></li>
   <li><a href="#the-biological-reality-of-learning" id="toc-the-biological-reality-of-learning" class="nav-link" data-scroll-target="#the-biological-reality-of-learning">The Biological Reality of Learning</a>
   <ul class="collapse">
   <li><a href="#sleep-consolidation-is-essential" id="toc-sleep-consolidation-is-essential" class="nav-link" data-scroll-target="#sleep-consolidation-is-essential">Sleep Consolidation is Essential</a></li>
   <li><a href="#the-grokking-phenomenon" id="toc-the-grokking-phenomenon" class="nav-link" data-scroll-target="#the-grokking-phenomenon">The Grokking Phenomenon</a></li>
   </ul></li>
   <li><a href="#the-memory-paradox" id="toc-the-memory-paradox" class="nav-link" data-scroll-target="#the-memory-paradox">The Memory Paradox</a></li>
-  <li><a href="#research-evidence-the-cost-of-cognitive-offloading" id="toc-research-evidence-the-cost-of-cognitive-offloading" class="nav-link" data-scroll-target="#research-evidence-the-cost-of-cognitive-offloading">Research Evidence: The Cost of Cognitive Offloading</a></li>
   <li><a href="#building-real-expertise" id="toc-building-real-expertise" class="nav-link" data-scroll-target="#building-real-expertise">Building Real Expertise</a></li>
   <li><a href="#connecting-to-our-exercise" id="toc-connecting-to-our-exercise" class="nav-link" data-scroll-target="#connecting-to-our-exercise">Connecting to Our Exercise</a></li>
   <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
@@ -553,6 +558,16 @@ window.Quarto = {
 </header>
 
 
+<section id="connecting-to-your-experience" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-to-your-experience">Connecting to Your Experience</h2>
+<p>Think back to the exercise you just completed:</p>
+<ul>
+<li><strong>Without AI</strong>: You engaged in deep thinking and struggle</li>
+<li><strong>Single prompt</strong>: You got quick answers with low effort</li>
+<li><strong>Iterative AI</strong>: You maintained some cognitive engagement</li>
+</ul>
+<p>Which mode built lasting understanding? Let’s explore the science behind skill acquisition to understand why struggle matters for learning.</p>
+</section>
 <section id="the-journey-from-novice-to-expert" class="level2">
 <h2 class="anchored" data-anchor-id="the-journey-from-novice-to-expert">The Journey from Novice to Expert</h2>
 <p>When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why shortcuts through AI can prevent genuine expertise development—and why expert-level tools can actively harm novice learning.</p>
@@ -655,6 +670,13 @@ Example: Expert solving <span class="math inline">\(3x + 5 = 20\)</span>
 <p><strong>Key insight</strong>: The struggle patterns are predictable and necessary!</p>
 </section>
 </section>
+<section id="why-cognitive-effort-matters-the-biology-of-learning" class="level2">
+<h2 class="anchored" data-anchor-id="why-cognitive-effort-matters-the-biology-of-learning">Why Cognitive Effort Matters: The Biology of Learning</h2>
+<section id="the-prediction-error-learning-system" class="level3">
+<h3 class="anchored" data-anchor-id="the-prediction-error-learning-system">The Prediction Error Learning System</h3>
+<p>The human brain learns through a sophisticated prediction error system that AI completely bypasses. This biological reality explains why struggle is essential for learning.</p>
+</section>
+</section>
 <section id="understanding-cognitive-load-theory" class="level2">
 <h2 class="anchored" data-anchor-id="understanding-cognitive-load-theory">Understanding Cognitive Load Theory</h2>
 <section id="the-evolutionary-foundation-of-learning" class="level3">
@@ -732,9 +754,12 @@ Element Interactivity in Action
 <li><strong>Free up working memory</strong> for higher-level thinking</li>
 </ul>
 </section>
-<section id="the-ai-disruption-of-cognitive-architecture" class="level3">
-<h3 class="anchored" data-anchor-id="the-ai-disruption-of-cognitive-architecture">The AI Disruption of Cognitive Architecture</h3>
-<p>AI short-circuits this entire system:</p>
+</section>
+<section id="the-ai-bypass-problem" class="level2">
+<h2 class="anchored" data-anchor-id="the-ai-bypass-problem">The AI Bypass Problem</h2>
+<section id="how-ai-disrupts-cognitive-architecture" class="level3">
+<h3 class="anchored" data-anchor-id="how-ai-disrupts-cognitive-architecture">How AI Disrupts Cognitive Architecture</h3>
+<p>AI short-circuits this entire learning system:</p>
 <ol type="1">
 <li><strong>Bypasses working memory processing</strong>: No cognitive effort means no encoding</li>
 <li><strong>Prevents long-term memory storage</strong>: Information that isn’t processed isn’t stored</li>
@@ -820,14 +845,10 @@ The Dependency Cascade
 <p><strong>Principle 3: Protect the Struggle Window</strong> - Minimum 20 minutes of independent work before any AI consultation - Document thinking process before seeking external help - Multiple attempts required before accessing solutions</p>
 <p><strong>Principle 4: Scaffold, Don’t Substitute</strong> - Use AI to reduce irrelevant cognitive load, not eliminate all effort - Provide worked examples that show the process, not just answers - Gradually fade support as competence develops</p>
 </section>
-</section>
-<section id="why-cognitive-effort-matters" class="level2">
-<h2 class="anchored" data-anchor-id="why-cognitive-effort-matters">Why Cognitive Effort Matters</h2>
-<section id="the-prediction-error-learning-system" class="level3">
-<h3 class="anchored" data-anchor-id="the-prediction-error-learning-system">The Prediction Error Learning System</h3>
-<p>The human brain learns through a sophisticated prediction error system that AI completely bypasses:</p>
-<section id="how-prediction-errors-drive-learning" class="level4">
-<h4 class="anchored" data-anchor-id="how-prediction-errors-drive-learning">How Prediction Errors Drive Learning</h4>
+<section id="how-prediction-errors-drive-learning" class="level3">
+<h3 class="anchored" data-anchor-id="how-prediction-errors-drive-learning">How Prediction Errors Drive Learning</h3>
+<section id="how-prediction-errors-drive-learning-1" class="level4">
+<h4 class="anchored" data-anchor-id="how-prediction-errors-drive-learning-1">How Prediction Errors Drive Learning</h4>
 <p><strong>Step 1: Prediction Formation</strong> When you encounter a problem, your brain automatically predicts what should happen based on current knowledge: - “If I subtract 5 from both sides, I should get closer to solving for x” - “If I apply this formula, I should get the right answer” - “This code structure should compile without errors”</p>
 <p><strong>Step 2: Reality Check</strong> You attempt the solution and compare the actual outcome to your prediction: - <strong>Positive prediction error</strong>: “That worked better than expected!” - <strong>Negative prediction error</strong>: “That didn’t work as I thought it would” - <strong>Zero prediction error</strong>: “That went exactly as predicted”</p>
 <p><strong>Step 3: Neural Update</strong> Your brain uses these errors to update its knowledge: - <strong>Dopamine release</strong> marks prediction errors as important learning moments - <strong>Eligibility traces</strong> tag the neural pathways involved for strengthening - <strong>Synaptic weights adjust</strong> based on the magnitude and direction of the error - <strong>Memory consolidation</strong> during sleep makes these changes permanent</p>
@@ -875,10 +896,8 @@ Example: Learning Algebra Through Prediction Errors
 <p>Each cycle: - Strengthens neural connections through prediction errors - Reduces processing time through repetition - Frees working memory for higher-level thinking - Enables creative problem-solving through strong foundations</p>
 <p><strong>How expertise actually works</strong>: When you encounter a problem, multiple production rules compete. The rule with highest “utility” (based on past success through prediction errors) fires. Each successful use strengthens that rule, making it more likely to win future competitions. This is why experts seem to “just know”—their strongest productions fire automatically.</p>
 </section>
-</section>
-<section id="the-ai-bypass-problem" class="level2">
-<h2 class="anchored" data-anchor-id="the-ai-bypass-problem">The AI Bypass Problem</h2>
-<p>When we use AI to skip the struggle:</p>
+<section id="what-we-lose-when-we-skip-the-struggle" class="level3">
+<h3 class="anchored" data-anchor-id="what-we-lose-when-we-skip-the-struggle">What We Lose When We Skip the Struggle</h3>
 <div class="callout callout-style-simple callout-warning no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -899,9 +918,26 @@ What We Lose
 </div>
 </div>
 </section>
-<section id="the-expertise-illusion" class="level2">
-<h2 class="anchored" data-anchor-id="the-expertise-illusion">The Expertise Illusion</h2>
-<p>AI creates a dangerous illusion: - <strong>Surface Fluency</strong>: Perfect answers without understanding - <strong>False Confidence</strong>: Believing we “get it” without practice - <strong>Fragile Knowledge</strong>: Collapses without AI support - <strong>Limited Transfer</strong>: Can’t adapt to novel situations</p>
+<section id="the-expertise-illusion" class="level3">
+<h3 class="anchored" data-anchor-id="the-expertise-illusion">The Expertise Illusion</h3>
+<p>AI creates a dangerous illusion:</p>
+<ul>
+<li><strong>Surface Fluency</strong>: Perfect answers without understanding</li>
+<li><strong>False Confidence</strong>: Believing we “get it” without practice</li>
+<li><strong>Fragile Knowledge</strong>: Collapses without AI support</li>
+<li><strong>Limited Transfer</strong>: Can’t adapt to novel situations</li>
+</ul>
+</section>
+<section id="research-evidence-the-cost-of-cognitive-offloading" class="level3">
+<h3 class="anchored" data-anchor-id="research-evidence-the-cost-of-cognitive-offloading">Research Evidence: The Cost of Cognitive Offloading</h3>
+<p>Recent studies show alarming impacts of AI use on learning:</p>
+<ul>
+<li><strong>68% reduction in critical thinking</strong> among knowledge workers with high AI confidence (Lee et al., 2025)</li>
+<li><strong>Surface learning only</strong> for programming students using ChatGPT (Yang et al., 2025)</li>
+<li><strong>Decreased problem-solving ability</strong> in math students using AI tools <span class="citation" data-cites="bastaniGenerativeAICan2024">(<a href="#ref-bastaniGenerativeAICan2024" role="doc-biblioref">Bastani et al. 2024</a>)</span></li>
+<li><strong>“The fluency illusion”</strong>: Mistaking AI’s competence for your own</li>
+</ul>
+</section>
 </section>
 <section id="the-biological-reality-of-learning" class="level2">
 <h2 class="anchored" data-anchor-id="the-biological-reality-of-learning">The Biological Reality of Learning</h2>
@@ -932,16 +968,6 @@ Flynn Effect Reversal
 <p>Since the 1970s-80s, when education moved away from memorization: - IQ scores began declining for the first time in history - “Why memorize when you can look it up?” became the mantra - Exactly when neuroscience was proving memorization builds critical thinking - We abandoned proven methods just as we discovered why they work <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">(<a href="#ref-oakleyMemoryParadoxWhy2025" role="doc-biblioref">Oakley et al. 2025</a>)</span></p>
 </div>
 </div>
-</section>
-<section id="research-evidence-the-cost-of-cognitive-offloading" class="level2">
-<h2 class="anchored" data-anchor-id="research-evidence-the-cost-of-cognitive-offloading">Research Evidence: The Cost of Cognitive Offloading</h2>
-<p>Recent studies show alarming impacts of AI use on learning:</p>
-<ul>
-<li><strong>68% reduction in critical thinking</strong> among knowledge workers with high AI confidence (Lee et al., 2025)</li>
-<li><strong>Surface learning only</strong> for programming students using ChatGPT (Yang et al., 2025)</li>
-<li><strong>Decreased problem-solving ability</strong> in math students using AI tools <span class="citation" data-cites="bastaniGenerativeAICan2024">(<a href="#ref-bastaniGenerativeAICan2024" role="doc-biblioref">Bastani et al. 2024</a>)</span></li>
-<li><strong>“The fluency illusion”</strong>: Mistaking AI’s competence for your own</li>
-</ul>
 </section>
 <section id="building-real-expertise" class="level2">
 <h2 class="anchored" data-anchor-id="building-real-expertise">Building Real Expertise</h2>
@@ -1092,7 +1118,16 @@ Evidence-Based Strategies
 </table>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Watch for these signs of cognitive bypassing: - Smooth performance without ability to explain - Cannot handle problem variations - No improvement despite practice - Dependent on AI for basic tasks - Mistaking AI output for understanding - Immediate AI consultation without attempt - No prediction errors (always getting “right” answers)</p>
+<p>Watch for these signs of cognitive bypassing:</p>
+<ul>
+<li>Smooth performance without ability to explain</li>
+<li>Cannot handle problem variations</li>
+<li>No improvement despite practice</li>
+<li>Dependent on AI for basic tasks</li>
+<li>Mistaking AI output for understanding</li>
+<li>Immediate AI consultation without attempt</li>
+<li>No prediction errors (always getting “right” answers)</li>
+</ul>
 </div>
 </div>
 </div>
@@ -1566,8 +1601,8 @@ Sweller, John. 2023. <span>“The <span>Development</span> of <span>Cognitive Lo
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../workshop/learning-environment/index.html" class="pagination-link" aria-label="Creating Learning Environments That Foster Deep Thinking">
-        <span class="nav-page-text">Creating Learning Environments That Foster Deep Thinking</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../workshop/learning-environment/index.html" class="pagination-link" aria-label="Productive Struggle by Design">
+        <span class="nav-page-text">Productive Struggle by Design</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
