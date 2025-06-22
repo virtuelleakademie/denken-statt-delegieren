@@ -62,7 +62,7 @@ website:
       contents:
         - workshop/index.qmd
         - workshop/how-chatbots-think/index.qmd
-        - exercises/research-modes/index.qmd
+        - exercises/index.qmd
         - workshop/how-humans-learn/index.qmd
         - workshop/skill-acquisition/index.qmd
         - workshop/learning-environment/index.qmd
