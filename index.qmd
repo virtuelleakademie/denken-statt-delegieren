@@ -36,7 +36,7 @@ about:
 
 Andrew is your designated human for this workshop. A cognitive psychologist by trade, his focus for today is on why human brains need productive struggle to learn, and why clicking `regenerate response` doesn't count as critical thinking.
 
-Stefan will address all things AI in this workshop. Formerly a physicist and data scientist, he's particularly skilled at explaining why your prompts aren't quite working as expected.
+Stefan will address all things AI in this workshop. With a background as a physicist and data scientist, he's particularly skilled at explaining why your prompts aren't quite working as expected.
 
 In this workshop, they will explore the delicate balance between leveraging AI's capabilities and preserving the cognitive work that makes learning stick---because sometimes the struggle really is the point.
 

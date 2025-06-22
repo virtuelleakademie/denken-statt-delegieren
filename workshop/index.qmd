@@ -1,5 +1,5 @@
 ---
-title: "Agenda"
+title: "Schedule"
 ---
 
 | {{< bi tag >}} Type |  {{< bi collection >}} Topic | {{< bi clock >}} Duration |
@@ -14,4 +14,4 @@ title: "Agenda"
 ## Further Reading
 
 - [How Skill Acquisition Works](skill-acquisition/index.qmd) - From Novice to Expert: The Science of Learning
-- [Creating Learning Environments That Promote Deep Thinking](learning-environment/index.qmd) - Practical strategies for educators
+- [Productive Struggle by Design](learning-environment/index.qmd) --- Teaching in the Age of AI

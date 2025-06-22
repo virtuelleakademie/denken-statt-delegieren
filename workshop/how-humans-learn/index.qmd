@@ -1,16 +1,11 @@
 ---
 title: "How Humans Learn"
 ---
+This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R [@andersonAdaptiveCharacterThought2013; @andersonHowCanHuman2007] theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.
 
-In der folgenden Präsentation diskutieren wir folgende Prompting-Regeln:
+**The key takeaway:** Struggling, confusion and effort aren't obstacles to learning---they're the very mechanisms that
+  build lasting expertise.
 
-
-1. Sei klar und präzise
-2. Fange einfach an und verbessere
-3. Verwende Beispiele und Kontext
-4. Leite den Denkprozess
-5. Nutze ChatGPT/Copilots "Wissen"
-6. Verwende Rollenspieltechniken
 
 
 ## {{< bi file-slides >}} Presentation
