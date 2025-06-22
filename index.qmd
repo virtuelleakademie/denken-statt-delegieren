@@ -34,11 +34,11 @@ about:
 [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) and [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) are research associates at the [Virtual Academy](https://virtuelleakademie.ch/) of the [Bern University of Applied Sciences](https://www.bfh.ch). Together, they develop AI-powered educational tools that complement rather than replace human cognition.
 
 
-Andrew is your designated human for this workshop. A cognitive psychologist by trade, his focus for today is on why human brains need productive struggle to learn, and why clicking `regenerate response` doesn't count as critical thinking.
+- {{< bi person-square >}} Andrew is your designated human for this workshop. A cognitive psychologist by trade, his focus for today is on why human brains need productive struggle to learn, and why clicking "regenerate response" doesn't count as critical thinking.
 
-Stefan will address all things AI in this workshop. With a background as a physicist and data scientist, he's particularly skilled at explaining why your prompts aren't quite working as expected.
+- {{< bi robot >}} Stefan will address all things AI in this workshop. With a background as a physicist and data scientist, he's particularly skilled at explaining why your prompts aren't quite working as expected.
 
-In this workshop, they will explore the delicate balance between leveraging AI's capabilities and preserving the cognitive work that makes learning stick---because sometimes the struggle really is the point.
+In this workshop, they will explore the delicate balance between collaborating with AI  and preserving the cognitive work that makes learning stick---because sometimes the struggle really is the point.
 
 
 ## Workshop Website
