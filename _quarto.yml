@@ -61,7 +61,7 @@ website:
       background: light
       contents:
         - workshop/index.qmd
-        - workshop/wie-chatbots-denken/index.qmd
+        - workshop/how-chatbots-think/index.qmd
         - exercises/research-modes/index.qmd
         - workshop/how-humans-learn/index.qmd
         - workshop/skill-acquisition/index.qmd

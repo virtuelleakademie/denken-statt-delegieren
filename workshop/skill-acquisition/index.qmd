@@ -15,7 +15,7 @@ Which mode built lasting understanding? Let's explore the science behind skill a
 
 ## The Journey from Novice to Expert
 
-When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why shortcuts through AI can prevent genuine expertise development—and why expert-level tools can actively harm novice learning.
+When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why offloading cognitive processing to AI can prevent genuine expertise development—and why _expert-level tools can actively harm novice learning_.
 
 ## The Weak-to-Strong Methods Progression
 
@@ -26,11 +26,11 @@ According to John Anderson's ACT-R theory [@andersonAcquisitionCognitiveSkill198
 
 Weak methods are domain-general problem-solving strategies that novices use when they lack specific knowledge:
 
-- **Means-End Analysis**: "What's the difference between where I am and where I need to be?"
-- **Working Backward**: "Start from the goal and work toward current state"
-- **Analogy**: "This reminds me of..." (often based on surface features)
-- **Trial and Error**: "Let me try different things until something works"
-- **Hill Climbing**: "Always move toward what seems better"
+- **Means-End Analysis**: `What's the difference between where I am and where I need to be?`
+- **Working Backward**: `Start from the goal and work toward current state`
+- **Analogy**: `This reminds me of...` (often based on surface features)
+- **Trial and Error**: `Let me try different things until something works`
+- **Hill Climbing**: `Always move toward what seems better`
 
 ::: {.callout-note}
 ## Example: Novice solving $3x + 5 = 20$
@@ -47,7 +47,7 @@ Using weak methods:
 - Divide by $3$?
 - $x = 5$
 
-**Note the conscious, step-by-step reasoning!**
+**Note the deliberative, step-by-step reasoning!**
 :::
 
 ### 2. **Proceduralization** (Intermediate Stage)
@@ -60,9 +60,9 @@ Using weak methods:
 
 During this stage, knowledge begins forming into **production rules**. These are `IF-THEN` condition-action pairs:
 
-- IF I see "3 × 4" THEN answer "12"
-- IF equation has form "ax + b = c" THEN subtract b from both sides
-- IF code won't compile THEN check for syntax errors first
+- `IF` I see "3 × 4" `THEN` answer "12"
+- `IF` equation has form $ax + b = c$ `THEN` subtract b from both sides
+- `IF` code won't compile `THEN` check for syntax errors first
 
 ### 3. **Compilation** (Expert Stage)
 
@@ -88,44 +88,27 @@ When asked to explain:
 **The knowledge has compiled into automatic procedures.**
 :::
 
-### Evidence: Anderson's LISP Study
-
-In a landmark study, 40 participants learning LISP programming ALL showed the same struggle pattern:
-
-- Everyone had difficulty specifying function parameters
-- This wasn't random---it revealed a necessary developmental stage
-- Through practice, the difficulty disappeared
-- Not through sudden understanding, but through compilation
-
-**Key insight**: The struggle patterns are predictable and necessary!
 
 ## Why Cognitive Effort Matters: The Biology of Learning
 
 ### The Prediction Error Learning System
 
-The human brain learns through a sophisticated prediction error system that AI completely bypasses. This biological reality explains why struggle is essential for learning.
+The human brain learns through a sophisticated prediction error system that can easily be bypassed when outsourcing cognitive processing. This biological reality explains why struggle is essential for learning.
 
 ## Understanding Cognitive Load Theory
 
 ### The Evolutionary Foundation of Learning
 
-Cognitive Load Theory (CLT) is specifically concerned with how humans acquire **biologically secondary knowledge**—the academic content that schools exist to teach. Understanding this distinction is crucial for grasping why AI disrupts learning so profoundly.
+Cognitive Load Theory (CLT) [@swellerDevelopmentCognitiveLoad2023] is specifically concerned with how humans acquire **biologically secondary knowledge**---the academic content that schools exist to teach. Understanding this distinction is crucial for grasping why AI can disrupt learning so profoundly.
 
 #### Biologically Primary vs. Secondary Knowledge
 
-**Biologically Primary Knowledge** (we evolved to learn):
-- Recognizing faces and voices
-- Understanding basic social interactions
-- Learning spoken language
-- Basic spatial navigation
-- Recognizing danger and safety
 
-**Biologically Secondary Knowledge** (we didn't evolve to learn):
-- Reading and writing
-- Mathematics and algebra
-- Programming and data analysis
-- Scientific reasoning
-- Historical analysis
+| Knowledge Type | Examples |
+|---|---|
+| **Biologically Primary** (we evolved to learn) | • Recognizing faces and voices<br>• Understanding basic social interactions<br>• Learning spoken language<br>• Basic spatial navigation<br>• Recognizing danger and safety |
+| **Biologically Secondary** (we didn't evolve to learn) | • Reading and writing<br>• Mathematics and algebra<br>• Programming and data analysis<br>• Scientific reasoning<br>• Historical analysis |
+
 
 ::: {.callout-important}
 ## Why This Distinction Matters
@@ -154,11 +137,13 @@ Humans can acquire new biologically secondary information through two routes:
 Once information is acquired through either pathway, it must be processed through:
 
 **Working Memory**: 
+
 - **Severely limited capacity** (Miller's 7±2, more recently Cowan's 4±1 chunks)
 - **Severely limited duration** (15-30 seconds without rehearsal)
 - **The bottleneck** where all conscious learning occurs
 
 **Long-Term Memory**:
+
 - **No known limits** of capacity or duration
 - **Where expertise lives** through domain-specific information storage
 - **The goal** of all instruction
@@ -166,10 +151,10 @@ Once information is acquired through either pathway, it must be processed throug
 ::: {.callout-note}
 ## Element Interactivity in Action
 
-Consider solving: **(x + 3)(x - 2) = 0**
+Consider solving: $(x + 3)(x - 2) = 0$
 
 **For a novice**, each element must be held in working memory:
-- What x represents
+- What $x$ represents
 - The meaning of parentheses
 - Addition and subtraction operations
 - Implied multiplication
@@ -179,11 +164,11 @@ Consider solving: **(x + 3)(x - 2) = 0**
 **Total: 7+ interacting elements** = Working memory overload
 
 **For an expert**, this is one chunk retrieved from long-term memory:
-- "Factored form, so x = -3 or x = 2"
+- "Factored form, so $x = -3$ or $x = 2$"
 
 **Total: 1 chunk** = Minimal working memory load
 
-**With AI assistance**:
+**With Offloading to AI**:
 - Input → Answer
 
 **Total: 0 working memory processing** = No learning, no long-term memory storage
@@ -191,7 +176,7 @@ Consider solving: **(x + 3)(x - 2) = 0**
 
 ### How Expertise Actually Develops
 
-As De Groot first demonstrated in 1965, expertise is **domain-specific** and results from **enormous amounts of domain-specific information stored in long-term memory**. This isn't just "knowing more facts"—it's having organized knowledge structures (schemas) that allow experts to:
+As De Groot first demonstrated in 1965 [@grootThoughtChoiceChess1978; @swellerCognitiveLoadTheory2024], expertise is **domain-specific** and results from **enormous amounts of domain-specific information stored in long-term memory**. This isn't just "knowing more facts"—it's having organized knowledge structures (schemas) that allow experts to:
 
 - **Chunk multiple elements** into single units
 - **Recognize patterns** automatically
@@ -202,22 +187,25 @@ As De Groot first demonstrated in 1965, expertise is **domain-specific** and res
 
 ### How AI Disrupts Cognitive Architecture
 
-AI short-circuits this entire learning system:
+Offloading cognitive processing to AI can short-circuit this entire learning system:
 
 1. **Bypasses working memory processing**: No cognitive effort means no encoding
 2. **Prevents long-term memory storage**: Information that isn't processed isn't stored
 3. **Eliminates schema construction**: Students get answers without building knowledge structures
 4. **Blocks the novice→expert transition**: No pathway from limited to unlimited knowledge
 
+::: {.callout-warning}
 **The fundamental problem**: AI provides the benefits of expertise (instant access to organized knowledge) without requiring the process that creates expertise (working memory struggle → long-term memory storage).
+:::
 
 ## Pedagogical Implications
 
 ### The Expert-Novice Teaching Trap
 
-The most dangerous mistake in education is assuming that novices should learn the way experts work. This leads to what Kirschner calls confusing **"the epistemology of the expert with the pedagogy for the learner."**
+The most dangerous mistake in education is assuming that novices should learn the way experts work. This leads to what Kirschner [@kirschnerHowTeachingHappens2022] calls confusing **"the epistemology of the expert with the pedagogy for the learner."**
 
 **What Experts Do (Producing Knowledge):**
+
 - Work forward from automated principles
 - Recognize deep patterns instantly
 - Apply strong, domain-specific methods
@@ -225,6 +213,7 @@ The most dangerous mistake in education is assuming that novices should learn th
 - Process multiple elements simultaneously
 
 **What Novices Need (Learning Knowledge):**
+
 - Work backward using means-end analysis
 - Build basic pattern recognition through practice
 - Start with weak, general methods
@@ -233,26 +222,30 @@ The most dangerous mistake in education is assuming that novices should learn th
 
 ### Why Expert Methods Actively Harm Novices
 
-Giving novices expert-level tools isn't just ineffective—it's **actively harmful** to learning:
+Giving novices expert-level tools isn't just ineffective---it's **actively harmful** to learning:
 
 #### 1. **Cognitive Load Mismatch**
+
 - **Experts** can handle multiple interacting elements because they've chunked them into patterns
 - **Novices** become overwhelmed when given the same complexity
 - **Result**: Cognitive overload prevents any learning from occurring
 
 #### 2. **Production Rule Interference**
+
 - **Experts** have strong, successful production rules that fire automatically
 - **Novices** need to build these rules through repeated weak-method practice
 - **AI shortcuts** prevent the repetition needed for rule strengthening
 - **Result**: Weak rules never develop, leaving permanent dependency
 
 #### 3. **Schema Construction Bypass**
+
 - **Experts** have rich schemas (organized knowledge structures) built through experience
 - **Novices** must construct these schemas element by element
 - **AI answers** provide the outcome without the construction process
 - **Result**: No schemas form, preventing transfer to new situations
 
 #### 4. **Metacognitive Damage**
+
 - **Experts** know when and why to apply different strategies
 - **Novices** develop this awareness through monitoring their own thinking
 - **AI dependency** eliminates the need for self-monitoring
@@ -270,27 +263,31 @@ When novices use expert-level tools prematurely:
 5. **Transfer fails** when AI isn't available
 6. **Learned helplessness** develops when facing novel challenges
 
-This isn't just "not learning"—it's **unlearning** existing capabilities.
+This isn't just "not learning"---it's **unlearning** existing capabilities.
 :::
 
-### Designing Learning for Cognitive Architecture
+### Teaching That Matches How Brains Learn
 
-**Principle 1: Respect the Developmental Sequence**
+#### Principle 1: Respect the Developmental Sequence
+
 - Weak methods must come first—they're not a bug, they're a feature
-- Proceduralization requires extensive practice with conscious processes
+- Proceduralization requires extensive practice with deliberative processes
 - Compilation happens automatically after sufficient repetition
 
-**Principle 2: Calibrate Cognitive Load**
+#### Principle 2: Calibrate Cognitive Load
+
 - Novices need simplified, sequential presentation
 - Experts can handle complex, parallel processing
 - The same material must be presented differently based on expertise level
 
-**Principle 3: Protect the Struggle Window**
+#### Principle 3: Protect the Struggle Window
+
 - Minimum 20 minutes of independent work before any AI consultation
 - Document thinking process before seeking external help
 - Multiple attempts required before accessing solutions
 
-**Principle 4: Scaffold, Don't Substitute**
+#### Principle 4: Scaffold, Don't Substitute
+
 - Use AI to reduce irrelevant cognitive load, not eliminate all effort
 - Provide worked examples that show the process, not just answers
 - Gradually fade support as competence develops
