@@ -7,7 +7,7 @@ subtitle: "Teaching in the Age of AI"
 
 As James Lang argues in *Cheating Lessons* [@langCheatingLessons2013], "cheating is an inappropriate response to a learning environment that's not working for the student." Rather than focusing on student behavior, we must design learning environments that make **productive struggle** the most rewarding path.
 
-Research on "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] shows that learning requires cognitive effort---when we remove struggle, we remove learning. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.
+Research on "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] shows that learning requires cognitive effort---when we remove struggle, we remove learning. Yet students are often not given incentives to engage with effortful processing. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.
 
 ## Evidence-Based Environmental Design
 
@@ -51,7 +51,7 @@ Week 10: Connect A & B to concept C
 
 Research shows spaced practice improves long-term retention by 200-300%.
 
-### 4. Retrieval Practice (Roediger & Karpicke, 2006)
+### 4. Retrieval Practice [@roedigerTestenhancedLearningTaking2006]
 
 Use testing as a learning tool, not just assessment:
 
@@ -71,7 +71,7 @@ Use testing as a learning tool, not just assessment:
 Research shows retrieval practice produces better transfer than repeated studying.
 :::
 
-### 5. Interleaved Practice (Rohrer, 2012)
+### 5. Interleaved Practice [@rohrerInterleavingHelpsStudents2012]
 
 Mix different types of problems within assignments:
 
@@ -85,34 +85,29 @@ Instead of 20 algebra problems, then 20 geometry problems, mix them:
 
 Interleaving improves discrimination between similar concepts and long-term retention.
 
-### 6. Cognitive Load Management (Sweller, 1988)
+### 6. Cognitive Load Management [@swellerDevelopmentCognitiveLoad2023]
 
 Design instruction to optimize working memory capacity while preserving productive struggle:
 
 **For Novices:**
 
 - Provide worked examples before independent practice
-
-- Use dual coding (visual + auditory) when possible
-
 - Reduce extraneous cognitive load while maintaining intrinsic challenge
 
 **For Advanced Learners:**
 
 - Increase element interactivity gradually
-
 - Encourage productive struggle through appropriately difficult tasks
-
 - Focus on germane (learning-productive) cognitive load
 
-### 7. Desirable Difficulties (Bjork, 1994)
+### 7. Desirable Difficulties [@bjorkMemoryMetamemoryConsiderations1994]
 
 Intentionally introduce challenges that slow initial performance but enhance long-term learning:
 
 ::: {.callout-important}
 ## The Paradox of Learning
 
-**Conditions that make performance look good during training often fail to support learning:**
+Conditions that make performance look good during training often fail to support learning. The following difficulties feel harder and less efficient in the moment, but produce superior long-term retention and transfer:
 
 - **Generation Effect**: Having students generate answers (even incorrect ones) before receiving information
 
@@ -122,14 +117,13 @@ Intentionally introduce challenges that slow initial performance but enhance lon
 
 - **Interleaving**: Mixing different types of problems instead of blocking them
 
-These difficulties feel harder and less efficient in the moment, but produce superior long-term retention and transfer.
 :::
 
 ### 8. Productive Struggle Zones
 
 Create structured opportunities for effortful processing:
 
-**The Goldilocks Principle for Cognitive Challenge:**
+**Find the optimal difficulty level for learning:**
 
 - **Too Easy**: Students disengage; no learning occurs
 
@@ -152,18 +146,15 @@ Create structured opportunities for effortful processing:
 ::: {.panel-tabset}
 ## Mathematics
 
-**Apply Interleaving (Rohrer, 2012):**
+**Apply Interleaving:**
 
 - Mix problem types within practice sets
-
 - Alternate between different mathematical procedures
-
 - Include word problems requiring strategy selection
 
-**Use Worked Examples (Sweller, 1988):**
+**Use Worked Examples:**
 
 - Show step-by-step solutions before independent practice
-
 - Gradually fade support as expertise develops
 
 ## Writing
@@ -171,13 +162,11 @@ Create structured opportunities for effortful processing:
 **Implement Spaced Revision:**
 
 - Draft → Week gap → Revision → Week gap → Final edit
-
 - Multiple low-stakes feedback loops
 
 **Design-Based Learning:**
 
-- Connect writing to real community problems
-
+- Connect writing to real problems
 - Authentic audiences beyond the instructor
 
 ## Science
@@ -185,15 +174,12 @@ Create structured opportunities for effortful processing:
 **Retrieval Practice Applications:**
 
 - Predict-observe-explain cycles with delayed feedback
-
 - Concept mapping from memory before consulting notes
 
-**Desirable Difficulties (Bjork, 1994):**
+**Desirable Difficulties:**
 
 - Generate hypotheses before receiving information
-
 - Explain phenomena before learning the mechanism  
-
 - Struggle with "failed" experiments that reveal misconceptions
 
 ## Programming
@@ -201,72 +187,11 @@ Create structured opportunities for effortful processing:
 **Cognitive Load Considerations:**
 
 - Worked examples for syntax, problem-solving for logic
-
 - Pair programming as cognitive apprenticeship
-
 - Debug others' code to build pattern recognition
 :::
 
-## Implementation Framework
 
-### Phase 1: Environmental Audit
-
-Assess your current course for problematic features (Lang, 2013):
-
-::: {.callout-warning}
-## Warning Signs
-
-**High-risk environment characteristics:**
-
-- Single high-stakes assessments
-
-- Arbitrary grading criteria
-
-- Emphasis on coverage over understanding
-
-- Limited opportunities for practice
-
-- Competitive rather than mastery-oriented culture
-:::
-
-### Phase 2: Gradual Implementation
-
-Start with one evidence-based change per semester:
-
-**Semester 1:** Lower assessment stakes  
-**Semester 2:** Add spaced retrieval practice  
-**Semester 3:** Implement interleaved assignments  
-**Semester 4:** Integrate authentic, problem-based learning
-
-### Phase 3: Monitor and Adjust
-
-Track learning indicators:
-
-- Time before students seek help (should increase)
-
-- Quality of peer explanations (should improve)
-
-- Transfer to new contexts (key measure)
-
-- Student choice of challenge level (intrinsic motivation indicator)
-
-## Research-Based Messaging
-
-Instead of blaming students, communicate the science of productive struggle:
-
-::: {.callout-important}
-## Evidence-Based Language
-
-- "Research shows that struggling with problems before receiving solutions improves learning by 30-60%" (Kapur, 2008)
-
-- "Desirable difficulties slow initial performance but enhance long-term retention and transfer" (Bjork, 1994)
-
-- "Errors provide crucial information about learning progress—they show where your brain is actively constructing knowledge"
-
-- "The brain grows strongest when working at the edge of its current capability"
-
-- "Productive struggle is the mechanism by which the brain builds new neural pathways"
-:::
 
 ## Embracing the Struggle
 
@@ -422,6 +347,6 @@ Help students understand that cognitive effort is not a design flaw to be elimin
 
 ## The Environmental Perspective
 
-> The goal is not to eliminate struggle, but to design learning environments where productive struggle becomes the most rewarding and supported path to achieving the outcomes students truly want—deep understanding, durable skills, and authentic expertise.
+The goal is not to eliminate struggle, but to design learning environments where productive struggle becomes the most rewarding and supported path to achieving the outcomes we want for students---deep understanding, durable skills, and authentic expertise.
 
 When environments align with how humans actually learn through effortful processing, students naturally choose deeper engagement because they experience the satisfaction of genuine capability development.
