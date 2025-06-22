@@ -5,40 +5,40 @@ subtitle: "Teaching in the Age of AI"
 
 ## Core Principle
 
-As James Lang argues in *Cheating Lessons* (2013), "cheating is an inappropriate response to a learning environment that's not working for the student." Rather than focusing on student behavior, we must design learning environments that make **productive struggle** the most rewarding path.
+As James Lang argues in *Cheating Lessons* [@langCheatingLessons2013], "cheating is an inappropriate response to a learning environment that's not working for the student." Rather than focusing on student behavior, we must design learning environments that make **productive struggle** the most rewarding path.
 
-Research on "desirable difficulties" (Bjork, 1994) shows that learning requires cognitive effort—when we remove struggle, we remove learning. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.
+Research on "desirable difficulties" [@bjorkMemoryMetamemoryConsiderations1994; @bjorkMakingThingsHard2011] shows that learning requires cognitive effort---when we remove struggle, we remove learning. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.
 
 ## Evidence-Based Environmental Design
 
-### 1. Lower-Stakes Assessment (Lang, 2013)
+### 1. Lower-Stakes Assessment [@langCheatingLessons2013]
 
 Replace high-stakes single assessments with frequent, lower-stakes evaluations:
 
 ::: {.callout-tip}
 ## Research-Based Approach
 
-Instead of one midterm worth 50%, use:
+Instead of a final exam worth 50%, use:
 
-- Five quizzes worth 10% each
+- Five tests worth 10% each
 
 - Weekly reflection journals
 
 - Multiple opportunities to demonstrate learning
 
-This reduces anxiety-driven shortcuts while improving retention through the **testing effect** (Roediger & Butler, 2011).
+This reduces anxiety-driven shortcuts while improving retention through the **testing effect** [@roedigerTestenhancedLearningTaking2006].
 :::
 
-### 2. Intrinsic Motivation Design (Lang, 2013)
+### 2. Intrinsic Motivation Design [@langCheatingLessons2013]
 
 Build courses around meaningful problems rather than content coverage:
 
 **Coverage-Based**: "Read Chapter 7 on climate change"  
 **Problem-Based**: "Analyze how climate patterns in your hometown have changed using local weather data"
 
-Problems rooted in students' environments tap intrinsic motivation and resist AI generation.
+Problems rooted in students' environments may tap intrinsic motivation and therefore be less prone to AI generation.
 
-### 3. Spaced Repetition (Cepeda et al., 2006)
+### 3. Spaced Repetition [@cepedaDistributedPracticeVerbal2006]
 
 Distribute practice across time rather than massing it:
 
