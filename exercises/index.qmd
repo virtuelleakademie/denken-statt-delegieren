@@ -68,13 +68,8 @@ For each research mode, you'll work on a different question. Focus on the follow
 - When and how is that approach beneficial?
 - What are the pros and cons of this approach?
 
-Add your answer as a sticky note in this [Miro Board](https://miro.com/app/board/uXjVImDtm9s=/?share_link_id=59226697931) (Password: ThinkAIWS).
-
-**Organization tips:**
-
-- Place your sticky note within the frame for your chosen question
-- Use different colors or label your notes with the research mode (e.g., "Mode 1: Without Chatbot")
-- Group related insights together within each question frame
+Add your answer as a sticky note in this [Miro Board](https://miro.com/app/board/uXjVImDtm9s=/?share_link_id=59226697931).
+Place your sticky note within the frame for your chosen question
 :::
 
 ::: {.pro-tip collapse="false"}
