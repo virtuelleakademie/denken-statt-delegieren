@@ -27,7 +27,6 @@ about:
 
 {{< bi map >}} SIPBB, Aarbergstrasse 46, 2503 Biel
 
-<br>
 
 ## Instructors
 
