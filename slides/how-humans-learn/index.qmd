@@ -98,6 +98,25 @@ Figure courtesy of [Scott H Young](https://www.scotthyoung.com/blog/2022/02/15/a
 
 ---
 
+## The Weak-to-Strong Methods Journey {.smaller}
+
+How novices become experts through progressive skill building:
+
+| Stage | Description | Methods/Characteristics | Nature |
+|-------|-------------|------------------------|---------|
+| **🌱 Weak Methods (Novice)** | General strategies when lacking knowledge | • Means-end analysis<br>• Working backward<br>• Trial and error<br>• Surface analogies<br>• Hill climbing | *Slow, effortful, but essential for learning* |
+| **🔄 Proceduralization** | Patterns become procedures | • Repeated sequences chunk together<br>• Still conscious but more fluid<br>• Reduced cognitive load<br>• Faster with fewer errors | *The critical transition phase* |
+| **⚡ Strong Methods (Expert)** | Domain-specific automaticity | • Pattern recognition<br>• Forward chaining<br>• Compiled procedures<br>• Deep structural understanding | *Fast, accurate, unconscious* |
+
+::: {.callout-warning}
+## Why This Matters for AI Use
+**AI provides expert-level answers (strong methods) to novices who haven't developed through weak methods first.** This skips the essential struggle phase where real learning occurs.
+
+When novices use expert tools, they miss building the foundational procedures that enable true understanding.
+:::
+
+---
+
 ## Productions: Your Brain's Atomic Thinking Steps {.smaller}
 
 How Complex Skills Are Built:
