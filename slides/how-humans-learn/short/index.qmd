@@ -1,34 +1,17 @@
  ---
-title: "How We Build Expertise"
-subtitle: "Why AI Can't Replace the Learning Journey"
+title: "How Humans Learn"
+subtitle: "Cognitive effort is not a bug---it's the feature"
 ---
 
 ## What You Just Experienced {.transition}
 
-### Your Three Research Modes:
+Your Three Research Modes:
 
-::: {.columns}
-::: {.column width="30%"}
-**Without AI**  
-*Classical sources*
-
-Felt: Slower, effortful, uncertain
-:::
-
-::: {.column width="30%"}
-**Single AI Prompt**  
-*One question*
-
-Felt: Fast, confident, comprehensive
-:::
-
-::: {.column width="30%"}
-**Collaborative AI**  
-*Iterative questions*
-
-Felt: Engaging, interactive, refined
-:::
-:::
+| Research Mode | Description | How did it feel? |
+|---------------|-------------|------------|
+| **Without AI** | *Classical sources* | Slower, effortful, uncertain |
+| **Single AI Prompt** | *One question* | Fast, confident, comprehensive |
+| **Collaborative AI** | *Iterative questions* |Engaging, interactive, refined |
 
 . . .
 
@@ -78,34 +61,19 @@ Felt: Engaging, interactive, refined
 **AI assumes all knowledge is primary—but academic skills need structured practice.**
 :::
 
+::: {.notes}
+To understand why AI disrupts learning so profoundly, we need to understand why schools exist in the first place.
+:::
 ---
 
 ## How Expertise Actually Develops
 
 ### The Brain's Learning System:
 
-::: {.columns}
-::: {.column width="45%"}
-### 🧠 Declarative Memory
-**"Knowing That"**
-
-- Facts and rules you hold consciously
-- Slow, effortful retrieval
-- Example: "To solve 3x + 5 = 20, subtract 5 from both sides"
-:::
-
-::: {.column width="10%"}
-:::
-
-::: {.column width="45%"}
-### ⚡ Procedural Memory
-**"Knowing How"**
-
-- Automatic "atomic thinking steps"
-- Fast, effortless execution
-- Example: See 3x + 5 = 20 → instantly know x = 5
-:::
-:::
+| Memory Type | Description | Characteristics | Example |
+|-------------|-------------|-----------------|---------|
+| **🧠 Declarative Memory** | **"Knowing That"** | • Facts and rules you hold consciously<br>• Slow, effortful retrieval | "To solve 3x + 5 = 20, subtract 5 from both sides" |
+| **⚡ Procedural Memory** | **"Knowing How"** | • Automatic "atomic thinking steps"<br>• Fast, effortless execution | See 3x + 5 = 20 → instantly know x = 5 |
 
 . . .
 
@@ -198,6 +166,7 @@ When you see **3x + 5 = 20**:
 ## The Strategic AI Use Framework
 
 **Before Any AI Consultation:**
+
 1. **Minimum 20 minutes** of independent struggle (not 5 from exercise!)
 2. **Document your thinking**: What you tried and why you're stuck
 3. **Use AI strategically**: To overcome specific obstacles, not replace thinking
