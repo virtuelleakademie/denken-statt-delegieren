@@ -1,9 +1,17 @@
 ---
-title: "Agenda"
+title: "Schedule"
 ---
 
-| {{< bi collection >}} Topic | {{< bi clock >}} Duration |
-|-------|--------|
-| [Input: How Chatbots Think](wie-chatbots-denken/index.qmd) | 10 min |
-| [Exercise: Think, don't delegate](../exercises/exercise-1/index.qmd) | 25 min |
-| Closing Remarks | 5 min|
+| {{< bi tag >}} Type |  {{< bi collection >}} Topic | {{< bi clock >}} Duration |
+|------|-------|----------|
+| {{< bi journal-text >}} Input | [How Chatbots Think](how-chatbots-think/index.qmd) | 7 min |
+| {{< bi pencil-square >}} Exercise | [Think, don't delegate](../exercises/index.qmd) | 25 min |
+| {{< bi journal-text >}} Input | [How Humans Learn](how-humans-learn/index.qmd) | 7 min |
+| {{< bi journal-text >}} Input | Closing Remarks | 1 min |
+
+<br> <br>
+
+## Further Reading
+
+- [How Skill Acquisition Works](skill-acquisition/index.qmd) - From Novice to Expert: The Science of Learning
+- [Productive Struggle by Design](learning-environment/index.qmd) --- Teaching in the Age of AI

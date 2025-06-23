@@ -1,5 +1,4 @@
 ---
-# title: "KI in der Lehre"
 format:
   html:
     toc: false
@@ -17,35 +16,35 @@ about:
       text: Knowledge Base
       href: https://virtuelleakademie.ch/knowledge-base/
     - icon: mortarboard-fill
-      text: Weiterbildungsangebote
+      text: Courses
       href: https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/
 ---
 
 
-{{< bi calendar-event >}} 23. Juni 2025
+{{< bi calendar-event >}} June 23, 2025
 
-{{< bi clock >}} 13:00–18:00 Uhr
+{{< bi clock >}} 15:30 - 17:00
 
 {{< bi map >}} SIPBB, Aarbergstrasse 46, 2503 Biel
 
 <br>
 
-## Dozenten
+## Instructors
 
-<!-- [Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) ist Kognitionspsychologe und Wissenschaftlicher Mitarbeiter an der [Virtuellen Akademie](https://virtuelleakademie.ch/) der Berner Fachhochschule. 
+[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) and [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) are research associates at the [Virtual Academy](https://virtuelleakademie.ch/) of the [Bern University of Applied Sciences](https://www.bfh.ch). Together, they develop AI-powered educational tools that complement rather than replace human cognition.
 
-[Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch), Physiker und Datenwissenschaftler, ist Wissenschaftlicher Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule. -->
-[Dr. Andrew Ellis](mailto:andrew.ellis@bfh.ch) und [Dr. Stefan Hackstein](mailto:stefan.hackstein@bfh.ch) sind als wissenschaftliche Mitarbeiter an der Virtuellen Akademie der Berner Fachhochschule tätig.
-Zusammen erforschen sie, wie künstliche Intelligenz in Bildungssystemen wirkungsvoll eingesetzt werden kann.
 
-## Website
+- {{< bi person-square >}} Andrew is your designated human for this workshop. A cognitive psychologist by trade, his focus for today is on why human brains need productive struggle to learn, and why clicking "regenerate response" doesn't count as critical thinking.
+
+- {{< bi robot >}} Stefan will address all things AI in this workshop. With a background as a physicist and data scientist, he's particularly skilled at explaining why your prompts aren't quite working as expected.
+
+In this workshop, they will explore the delicate balance between collaborating with AI  and preserving the cognitive work that makes learning stick---because sometimes the struggle really is the point.
+
+
+## Workshop Website
 
 {{< bi link >}} [virtuelleakademie.github.io/denken-statt-delegieren/](https://virtuelleakademie.github.io/denken-statt-delegieren/)
 
 <br>
-<!-- ## QR Code -->
+
 {{< qrcode https://virtuelleakademie.github.io/denken-statt-delegieren/ width=200 height=200 colorDark='#000000' >}}
-
-
-
-

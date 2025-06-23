@@ -26,6 +26,7 @@ pages/*_cache/
 pages/*_files/
 /notes/
 /_do-not-build/**
+*old.qmd
 
 # venv
 .venv/
@@ -47,3 +48,4 @@ pages/config.yaml
 CLAUDE.md
 .aider*
 .env
+

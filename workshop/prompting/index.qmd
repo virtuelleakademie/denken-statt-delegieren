@@ -17,7 +17,7 @@ author:
     orcid: 0000-0003-2927-549X
 license: CC BY
 citation: true
-# bibliography: ../bibliography.bib
+bibliography: ../../bibliography.bib
 format:
     html:
         toc: true
