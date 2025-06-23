@@ -172,6 +172,93 @@
     ]
   },
   {
+    "objectID": "workshop/index.html",
+    "href": "workshop/index.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Type\n Topic\n Duration\n\n\n\n\n Input\nHow Chatbots Think\n7 min\n\n\n Exercise\nThink, don’t delegate\n25 min\n\n\n Input\nHow Humans Learn\n7 min\n\n\n Input\nClosing Remarks\n1 min",
+    "crumbs": [
+      "Workshop",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "workshop/index.html#further-reading",
+    "href": "workshop/index.html#further-reading",
+    "title": "Schedule",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nHow Skill Acquisition Works - From Novice to Expert: The Science of Learning\nProductive Struggle by Design — Teaching in the Age of AI",
+    "crumbs": [
+      "Workshop",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "workshop/how-chatbots-think/index.html",
+    "href": "workshop/how-chatbots-think/index.html",
+    "title": "How Chatbots Think",
+    "section": "",
+    "text": "This presentation shows the functionality of how Large Language Models (LLMs) comprehend text and arrive at their answers.",
+    "crumbs": [
+      "Workshop",
+      "How Chatbots Think"
+    ]
+  },
+  {
+    "objectID": "workshop/how-chatbots-think/index.html#presentation",
+    "href": "workshop/how-chatbots-think/index.html#presentation",
+    "title": "How Chatbots Think",
+    "section": " Presentation",
+    "text": "Presentation\n    View webpage in full screen",
+    "crumbs": [
+      "Workshop",
+      "How Chatbots Think"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Think, Don't Delegate",
+    "section": "",
+    "text": "June 23, 2025\n15:30 - 17:00\nSIPBB, Aarbergstrasse 46, 2503 Biel"
+  },
+  {
+    "objectID": "index.html#instructors",
+    "href": "index.html#instructors",
+    "title": "Think, Don't Delegate",
+    "section": "Instructors",
+    "text": "Instructors\nDr. Andrew Ellis and Dr. Stefan Hackstein are research associates at the Virtual Academy of the Bern University of Applied Sciences. Together, they develop AI-powered educational tools that complement rather than replace human cognition.\n\n Andrew is your designated human for this workshop. A cognitive psychologist by trade, his focus for today is on why human brains need productive struggle to learn, and why clicking “regenerate response” doesn’t count as critical thinking.\n Stefan will address all things AI in this workshop. With a background as a physicist and data scientist, he’s particularly skilled at explaining why your prompts aren’t quite working as expected.\n\nIn this workshop, they will explore the delicate balance between collaborating with AI and preserving the cognitive work that makes learning stick—because sometimes the struggle really is the point."
+  },
+  {
+    "objectID": "index.html#workshop-website",
+    "href": "index.html#workshop-website",
+    "title": "Think, Don't Delegate",
+    "section": "Workshop Website",
+    "text": "Workshop Website\n virtuelleakademie.github.io/denken-statt-delegieren/"
+  },
+  {
+    "objectID": "workshop/how-humans-learn/index.html",
+    "href": "workshop/how-humans-learn/index.html",
+    "title": "How Humans Learn",
+    "section": "",
+    "text": "This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R (Anderson 2013, 2007) theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.\nThe key takeaway: Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.",
+    "crumbs": [
+      "Workshop",
+      "How Humans Learn"
+    ]
+  },
+  {
+    "objectID": "workshop/how-humans-learn/index.html#presentation",
+    "href": "workshop/how-humans-learn/index.html#presentation",
+    "title": "How Humans Learn",
+    "section": " Presentation",
+    "text": "Presentation\n    View slides in full screen",
+    "crumbs": [
+      "Workshop",
+      "How Humans Learn"
+    ]
+  },
+  {
     "objectID": "workshop/learning-environment/index.html",
     "href": "workshop/learning-environment/index.html",
     "title": "Productive Struggle by Design",
@@ -247,135 +334,6 @@
       "Workshop",
       "Productive Struggle by Design"
     ]
-  },
-  {
-    "objectID": "workshop/how-humans-learn/index.html",
-    "href": "workshop/how-humans-learn/index.html",
-    "title": "How Humans Learn",
-    "section": "",
-    "text": "This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R (Anderson 2013, 2007) theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.\nThe key takeaway: Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.",
-    "crumbs": [
-      "Workshop",
-      "How Humans Learn"
-    ]
-  },
-  {
-    "objectID": "workshop/how-humans-learn/index.html#presentation",
-    "href": "workshop/how-humans-learn/index.html#presentation",
-    "title": "How Humans Learn",
-    "section": " Presentation",
-    "text": "Presentation\n    View slides in full screen",
-    "crumbs": [
-      "Workshop",
-      "How Humans Learn"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Think, Don't Delegate",
-    "section": "",
-    "text": "June 23, 2025\n15:30 - 17:00\nSIPBB, Aarbergstrasse 46, 2503 Biel"
-  },
-  {
-    "objectID": "index.html#instructors",
-    "href": "index.html#instructors",
-    "title": "Think, Don't Delegate",
-    "section": "Instructors",
-    "text": "Instructors\nDr. Andrew Ellis and Dr. Stefan Hackstein are research associates at the Virtual Academy of the Bern University of Applied Sciences. Together, they develop AI-powered educational tools that complement rather than replace human cognition.\n\n Andrew is your designated human for this workshop. A cognitive psychologist by trade, his focus for today is on why human brains need productive struggle to learn, and why clicking “regenerate response” doesn’t count as critical thinking.\n Stefan will address all things AI in this workshop. With a background as a physicist and data scientist, he’s particularly skilled at explaining why your prompts aren’t quite working as expected.\n\nIn this workshop, they will explore the delicate balance between collaborating with AI and preserving the cognitive work that makes learning stick—because sometimes the struggle really is the point."
-  },
-  {
-    "objectID": "index.html#workshop-website",
-    "href": "index.html#workshop-website",
-    "title": "Think, Don't Delegate",
-    "section": "Workshop Website",
-    "text": "Workshop Website\n virtuelleakademie.github.io/denken-statt-delegieren/"
-  },
-  {
-    "objectID": "workshop/how-chatbots-think/index.html",
-    "href": "workshop/how-chatbots-think/index.html",
-    "title": "How Chatbots Think",
-    "section": "",
-    "text": "This presentation shows the functionality of how Large Language Models (LLMs) comprehend text and arrive at their answers.",
-    "crumbs": [
-      "Workshop",
-      "How Chatbots Think"
-    ]
-  },
-  {
-    "objectID": "workshop/how-chatbots-think/index.html#presentation",
-    "href": "workshop/how-chatbots-think/index.html#presentation",
-    "title": "How Chatbots Think",
-    "section": " Presentation",
-    "text": "Presentation\n    View webpage in full screen",
-    "crumbs": [
-      "Workshop",
-      "How Chatbots Think"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html",
-    "href": "workshop/index.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Type\n Topic\n Duration\n\n\n\n\n Input\nHow Chatbots Think\n7 min\n\n\n Exercise\nThink, don’t delegate\n25 min\n\n\n Input\nHow Humans Learn\n7 min\n\n\n Input\nClosing Remarks\n1 min",
-    "crumbs": [
-      "Workshop",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#further-reading",
-    "href": "workshop/index.html#further-reading",
-    "title": "Schedule",
-    "section": "Further Reading",
-    "text": "Further Reading\n\nHow Skill Acquisition Works - From Novice to Expert: The Science of Learning\nProductive Struggle by Design — Teaching in the Age of AI",
-    "crumbs": [
-      "Workshop",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "workshop/prompting/index.html",
-    "href": "workshop/prompting/index.html",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "",
-    "text": "Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. However, employing effective prompting techniques is critical. This affects whether LLMs support meaningful learning or potentially allow students to bypass learning altogether. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#overview",
-    "href": "workshop/prompting/index.html#overview",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "",
-    "text": "Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. However, employing effective prompting techniques is critical. This affects whether LLMs support meaningful learning or potentially allow students to bypass learning altogether. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#key-principles-for-educational-prompting",
-    "href": "workshop/prompting/index.html#key-principles-for-educational-prompting",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "Key Principles for Educational Prompting",
-    "text": "Key Principles for Educational Prompting\n\n1. Retrieval Practice\nEncourage recall of learned information to strengthen memory.\n\n\n\n\n\n\nTutor:\n\n\n\nQuiz me on three key points from the organic chemistry lecture on reaction kinetics [provided as PDF].\n\n\n\n\n2. Scaffolding\nBreak complex tasks into smaller steps to guide students gradually.\n\n\n\n\n\n\nTutor:\n\n\n\nFirst, give the balanced equation for this [chemical] reaction. Now, what are the initial concentrations?\n\n\n\n\n3. Metacognition\nPromote self-reflection and justification of reasoning.\n\n\n\n\n\n\nTutor:\n\n\n\nExplain why you chose this method for determining equilibrium. Are there assumptions you’ve made?\n\n\n\n\n4. Cognitive Load Management\nChunk information clearly to prevent overload.\n\n\n\n\n\n\nTutor:\n\n\n\nDefine entropy briefly. Next, explain how entropy differs from enthalpy."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#effective-prompting-techniques",
-    "href": "workshop/prompting/index.html#effective-prompting-techniques",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "Effective Prompting Techniques",
-    "text": "Effective Prompting Techniques\n\nSet Clear Roles and Contexts\nProvide explicit roles to guide the LLM’s responses.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nYou are an organic chemistry tutor helping a first-year student.\n\n\n\n\nSpecify Tasks and Formats Clearly\nBe specific to ensure precise responses.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nExplain ionic bonding using a real-world analogy suitable for freshmen.\n\n\n\n\nUse Examples or Templates\nDemonstrate the desired output.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nProvide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example.\n\n\n\n\nChain-of-Thought and Reasoning\nAsk the LLM to detail its reasoning or provide multiple approaches.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nStep-by-step, explain how to identify the limiting reagent in this reaction.\n\n\n\n\n\n\n\n\n✅\n\n\n\nInstruct the LLM to think first: “Explain your reasoning first, then state the answer.”\n\n\n\n\n\n\n\n\n❌\n\n\n\nInstruct the LLM to give the answer first: “State the answer first, then explain your reasoning.”\n\n\n\n\nIterative Refinement\nTreat prompting as an interactive process, refining outputs through conversation.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSimplify the previous explanation and provide a metaphor.\n\n\n\n\nUse Markdown Formatting\nUse Markdown formatting to make the prompt more readable (e.g. lists, bold, italics, etc.).\n\n\n\n\n\n\nBasic Markdown Formatting\n\n\n\n\n\n# Heading level 1\n## Heading level 2\n### Heading level 3\n\n**Bold text**\n\n*Italic text*\n\n1. List item 1\n2. List item 2\n3. List item 3\nUse delimiters (e.g. ---, \"\"\") to indicate different roles or parts of a prompt."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#example-teaching-activities",
-    "href": "workshop/prompting/index.html#example-teaching-activities",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "Example Teaching Activities",
-    "text": "Example Teaching Activities\n\nIllustrative Analogies\n\n\n\n\n\n\nExample Prompt:\n\n\n\nCreate an everyday analogy to illustrate Le Châtelier’s principle.\n\n\n\n\nPractice Questions Generation\n\n\n\n\n\n\nExample Prompt:\n\n\n\nCreate three practice questions on acid-base titrations at varying difficulty levels.\n\n\n\n\n\n\n\n\nNote that the task of generating practice questions is a complex task that requires a good understanding of the topic. It will be necessary to provide the LLM with a template for the questions, and to provide examples of how to format the questions. Additionally, you will need to consider how to define task difficulty very carefully.\n\n\n\n\n\nLesson Planning\n\n\n\n\n\n\nExample Prompt:\n\n\n\nOutline a 50-minute lesson plan on the ideal gas law with an interactive demonstration.\n\n\n\n\nInteractive Problem Solving\n\n\n\n\n\n\nExample Prompt:\n\n\n\nGuide me through solving a galvanic cell problem, providing hints without revealing the solution immediately."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#example-student-activities",
-    "href": "workshop/prompting/index.html#example-student-activities",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "Example Student Activities",
-    "text": "Example Student Activities\n\nClarifying Concepts\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSimplify and explain the concept of electrons behaving as waves.\n\n\n\n\nCreating Study Guides\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSummarize thermodynamics laws and generate two review questions for each.\n\n\n\n\nSelf-Explanation and Reflection\n\n\n\n\n\n\nExample Prompt:\n\n\n\nEvaluate my explanation of buffer solutions and ask a clarifying follow-up question.\n\n\n\n\nError-Checking Practice\n\n\n\n\n\n\nExample Prompt:\n\n\n\nReview my solution to this equilibrium problem, identify mistakes, and guide me in correcting them.\n\n\n\n\nBrainstorming Project Ideas\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSuggest three practical applications of electrochemistry suitable for a student project."
   },
   {
     "objectID": "exercises/index.html",
