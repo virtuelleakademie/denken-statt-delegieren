@@ -1,8 +1,5 @@
 # Speaker Notes: How Humans Learn
 
-**Total Time: 15-18 minutes**
-
----
 
 ## Slide 1: What You Just Experienced
 
@@ -12,6 +9,7 @@
 "Let's connect what you just experienced to the science of learning. You've done something most people never do consciously—used three different research modes and can now compare how they felt."
 
 **Key Points:**
+
 - **Acknowledge their experience**: "Mode 1 without AI probably felt slower and uncertain. Mode 2 with a single prompt likely felt fast and comprehensive. Mode 3 with collaborative AI probably felt engaging and interactive."
 - **The critical question**: "But here's what most people never ask: Which mode will you remember and be able to use independently a week from now?"
 - **Set up the core tension**: "What feels efficient or engaging in the moment often doesn't build lasting capability."
@@ -92,14 +90,17 @@ But reading? Mathematics? Programming? These are biologically secondary skills. 
 **The Three Stages:**
 
 **1. Weak Methods (Novice Stage):**
+
 - "When you lack domain knowledge, you rely on general strategies—trial and error, working backward, making surface analogies. These feel inefficient, but they're absolutely essential."
 - "Every expert started here. You can't skip this stage."
 
 **2. Proceduralization (Transition Phase):**
+
 - "Repeated patterns start chunking together. You're still conscious of the process, but it becomes more fluid. You make fewer errors and work faster."
 - "This is where the real learning happens—where isolated facts become connected procedures."
 
 **3. Strong Methods (Expert Stage):**
+
 - "Domain-specific pattern recognition becomes automatic. Forward chaining replaces backward reasoning. Deep structural understanding emerges."
 - "Experts don't just know more—they think differently."
 
@@ -155,14 +156,17 @@ But reading? Mathematics? Programming? These are biologically secondary skills. 
 **Three Ways Learning Gets Disrupted:**
 
 **1. No Prediction Errors:**
+
 - "Your brain learns by making predictions about what will work, then updating based on errors. This prediction-error cycle is fundamental to all learning."
 - "AI eliminates this entirely—no predictions, no attempts, no errors, no learning updates."
 
 **2. No Memory Formation:**
+
 - "Information that isn't actively processed by working memory doesn't get stored in long-term memory. This isn't just inefficient—it's how the brain works."
 - "When AI provides answers, your working memory never processes the information, so nothing gets encoded for future use."
 
 **3. No Procedural Development:**
+
 - "Building those atomic thinking steps requires thousands of repetitions where you actually execute the procedures."
 - "AI skips straight to the final answer, so no productions get built or strengthened."
 
@@ -308,15 +312,3 @@ But reading? Mathematics? Programming? These are biologically secondary skills. 
 
 **"How do we know when AI use is helpful versus harmful?"**
 "Ask these questions: Does this tool require me to think through the problem, or does it do the thinking for me? Am I building capability that persists when the tool is removed? Would I be able to teach someone else this process without the AI?"
-
-### Preparation Notes:
-- Have specific examples ready from your discipline
-- Keep tone encouraging, not condemning—most people are using AI with good intentions
-- Emphasize that this is about strategic use, not elimination
-- Be prepared to discuss implementation challenges
-- Have backup slides about specific AI tools if time permits
-
-### Time Management:
-- If running short, focus on the core research findings and practical guidelines
-- If you have extra time, dive deeper into specific examples or implementation strategies
-- Always leave 2-3 minutes for final questions and closing thoughts
