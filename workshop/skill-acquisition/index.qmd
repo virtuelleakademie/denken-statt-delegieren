@@ -1,6 +1,13 @@
 ---
 title: "How Skill Acquisition Works"
 subtitle: "From Novice to Expert: The Science of Learning"
+author: 
+  - name: Andrew Ellis
+    url: https://github.com/awellis
+    affiliation: Virtual Academy, Bern University of Applied Sciences
+    affiliation-url: https://virtuelleakademie.ch
+    orcid: 0000-0002-2788-936X
+citation: true
 ---
 ## Key Takeaways
 
