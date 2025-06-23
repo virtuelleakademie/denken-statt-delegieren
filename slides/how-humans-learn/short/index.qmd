@@ -198,6 +198,7 @@ When you see **3x + 5 = 20**:
 ## The Strategic AI Use Framework
 
 **Before Any AI Consultation:**
+
 1. **Minimum 20 minutes** of independent struggle (not 5 from exercise!)
 2. **Document your thinking**: What you tried and why you're stuck
 3. **Use AI strategically**: To overcome specific obstacles, not replace thinking
