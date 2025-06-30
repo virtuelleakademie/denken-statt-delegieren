@@ -192,7 +192,7 @@ Consider solving: $(x + 3)(x - 2) = 0$
 
 ### How Expertise Actually Develops
 
-As De Groot first demonstrated in 1965 [@grootThoughtChoiceChess1978; @swellerCognitiveLoadTheory2024], expertise is **domain-specific** and results from **enormous amounts of domain-specific information stored in long-term memory**. This isn't just "knowing more facts"—it's having organized knowledge structures (schemas) that allow experts to:
+As De Groot first demonstrated in 1965 [@grootThoughtChoiceChess1978; @swellerCognitiveLoadTheory2024], expertise is **domain-specific** and results from **enormous amounts of domain-specific information stored in long-term memory**. This isn't just "knowing more facts"---it's having organized knowledge structures (schemas) that allow experts to:
 
 - **Chunk multiple elements** into single units
 - **Recognize patterns** automatically
