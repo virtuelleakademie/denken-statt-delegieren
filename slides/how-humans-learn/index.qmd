@@ -28,7 +28,7 @@ Your Three Research Modes:
 
 ::: {.columns}
 ::: {.column width="45%"}
-### 🧬 Biologically Primary
+### Biologically Primary
 **We evolved to learn:**
 
 - Speaking & understanding
@@ -43,7 +43,7 @@ Your Three Research Modes:
 :::
 
 ::: {.column width="45%"}
-### 🎓 Biologically Secondary  
+### Biologically Secondary  
 **We didn't evolve to learn:**
 
 - Reading & writing
@@ -73,8 +73,8 @@ The Brain's Learning System:
 
 | Memory Type                | Description        | Characteristics                                                       | Example                                                |
 | -------------------------- | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------ |
-| **🧠 Declarative Memory** | **"Knowing That"** | • Facts and rules you hold consciously<br>• Slow, effortful retrieval | "To solve <br> $3x + 5 = 20$, <br> subtract $5$ from both sides" |
-| **⚡ Procedural Memory**   | **"Knowing How"**  | • Automatic "atomic thinking steps"<br>• Fast, effortless execution   | See <br>$3x + 5 = 20$ <br>→ instantly know $x = 5$               |
+| **Declarative Memory** | **"Knowing That"** | • Facts and rules you hold consciously<br>• Slow, effortful retrieval | "To solve <br> $3x + 5 = 20$, <br> subtract $5$ from both sides" |
+| **Procedural Memory**   | **"Knowing How"**  | • Automatic "atomic thinking steps"<br>• Fast, effortless execution   | See <br>$3x + 5 = 20$ <br>→ instantly know $x = 5$               |
 
 
 :::: {.columns}
@@ -104,9 +104,9 @@ How novices become experts through progressive skill building:
 
 | Stage | Description | Methods/Characteristics | Nature |
 |-------|-------------|------------------------|---------|
-| **🌱 Weak Methods (Novice)** | General strategies when lacking knowledge | • Means-end analysis<br>• Working backward<br>• Trial and error<br>• Surface analogies<br>• Hill climbing | *Slow, effortful, but essential for learning* |
-| **🔄 Proceduralization** | Patterns become procedures | • Repeated sequences chunk together<br>• Still conscious but more fluid<br>• Reduced cognitive load<br>• Faster with fewer errors | *The critical transition phase* |
-| **⚡ Strong Methods (Expert)** | Domain-specific automaticity | • Pattern recognition<br>• Forward chaining<br>• Compiled procedures<br>• Deep structural understanding | *Fast, accurate, unconscious* |
+| **Weak Methods (Novice)** | General strategies when lacking knowledge | • Means-end analysis<br>• Working backward<br>• Trial and error<br>• Surface analogies<br>• Hill climbing | *Slow, effortful, but essential for learning* |
+| **Proceduralization** | Patterns become procedures | • Repeated sequences chunk together<br>• Still conscious but more fluid<br>• Reduced cognitive load<br>• Faster with fewer errors | *The critical transition phase* |
+| **Strong Methods (Expert)** | Domain-specific automaticity | • Pattern recognition<br>• Forward chaining<br>• Compiled procedures<br>• Deep structural understanding | *Fast, accurate, unconscious* |
 
 ::: {.callout-warning}
 ## Why This Matters for AI Use
