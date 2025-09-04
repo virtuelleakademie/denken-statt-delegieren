@@ -1,95 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/resources/resources.html</loc>
-    <lastmod>2025-06-16T13:21:01.990Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/exercises/index.html</loc>
-    <lastmod>2025-06-22T21:38:32.331Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/exercises/exercise-2/index.html</loc>
-    <lastmod>2025-06-16T13:21:01.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/wie-chatbots-denken/index.html</loc>
-    <lastmod>2025-06-19T22:24:53.138Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/prompting/index.html</loc>
-    <lastmod>2025-06-20T18:17:58.408Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/chatbot-agenten/index.html</loc>
-    <lastmod>2025-06-16T13:21:01.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/index.html</loc>
-    <lastmod>2025-06-22T20:57:48.875Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/index.html</loc>
-    <lastmod>2025-06-22T20:46:17.424Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/umfrage/index.html</loc>
-    <lastmod>2025-06-16T13:21:01.993Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/exercises/exercise-1/index.html</loc>
-    <lastmod>2025-06-20T07:56:24.432Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/exercises/exercise-3/index.html</loc>
-    <lastmod>2025-06-16T13:21:01.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/exercises/miro-board/index.html</loc>
-    <lastmod>2025-06-20T14:52:20.801Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/index.html</loc>
-    <lastmod>2025-06-22T21:39:57.485Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/learning-environment/index.html</loc>
-    <lastmod>2025-06-22T22:07:30.715Z</lastmod>
-  </url>
-  <url>
     <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/slides/timer-1.html</loc>
-    <lastmod>2025-06-16T13:21:01.992Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/slides/skill-acquisition.html</loc>
-    <lastmod>2025-06-20T18:21:55.288Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/slides/how-humans-learn/index.html</loc>
-    <lastmod>2025-06-22T12:18:05.309Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/how-humans-learn/index.html</loc>
-    <lastmod>2025-06-22T13:58:36.447Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/index-old.html</loc>
-    <lastmod>2025-06-21T22:56:49.271Z</lastmod>
+    <lastmod>2025-09-04T18:27:39.579Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/slides/how-humans-learn/long/index.html</loc>
-    <lastmod>2025-06-22T12:18:05.309Z</lastmod>
+    <lastmod>2025-06-23T06:29:12.053Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/exercises/research-modes/index.html</loc>
-    <lastmod>2025-06-20T07:56:24.432Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/exercises/index.html</loc>
+    <lastmod>2025-09-04T18:19:03.830Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/slides/how-humans-learn/short/index.html</loc>
-    <lastmod>2025-06-22T12:26:49.199Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/prompting/index.html</loc>
+    <lastmod>2025-06-21T13:33:50.406Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/index.html</loc>
+    <lastmod>2025-09-04T18:29:06.380Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/how-chatbots-think/index.html</loc>
-    <lastmod>2025-06-19T22:24:53.138Z</lastmod>
+    <lastmod>2025-09-04T18:30:50.025Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/index.html</loc>
+    <lastmod>2025-09-04T18:15:13.098Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/how-humans-learn/index.html</loc>
+    <lastmod>2025-09-04T18:33:09.937Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/learning-environment/index.html</loc>
+    <lastmod>2025-09-04T18:32:59.673Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/index.html</loc>
+    <lastmod>2025-09-04T18:33:24.449Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/exercises/miro-board/index.html</loc>
+    <lastmod>2025-06-21T13:33:50.400Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/denken-statt-delegieren/slides/how-humans-learn/short/index.html</loc>
+    <lastmod>2025-06-23T07:26:59.864Z</lastmod>
   </url>
 </urlset>

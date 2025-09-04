@@ -67,8 +67,6 @@ Remember to transfer your key findings, insights, and effective prompting strate
 
 You can access the Miro board for this session here:
 
-- {{< bi link >}} [Morning session](../miro-board/morning/index.qmd)
-- {{< bi link >}} [Afternoon session](../miro-board/afternoon/index.qmd)
 :::
 
 :::

@@ -1,5 +1,23 @@
 ---
 title: "How Humans Learn"
+date: 23 June, 2025
+date-format: "DD MMM, YYYY"
+author: 
+  - name: Andrew Ellis
+    url: https://github.com/awellis
+    affiliation: Virtual Academy, Bern University of Applied Sciences
+    affiliation-url: https://virtuelleakademie.ch
+    orcid: 0000-0002-2788-936X
+license: CC BY
+citation: true
+bibliography: ../../bibliography.bib
+format:
+    html:
+        toc: true
+        code-fold: false
+        code-link: true
+        callout-appearance: minimal
+        callout-icon: true
 ---
 This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R [@andersonAdaptiveCharacterThought2013; @andersonHowCanHuman2007] theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.
 

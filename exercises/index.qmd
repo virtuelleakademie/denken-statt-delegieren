@@ -4,7 +4,7 @@ date: 23 June, 2025
 date-format: "DD MMM, YYYY"
 author: 
   - name: Stefan Hackstein
-    # url: https://github.com/awellis
+    url: https://shackste.github.io/stefan-hackstein-portfolio/
     affiliation: Virtual Academy, Bern University of Applied Sciences
     affiliation-url: https://virtuelleakademie.ch
 license: CC BY
@@ -25,29 +25,33 @@ This activity investigates how we process information by probing various researc
 
  - Strengthen knowledge of cognitive psychology principles and their application in learning and research.
  - Gain insight into how AI influences cognitive processes like critical thinking and comprehension.
- - Learn to evaluate when and how AI helps or hinders learning in educational and research contexts.
+ - Learn to evaluate when and how AI helps or hinders learning in educational, research and productive  contexts.
 
 
-## Task (15 minutes)
+## Task (10 minutes)
+
+
+
+In this exercise, each of us will investigate two of the four questions below through different research modes, either with or without using a chatbot, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows.
+Each research session is limited to 5 minutes, mimicking the standard scenario for quick online research.
+
+1. pick any of the four questions below and gather relevant information **without using a chatbot**.
+2. pick any of the remaining three questions and gather relevant information **using a chatbot**.
+
+Please collect the information on the provided flipcharts.
 
 <!-- ::: {.callout-important} -->
 ### Exercise Flow
 
 ```
-4 Research Questions → Choose 3 Questions → Apply 3 Different Research Modes
+Choose 2 of 4 Questions → Apply 2 Different Research Modes
                                              ↓
                      Question 1 → Mode 1: Without Chatbot (5 min)
-                     Question 2 → Mode 2: With Chatbot Only (5 min)  
-                     Question 3 → Mode 3: With Chatbot Collaboration (5 min)
+                     Question 2 → Mode 2: With Chatbot (5 min)  
                                              ↓
-                                    Record insights on Miro Board
+                              Gather Relevant Information & Questions
 ```
 <!-- ::: -->
-
-In this exercise, we will explore three of the four questions below through different research modes, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows.
-
-**Important:** You will use a different question for each research mode (3 questions total, one per mode). Choose any three questions from the list below, but ensure you follow the sequence of research modes in order.
-
 
 ::: {.callout-note collapse="true"}
 ## Research Questions
@@ -59,49 +63,27 @@ In this exercise, we will explore three of the four questions below through diff
 :::
 
 
-::: {.pro-tip collapse="false"}
-## Task per Research Mode
 
-For each research mode, you'll work on a different question. Focus on the following:
-
-- How does the learner acquire knowledge using this approach?
-- When and how is that approach beneficial?
-- What are the pros and cons of this approach?
-
-Add your answer as a sticky note in this [Miro Board](https://miro.com/app/board/uXjVImDtm9s=/?share_link_id=59226697931).
-Place your sticky note within the frame for your chosen question
-:::
-
-::: {.pro-tip collapse="false"}
-## Research Modes
-
-There are 3 sessions (5 minutes each) to approach the question differently:
-
-1. **Without Chatbot:** Research or discuss using classical sources or prior knowledge.
-2. **With Chatbot Only:** Use a single well-crafted prompt to get the best possible answer.
-3. **With Chatbot Collaboration:** Interact with the chatbot iteratively—ask follow-up questions, refine the answer collaboratively.
-
-A short example will be shown for each mode before starting.
-
-:::
 
 
 
 ::: {.callout-note collapse="true"}
-## Reflection (10 minutes)
+## Reflection (20 minutes)
 
 After engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps:
 
-1. **Think (1 minute):** Take a moment to reflect individually on questions below.  
-2. **Pair (3 minutes):** Discuss your reflections with a partner and compare your insights.  
-3. **Share (6 minutes):** Share key takeaways with the group.
+1. **Think (2 minute):** Take a moment to reflect individually on questions below.  
+2. **Pair (8 minutes):** Discuss your reflections with a partner and compare your insights.  
+3. **Share (12 minutes):** Share key takeaways with the group.
 
 ### Questions to Consider
 1. How did the different sessions differ regarding how you learned and how you experienced that learning?
-2. What pros and cons did you experience using chatbots for learning?
-3. What's your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?
+2. Is there a difference in your ability to recall the information?
+3. What pros and cons did you experience using chatbots for research?
+4. What's your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?
 ::: 
 
+::: {.callout-note collapse="true"}
 ### Key Takeaway
 
 We explored how AI processes information and its impact on human learning.
@@ -109,3 +91,4 @@ We generally find that using chatbots can reduce cognitive engagement.
 According to a recent study on the cognitive cost of using an LLM for essay writing [@kosmynaYourBrainChatGPT2025], this actually shows in lower brain activity, resulting in a lack of comprehension as well as in worse memorization of their own original text written on the topic.
 
 The key take away is: When learning new concepts, use AI assistants strategically—to handle irrelevant administrative tasks and scaffold your thinking, not to bypass the productive struggle that builds genuine understanding. The cognitive effort you experience when grappling with new ideas isn't a bug to be fixed; it's the very mechanism through which expertise develops.
+:::
