@@ -14,7 +14,7 @@ project:
     - slides/**/*.qmd
 
 website:
-  title: "Think, Don't Delegate"
+  title: "Denken statt Delegieren"
   site-url: https://virtuelleakademie.github.io/denken-statt-delegieren/
   repo-url: https://github.com/virtuelleakademie/denken-statt-delegieren/
   repo-actions: [edit, issue]

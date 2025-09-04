@@ -1,0 +1,97 @@
+---
+title: "Exercise: Think, don't delegate"
+date: 23 June, 2025
+date-format: "DD MMM, YYYY"
+author: 
+  - name: Stefan Hackstein
+    url: https://shackste.github.io/stefan-hackstein-portfolio/
+    affiliation: Virtual Academy, Bern University of Applied Sciences
+    affiliation-url: https://virtuelleakademie.ch
+license: CC BY
+citation: true
+bibliography: ../bibliography.bib
+format:
+    html:
+        toc: true
+        code-fold: false
+        code-link: true
+        callout-appearance: minimal
+        callout-icon: true
+---
+
+[deutsche version](index.qmd)
+
+
+This activity investigates how we process information by probing various research modes and reflecting on how each affects comprehension and reasoning.
+
+## Learning Objectives
+
+ - Strengthen knowledge of cognitive psychology principles and their application in learning and research.
+ - Gain insight into how AI influences cognitive processes like critical thinking and comprehension.
+ - Learn to evaluate when and how AI helps or hinders learning in educational, research and productive  contexts.
+
+
+## Task (10 minutes)
+
+
+
+In this exercise, each of us will investigate two of the four questions below through different research modes, either with or without using a chatbot, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows.
+Each research session is limited to 5 minutes, mimicking the standard scenario for quick online research.
+
+1. pick any of the four questions below and gather relevant information **without using a chatbot**.
+2. pick any of the remaining three questions and gather relevant information **using a chatbot**.
+
+Please collect the information on the provided flipcharts.
+
+<!-- ::: {.callout-important} -->
+### Exercise Flow
+
+```
+Choose 2 of 4 Questions → Apply 2 Different Research Modes
+                                             ↓
+                     Question 1 → Mode 1: Without Chatbot (5 min)
+                     Question 2 → Mode 2: With Chatbot (5 min)  
+                                             ↓
+                              Gather Relevant Information & Questions
+```
+<!-- ::: -->
+
+::: {.callout-note collapse="true"}
+## Research Questions
+
+1. How does text-only learning shape comprehension, and what factors govern its effectiveness?
+2. How do brief summaries influence comprehension, and which elements drive their success?
+3. How does crafting a personal explanation boost critical thinking, and what are its limits?
+4. What makes partner feedback such an effective learning tool, and how can you use it best?
+:::
+
+
+
+
+
+
+::: {.callout-note collapse="true"}
+## Reflection (20 minutes)
+
+After engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps:
+
+1. **Think (2 minute):** Take a moment to reflect individually on questions below.  
+2. **Pair (8 minutes):** Discuss your reflections with a partner and compare your insights.  
+3. **Share (12 minutes):** Share key takeaways with the group.
+
+### Questions to Consider
+1. How did the different sessions differ regarding how you learned and how you experienced that learning?
+2. Is there a difference in your ability to recall the information?
+3. What pros and cons did you experience using chatbots for research?
+4. What's your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?
+::: 
+
+::: {.callout-note collapse="true"}
+### Key Takeaway
+
+We explored how AI processes information and its impact on human learning.
+We generally find that using chatbots can reduce cognitive engagement.
+According to a recent study on the cognitive cost of using an LLM for essay writing [@kosmynaYourBrainChatGPT2025], this actually shows in lower brain activity, resulting in a lack of comprehension as well as in worse memorization of their own original text written on the topic.
+
+The key take away is: When learning new concepts, use AI assistants strategically—to handle irrelevant administrative tasks and scaffold your thinking, not to bypass the productive struggle that builds genuine understanding. The cognitive effort you experience when grappling with new ideas isn't a bug to be fixed; it's the very mechanism through which expertise develops.
+:::

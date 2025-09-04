@@ -1,15 +1,15 @@
 ---
-title: "Schedule"
+title: "Ablauf"
 ---
 
-| {{< bi tag >}} Type |  {{< bi collection >}} Topic | {{< bi clock >}} Duration |
+| {{< bi tag >}} Art |  {{< bi collection >}} Inhalt | {{< bi clock >}} Dauer |
 |------|-------|----------|
-| {{< bi journal-text >}} Input | [How Chatbots Think](how-chatbots-think/index.qmd) | 10 min |
-| {{< bi pencil-square >}} Exercise | [Think, don't delegate](../exercises/index.qmd) | 30 min |
+| {{< bi journal-text >}} Input | [Wie Chatbots denken](how-chatbots-think/index.qmd) | 10 min |
+| {{< bi pencil-square >}} Aufgabe | [Denken statt Delegieren](../exercises/index.qmd) | 30 min |
 
 <br> <br>
 
-## Further Reading
+## Selbststudium
 
 - [How Humans Learn](how-humans-learn/index.qmd)
 - [How Skill Acquisition Works](skill-acquisition/index.qmd) - From Novice to Expert: The Science of Learning

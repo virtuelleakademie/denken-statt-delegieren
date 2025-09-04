@@ -8,7 +8,7 @@
 
 <meta name="author" content="Andrew Ellis">
 
-<title>How Skill Acquisition Works – Think, Don’t Delegate</title>
+<title>Wie man Kompetenz erwirbt – Denken statt Delegieren</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +21,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -105,81 +85,15 @@ div.csl-indent {
   });
 </script>
 <style>
-div.callout-break.callout {
-  border-left-color: yellow;
+div.callout-export.callout {
+  border-left-color: brown;
 }
-div.callout-break.callout-style-default > .callout-header {
-  background-color: rgb(from yellow r g b / 13%);
+div.callout-export.callout-style-default > .callout-header {
+  background-color: rgb(from brown r g b / 13%);
 }
-div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
-  content: '☕';
-  background-image: none;
-}
-div.callout-reflect.callout {
-  border-left-color: purple;
-}
-div.callout-reflect.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
-  content: '💭';
-  background-image: none;
-}
-div.callout-feedback.callout {
-  border-left-color: teal;
-}
-div.callout-feedback.callout-style-default > .callout-header {
-  background-color: rgb(from teal r g b / 13%);
-}
-div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
-  content: '📝';
-  background-image: none;
-}
-div.callout-timing.callout {
-  border-left-color: red;
-}
-div.callout-timing.callout-style-default > .callout-header {
-  background-color: rgb(from red r g b / 13%);
-}
-div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
-  content: '⏱️';
-  background-image: none;
-}
-div.callout-screens-up.callout {
-  border-left-color: green;
-}
-div.callout-screens-up.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
-}
-div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
-  content: '🔼';
-  background-image: none;
-}
-div.callout-caution.callout {
-  border-left-color: orange;
-}
-div.callout-caution.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
-  content: '⚠️';
-  background-image: none;
-}
-div.callout-screens-down.callout {
-  border-left-color: orange;
-}
-div.callout-screens-down.callout-style-default > .callout-header {
-  background-color: rgb(from orange r g b / 13%);
-}
-div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
-  content: '🔽';
+div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
+  content: '📤';
   background-image: none;
 }
 div.callout-schedule.callout {
@@ -193,59 +107,15 @@ div.callout-schedule.callout-style-default .callout-icon::before, div.callout-sc
   content: '⏰︎';
   background-image: none;
 }
-div.callout-pro-tip.callout {
-  border-left-color: gold;
+div.callout-setup.callout {
+  border-left-color: gray;
 }
-div.callout-pro-tip.callout-style-default > .callout-header {
-  background-color: rgb(from gold r g b / 13%);
+div.callout-setup.callout-style-default > .callout-header {
+  background-color: rgb(from gray r g b / 13%);
 }
-div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
-  content: '💡';
-  background-image: none;
-}
-div.callout-export.callout {
-  border-left-color: brown;
-}
-div.callout-export.callout-style-default > .callout-header {
-  background-color: rgb(from brown r g b / 13%);
-}
-div.callout-export .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-export.callout-style-default .callout-icon::before, div.callout-export.callout-titled .callout-icon::before {
-  content: '📤';
-  background-image: none;
-}
-div.callout-testing.callout {
-  border-left-color: green;
-}
-div.callout-testing.callout-style-default > .callout-header {
-  background-color: rgb(from green r g b / 13%);
-}
-div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
-  content: '🧪';
-  background-image: none;
-}
-div.callout-pair.callout {
-  border-left-color: forestgreen;
-}
-div.callout-pair.callout-style-default > .callout-header {
-  background-color: rgb(from forestgreen r g b / 13%);
-}
-div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
-  content: '👥';
-  background-image: none;
-}
-div.callout-group.callout {
-  border-left-color: purple;
-}
-div.callout-group.callout-style-default > .callout-header {
-  background-color: rgb(from purple r g b / 13%);
-}
-div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
-  content: '👥';
+div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
+  content: '⚙️';
   background-image: none;
 }
 div.callout-individual.callout {
@@ -259,6 +129,72 @@ div.callout-individual.callout-style-default .callout-icon::before, div.callout-
   content: '💻';
   background-image: none;
 }
+div.callout-caution.callout {
+  border-left-color: orange;
+}
+div.callout-caution.callout-style-default > .callout-header {
+  background-color: rgb(from orange r g b / 13%);
+}
+div.callout-caution .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-caution.callout-style-default .callout-icon::before, div.callout-caution.callout-titled .callout-icon::before {
+  content: '⚠️';
+  background-image: none;
+}
+div.callout-break.callout {
+  border-left-color: yellow;
+}
+div.callout-break.callout-style-default > .callout-header {
+  background-color: rgb(from yellow r g b / 13%);
+}
+div.callout-break .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-break.callout-style-default .callout-icon::before, div.callout-break.callout-titled .callout-icon::before {
+  content: '☕';
+  background-image: none;
+}
+div.callout-pro-tip.callout {
+  border-left-color: gold;
+}
+div.callout-pro-tip.callout-style-default > .callout-header {
+  background-color: rgb(from gold r g b / 13%);
+}
+div.callout-pro-tip .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pro-tip.callout-style-default .callout-icon::before, div.callout-pro-tip.callout-titled .callout-icon::before {
+  content: '💡';
+  background-image: none;
+}
+div.callout-group.callout {
+  border-left-color: purple;
+}
+div.callout-group.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-group .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-group.callout-style-default .callout-icon::before, div.callout-group.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
+div.callout-tutor-example.callout {
+  border-left-color: purple;
+}
+div.callout-tutor-example.callout-style-default > .callout-header {
+  background-color: rgb(from purple r g b / 13%);
+}
+div.callout-tutor-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-tutor-example.callout-style-default .callout-icon::before, div.callout-tutor-example.callout-titled .callout-icon::before {
+  content: '📄';
+  background-image: none;
+}
+div.callout-pair.callout {
+  border-left-color: forestgreen;
+}
+div.callout-pair.callout-style-default > .callout-header {
+  background-color: rgb(from forestgreen r g b / 13%);
+}
+div.callout-pair .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-pair.callout-style-default .callout-icon::before, div.callout-pair.callout-titled .callout-icon::before {
+  content: '👥';
+  background-image: none;
+}
 div.callout-checkpoint.callout {
   border-left-color: purple;
 }
@@ -268,39 +204,6 @@ div.callout-checkpoint.callout-style-default > .callout-header {
 div.callout-checkpoint .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
 div.callout-checkpoint.callout-style-default .callout-icon::before, div.callout-checkpoint.callout-titled .callout-icon::before {
   content: '🎯';
-  background-image: none;
-}
-div.callout-prompt-example.callout {
-  border-left-color: steelblue;
-}
-div.callout-prompt-example.callout-style-default > .callout-header {
-  background-color: rgb(from steelblue r g b / 13%);
-}
-div.callout-prompt-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt-example.callout-style-default .callout-icon::before, div.callout-prompt-example.callout-titled .callout-icon::before {
-  content: '👩🏼‍🔧';
-  background-image: none;
-}
-div.callout-setup.callout {
-  border-left-color: gray;
-}
-div.callout-setup.callout-style-default > .callout-header {
-  background-color: rgb(from gray r g b / 13%);
-}
-div.callout-setup .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-setup.callout-style-default .callout-icon::before, div.callout-setup.callout-titled .callout-icon::before {
-  content: '⚙️';
-  background-image: none;
-}
-div.callout-prompt-template.callout {
-  border-left-color: indigo;
-}
-div.callout-prompt-template.callout-style-default > .callout-header {
-  background-color: rgb(from indigo r g b / 13%);
-}
-div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
-  content: '📋';
   background-image: none;
 }
 div.callout-try.callout {
@@ -314,15 +217,92 @@ div.callout-try.callout-style-default .callout-icon::before, div.callout-try.cal
   content: '🔄';
   background-image: none;
 }
-div.callout-tutor-example.callout {
+div.callout-testing.callout {
+  border-left-color: green;
+}
+div.callout-testing.callout-style-default > .callout-header {
+  background-color: rgb(from green r g b / 13%);
+}
+div.callout-testing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-testing.callout-style-default .callout-icon::before, div.callout-testing.callout-titled .callout-icon::before {
+  content: '🧪';
+  background-image: none;
+}
+div.callout-screens-up.callout {
+  border-left-color: green;
+}
+div.callout-screens-up.callout-style-default > .callout-header {
+  background-color: rgb(from green r g b / 13%);
+}
+div.callout-screens-up .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-screens-up.callout-style-default .callout-icon::before, div.callout-screens-up.callout-titled .callout-icon::before {
+  content: '🔼';
+  background-image: none;
+}
+div.callout-feedback.callout {
+  border-left-color: teal;
+}
+div.callout-feedback.callout-style-default > .callout-header {
+  background-color: rgb(from teal r g b / 13%);
+}
+div.callout-feedback .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-feedback.callout-style-default .callout-icon::before, div.callout-feedback.callout-titled .callout-icon::before {
+  content: '📝';
+  background-image: none;
+}
+div.callout-reflect.callout {
   border-left-color: purple;
 }
-div.callout-tutor-example.callout-style-default > .callout-header {
+div.callout-reflect.callout-style-default > .callout-header {
   background-color: rgb(from purple r g b / 13%);
 }
-div.callout-tutor-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
-div.callout-tutor-example.callout-style-default .callout-icon::before, div.callout-tutor-example.callout-titled .callout-icon::before {
-  content: '📄';
+div.callout-reflect .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-reflect.callout-style-default .callout-icon::before, div.callout-reflect.callout-titled .callout-icon::before {
+  content: '💭';
+  background-image: none;
+}
+div.callout-prompt-example.callout {
+  border-left-color: steelblue;
+}
+div.callout-prompt-example.callout-style-default > .callout-header {
+  background-color: rgb(from steelblue r g b / 13%);
+}
+div.callout-prompt-example .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt-example.callout-style-default .callout-icon::before, div.callout-prompt-example.callout-titled .callout-icon::before {
+  content: '👩🏼‍🔧';
+  background-image: none;
+}
+div.callout-screens-down.callout {
+  border-left-color: orange;
+}
+div.callout-screens-down.callout-style-default > .callout-header {
+  background-color: rgb(from orange r g b / 13%);
+}
+div.callout-screens-down .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-screens-down.callout-style-default .callout-icon::before, div.callout-screens-down.callout-titled .callout-icon::before {
+  content: '🔽';
+  background-image: none;
+}
+div.callout-timing.callout {
+  border-left-color: red;
+}
+div.callout-timing.callout-style-default > .callout-header {
+  background-color: rgb(from red r g b / 13%);
+}
+div.callout-timing .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-timing.callout-style-default .callout-icon::before, div.callout-timing.callout-titled .callout-icon::before {
+  content: '⏱️';
+  background-image: none;
+}
+div.callout-prompt-template.callout {
+  border-left-color: indigo;
+}
+div.callout-prompt-template.callout-style-default > .callout-header {
+  background-color: rgb(from indigo r g b / 13%);
+}
+div.callout-prompt-template .callout-toggle::before {  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgb(33, 37, 41)" class="bi bi-chevron-down" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg>');}
+div.callout-prompt-template.callout-style-default .callout-icon::before, div.callout-prompt-template.callout-titled .callout-icon::before {
+  content: '📋';
   background-image: none;
 }
 </style>
@@ -357,10 +337,10 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="How Skill Acquisition Works – Think, Don’t Delegate">
-<meta property="og:description" content="From Novice to Expert: The Science of Learning">
+<meta property="og:title" content="Wie man Kompetenz erwirbt – Denken statt Delegieren">
+<meta property="og:description" content="Vom Novizen zum Exerten: Die Wissenschaft des Lernens">
 <meta property="og:image" content="https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
-<meta property="og:site_name" content="Think, Don't Delegate">
+<meta property="og:site_name" content="Denken statt Delegieren">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -371,7 +351,7 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">Think, Don’t Delegate</span>
+    <span class="navbar-title">Denken statt Delegieren</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -417,7 +397,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/skill-acquisition/index.html">How Skill Acquisition Works</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../workshop/skill-acquisition/index.html">Wie man Kompetenz erwirbt</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -440,19 +420,19 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Schedule</span></a>
+ <span class="menu-text">Ablauf</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/how-chatbots-think/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How Chatbots Think</span></a>
+ <span class="menu-text">Wie Chatbots denken</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../exercises/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Exercise: Think, don’t delegate</span></a>
+ <span class="menu-text">Aufgabe: Denken statt delegieren</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -464,13 +444,13 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/skill-acquisition/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">How Skill Acquisition Works</span></a>
+ <span class="menu-text">Wie man Kompetenz erwirbt</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../workshop/learning-environment/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Productive Struggle by Design</span></a>
+ <span class="menu-text">Produktive Anstrengung durch Design</span></a>
   </div>
 </li>
     </ul>
@@ -483,51 +463,50 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link active" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
-  <li><a href="#connecting-to-your-experience" id="toc-connecting-to-your-experience" class="nav-link" data-scroll-target="#connecting-to-your-experience">Connecting to Your Experience</a></li>
-  <li><a href="#the-journey-from-novice-to-expert" id="toc-the-journey-from-novice-to-expert" class="nav-link" data-scroll-target="#the-journey-from-novice-to-expert">The Journey from Novice to Expert</a></li>
-  <li><a href="#the-weak-to-strong-methods-progression" id="toc-the-weak-to-strong-methods-progression" class="nav-link" data-scroll-target="#the-weak-to-strong-methods-progression">The Weak-to-Strong Methods Progression</a>
+  <li><a href="#zentrale-erkenntnisse" id="toc-zentrale-erkenntnisse" class="nav-link active" data-scroll-target="#zentrale-erkenntnisse">Zentrale Erkenntnisse</a></li>
+  <li><a href="#die-reise-vom-anfänger-zum-experten" id="toc-die-reise-vom-anfänger-zum-experten" class="nav-link" data-scroll-target="#die-reise-vom-anfänger-zum-experten">Die Reise vom Anfänger zum Experten</a></li>
+  <li><a href="#die-progression-von-schwachen-zu-starken-methoden" id="toc-die-progression-von-schwachen-zu-starken-methoden" class="nav-link" data-scroll-target="#die-progression-von-schwachen-zu-starken-methoden">Die Progression von schwachen zu starken Methoden</a>
   <ul class="collapse">
-  <li><a href="#weak-methods-novice-stage" id="toc-weak-methods-novice-stage" class="nav-link" data-scroll-target="#weak-methods-novice-stage">1. <strong>Weak Methods</strong> (Novice Stage)</a></li>
-  <li><a href="#proceduralization-intermediate-stage" id="toc-proceduralization-intermediate-stage" class="nav-link" data-scroll-target="#proceduralization-intermediate-stage">2. <strong>Proceduralization</strong> (Intermediate Stage)</a></li>
-  <li><a href="#compilation-expert-stage" id="toc-compilation-expert-stage" class="nav-link" data-scroll-target="#compilation-expert-stage">3. <strong>Compilation</strong> (Expert Stage)</a></li>
+  <li><a href="#schwache-methoden-anfänger-stadium" id="toc-schwache-methoden-anfänger-stadium" class="nav-link" data-scroll-target="#schwache-methoden-anfänger-stadium">1. <strong>Schwache Methoden</strong> (Anfänger-Stadium)</a></li>
+  <li><a href="#prozeduralisierung-fortgeschrittenen-stadium" id="toc-prozeduralisierung-fortgeschrittenen-stadium" class="nav-link" data-scroll-target="#prozeduralisierung-fortgeschrittenen-stadium">2. <strong>Prozeduralisierung</strong> (Fortgeschrittenen-Stadium)</a></li>
+  <li><a href="#kompilierung-experten-stadium" id="toc-kompilierung-experten-stadium" class="nav-link" data-scroll-target="#kompilierung-experten-stadium">3. <strong>Kompilierung</strong> (Experten-Stadium)</a></li>
   </ul></li>
-  <li><a href="#why-cognitive-effort-matters-the-biology-of-learning" id="toc-why-cognitive-effort-matters-the-biology-of-learning" class="nav-link" data-scroll-target="#why-cognitive-effort-matters-the-biology-of-learning">Why Cognitive Effort Matters: The Biology of Learning</a>
+  <li><a href="#warum-kognitive-anstrengung-zählt-die-biologie-des-lernens" id="toc-warum-kognitive-anstrengung-zählt-die-biologie-des-lernens" class="nav-link" data-scroll-target="#warum-kognitive-anstrengung-zählt-die-biologie-des-lernens">Warum kognitive Anstrengung zählt: Die Biologie des Lernens</a>
   <ul class="collapse">
-  <li><a href="#the-prediction-error-learning-system" id="toc-the-prediction-error-learning-system" class="nav-link" data-scroll-target="#the-prediction-error-learning-system">The Prediction Error Learning System</a></li>
+  <li><a href="#das-vorhersagefehler-lernsystem" id="toc-das-vorhersagefehler-lernsystem" class="nav-link" data-scroll-target="#das-vorhersagefehler-lernsystem">Das Vorhersagefehler-Lernsystem</a></li>
   </ul></li>
-  <li><a href="#understanding-cognitive-load-theory" id="toc-understanding-cognitive-load-theory" class="nav-link" data-scroll-target="#understanding-cognitive-load-theory">Understanding Cognitive Load Theory</a>
+  <li><a href="#kognitive-belastungstheorie-verstehen" id="toc-kognitive-belastungstheorie-verstehen" class="nav-link" data-scroll-target="#kognitive-belastungstheorie-verstehen">Kognitive Belastungstheorie verstehen</a>
   <ul class="collapse">
-  <li><a href="#the-evolutionary-foundation-of-learning" id="toc-the-evolutionary-foundation-of-learning" class="nav-link" data-scroll-target="#the-evolutionary-foundation-of-learning">The Evolutionary Foundation of Learning</a></li>
-  <li><a href="#the-cognitive-architecture-of-learning" id="toc-the-cognitive-architecture-of-learning" class="nav-link" data-scroll-target="#the-cognitive-architecture-of-learning">The Cognitive Architecture of Learning</a></li>
-  <li><a href="#how-expertise-actually-develops" id="toc-how-expertise-actually-develops" class="nav-link" data-scroll-target="#how-expertise-actually-develops">How Expertise Actually Develops</a></li>
+  <li><a href="#die-evolutionäre-grundlage-des-lernens" id="toc-die-evolutionäre-grundlage-des-lernens" class="nav-link" data-scroll-target="#die-evolutionäre-grundlage-des-lernens">Die evolutionäre Grundlage des Lernens</a></li>
+  <li><a href="#die-kognitive-architektur-des-lernens" id="toc-die-kognitive-architektur-des-lernens" class="nav-link" data-scroll-target="#die-kognitive-architektur-des-lernens">Die kognitive Architektur des Lernens</a></li>
+  <li><a href="#wie-expertise-wirklich-entsteht" id="toc-wie-expertise-wirklich-entsteht" class="nav-link" data-scroll-target="#wie-expertise-wirklich-entsteht">Wie Expertise wirklich entsteht</a></li>
   </ul></li>
-  <li><a href="#the-ai-bypass-problem" id="toc-the-ai-bypass-problem" class="nav-link" data-scroll-target="#the-ai-bypass-problem">The AI Bypass Problem</a>
+  <li><a href="#das-ki-bypass-problem" id="toc-das-ki-bypass-problem" class="nav-link" data-scroll-target="#das-ki-bypass-problem">Das KI-Bypass-Problem</a>
   <ul class="collapse">
-  <li><a href="#how-ai-disrupts-cognitive-architecture" id="toc-how-ai-disrupts-cognitive-architecture" class="nav-link" data-scroll-target="#how-ai-disrupts-cognitive-architecture">How AI Disrupts Cognitive Architecture</a></li>
+  <li><a href="#wie-ki-die-kognitive-architektur-stört" id="toc-wie-ki-die-kognitive-architektur-stört" class="nav-link" data-scroll-target="#wie-ki-die-kognitive-architektur-stört">Wie KI die kognitive Architektur stört</a></li>
   </ul></li>
-  <li><a href="#pedagogical-implications" id="toc-pedagogical-implications" class="nav-link" data-scroll-target="#pedagogical-implications">Pedagogical Implications</a>
+  <li><a href="#pädagogische-implikationen" id="toc-pädagogische-implikationen" class="nav-link" data-scroll-target="#pädagogische-implikationen">Pädagogische Implikationen</a>
   <ul class="collapse">
-  <li><a href="#the-expert-novice-teaching-trap" id="toc-the-expert-novice-teaching-trap" class="nav-link" data-scroll-target="#the-expert-novice-teaching-trap">The Expert-Novice Teaching Trap</a></li>
-  <li><a href="#why-expert-methods-actively-harm-novices" id="toc-why-expert-methods-actively-harm-novices" class="nav-link" data-scroll-target="#why-expert-methods-actively-harm-novices">Why Expert Methods Actively Harm Novices</a></li>
-  <li><a href="#teaching-that-matches-how-brains-learn" id="toc-teaching-that-matches-how-brains-learn" class="nav-link" data-scroll-target="#teaching-that-matches-how-brains-learn">Teaching That Matches How Brains Learn</a></li>
-  <li><a href="#how-prediction-errors-drive-learning" id="toc-how-prediction-errors-drive-learning" class="nav-link" data-scroll-target="#how-prediction-errors-drive-learning">How Prediction Errors Drive Learning</a></li>
-  <li><a href="#the-desirable-difficulties-principle" id="toc-the-desirable-difficulties-principle" class="nav-link" data-scroll-target="#the-desirable-difficulties-principle">The Desirable Difficulties Principle</a></li>
-  <li><a href="#the-compilation-process" id="toc-the-compilation-process" class="nav-link" data-scroll-target="#the-compilation-process">The Compilation Process</a></li>
-  <li><a href="#what-we-lose-when-we-skip-the-struggle" id="toc-what-we-lose-when-we-skip-the-struggle" class="nav-link" data-scroll-target="#what-we-lose-when-we-skip-the-struggle">What We Lose When We Skip the Struggle</a></li>
-  <li><a href="#the-expertise-illusion" id="toc-the-expertise-illusion" class="nav-link" data-scroll-target="#the-expertise-illusion">The Expertise Illusion</a></li>
-  <li><a href="#research-evidence-the-cost-of-cognitive-offloading" id="toc-research-evidence-the-cost-of-cognitive-offloading" class="nav-link" data-scroll-target="#research-evidence-the-cost-of-cognitive-offloading">Research Evidence: The Cost of Cognitive Offloading</a></li>
+  <li><a href="#die-experten-anfänger-unterrichtsfalle" id="toc-die-experten-anfänger-unterrichtsfalle" class="nav-link" data-scroll-target="#die-experten-anfänger-unterrichtsfalle">Die Experten-Anfänger-Unterrichtsfalle</a></li>
+  <li><a href="#warum-expertenmethoden-anfängern-aktiv-schaden" id="toc-warum-expertenmethoden-anfängern-aktiv-schaden" class="nav-link" data-scroll-target="#warum-expertenmethoden-anfängern-aktiv-schaden">Warum Expertenmethoden Anfängern aktiv schaden</a></li>
+  <li><a href="#lehren-im-einklang-mit-dem-gehirn" id="toc-lehren-im-einklang-mit-dem-gehirn" class="nav-link" data-scroll-target="#lehren-im-einklang-mit-dem-gehirn">Lehren im Einklang mit dem Gehirn</a></li>
+  <li><a href="#wie-vorhersagefehler-lernen-antreiben" id="toc-wie-vorhersagefehler-lernen-antreiben" class="nav-link" data-scroll-target="#wie-vorhersagefehler-lernen-antreiben">Wie Vorhersagefehler Lernen antreiben</a></li>
+  <li><a href="#das-prinzip-der-wünschenswerten-schwierigkeiten" id="toc-das-prinzip-der-wünschenswerten-schwierigkeiten" class="nav-link" data-scroll-target="#das-prinzip-der-wünschenswerten-schwierigkeiten">Das Prinzip der wünschenswerten Schwierigkeiten</a></li>
+  <li><a href="#der-kompilierungsprozess" id="toc-der-kompilierungsprozess" class="nav-link" data-scroll-target="#der-kompilierungsprozess">Der Kompilierungsprozess</a></li>
+  <li><a href="#was-wir-verlieren-wenn-wir-die-anstrengung-überspringen" id="toc-was-wir-verlieren-wenn-wir-die-anstrengung-überspringen" class="nav-link" data-scroll-target="#was-wir-verlieren-wenn-wir-die-anstrengung-überspringen">Was wir verlieren, wenn wir die Anstrengung überspringen</a></li>
+  <li><a href="#die-expertise-illusion" id="toc-die-expertise-illusion" class="nav-link" data-scroll-target="#die-expertise-illusion">Die Expertise-Illusion</a></li>
+  <li><a href="#forschungsergebnisse-die-kosten-des-kognitiven-auslagerns" id="toc-forschungsergebnisse-die-kosten-des-kognitiven-auslagerns" class="nav-link" data-scroll-target="#forschungsergebnisse-die-kosten-des-kognitiven-auslagerns">Forschungsergebnisse: Die Kosten des kognitiven Auslagerns</a></li>
   </ul></li>
-  <li><a href="#the-biological-reality-of-learning" id="toc-the-biological-reality-of-learning" class="nav-link" data-scroll-target="#the-biological-reality-of-learning">The Biological Reality of Learning</a>
+  <li><a href="#die-biologische-realität-des-lernens" id="toc-die-biologische-realität-des-lernens" class="nav-link" data-scroll-target="#die-biologische-realität-des-lernens">Die biologische Realität des Lernens</a>
   <ul class="collapse">
-  <li><a href="#sleep-consolidation-is-essential" id="toc-sleep-consolidation-is-essential" class="nav-link" data-scroll-target="#sleep-consolidation-is-essential">Sleep Consolidation is Essential</a></li>
-  <li><a href="#the-grokking-phenomenon" id="toc-the-grokking-phenomenon" class="nav-link" data-scroll-target="#the-grokking-phenomenon">The Grokking Phenomenon</a></li>
+  <li><a href="#schlafkonsolidierung-ist-essenziell" id="toc-schlafkonsolidierung-ist-essenziell" class="nav-link" data-scroll-target="#schlafkonsolidierung-ist-essenziell">Schlafkonsolidierung ist essenziell</a></li>
+  <li><a href="#das-grokking-phänomen" id="toc-das-grokking-phänomen" class="nav-link" data-scroll-target="#das-grokking-phänomen">Das „Grokking“-Phänomen</a></li>
   </ul></li>
-  <li><a href="#the-memory-paradox" id="toc-the-memory-paradox" class="nav-link" data-scroll-target="#the-memory-paradox">The Memory Paradox</a></li>
-  <li><a href="#building-real-expertise" id="toc-building-real-expertise" class="nav-link" data-scroll-target="#building-real-expertise">Building Real Expertise</a></li>
-  <li><a href="#connecting-to-our-exercise" id="toc-connecting-to-our-exercise" class="nav-link" data-scroll-target="#connecting-to-our-exercise">Connecting to Our Exercise</a></li>
-  <li><a href="#reflection-questions" id="toc-reflection-questions" class="nav-link" data-scroll-target="#reflection-questions">Reflection Questions</a></li>
-  <li><a href="#quick-reference-how-theories-work-together" id="toc-quick-reference-how-theories-work-together" class="nav-link" data-scroll-target="#quick-reference-how-theories-work-together">Quick Reference: How Theories Work Together</a></li>
+  <li><a href="#das-gedächtnisparadoxon" id="toc-das-gedächtnisparadoxon" class="nav-link" data-scroll-target="#das-gedächtnisparadoxon">Das Gedächtnisparadoxon</a></li>
+  <li><a href="#echte-expertise-aufbauen" id="toc-echte-expertise-aufbauen" class="nav-link" data-scroll-target="#echte-expertise-aufbauen">Echte Expertise aufbauen</a></li>
+  <li><a href="#verbindung-zu-unserer-übung" id="toc-verbindung-zu-unserer-übung" class="nav-link" data-scroll-target="#verbindung-zu-unserer-übung">Verbindung zu unserer Übung</a></li>
+  <li><a href="#reflexionsfragen" id="toc-reflexionsfragen" class="nav-link" data-scroll-target="#reflexionsfragen">Reflexionsfragen</a></li>
+  <li><a href="#schnellreferenz-wie-theorien-zusammenwirken" id="toc-schnellreferenz-wie-theorien-zusammenwirken" class="nav-link" data-scroll-target="#schnellreferenz-wie-theorien-zusammenwirken">Schnellreferenz: Wie Theorien zusammenwirken</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/virtuelleakademie/denken-statt-delegieren/edit/main/workshop/skill-acquisition/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/virtuelleakademie/denken-statt-delegieren/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -536,8 +515,8 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">How Skill Acquisition Works</h1>
-<p class="subtitle lead">From Novice to Expert: The Science of Learning</p>
+<h1 class="title">Wie man Kompetenz erwirbt</h1>
+<p class="subtitle lead">Vom Novizen zum Exerten: Die Wissenschaft des Lernens</p>
 </div>
 
 
@@ -560,12 +539,6 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
       
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">23 Jun, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -575,132 +548,123 @@ window.Quarto = {
 </header>
 
 
-<section id="key-takeaways" class="level2">
-<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
+<p><a href="../../workshop/skill-acquisition/index-en.html">english version</a></p>
+<section id="zentrale-erkenntnisse" class="level2">
+<h2 class="anchored" data-anchor-id="zentrale-erkenntnisse">Zentrale Erkenntnisse</h2>
 <ol type="1">
-<li><strong>Expertise requires progressive skill building</strong> through weak → strong methods</li>
-<li><strong>Cognitive effort is not a bug—it’s the feature</strong> that enables learning through prediction errors</li>
-<li><strong>AI bypasses the very struggles</strong> that build lasting capabilities</li>
-<li><strong>Expert methods actively harm novices</strong> by creating cognitive overload and dependency</li>
-<li><strong>Real understanding emerges</strong> from thousands of effortful practice cycles with prediction errors</li>
-<li><strong>Choose your tools wisely</strong>: Use AI to reduce irrelevant cognitive load, not to skip essential learning</li>
+<li><strong>Expertise erfordert schrittweisen Kompetenzaufbau</strong> durch schwache → starke Methoden</li>
+<li><strong>Kognitive Anstrengung ist kein Fehler, sondern die Funktion</strong>, die Lernen durch Vorhersagefehler ermöglicht</li>
+<li><strong>KI umgeht genau die Anstrengungen</strong>, die dauerhafte Fähigkeiten aufbauen</li>
+<li><strong>Expertenmethoden schaden Anfängern aktiv</strong>, indem sie kognitive Überlastung und Abhängigkeit erzeugen</li>
+<li><strong>Echtes Verständnis entsteht</strong> durch tausende anstrengende Übungszyklen mit Vorhersagefehlern</li>
+<li><strong>Wähle deine Werkzeuge mit Bedacht</strong>: Nutze KI, um irrelevante kognitive Belastung zu reduzieren, nicht um essentielles Lernen zu überspringen</li>
 </ol>
 </section>
-<section id="connecting-to-your-experience" class="level2">
-<h2 class="anchored" data-anchor-id="connecting-to-your-experience">Connecting to Your Experience</h2>
-<p>Think back to the exercise you just completed:</p>
-<ul>
-<li><strong>Without AI</strong>: You engaged in deep thinking and struggle</li>
-<li><strong>Single prompt</strong>: You got quick answers with low effort</li>
-<li><strong>Iterative AI</strong>: You maintained some cognitive engagement</li>
-</ul>
-<p>Which mode built lasting understanding? Let’s explore the science behind skill acquisition to understand why struggle matters for learning.</p>
+<section id="die-reise-vom-anfänger-zum-experten" class="level2">
+<h2 class="anchored" data-anchor-id="die-reise-vom-anfänger-zum-experten">Die Reise vom Anfänger zum Experten</h2>
+<p>Wenn wir neue Fähigkeiten erlernen, durchläuft unser Gehirn eine bemerkenswerte Transformation. Das Verständnis dieses Prozesses hilft uns zu erkennen, warum das Auslagern kognitiver Prozesse an KI die Entwicklung echter Expertise verhindern kann – und warum <em>Expertenwerkzeuge Anfängern aktiv schaden können</em>.</p>
 </section>
-<section id="the-journey-from-novice-to-expert" class="level2">
-<h2 class="anchored" data-anchor-id="the-journey-from-novice-to-expert">The Journey from Novice to Expert</h2>
-<p>When we learn new skills, our brains undergo a remarkable transformation. Understanding this process helps us appreciate why offloading cognitive processing to AI can prevent genuine expertise development—and why <em>expert-level tools can actively harm novice learning</em>.</p>
-</section>
-<section id="the-weak-to-strong-methods-progression" class="level2">
-<h2 class="anchored" data-anchor-id="the-weak-to-strong-methods-progression">The Weak-to-Strong Methods Progression</h2>
-<p>According to John Anderson’s ACT-R theory <span class="citation" data-cites="andersonAcquisitionCognitiveSkill1982 andersonHowCanHuman2007">(<a href="#ref-andersonAcquisitionCognitiveSkill1982" role="doc-biblioref">Anderson 1982</a>, <a href="#ref-andersonHowCanHuman2007" role="doc-biblioref">2007</a>)</span>, expertise develops through a predictable progression:</p>
-<section id="weak-methods-novice-stage" class="level3">
-<h3 class="anchored" data-anchor-id="weak-methods-novice-stage">1. <strong>Weak Methods</strong> (Novice Stage)</h3>
-<p>Weak methods are domain-general problem-solving strategies that novices use when they lack specific knowledge:</p>
+<section id="die-progression-von-schwachen-zu-starken-methoden" class="level2">
+<h2 class="anchored" data-anchor-id="die-progression-von-schwachen-zu-starken-methoden">Die Progression von schwachen zu starken Methoden</h2>
+<p>Nach John Andersons ACT-R-Theorie <span class="citation" data-cites="andersonAcquisitionCognitiveSkill1982 andersonHowCanHuman2007">[@andersonAcquisitionCognitiveSkill1982; @andersonHowCanHuman2007]</span> entwickelt sich Expertise durch eine vorhersehbare Progression:</p>
+<section id="schwache-methoden-anfänger-stadium" class="level3">
+<h3 class="anchored" data-anchor-id="schwache-methoden-anfänger-stadium">1. <strong>Schwache Methoden</strong> (Anfänger-Stadium)</h3>
+<p>Schwache Methoden sind domänenübergreifende Problemlösungsstrategien, die Anfänger verwenden, wenn ihnen spezifisches Wissen fehlt:</p>
 <ul>
-<li><strong>Means-End Analysis</strong>: <code>What's the difference between where I am and where I need to be?</code></li>
-<li><strong>Working Backward</strong>: <code>Start from the goal and work toward current state</code></li>
-<li><strong>Analogy</strong>: <code>This reminds me of...</code> (often based on surface features)</li>
-<li><strong>Trial and Error</strong>: <code>Let me try different things until something works</code></li>
-<li><strong>Hill Climbing</strong>: <code>Always move toward what seems better</code></li>
+<li><strong>Mittel-Ziel-Analyse</strong>: <code>Was ist der Unterschied zwischen meinem aktuellen Stand und dem Ziel?</code></li>
+<li><strong>Rückwärtsarbeiten</strong>: <code>Vom Ziel zurück zum Ausgangszustand gehen</code></li>
+<li><strong>Analogie</strong>: <code>Das erinnert mich an...</code> (oft basierend auf Oberflächenmerkmalen)</li>
+<li><strong>Versuch und Irrtum</strong>: <code>Ich probiere Verschiedenes aus, bis etwas funktioniert</code></li>
+<li><strong>Bergsteigen</strong>: <code>Immer in Richtung dessen bewegen, was besser erscheint</code></li>
 </ul>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Novice solving <span class="math inline">\(3x + 5 = 20\)</span>
+Beispiel: Anfänger löst <span class="math inline">\(3x + 5 = 20\)</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Using weak methods:</p>
+<p>Mit schwachen Methoden:</p>
 <ul>
-<li>Goal is to find <span class="math inline">\(x\)</span></li>
-<li>Current state: <span class="math inline">\(3x + 5 = 20\)</span></li>
-<li>How to reduce difference?</li>
-<li>Maybe subtract <span class="math inline">\(5\)</span>?</li>
-<li>Why? Um… to get <span class="math inline">\(x\)</span> alone?</li>
-<li>OK, so <span class="math inline">\(3x = 15\)</span></li>
-<li>Now what reduces the difference?</li>
-<li>Divide by <span class="math inline">\(3\)</span>?</li>
+<li>Ziel ist, <span class="math inline">\(x\)</span> zu finden</li>
+<li>Aktueller Zustand: <span class="math inline">\(3x + 5 = 20\)</span></li>
+<li>Wie kann ich den Unterschied verringern?</li>
+<li>Vielleicht <span class="math inline">\(5\)</span> subtrahieren?</li>
+<li>Warum? Ähm… um <span class="math inline">\(x\)</span> allein zu bekommen?</li>
+<li>Ok, also <span class="math inline">\(3x = 15\)</span></li>
+<li>Was reduziert jetzt den Unterschied?</li>
+<li>Durch <span class="math inline">\(3\)</span> teilen?</li>
 <li><span class="math inline">\(x = 5\)</span></li>
 </ul>
-<p><strong>Note the deliberative, step-by-step reasoning!</strong></p>
+<p><strong>Beachte das überlegte, schrittweise Vorgehen!</strong></p>
 </div>
 </div>
 </section>
-<section id="proceduralization-intermediate-stage" class="level3">
-<h3 class="anchored" data-anchor-id="proceduralization-intermediate-stage">2. <strong>Proceduralization</strong> (Intermediate Stage)</h3>
+<section id="prozeduralisierung-fortgeschrittenen-stadium" class="level3">
+<h3 class="anchored" data-anchor-id="prozeduralisierung-fortgeschrittenen-stadium">2. <strong>Prozeduralisierung</strong> (Fortgeschrittenen-Stadium)</h3>
 <ul>
-<li>Repeated patterns become procedures</li>
-<li>Still conscious but more fluid</li>
-<li>Reduced cognitive load</li>
-<li>Faster with fewer errors</li>
-<li>Example: Using multiplication tables from memory</li>
+<li>Wiederkehrende Muster werden zu Prozeduren</li>
+<li>Immer noch bewusst, aber flüssiger</li>
+<li>Geringere kognitive Belastung</li>
+<li>Schneller mit weniger Fehlern</li>
+<li>Beispiel: Nutzung des Einmaleins aus dem Gedächtnis</li>
 </ul>
-<p>During this stage, knowledge begins forming into <strong>production rules</strong>. These are <code>IF-THEN</code> condition-action pairs:</p>
+<p>In dieser Phase beginnen sich <strong>Produktionsregeln</strong> zu bilden. Das sind <code>WENN-DANN</code>-Bedingungs-Aktionspaare:</p>
 <ul>
-<li><code>IF</code> I see “3 × 4” <code>THEN</code> answer “12”</li>
-<li><code>IF</code> equation has form <span class="math inline">\(ax + b = c\)</span> <code>THEN</code> subtract b from both sides</li>
-<li><code>IF</code> code won’t compile <code>THEN</code> check for syntax errors first</li>
+<li><code>WENN</code> ich “3 × 4” sehe <code>DANN</code> antworte “12”</li>
+<li><code>WENN</code> eine Gleichung die Form <span class="math inline">\(ax + b = c\)</span> hat <code>DANN</code> subtrahiere b von beiden Seiten</li>
+<li><code>WENN</code> der Code nicht kompiliert <code>DANN</code> prüfe zuerst auf Syntaxfehler</li>
 </ul>
 </section>
-<section id="compilation-expert-stage" class="level3">
-<h3 class="anchored" data-anchor-id="compilation-expert-stage">3. <strong>Compilation</strong> (Expert Stage)</h3>
+<section id="kompilierung-experten-stadium" class="level3">
+<h3 class="anchored" data-anchor-id="kompilierung-experten-stadium">3. <strong>Kompilierung</strong> (Experten-Stadium)</h3>
 <ul>
-<li>Knowledge becomes automatic through <strong>many practice episodes</strong></li>
-<li>Pattern recognition dominates</li>
-<li>Minimal cognitive load</li>
-<li>Fast and accurate</li>
-<li>Cannot explain steps anymore!</li>
+<li>Wissen wird durch <strong>zahlreiche Übungsdurchläufe</strong> automatisch</li>
+<li>Mustererkennung dominiert</li>
+<li>Minimale kognitive Belastung</li>
+<li>Schnell und fehlerfrei</li>
+<li>Kann die Schritte nicht mehr erklären!</li>
 </ul>
-<p><strong>Production strength</strong> determines which rules fire: frequently successful rules become stronger and fire faster. This is why practice improves both speed AND accuracy—stronger productions outcompete weaker alternatives.</p>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<p><strong>Produktionsstärke</strong> bestimmt, welche Regeln ausgelöst werden: Häufig erfolgreiche Regeln werden stärker und schneller aktiviert. Deshalb verbessert Übung sowohl die Geschwindigkeit ALS AUCH die Genauigkeit – stärkere Produktionen setzen sich gegen schwächere Alternativen durch.</p>
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Expert solving <span class="math inline">\(3x + 5 = 20\)</span>
+Beispiel: Experte löst <span class="math inline">\(3x + 5 = 20\)</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Expert sees equation and can instantly recognize → <span class="math inline">\(x = 5\)</span></p>
-<p>When asked to explain:</p>
+<p>Experte sieht die Gleichung und erkennt sofort → <span class="math inline">\(x = 5\)</span></p>
+<p>Wenn nach Erklärung gefragt:</p>
 <ul>
-<li>“I just… know?”</li>
-<li>“You subtract 5 and divide by 3”</li>
-<li>“How did I know that? I’m not sure…”</li>
+<li>“Ich weiß es einfach…”</li>
+<li>“Du subtrahierst 5 und teilst durch 3”</li>
+<li>“Wie wusste ich das? Ich bin mir nicht sicher…”</li>
 </ul>
-<p><strong>The knowledge has compiled into automatic procedures.</strong></p>
+<p><strong>Das Wissen ist zu automatischen Prozeduren kompilert.</strong></p>
 </div>
 </div>
 </section>
 </section>
-<section id="why-cognitive-effort-matters-the-biology-of-learning" class="level2">
-<h2 class="anchored" data-anchor-id="why-cognitive-effort-matters-the-biology-of-learning">Why Cognitive Effort Matters: The Biology of Learning</h2>
-<section id="the-prediction-error-learning-system" class="level3">
-<h3 class="anchored" data-anchor-id="the-prediction-error-learning-system">The Prediction Error Learning System</h3>
-<p>The human brain learns through a sophisticated prediction error system that can easily be bypassed when outsourcing cognitive processing. This biological reality explains why struggle is essential for learning.</p>
+<section id="warum-kognitive-anstrengung-zählt-die-biologie-des-lernens" class="level2">
+<h2 class="anchored" data-anchor-id="warum-kognitive-anstrengung-zählt-die-biologie-des-lernens">Warum kognitive Anstrengung zählt: Die Biologie des Lernens</h2>
+<section id="das-vorhersagefehler-lernsystem" class="level3">
+<h3 class="anchored" data-anchor-id="das-vorhersagefehler-lernsystem">Das Vorhersagefehler-Lernsystem</h3>
+<p>Das menschliche Gehirn lernt durch ein ausgefeiltes Vorhersagefehler-System, das leicht umgangen werden kann, wenn die kognitive Verarbeitung ausgelagert wird. Diese biologische Realität erklärt, warum Anstrengung für das Lernen unerlässlich ist.</p>
 </section>
 </section>
-<section id="understanding-cognitive-load-theory" class="level2">
-<h2 class="anchored" data-anchor-id="understanding-cognitive-load-theory">Understanding Cognitive Load Theory</h2>
-<section id="the-evolutionary-foundation-of-learning" class="level3">
-<h3 class="anchored" data-anchor-id="the-evolutionary-foundation-of-learning">The Evolutionary Foundation of Learning</h3>
-<p>Cognitive Load Theory (CLT) <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span> is specifically concerned with how humans acquire <strong>biologically secondary knowledge</strong>—the academic content that schools exist to teach. Understanding this distinction is crucial for grasping why AI can disrupt learning so profoundly.</p>
-<section id="biologically-primary-vs.-secondary-knowledge" class="level4">
-<h4 class="anchored" data-anchor-id="biologically-primary-vs.-secondary-knowledge">Biologically Primary vs.&nbsp;Secondary Knowledge</h4>
+<section id="kognitive-belastungstheorie-verstehen" class="level2">
+<h2 class="anchored" data-anchor-id="kognitive-belastungstheorie-verstehen">Kognitive Belastungstheorie verstehen</h2>
+<section id="die-evolutionäre-grundlage-des-lernens" class="level3">
+<h3 class="anchored" data-anchor-id="die-evolutionäre-grundlage-des-lernens">Die evolutionäre Grundlage des Lernens</h3>
+<p>Die Cognitive Load Theory (CLT) <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">[@swellerDevelopmentCognitiveLoad2023]</span> beschäftigt sich speziell damit, wie Menschen <strong>biologisch sekundäres Wissen</strong> erwerben – das akademische Wissen, das Schulen vermitteln sollen. Das Verständnis dieses Unterschieds ist entscheidend, um zu begreifen, warum KI das Lernen so tiefgreifend stören kann.</p>
+<section id="biologisch-primäres-vs.-sekundäres-wissen" class="level4">
+<h4 class="anchored" data-anchor-id="biologisch-primäres-vs.-sekundäres-wissen">Biologisch primäres vs.&nbsp;sekundäres Wissen</h4>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 50%">
@@ -708,510 +672,513 @@ Example: Expert solving <span class="math inline">\(3x + 5 = 20\)</span>
 </colgroup>
 <thead>
 <tr class="header">
-<th>Knowledge Type</th>
-<th>Examples</th>
+<th>Wissenstyp</th>
+<th>Beispiele</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Biologically Primary</strong> (we evolved to learn)</td>
-<td>• Recognizing faces and voices<br>• Understanding basic social interactions<br>• Learning spoken language<br>• Basic spatial navigation<br>• Recognizing danger and safety</td>
+<td><strong>Biologisch primär</strong> (wir sind dafür evolutionär angepasst)</td>
+<td>• Gesichter und Stimmen erkennen<br>• Soziale Interaktionen verstehen<br>• Gesprochene Sprache lernen<br>• Räumliche Orientierung<br>• Gefahr und Sicherheit erkennen</td>
 </tr>
 <tr class="even">
-<td><strong>Biologically Secondary</strong> (we didn’t evolve to learn)</td>
-<td>• Reading and writing<br>• Mathematics and algebra<br>• Programming and data analysis<br>• Scientific reasoning<br>• Historical analysis</td>
+<td><strong>Biologisch sekundär</strong> (wir sind NICHT dafür evolutionär angepasst)</td>
+<td>• Lesen und Schreiben<br>• Mathematik und Algebra<br>• Programmieren und Datenanalyse<br>• Wissenschaftliches Denken<br>• Historische Analyse</td>
 </tr>
 </tbody>
 </table>
-<div class="callout callout-style-simple callout-important no-icon callout-titled">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Why This Distinction Matters
+Warum diese Unterscheidung wichtig ist
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ul>
-<li><strong>Primary knowledge</strong> can be learned through natural discovery and play</li>
-<li><strong>Secondary knowledge</strong> requires explicit instruction and guided practice</li>
-<li><strong>Schools exist</strong> precisely because secondary knowledge doesn’t develop naturally</li>
-<li><strong>AI disruption</strong> is particularly damaging for secondary knowledge acquisition</li>
+<li><strong>Primäres Wissen</strong> kann durch natürliche Entdeckung und Spiel erlernt werden</li>
+<li><strong>Sekundäres Wissen</strong> erfordert explizite Instruktion und angeleitetes Üben</li>
+<li><strong>Schulen existieren</strong>, weil sich sekundäres Wissen nicht natürlich entwickelt</li>
+<li><strong>KI-Störung</strong> ist besonders schädlich für den Erwerb sekundären Wissens</li>
 </ul>
 </div>
 </div>
 </section>
 </section>
-<section id="the-cognitive-architecture-of-learning" class="level3">
-<h3 class="anchored" data-anchor-id="the-cognitive-architecture-of-learning">The Cognitive Architecture of Learning</h3>
-<p>CLT is based on how human cognition actually processes information, using an architecture that mirrors evolution by natural selection <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">(<a href="#ref-swellerDevelopmentCognitiveLoad2023" role="doc-biblioref">Sweller 2023</a>)</span>:</p>
-<section id="two-pathways-for-novel-information" class="level4">
-<h4 class="anchored" data-anchor-id="two-pathways-for-novel-information">Two Pathways for Novel Information</h4>
-<p>Humans can acquire new biologically secondary information through two routes:</p>
+<section id="die-kognitive-architektur-des-lernens" class="level3">
+<h3 class="anchored" data-anchor-id="die-kognitive-architektur-des-lernens">Die kognitive Architektur des Lernens</h3>
+<p>CLT basiert darauf, wie die menschliche Kognition Informationen verarbeitet und nutzt eine Architektur, die die Evolution durch natürliche Selektion widerspiegelt <span class="citation" data-cites="swellerDevelopmentCognitiveLoad2023">[@swellerDevelopmentCognitiveLoad2023]</span>:</p>
+<section id="zwei-wege-für-neue-informationen" class="level4">
+<h4 class="anchored" data-anchor-id="zwei-wege-für-neue-informationen">Zwei Wege für neue Informationen</h4>
+<p>Menschen können neues biologisch sekundäres Wissen auf zwei Arten erwerben:</p>
 <ol type="1">
-<li><strong>Discovery During Problem Solving</strong>: Working through challenges independently</li>
-<li><strong>Learning From Others</strong>: Receiving information through instruction</li>
+<li><strong>Entdeckung durch Problemlösen</strong>: Eigenständiges Durcharbeiten von Herausforderungen</li>
+<li><strong>Lernen von anderen</strong>: Aufnahme von Informationen durch Instruktion</li>
 </ol>
-<p><strong>Crucially</strong>: Both these acquisition skills are themselves <em>biologically primary</em>—we evolved to be excellent at discovering things and learning from others. This is why humans dominate the mammalian world.</p>
+<p><strong>Entscheidend</strong>: Beide Erwerbsarten sind selbst <em>biologisch primär</em> – wir sind hervorragend darin, Dinge zu entdecken und von anderen zu lernen. Deshalb dominieren Menschen die Säugetierwelt.</p>
 </section>
-<section id="the-processing-bottleneck" class="level4">
-<h4 class="anchored" data-anchor-id="the-processing-bottleneck">The Processing Bottleneck</h4>
-<p>Once information is acquired through either pathway, it must be processed through:</p>
-<p><strong>Working Memory</strong>:</p>
+<section id="die-engstelle-der-verarbeitung" class="level4">
+<h4 class="anchored" data-anchor-id="die-engstelle-der-verarbeitung">Die Engstelle der Verarbeitung</h4>
+<p>Sobald Information durch einen der beiden Wege erworben wurde, muss sie verarbeitet werden durch:</p>
+<p><strong>Arbeitsgedächtnis</strong>:</p>
 <ul>
-<li><strong>Severely limited capacity</strong> (Miller’s 7±2, more recently Cowan’s 4±1 chunks)</li>
-<li><strong>Severely limited duration</strong> (15-30 seconds without rehearsal)</li>
-<li><strong>The bottleneck</strong> where all conscious learning occurs</li>
+<li><strong>Stark begrenzte Kapazität</strong> (Millers 7±2, neuer: Cowans 4±1 Chunks)</li>
+<li><strong>Stark begrenzte Dauer</strong> (15–30 Sekunden ohne Wiederholung)</li>
+<li><strong>Die Engstelle</strong>, in der alles bewusste Lernen stattfindet</li>
 </ul>
-<p><strong>Long-Term Memory</strong>:</p>
+<p><strong>Langzeitgedächtnis</strong>:</p>
 <ul>
-<li><strong>No known limits</strong> of capacity or duration</li>
-<li><strong>Where expertise lives</strong> through domain-specific information storage</li>
-<li><strong>The goal</strong> of all instruction</li>
+<li><strong>Keine bekannten Begrenzungen</strong> für Kapazität oder Dauer</li>
+<li><strong>Hier lebt die Expertise</strong> durch fachspezifische Informationsspeicherung</li>
+<li><strong>Das Ziel</strong> aller Instruktion</li>
 </ul>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Element Interactivity in Action
+Elementinteraktivität in der Praxis
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Consider solving: <span class="math inline">\((x + 3)(x - 2) = 0\)</span></p>
-<p><strong>For a novice</strong>, each element must be held in working memory: - What <span class="math inline">\(x\)</span> represents - The meaning of parentheses - Addition and subtraction operations - Implied multiplication - The significance of “equals zero” - How to find solutions</p>
-<p><strong>Total: 7+ interacting elements</strong> = Working memory overload</p>
-<p><strong>For an expert</strong>, this is one chunk retrieved from long-term memory: - “Factored form, so <span class="math inline">\(x = -3\)</span> or <span class="math inline">\(x = 2\)</span>”</p>
-<p><strong>Total: 1 chunk</strong> = Minimal working memory load</p>
-<p><strong>With Offloading to AI</strong>: - Input → Answer</p>
-<p><strong>Total: 0 working memory processing</strong> = No learning, no long-term memory storage</p>
+<p>Betrachte das Lösen: <span class="math inline">\((x + 3)(x - 2) = 0\)</span></p>
+<p><strong>Für einen Anfänger</strong> muss jedes Element im Arbeitsgedächtnis gehalten werden: - Was <span class="math inline">\(x\)</span> bedeutet - Die Bedeutung der Klammern - Additions- und Subtraktionsoperationen - Implizite Multiplikation - Die Bedeutung von „gleich Null“ - Wie man Lösungen findet</p>
+<p><strong>Insgesamt: 7+ interagierende Elemente</strong> = Überlastung des Arbeitsgedächtnisses</p>
+<p><strong>Für einen Experten</strong> ist das ein Chunk aus dem Langzeitgedächtnis: - “Faktorisierte Form, also <span class="math inline">\(x = -3\)</span> oder <span class="math inline">\(x = 2\)</span>”</p>
+<p><strong>Insgesamt: 1 Chunk</strong> = Minimale Belastung des Arbeitsgedächtnisses</p>
+<p><strong>Beim Auslagern an KI</strong>: - Eingabe → Antwort</p>
+<p><strong>Insgesamt: 0 Arbeitsgedächtnisverarbeitung</strong> = Kein Lernen, keine Speicherung im Langzeitgedächtnis</p>
 </div>
 </div>
 </section>
 </section>
-<section id="how-expertise-actually-develops" class="level3">
-<h3 class="anchored" data-anchor-id="how-expertise-actually-develops">How Expertise Actually Develops</h3>
-<p>As De Groot first demonstrated in 1965 <span class="citation" data-cites="grootThoughtChoiceChess1978 swellerCognitiveLoadTheory2024">(<a href="#ref-grootThoughtChoiceChess1978" role="doc-biblioref">Groot and Groot 1978</a>; <a href="#ref-swellerCognitiveLoadTheory2024" role="doc-biblioref">Sweller 2024</a>)</span>, expertise is <strong>domain-specific</strong> and results from <strong>enormous amounts of domain-specific information stored in long-term memory</strong>. This isn’t just “knowing more facts”—it’s having organized knowledge structures (schemas) that allow experts to:</p>
+<section id="wie-expertise-wirklich-entsteht" class="level3">
+<h3 class="anchored" data-anchor-id="wie-expertise-wirklich-entsteht">Wie Expertise wirklich entsteht</h3>
+<p>Wie De Groot 1965 erstmals zeigte <span class="citation" data-cites="grootThoughtChoiceChess1978 swellerCognitiveLoadTheory2024">[@grootThoughtChoiceChess1978; @swellerCognitiveLoadTheory2024]</span>, ist Expertise <strong>fächerspezifisch</strong> und resultiert aus <strong>riesigen Mengen fachspezifischer Informationen im Langzeitgedächtnis</strong>. Das ist nicht einfach „mehr Fakten wissen“ – sondern organisierte Wissensstrukturen (Schemata), die Experten ermöglichen:</p>
 <ul>
-<li><strong>Chunk multiple elements</strong> into single units</li>
-<li><strong>Recognize patterns</strong> automatically</li>
-<li><strong>Access procedures</strong> without conscious effort</li>
-<li><strong>Free up working memory</strong> for higher-level thinking</li>
+<li><strong>Mehrere Elemente zu Chunks bündeln</strong></li>
+<li><strong>Muster automatisch erkennen</strong></li>
+<li><strong>Prozeduren ohne bewusste Anstrengung abrufen</strong></li>
+<li><strong>Das Arbeitsgedächtnis für höheres Denken freimachen</strong></li>
 </ul>
 </section>
 </section>
-<section id="the-ai-bypass-problem" class="level2">
-<h2 class="anchored" data-anchor-id="the-ai-bypass-problem">The AI Bypass Problem</h2>
-<section id="how-ai-disrupts-cognitive-architecture" class="level3">
-<h3 class="anchored" data-anchor-id="how-ai-disrupts-cognitive-architecture">How AI Disrupts Cognitive Architecture</h3>
-<p>Offloading cognitive processing to AI can short-circuit this entire learning system:</p>
+<section id="das-ki-bypass-problem" class="level2">
+<h2 class="anchored" data-anchor-id="das-ki-bypass-problem">Das KI-Bypass-Problem</h2>
+<section id="wie-ki-die-kognitive-architektur-stört" class="level3">
+<h3 class="anchored" data-anchor-id="wie-ki-die-kognitive-architektur-stört">Wie KI die kognitive Architektur stört</h3>
+<p>Das Auslagern kognitiver Prozesse an KI kann das gesamte Lernsystem kurzschließen:</p>
 <ol type="1">
-<li><strong>Bypasses working memory processing</strong>: No cognitive effort means no encoding</li>
-<li><strong>Prevents long-term memory storage</strong>: Information that isn’t processed isn’t stored</li>
-<li><strong>Eliminates schema construction</strong>: Students get answers without building knowledge structures</li>
-<li><strong>Blocks the novice→expert transition</strong>: No pathway from limited to unlimited knowledge</li>
+<li><strong>Umgeht Verarbeitung im Arbeitsgedächtnis</strong>: Keine kognitive Anstrengung bedeutet keine Kodierung</li>
+<li><strong>Verhindert Speicherung im Langzeitgedächtnis</strong>: Unverarbeitete Informationen werden nicht gespeichert</li>
+<li><strong>Eliminiert Schemabildung</strong>: Lernende erhalten Antworten, ohne Wissensstrukturen aufzubauen</li>
+<li><strong>Blockiert den Übergang vom Anfänger zum Experten</strong>: Kein Weg von begrenztem zu unbegrenztem Wissen</li>
 </ol>
-<div class="callout callout-style-simple callout-warning no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><strong>The fundamental problem</strong>: AI provides the benefits of expertise (instant access to organized knowledge) without requiring the process that creates expertise (working memory struggle → long-term memory storage).</p>
-</div>
-</div>
-</div>
-</section>
-</section>
-<section id="pedagogical-implications" class="level2">
-<h2 class="anchored" data-anchor-id="pedagogical-implications">Pedagogical Implications</h2>
-<section id="the-expert-novice-teaching-trap" class="level3">
-<h3 class="anchored" data-anchor-id="the-expert-novice-teaching-trap">The Expert-Novice Teaching Trap</h3>
-<p>The most dangerous mistake in education is assuming that novices should learn the way experts work. This leads to what Kirschner <span class="citation" data-cites="kirschnerHowTeachingHappens2022">(<a href="#ref-kirschnerHowTeachingHappens2022" role="doc-biblioref">Kirschner, Hendrick, and Heal 2022</a>)</span> calls confusing <strong>“the epistemology of the expert with the pedagogy for the learner.”</strong></p>
-<p><strong>What Experts Do (Producing Knowledge):</strong></p>
-<ul>
-<li>Work forward from automated principles</li>
-<li>Recognize deep patterns instantly</li>
-<li>Apply strong, domain-specific methods</li>
-<li>Create and discover new knowledge</li>
-<li>Process multiple elements simultaneously</li>
-</ul>
-<p><strong>What Novices Need (Learning Knowledge):</strong></p>
-<ul>
-<li>Work backward using means-end analysis</li>
-<li>Build basic pattern recognition through practice</li>
-<li>Start with weak, general methods</li>
-<li>Reconstruct and understand existing knowledge</li>
-<li>Process elements sequentially to avoid overload</li>
-</ul>
-</section>
-<section id="why-expert-methods-actively-harm-novices" class="level3">
-<h3 class="anchored" data-anchor-id="why-expert-methods-actively-harm-novices">Why Expert Methods Actively Harm Novices</h3>
-<p>Giving novices expert-level tools isn’t just ineffective—it’s <strong>actively harmful</strong> to learning:</p>
-<section id="cognitive-load-mismatch" class="level4">
-<h4 class="anchored" data-anchor-id="cognitive-load-mismatch">1. <strong>Cognitive Load Mismatch</strong></h4>
-<ul>
-<li><strong>Experts</strong> can handle multiple interacting elements because they’ve chunked them into patterns</li>
-<li><strong>Novices</strong> become overwhelmed when given the same complexity</li>
-<li><strong>Result</strong>: Cognitive overload prevents any learning from occurring</li>
-</ul>
-</section>
-<section id="production-rule-interference" class="level4">
-<h4 class="anchored" data-anchor-id="production-rule-interference">2. <strong>Production Rule Interference</strong></h4>
-<ul>
-<li><strong>Experts</strong> have strong, successful production rules that fire automatically</li>
-<li><strong>Novices</strong> need to build these rules through repeated weak-method practice</li>
-<li><strong>AI shortcuts</strong> prevent the repetition needed for rule strengthening</li>
-<li><strong>Result</strong>: Weak rules never develop, leaving permanent dependency</li>
-</ul>
-</section>
-<section id="schema-construction-bypass" class="level4">
-<h4 class="anchored" data-anchor-id="schema-construction-bypass">3. <strong>Schema Construction Bypass</strong></h4>
-<ul>
-<li><strong>Experts</strong> have rich schemas (organized knowledge structures) built through experience</li>
-<li><strong>Novices</strong> must construct these schemas element by element</li>
-<li><strong>AI answers</strong> provide the outcome without the construction process</li>
-<li><strong>Result</strong>: No schemas form, preventing transfer to new situations</li>
-</ul>
-</section>
-<section id="metacognitive-damage" class="level4">
-<h4 class="anchored" data-anchor-id="metacognitive-damage">4. <strong>Metacognitive Damage</strong></h4>
-<ul>
-<li><strong>Experts</strong> know when and why to apply different strategies</li>
-<li><strong>Novices</strong> develop this awareness through monitoring their own thinking</li>
-<li><strong>AI dependency</strong> eliminates the need for self-monitoring</li>
-<li><strong>Result</strong>: Students become unable to evaluate their own understanding</li>
-</ul>
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-The Dependency Cascade
+Warning
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>When novices use expert-level tools prematurely:</p>
-<ol type="1">
-<li><strong>Initial success</strong> creates false confidence</li>
-<li><strong>Weak methods atrophy</strong> from disuse</li>
-<li><strong>Problem-solving skills deteriorate</strong> without practice</li>
-<li><strong>Dependency deepens</strong> as internal capabilities weaken</li>
-<li><strong>Transfer fails</strong> when AI isn’t available</li>
-<li><strong>Learned helplessness</strong> develops when facing novel challenges</li>
-</ol>
-<p>This isn’t just “not learning”—it’s <strong>unlearning</strong> existing capabilities.</p>
+<p><strong>Das Grundproblem</strong>: KI bietet die Vorteile von Expertise (sofortiger Zugriff auf organisiertes Wissen), ohne den Prozess, der Expertise schafft (Arbeitsgedächtnisanstrengung → Speicherung im Langzeitgedächtnis).</p>
 </div>
 </div>
 </section>
 </section>
-<section id="teaching-that-matches-how-brains-learn" class="level3">
-<h3 class="anchored" data-anchor-id="teaching-that-matches-how-brains-learn">Teaching That Matches How Brains Learn</h3>
-<section id="principle-1-respect-the-developmental-sequence" class="level4">
-<h4 class="anchored" data-anchor-id="principle-1-respect-the-developmental-sequence">Principle 1: Respect the Developmental Sequence</h4>
+<section id="pädagogische-implikationen" class="level2">
+<h2 class="anchored" data-anchor-id="pädagogische-implikationen">Pädagogische Implikationen</h2>
+<section id="die-experten-anfänger-unterrichtsfalle" class="level3">
+<h3 class="anchored" data-anchor-id="die-experten-anfänger-unterrichtsfalle">Die Experten-Anfänger-Unterrichtsfalle</h3>
+<p>Der gefährlichste Fehler in der Bildung ist anzunehmen, dass Anfänger so lernen sollten, wie Experten arbeiten. Das führt zu dem, was Kirschner <span class="citation" data-cites="kirschnerHowTeachingHappens2022">[@kirschnerHowTeachingHappens2022]</span> als Verwechslung der <strong>„Epistemologie des Experten mit der Pädagogik für Lernende“</strong> bezeichnet.</p>
+<p><strong>Was Experten tun (Wissen produzieren):</strong></p>
 <ul>
-<li>Weak methods must come first—they’re not a bug, they’re a feature</li>
-<li>Proceduralization requires extensive practice with deliberative processes</li>
-<li>Compilation happens automatically after sufficient repetition</li>
+<li>Arbeiten von automatisierten Prinzipien aus vorwärts</li>
+<li>Erkennen tiefe Muster sofort</li>
+<li>Wenden starke, fachspezifische Methoden an</li>
+<li>Erschaffen und entdecken neues Wissen</li>
+<li>Verarbeiten mehrere Elemente gleichzeitig</li>
+</ul>
+<p><strong>Was Anfänger brauchen (Wissen lernen):</strong></p>
+<ul>
+<li>Rückwärtsarbeiten mit Mittel-Ziel-Analyse</li>
+<li>Grundlegende Mustererkennung durch Übung aufbauen</li>
+<li>Mit schwachen, allgemeinen Methoden beginnen</li>
+<li>Vorhandenes Wissen rekonstruieren und verstehen</li>
+<li>Elemente nacheinander verarbeiten, um Überlastung zu vermeiden</li>
 </ul>
 </section>
-<section id="principle-2-calibrate-cognitive-load" class="level4">
-<h4 class="anchored" data-anchor-id="principle-2-calibrate-cognitive-load">Principle 2: Calibrate Cognitive Load</h4>
+<section id="warum-expertenmethoden-anfängern-aktiv-schaden" class="level3">
+<h3 class="anchored" data-anchor-id="warum-expertenmethoden-anfängern-aktiv-schaden">Warum Expertenmethoden Anfängern aktiv schaden</h3>
+<p>Anfängern Expertenwerkzeuge zu geben, ist nicht nur ineffektiv – es ist <strong>aktiv schädlich</strong> für das Lernen:</p>
+<section id="mismatch-der-kognitiven-belastung" class="level4">
+<h4 class="anchored" data-anchor-id="mismatch-der-kognitiven-belastung">1. <strong>Mismatch der kognitiven Belastung</strong></h4>
 <ul>
-<li>Novices need simplified, sequential presentation</li>
-<li>Experts can handle complex, parallel processing</li>
-<li>The same material must be presented differently based on expertise level</li>
+<li><strong>Experten</strong> können viele Elemente verarbeiten, weil sie diese zu Mustern gebündelt haben</li>
+<li><strong>Anfänger</strong> werden mit derselben Komplexität überfordert</li>
+<li><strong>Ergebnis</strong>: Kognitive Überlastung verhindert jegliches Lernen</li>
 </ul>
 </section>
-<section id="principle-3-protect-the-struggle-window" class="level4">
-<h4 class="anchored" data-anchor-id="principle-3-protect-the-struggle-window">Principle 3: Protect the Struggle Window</h4>
+<section id="störung-der-produktionsregeln" class="level4">
+<h4 class="anchored" data-anchor-id="störung-der-produktionsregeln">2. <strong>Störung der Produktionsregeln</strong></h4>
 <ul>
-<li>Allow sufficient time for independent struggle before AI consultation</li>
-<li>Document thinking process before seeking external help</li>
-<li>Multiple attempts required before accessing solutions</li>
+<li><strong>Experten</strong> haben starke, erfolgreiche Produktionsregeln, die automatisch feuern</li>
+<li><strong>Anfänger</strong> müssen diese Regeln durch wiederholte Anwendung schwacher Methoden aufbauen</li>
+<li><strong>KI-Abkürzungen</strong> verhindern die notwendige Wiederholung zur Stärkung der Regeln</li>
+<li><strong>Ergebnis</strong>: Schwache Regeln entwickeln sich nie, dauerhafte Abhängigkeit bleibt</li>
 </ul>
 </section>
-<section id="principle-4-scaffold-dont-substitute" class="level4">
-<h4 class="anchored" data-anchor-id="principle-4-scaffold-dont-substitute">Principle 4: Scaffold, Don’t Substitute</h4>
+<section id="schemabildungs-bypass" class="level4">
+<h4 class="anchored" data-anchor-id="schemabildungs-bypass">3. <strong>Schemabildungs-Bypass</strong></h4>
 <ul>
-<li>Use AI to reduce irrelevant cognitive load, not eliminate all effort</li>
-<li>Provide worked examples that show the process, not just answers</li>
-<li>Gradually fade support as competence develops (scaffolding)</li>
+<li><strong>Experten</strong> haben reichhaltige Schemata, aufgebaut durch Erfahrung</li>
+<li><strong>Anfänger</strong> müssen diese Schemata Element für Element konstruieren</li>
+<li><strong>KI-Antworten</strong> liefern das Ergebnis ohne den Konstruktionsprozess</li>
+<li><strong>Ergebnis</strong>: Es entstehen keine Schemata, Transfer auf neue Situationen ist unmöglich</li>
 </ul>
 </section>
-</section>
-<section id="how-prediction-errors-drive-learning" class="level3">
-<h3 class="anchored" data-anchor-id="how-prediction-errors-drive-learning">How Prediction Errors Drive Learning</h3>
-<section id="how-prediction-errors-drive-learning-1" class="level4">
-<h4 class="anchored" data-anchor-id="how-prediction-errors-drive-learning-1">How Prediction Errors Drive Learning</h4>
-<p><strong>Step 1: Prediction Formation</strong></p>
-<p>When you encounter a problem, your brain automatically predicts what should happen based on your current (prior) knowledge:</p>
+<section id="metakognitive-schädigung" class="level4">
+<h4 class="anchored" data-anchor-id="metakognitive-schädigung">4. <strong>Metakognitive Schädigung</strong></h4>
 <ul>
-<li>“If I subtract 5 from both sides, I should get closer to solving for <span class="math inline">\(x\)</span>”</li>
-<li>“If I apply this formula, I should get the right answer”</li>
-<li>“This code structure should compile without errors”</li>
+<li><strong>Experten</strong> wissen, wann und warum sie verschiedene Strategien anwenden</li>
+<li><strong>Anfänger</strong> entwickeln dieses Bewusstsein durch Überwachung des eigenen Denkens</li>
+<li><strong>KI-Abhängigkeit</strong> beseitigt die Notwendigkeit zur Selbstüberwachung</li>
+<li><strong>Ergebnis</strong>: Lernende können ihr eigenes Verständnis nicht mehr bewerten</li>
 </ul>
-<p><strong>Step 2: Reality Check</strong></p>
-<p>You attempt the solution and compare the actual outcome to your prediction:</p>
-<ul>
-<li><strong>Positive prediction error</strong>: “That worked better than expected!”</li>
-<li><strong>Negative prediction error</strong>: “That didn’t work as I thought it would”</li>
-<li><strong>Zero prediction error</strong>: “That went exactly as predicted”</li>
-</ul>
-<p><strong>Step 3: Neural Update</strong></p>
-<p>Your brain uses these errors to update its knowledge:</p>
-<ul>
-<li><strong>Dopamine release</strong> marks prediction errors as important learning moments</li>
-<li><strong>Eligibility traces</strong> tag the neural pathways involved for strengthening</li>
-<li><strong>Synaptic weights adjust</strong> based on the magnitude and direction of the error</li>
-<li><strong>Memory consolidation</strong> during sleep makes these changes permanent</li>
-</ul>
-<div class="callout callout-style-simple callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example: Learning Algebra Through Prediction Errors
+Die Abhängigkeitskaskade
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Wenn Anfänger zu früh Expertenwerkzeuge nutzen:</p>
+<ol type="1">
+<li><strong>Anfänglicher Erfolg</strong> schafft falsches Selbstvertrauen</li>
+<li><strong>Schwache Methoden verkümmern</strong> durch Nichtgebrauch</li>
+<li><strong>Problemlösefähigkeiten verschlechtern sich</strong> ohne Übung</li>
+<li><strong>Abhängigkeit vertieft sich</strong>, da interne Fähigkeiten schwinden</li>
+<li><strong>Transfer scheitert</strong>, wenn KI nicht verfügbar ist</li>
+<li><strong>Erlernte Hilflosigkeit</strong> entsteht bei neuen Herausforderungen</li>
+</ol>
+<p>Das ist nicht nur „kein Lernen“, sondern <strong>Verlernen</strong> vorhandener Fähigkeiten.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="lehren-im-einklang-mit-dem-gehirn" class="level3">
+<h3 class="anchored" data-anchor-id="lehren-im-einklang-mit-dem-gehirn">Lehren im Einklang mit dem Gehirn</h3>
+<section id="prinzip-1-die-entwicklungssequenz-respektieren" class="level4">
+<h4 class="anchored" data-anchor-id="prinzip-1-die-entwicklungssequenz-respektieren">Prinzip 1: Die Entwicklungssequenz respektieren</h4>
+<ul>
+<li>Schwache Methoden müssen zuerst kommen – sie sind keine Fehler, sondern notwendig</li>
+<li>Prozeduralisierung erfordert umfangreiche Übung mit überlegten Prozessen</li>
+<li>Kompilierung geschieht automatisch nach ausreichender Wiederholung</li>
+</ul>
+</section>
+<section id="prinzip-2-kognitive-belastung-kalibrieren" class="level4">
+<h4 class="anchored" data-anchor-id="prinzip-2-kognitive-belastung-kalibrieren">Prinzip 2: Kognitive Belastung kalibrieren</h4>
+<ul>
+<li>Anfänger brauchen vereinfachte, sequenzielle Darstellung</li>
+<li>Experten können komplexe, parallele Verarbeitung bewältigen</li>
+<li>Dasselbe Material muss je nach Expertenniveau unterschiedlich präsentiert werden</li>
+</ul>
+</section>
+<section id="prinzip-3-das-struggle-window-schützen" class="level4">
+<h4 class="anchored" data-anchor-id="prinzip-3-das-struggle-window-schützen">Prinzip 3: Das „Struggle Window“ schützen</h4>
+<ul>
+<li>Genügend Zeit für eigenständiges Ringen vor KI-Konsultation geben</li>
+<li>Denkprozesse dokumentieren, bevor externe Hilfe gesucht wird</li>
+<li>Mehrere Versuche, bevor Lösungen zugänglich sind</li>
+</ul>
+</section>
+<section id="prinzip-4-scaffolding-statt-substitution" class="level4">
+<h4 class="anchored" data-anchor-id="prinzip-4-scaffolding-statt-substitution">Prinzip 4: Scaffolding statt Substitution</h4>
+<ul>
+<li>KI nutzen, um irrelevante kognitive Belastung zu reduzieren, nicht jede Anstrengung zu eliminieren</li>
+<li>Durchgearbeitete Beispiele liefern, die den Prozess zeigen, nicht nur die Antworten</li>
+<li>Unterstützung schrittweise abbauen, sobald Kompetenz entsteht (Scaffolding)</li>
+</ul>
+</section>
+</section>
+<section id="wie-vorhersagefehler-lernen-antreiben" class="level3">
+<h3 class="anchored" data-anchor-id="wie-vorhersagefehler-lernen-antreiben">Wie Vorhersagefehler Lernen antreiben</h3>
+<section id="wie-vorhersagefehler-lernen-antreiben-1" class="level4">
+<h4 class="anchored" data-anchor-id="wie-vorhersagefehler-lernen-antreiben-1">Wie Vorhersagefehler Lernen antreiben</h4>
+<p><strong>Schritt 1: Bildung einer Vorhersage</strong></p>
+<p>Beim Auftreten eines Problems prognostiziert das Gehirn automatisch, was passieren sollte – basierend auf dem aktuellen Wissen:</p>
+<ul>
+<li>„Wenn ich 5 von beiden Seiten subtrahiere, komme ich näher an <span class="math inline">\(x\)</span> heran“</li>
+<li>„Wenn ich diese Formel anwende, sollte ich das richtige Ergebnis bekommen“</li>
+<li>„Diese Code-Struktur sollte kompilieren“</li>
+</ul>
+<p><strong>Schritt 2: Realitätsabgleich</strong></p>
+<p>Man versucht eine Lösung und vergleicht das tatsächliche Ergebnis mit der Vorhersage:</p>
+<ul>
+<li><strong>Positiver Vorhersagefehler</strong>: „Das lief besser als erwartet!“</li>
+<li><strong>Negativer Vorhersagefehler</strong>: „Das hat nicht wie gedacht funktioniert“</li>
+<li><strong>Null-Fehler</strong>: „Es lief genau wie vorhergesagt“</li>
+</ul>
+<p><strong>Schritt 3: Neuronales Update</strong></p>
+<p>Das Gehirn nutzt diese Fehler zur Anpassung des Wissens:</p>
+<ul>
+<li><strong>Dopamin-Ausschüttung</strong> markiert Vorhersagefehler als wichtige Lernmomente</li>
+<li><strong>Eligibility Traces</strong> markieren beteiligte neuronale Pfade zur Stärkung</li>
+<li><strong>Synaptische Gewichte</strong> werden je nach Fehlergröße angepasst</li>
+<li><strong>Konsolidierung im Schlaf</strong> macht diese Änderungen dauerhaft</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Beispiel: Algebra durch Vorhersagefehler lernen
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><strong>Attempt 1</strong>: Student thinks “I need to eliminate the 5, so I’ll add 5 to both sides”</p>
+<p><strong>Versuch 1</strong>: Lernender denkt „Ich muss die 5 eliminieren, also addiere ich 5 auf beiden Seiten“</p>
 <ul>
-<li><strong>Prediction</strong>: This should help solve for x</li>
-<li><strong>Reality</strong>: Gets <span class="math inline">\(3x + 10 = 25\)</span> (moving away from solution)</li>
-<li><strong>Prediction Error</strong>: Negative! This approach made things worse</li>
-<li><strong>Learning</strong>: Brain tags “adding same number” as unsuccessful strategy</li>
+<li><strong>Vorhersage</strong>: Das sollte helfen, <span class="math inline">\(x\)</span> zu finden</li>
+<li><strong>Realität</strong>: Erhält <span class="math inline">\(3x + 10 = 25\)</span> (weiter vom Ziel entfernt)</li>
+<li><strong>Vorhersagefehler</strong>: Negativ! Dieser Ansatz verschlechtert es</li>
+<li><strong>Lernen</strong>: Gehirn markiert „gleiches Hinzufügen“ als erfolglos</li>
 </ul>
-<p><strong>Attempt 2</strong>: Student tries “I’ll subtract 5 from both sides”</p>
+<p><strong>Versuch 2</strong>: Lernender versucht „Ich subtrahiere 5 von beiden Seiten“</p>
 <ul>
-<li><strong>Prediction</strong>: This might work better</li>
-<li><strong>Reality</strong>: Gets <span class="math inline">\(3x = 15\)</span> (much cleaner!)</li>
-<li><strong>Prediction Error</strong>: Positive! This approach worked well</li>
-<li><strong>Learning</strong>: Brain strengthens “subtract to isolate” pathway</li>
+<li><strong>Vorhersage</strong>: Das könnte besser funktionieren</li>
+<li><strong>Realität</strong>: Erhält <span class="math inline">\(3x = 15\)</span> (viel sauberer!)</li>
+<li><strong>Vorhersagefehler</strong>: Positiv! Ansatz funktioniert</li>
+<li><strong>Lernen</strong>: Gehirn stärkt „Subtrahiere zur Isolierung“-Pfad</li>
 </ul>
-<p><strong>After many cycles</strong>: The “subtract to isolate” rule becomes automatic</p>
+<p><strong>Nach vielen Zyklen</strong>: Die Regel „Subtrahiere zur Isolierung“ wird automatisch</p>
 </div>
 </div>
 </div>
 </section>
-<section id="why-offloading-cognitive-processing-to-ai-eliminates-the-learning-signal" class="level4">
-<h4 class="anchored" data-anchor-id="why-offloading-cognitive-processing-to-ai-eliminates-the-learning-signal">Why Offloading Cognitive Processing to AI Eliminates the Learning Signal</h4>
-<p><strong>AI provides perfect answers instantly</strong>:</p>
+<section id="warum-das-auslagern-kognitiver-prozesse-an-ki-das-lernsignal-eliminiert" class="level4">
+<h4 class="anchored" data-anchor-id="warum-das-auslagern-kognitiver-prozesse-an-ki-das-lernsignal-eliminiert">Warum das Auslagern kognitiver Prozesse an KI das Lernsignal eliminiert</h4>
+<p><strong>KI liefert sofort perfekte Antworten</strong>:</p>
 <ul>
-<li>No prediction phase (student doesn’t generate expectations)</li>
-<li>No attempt phase (student doesn’t try solutions)</li>
-<li>No error phase (no comparison between expected and actual)</li>
-<li><strong>Result</strong>: Zero prediction errors = zero learning signal</li>
+<li>Keine Vorhersagephase (Lernende generieren keine Erwartungen)</li>
+<li>Keine Versuch-Phase (es werden keine Lösungen ausprobiert)</li>
+<li>Keine Fehlerphase (kein Vergleich zwischen Erwartung und Realität)</li>
+<li><strong>Ergebnis</strong>: Null Vorhersagefehler = kein Lernsiganl</li>
 </ul>
-<p><strong>The brain literally has nothing to learn from</strong> because the prediction-error cycle never occurs.</p>
-<p>This explains why students can watch hundreds of worked examples or get thousands of correct AI answers and still not learn. <strong>Learning requires errors, not perfection.</strong></p>
+<p><strong>Das Gehirn hat buchstäblich nichts, woraus es lernen kann</strong>, weil der Vorhersagefehler-Zyklus nie stattfindet.</p>
+<p>Das erklärt, warum Lernende hunderte Beispiele anschauen oder tausende korrekte KI-Antworten bekommen und trotzdem nicht lernen. <strong>Lernen braucht Fehler, nicht Perfektion.</strong></p>
 </section>
 </section>
-<section id="the-desirable-difficulties-principle" class="level3">
-<h3 class="anchored" data-anchor-id="the-desirable-difficulties-principle">The Desirable Difficulties Principle</h3>
-<p>Learning requires what researchers call “desirable difficulties” <span class="citation" data-cites="bjorkMakingThingsHard2011">(<a href="#ref-bjorkMakingThingsHard2011" role="doc-biblioref">Bjork and Bjork 2011</a>)</span>—challenges that feel hard but promote long-term retention:</p>
+<section id="das-prinzip-der-wünschenswerten-schwierigkeiten" class="level3">
+<h3 class="anchored" data-anchor-id="das-prinzip-der-wünschenswerten-schwierigkeiten">Das Prinzip der wünschenswerten Schwierigkeiten</h3>
+<p>Lernen erfordert sogenannte „wünschenswerte Schwierigkeiten“ <span class="citation" data-cites="bjorkMakingThingsHard2011">[@bjorkMakingThingsHard2011]</span> – Herausforderungen, die sich schwierig anfühlen, aber das langfristige Behalten fördern:</p>
 <ol type="1">
-<li><strong>Retrieval Practice</strong>: Pulling information from memory strengthens it</li>
-<li><strong>Spaced Repetition</strong>: Forgetting and relearning creates durable knowledge</li>
-<li><strong>Interleaving</strong>: Mixing problem types improves discrimination</li>
-<li><strong>Generation</strong>: Creating answers (even wrong ones) beats passive consumption</li>
+<li><strong>Abrufübung</strong>: Abrufen aus dem Gedächtnis stärkt es</li>
+<li><strong>Verteiltes Wiederholen</strong>: Vergessen und erneutes Lernen schafft dauerhaftes Wissen</li>
+<li><strong>Interleaving</strong>: Verschiedene Problemarten mischen fördert Unterscheidungsfähigkeit</li>
+<li><strong>Generierung</strong>: Selbst Antworten erstellen (auch falsche) ist besser als Konsum</li>
 </ol>
 </section>
-<section id="the-compilation-process" class="level3">
-<h3 class="anchored" data-anchor-id="the-compilation-process">The Compilation Process</h3>
-<p>Real expertise emerges through thousands of practice cycles:</p>
-<pre><code>Encounter problem → Make prediction → Attempt solution → Compare to prediction → Get feedback → Neural adjustment
-                                                    ↓
-                                            Neural pathway strengthens
-                                                    ↓
-                                            Pattern becomes automatic</code></pre>
-<p>Each cycle:</p>
+<section id="der-kompilierungsprozess" class="level3">
+<h3 class="anchored" data-anchor-id="der-kompilierungsprozess">Der Kompilierungsprozess</h3>
+<p>Echte Expertise entsteht durch tausende Übungszyklen:</p>
+<pre><code>Problem begegnen → Vorhersage treffen → Lösung versuchen → Mit Vorhersage vergleichen → Feedback bekommen → Neuronale Anpassung  
+↓  
+Neuronaler Pfad wird gestärkt  
+↓  
+Muster wird automatisch</code></pre>
+<p>Jeder Zyklus:</p>
 <ul>
-<li>Strengthens neural connections through prediction errors</li>
-<li>Reduces processing time through repetition</li>
-<li>Frees working memory for higher-level thinking</li>
-<li>Enables creative problem-solving through strong foundations</li>
+<li>Stärkt neuronale Verbindungen durch Vorhersagefehler</li>
+<li>Verringert die Bearbeitungszeit durch Wiederholung</li>
+<li>Entlastet das Arbeitsgedächtnis für höheres Denken</li>
+<li>Ermöglicht kreatives Problemlösen durch starke Grundlagen</li>
 </ul>
-<p><strong>How expertise actually works</strong>: When you encounter a problem, multiple production rules compete. The rule with highest “utility” (based on past success through prediction errors) fires. Each successful use strengthens that rule, making it more likely to win future competitions. This is why experts seem to “just know”—their strongest productions fire automatically.</p>
+<p><strong>So funktioniert Expertise wirklich</strong>: Bei einem Problem konkurrieren mehrere Produktionsregeln. Die Regel mit dem höchsten „Nutzen“ (basierend auf vergangenem Erfolg durch Vorhersagefehler) setzt sich durch. Jede erfolgreiche Anwendung stärkt diese Regel, wodurch sie künftig wahrscheinlicher gewinnt. Deshalb wirken Experten, als „wüssten sie es einfach“ – ihre stärksten Produktionen feuern automatisch.</p>
 </section>
-<section id="what-we-lose-when-we-skip-the-struggle" class="level3">
-<h3 class="anchored" data-anchor-id="what-we-lose-when-we-skip-the-struggle">What We Lose When We Skip the Struggle</h3>
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
+<section id="was-wir-verlieren-wenn-wir-die-anstrengung-überspringen" class="level3">
+<h3 class="anchored" data-anchor-id="was-wir-verlieren-wenn-wir-die-anstrengung-überspringen">Was wir verlieren, wenn wir die Anstrengung überspringen</h3>
+<div class="callout callout-style-default callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-What We Lose
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><strong>No Memory Formation</strong>: The brain doesn’t encode what it doesn’t process</li>
-<li><strong>No Pattern Development</strong>: Can’t recognize what we haven’t practiced</li>
-<li><strong>No Transfer Ability</strong>: Can’t apply unlearned principles to new contexts</li>
-<li><strong>No Metacognition</strong>: Don’t develop awareness of our own thinking</li>
-<li><strong>No Prediction Error Learning</strong>: The fundamental mechanism of learning is bypassed</li>
-</ol>
-</div>
-</div>
-</section>
-<section id="the-expertise-illusion" class="level3">
-<h3 class="anchored" data-anchor-id="the-expertise-illusion">The Expertise Illusion</h3>
-<p>Offloading cognitive processing to AI creates a dangerous illusion:</p>
-<ul>
-<li><strong>Surface Fluency</strong>: Perfect answers without understanding</li>
-<li><strong>False Confidence</strong>: Believing we “get it” without practice</li>
-<li><strong>Fragile Knowledge</strong>: Collapses without AI support</li>
-<li><strong>Limited Transfer</strong>: Can’t adapt to novel situations</li>
-</ul>
-</section>
-<section id="research-evidence-the-cost-of-cognitive-offloading" class="level3">
-<h3 class="anchored" data-anchor-id="research-evidence-the-cost-of-cognitive-offloading">Research Evidence: The Cost of Cognitive Offloading</h3>
-<p>Recent studies show alarming impacts of AI use on learning:</p>
-<ul>
-<li><strong>68% reduction in critical thinking</strong> among knowledge workers with high AI confidence <span class="citation" data-cites="leeImpactGenerativeAI2025">(<a href="#ref-leeImpactGenerativeAI2025" role="doc-biblioref">Lee et al. 2025</a>)</span></li>
-<li><strong>Surface learning only</strong> for programming students using ChatGPT <span class="citation" data-cites="yangEffectivenessChatGPTAssisting2025">(<a href="#ref-yangEffectivenessChatGPTAssisting2025" role="doc-biblioref">Yang, Hsu, and Wu 2025</a>)</span></li>
-<li><strong>Decreased problem-solving ability</strong> in math students using AI tools <span class="citation" data-cites="bastaniGenerativeAICan2024">(<a href="#ref-bastaniGenerativeAICan2024" role="doc-biblioref">Bastani et al. 2024</a>)</span></li>
-<li><strong>“The fluency illusion”</strong>: Mistaking AI’s competence for your own</li>
-</ul>
-</section>
-</section>
-<section id="the-biological-reality-of-learning" class="level2">
-<h2 class="anchored" data-anchor-id="the-biological-reality-of-learning">The Biological Reality of Learning</h2>
-<p>Learning isn’t just a cognitive process—it’s a biological one that physically changes your brain <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">(<a href="#ref-oakleyMemoryParadoxWhy2025" role="doc-biblioref">Oakley et al. 2025</a>)</span>:</p>
-<section id="sleep-consolidation-is-essential" class="level3">
-<h3 class="anchored" data-anchor-id="sleep-consolidation-is-essential">Sleep Consolidation is Essential</h3>
-<p>Learning doesn’t stop when practice ends: - <strong>Sharp wave ripples</strong> during sleep replay daily experiences - Brain decides what to keep vs.&nbsp;discard - Memories transfer from hippocampus to cortex - New neural connections solidify</p>
-<p><strong>You can’t download sleep any more than you can download expertise!</strong></p>
-</section>
-<section id="the-grokking-phenomenon" class="level3">
-<h3 class="anchored" data-anchor-id="the-grokking-phenomenon">The Grokking Phenomenon</h3>
-<p>Even machinel learning models show this pattern: - Long plateau with no apparent progress - Sudden jump to generalization - Previously dismissed as “overfitting” - Now recognized as deep pattern learning</p>
-</section>
-</section>
-<section id="the-memory-paradox" class="level2">
-<h2 class="anchored" data-anchor-id="the-memory-paradox">The Memory Paradox</h2>
-<div class="callout callout-style-simple callout-warning no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Flynn Effect Reversal
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Since the 1970s-80s, when education moved away from memorization: - IQ scores began declining for the first time in history - “Why memorize when you can look it up?” became the mantra - Exactly when neuroscience was proving memorization builds critical thinking - We abandoned proven methods just as we discovered why they work <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">(<a href="#ref-oakleyMemoryParadoxWhy2025" role="doc-biblioref">Oakley et al. 2025</a>)</span></p>
-</div>
-</div>
-</section>
-<section id="building-real-expertise" class="level2">
-<h2 class="anchored" data-anchor-id="building-real-expertise">Building Real Expertise</h2>
-<div class="callout callout-style-simple callout-tip no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Evidence-Based Strategies
+Was wir verlieren
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <ol type="1">
-<li><strong>Embrace the Struggle</strong>
+<li><strong>Keine Gedächtnisbildung</strong>: Das Gehirn kodiert nicht, was es nicht verarbeitet</li>
+<li><strong>Keine Musterentwicklung</strong>: Können nicht erkennen, was wir nicht geübt haben</li>
+<li><strong>Keine Transferfähigkeit</strong>: Können ungeübte Prinzipien nicht auf neue Kontexte anwenden</li>
+<li><strong>Keine Metakognition</strong>: Entwickeln kein Bewusstsein über das eigene Denken</li>
+<li><strong>Kein Lernen durch Vorhersagefehler</strong>: Der fundamentale Lernmechanismus wird umgangen</li>
+</ol>
+</div>
+</div>
+</section>
+<section id="die-expertise-illusion" class="level3">
+<h3 class="anchored" data-anchor-id="die-expertise-illusion">Die Expertise-Illusion</h3>
+<p>Das Auslagern kognitiver Prozesse an KI erzeugt eine gefährliche Illusion:</p>
 <ul>
-<li>Your confusion is a necessary stage of learning</li>
-<li>Errors provide valuable prediction error signals</li>
-<li>Difficulty signals brain growth</li>
+<li><strong>Oberflächenflüssigkeit</strong>: Perfekte Antworten ohne Verständnis</li>
+<li><strong>Falsches Selbstvertrauen</strong>: Glauben, es „verstanden zu haben“ ohne Übung</li>
+<li><strong>Fragiles Wissen</strong>: Bricht ohne KI-Unterstützung zusammen</li>
+<li><strong>Begrenzter Transfer</strong>: Kann nicht auf neue Situationen angewandt werden</li>
+</ul>
+</section>
+<section id="forschungsergebnisse-die-kosten-des-kognitiven-auslagerns" class="level3">
+<h3 class="anchored" data-anchor-id="forschungsergebnisse-die-kosten-des-kognitiven-auslagerns">Forschungsergebnisse: Die Kosten des kognitiven Auslagerns</h3>
+<p>Aktuelle Studien zeigen alarmierende Auswirkungen von KI-Nutzung auf das Lernen:</p>
+<ul>
+<li><strong>68% weniger kritisches Denken</strong> bei Wissensarbeitenden mit hoher KI-Vertrauenswürdigkeit <span class="citation" data-cites="leeImpactGenerativeAI2025">[@leeImpactGenerativeAI2025]</span></li>
+<li><strong>Nur oberflächliches Lernen</strong> bei Programmierstudierenden mit ChatGPT <span class="citation" data-cites="yangEffectivenessChatGPTAssisting2025">[@yangEffectivenessChatGPTAssisting2025]</span></li>
+<li><strong>Verminderte Problemlösefähigkeiten</strong> bei Mathematiklernenden mit KI-Tools <span class="citation" data-cites="bastaniGenerativeAICan2024">[@bastaniGenerativeAICan2024]</span></li>
+<li><strong>„Die Fluency-Illusion“</strong>: KI-Kompetenz wird mit eigenem Können verwechselt</li>
+</ul>
+</section>
+</section>
+<section id="die-biologische-realität-des-lernens" class="level2">
+<h2 class="anchored" data-anchor-id="die-biologische-realität-des-lernens">Die biologische Realität des Lernens</h2>
+<p>Lernen ist nicht nur ein kognitiver, sondern ein biologischer Prozess, der das Gehirn physisch verändert <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">[@oakleyMemoryParadoxWhy2025]</span>:</p>
+<section id="schlafkonsolidierung-ist-essenziell" class="level3">
+<h3 class="anchored" data-anchor-id="schlafkonsolidierung-ist-essenziell">Schlafkonsolidierung ist essenziell</h3>
+<p>Lernen endet nicht mit dem Üben: - <strong>Sharp wave ripples</strong> im Schlaf spielen Erlebtes erneut ab - Das Gehirn entscheidet, was bleibt und was gelöscht wird - Erinnerungen wandern vom Hippocampus in den Kortex - Neue neuronale Verbindungen festigen sich</p>
+<p><strong>Man kann Schlaf nicht herunterladen – genauso wenig wie Expertise!</strong></p>
+</section>
+<section id="das-grokking-phänomen" class="level3">
+<h3 class="anchored" data-anchor-id="das-grokking-phänomen">Das „Grokking“-Phänomen</h3>
+<p>Sogar maschinelle Lernmodelle zeigen dieses Muster: - Lange Plateauphase ohne sichtbaren Fortschritt - Plötzlicher Sprung zur Generalisierung - Früher als „Überanpassung“ missverstanden - Heute als tiefes Musterlernen erkannt</p>
+</section>
+</section>
+<section id="das-gedächtnisparadoxon" class="level2">
+<h2 class="anchored" data-anchor-id="das-gedächtnisparadoxon">Das Gedächtnisparadoxon</h2>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Umkehrung des Flynn-Effekts
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Seit den 1970er/80er Jahren, als Bildung das Auswendiglernen verließ: - IQ-Werte sanken erstmals in der Geschichte - „Warum auswendig lernen, wenn man nachschlagen kann?“ wurde zum Mantra - Genau zu dem Zeitpunkt, als Neurowissenschaften bewiesen, dass Auswendiglernen kritisches Denken fördert - Wir verwarfen bewährte Methoden, gerade als wir ihren Nutzen verstanden <span class="citation" data-cites="oakleyMemoryParadoxWhy2025">[@oakleyMemoryParadoxWhy2025]</span></p>
+</div>
+</div>
+</section>
+<section id="echte-expertise-aufbauen" class="level2">
+<h2 class="anchored" data-anchor-id="echte-expertise-aufbauen">Echte Expertise aufbauen</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Evidenzbasierte Strategien
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ol type="1">
+<li><strong>Die Anstrengung annehmen</strong>
+<ul>
+<li>Deine Verwirrung ist ein notwendiger Lernschritt</li>
+<li>Fehler liefern wertvolle Vorhersagefehler-Signale</li>
+<li>Schwierigkeit zeigt Gehirnwachstum an</li>
 </ul></li>
-<li><strong>Practice Retrieval</strong>
+<li><strong>Abruf üben</strong>
 <ul>
-<li>Test yourself before checking answers</li>
-<li>Explain concepts without notes</li>
-<li>Teach others what you’re learning</li>
+<li>Selbst testen, bevor Antworten überprüft werden</li>
+<li>Konzepte ohne Notizen erklären</li>
+<li>Anderen das Gelernte beibringen</li>
 </ul></li>
-<li><strong>Space Your Learning</strong>
+<li><strong>Lernen verteilen</strong>
 <ul>
-<li>Return to concepts over days/weeks</li>
-<li>Allow forgetting between sessions</li>
-<li>Relearn in different contexts</li>
+<li>Nach Tagen/Wochen zu Konzepten zurückkehren</li>
+<li>Vergessen zwischen den Sitzungen zulassen</li>
+<li>In verschiedenen Kontexten erneut lernen</li>
 </ul></li>
-<li><strong>Vary Your Practice</strong>
+<li><strong>Praxis variieren</strong>
 <ul>
-<li>Mix problem types</li>
-<li>Change contexts</li>
-<li>Seek novel applications</li>
+<li>Problemtypen mischen</li>
+<li>Kontexte wechseln</li>
+<li>Neue Anwendungen suchen</li>
 </ul></li>
-<li><strong>Protect Your Prediction Errors</strong>
+<li><strong>Vorhersagefehler schützen</strong>
 <ul>
-<li>Make attempts before seeking help</li>
-<li>Notice when your expectations are wrong</li>
-<li>Use errors as learning opportunities, not failures</li>
+<li>Erst eigene Versuche unternehmen, bevor Hilfe gesucht wird</li>
+<li>Bemerkenswertes Nichterwarten identifizieren</li>
+<li>Fehler als Lernchancen, nicht als Scheitern sehen</li>
 </ul></li>
 </ol>
 </div>
 </div>
 </section>
-<section id="connecting-to-our-exercise" class="level2">
-<h2 class="anchored" data-anchor-id="connecting-to-our-exercise">Connecting to Our Exercise</h2>
-<p>The exercise you just completed demonstrated these principles:</p>
+<section id="verbindung-zu-unserer-übung" class="level2">
+<h2 class="anchored" data-anchor-id="verbindung-zu-unserer-übung">Verbindung zu unserer Übung</h2>
+<p>Die Übung, die du gerade abgeschlossen hast, hat diese Prinzipien demonstriert:</p>
 <ul>
-<li><strong>Without AI</strong>: You engaged in effortful retrieval and reasoning, generating prediction errors</li>
-<li><strong>With AI (single prompt)</strong>: You practiced prompt engineering but bypassed deep thinking</li>
-<li><strong>With AI (iterative)</strong>: You maintained some cognitive engagement through questioning</li>
+<li><strong>Ohne KI</strong>: Du hast dich auf anstrengendes Abrufen und Denken eingelassen, Vorhersagefehler erzeugt</li>
+<li><strong>Mit KI (einzelner Prompt)</strong>: Du hast Prompt-Engineering geübt, aber tiefes Nachdenken übersprungen</li>
+<li><strong>Mit KI (iterativ)</strong>: Du hast durch Fragen einen Teil des kognitiven Engagements beibehalten</li>
 </ul>
-<p>Notice how your understanding differed across modes? That’s the compilation process (or its absence) in action.</p>
+<p>Merkst du, wie sich dein Verständnis je nach Modus unterschieden hat? Das ist der Kompilierungsprozess (oder dessen Fehlen) in Aktion.</p>
 </section>
-<section id="reflection-questions" class="level2">
-<h2 class="anchored" data-anchor-id="reflection-questions">Reflection Questions</h2>
+<section id="reflexionsfragen" class="level2">
+<h2 class="anchored" data-anchor-id="reflexionsfragen">Reflexionsfragen</h2>
 <ul>
-<li>When have you experienced the satisfaction of mastering something difficult?</li>
-<li>How might you redesign your learning to embrace rather than avoid cognitive effort?</li>
-<li>What would change if we viewed struggle as evidence of growth rather than failure?</li>
-<li>How can you protect the prediction error cycle in your own learning?</li>
+<li>Wann hast du die Befriedigung erlebt, etwas Schwieriges gemeistert zu haben?</li>
+<li>Wie könntest du dein Lernen neu gestalten, um kognitive Anstrengung zu nutzen statt zu vermeiden?</li>
+<li>Was würde sich ändern, wenn wir Anstrengung als Zeichen von Wachstum statt als Scheitern betrachten?</li>
+<li>Wie kannst du den Vorhersagefehler-Zyklus in deinem eigenen Lernen schützen?</li>
 </ul>
 <hr>
 </section>
-<section id="quick-reference-how-theories-work-together" class="level2">
-<h2 class="anchored" data-anchor-id="quick-reference-how-theories-work-together">Quick Reference: How Theories Work Together</h2>
+<section id="schnellreferenz-wie-theorien-zusammenwirken" class="level2">
+<h2 class="anchored" data-anchor-id="schnellreferenz-wie-theorien-zusammenwirken">Schnellreferenz: Wie Theorien zusammenwirken</h2>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Weak → Strong Methods</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Knowledge Compilation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Red Flags</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Schwach → Stark Methoden</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Wissenskompilierung</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Warnsignale</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Weak Methods (Novices)</th>
-<th>Strong Methods (Experts)</th>
+<th>Schwache Methoden (Anfänger)</th>
+<th>Starke Methoden (Experten)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Means-end analysis</td>
-<td>Pattern recognition</td>
+<td>Mittel-Ziel-Analyse</td>
+<td>Mustererkennung</td>
 </tr>
 <tr class="even">
-<td>Working backward from goal</td>
-<td>Forward chaining from principles</td>
+<td>Rückwärtsarbeiten vom Ziel</td>
+<td>Vorwärtsverkettung aus Prinzipien</td>
 </tr>
 <tr class="odd">
-<td>Trial and error</td>
-<td>Automated procedures</td>
+<td>Versuch und Irrtum</td>
+<td>Automatisierte Prozeduren</td>
 </tr>
 <tr class="even">
-<td>Surface analogies</td>
-<td>Deep structure</td>
+<td>Oberflächenanalogien</td>
+<td>Tiefenstruktur</td>
 </tr>
 <tr class="odd">
-<td>Step-by-step conscious</td>
-<td>Chunked automatic</td>
+<td>Schrittweise bewusst</td>
+<td>Automatisch gechunkt</td>
 </tr>
 </tbody>
 </table>
@@ -1219,99 +1186,62 @@ Evidence-Based Strategies
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <table class="caption-top table">
 <colgroup>
-<col style="width: 15%">
-<col style="width: 39%">
-<col style="width: 45%">
+<col style="width: 19%">
+<col style="width: 29%">
+<col style="width: 51%">
 </colgroup>
 <thead>
 <tr class="header">
-<th>Stage</th>
-<th>What’s Happening</th>
-<th>Teaching Implications</th>
+<th>Stadium</th>
+<th>Was passiert</th>
+<th>Didaktische Implikation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Declarative</td>
-<td>Following memorized rules</td>
-<td>Provide clear worked examples</td>
+<td>Deklarativ</td>
+<td>Auswendig gelernte Regeln befolgen</td>
+<td>Klare durchgearbeitete Beispiele geben</td>
 </tr>
 <tr class="even">
-<td>Compilation</td>
-<td>Repeated sequences chunking</td>
-<td>Many similar practice problems</td>
+<td>Kompilierung</td>
+<td>Wiederholte Sequenzen werden zu Chunks</td>
+<td>Viele ähnliche Übungsaufgaben</td>
 </tr>
 <tr class="odd">
-<td>Procedural</td>
-<td>Automated expertise</td>
-<td>Ready for complex applications</td>
+<td>Prozedural</td>
+<td>Automatisierte Expertise</td>
+<td>Bereit für komplexe Anwendungen</td>
 </tr>
 </tbody>
 </table>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Watch for these signs of cognitive bypassing:</p>
+<p>Achte auf diese Anzeichen für kognitives Auslagern:</p>
 <ul>
-<li>Smooth performance without ability to explain</li>
-<li>Cannot handle problem variations</li>
-<li>No improvement despite practice</li>
-<li>Dependent on AI for basic tasks</li>
-<li>Mistaking AI output for understanding</li>
-<li>Immediate AI consultation without attempt</li>
-<li>No prediction errors (always getting “right” answers)</li>
+<li>Glatte Leistung ohne Erklärungsfähigkeit</li>
+<li>Unfähigkeit, Problemvarianten zu lösen</li>
+<li>Kein Fortschritt trotz Übung</li>
+<li>Abhängigkeit von KI bei Grundaufgaben</li>
+<li>KI-Ausgabe wird mit eigenem Verständnis verwechselt</li>
+<li>Sofortige KI-Konsultation ohne eigenen Versuch</li>
+<li>Keine Vorhersagefehler (immer „richtige“ Antworten)</li>
 </ul>
 </div>
 </div>
 </div>
 
 
-
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-andersonAcquisitionCognitiveSkill1982" class="csl-entry" role="listitem">
-Anderson, John R. 1982. <span>“Acquisition of Cognitive Skill.”</span> <em>Psychological Review</em> 89 (4): 369–406. <a href="https://doi.org/10.1037/0033-295X.89.4.369">https://doi.org/10.1037/0033-295X.89.4.369</a>.
-</div>
-<div id="ref-andersonHowCanHuman2007" class="csl-entry" role="listitem">
-———. 2007. <em>How <span>Can</span> the <span>Human Mind Occur</span> in the <span>Physical Universe</span>?</em> Oxford University Press. <a href="https://doi.org/10.1093/acprof:oso/9780195324259.001.0001">https://doi.org/10.1093/acprof:oso/9780195324259.001.0001</a>.
-</div>
-<div id="ref-bastaniGenerativeAICan2024" class="csl-entry" role="listitem">
-Bastani, Hamsa, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, and Rei Mariman. 2024. <span>“Generative <span>AI Can Harm Learning</span>.”</span> SSRN Scholarly Paper. Rochester, NY. July 15, 2024. <a href="https://doi.org/10.2139/ssrn.4895486">https://doi.org/10.2139/ssrn.4895486</a>.
-</div>
-<div id="ref-bjorkMakingThingsHard2011" class="csl-entry" role="listitem">
-Bjork, Elizabeth Ligon, and Robert A. Bjork. 2011. <span>“Making Things Hard on Yourself, but in a Good Way: <span>Creating</span> Desirable Difficulties to Enhance Learning.”</span> In <em>Psychology and the Real World: <span>Essays</span> Illustrating Fundamental Contributions to Society</em>, 56–64. New York, NY, US: Worth Publishers.
-</div>
-<div id="ref-grootThoughtChoiceChess1978" class="csl-entry" role="listitem">
-Groot, Adriaan D. De, and Adrianus Dingeman de Groot. 1978. <em>Thought and <span>Choice</span> in <span>Chess</span></em>. Walter de Gruyter. <a href="https://books.google.com?id=EI4gr42NwDQC">https://books.google.com?id=EI4gr42NwDQC</a>.
-</div>
-<div id="ref-kirschnerHowTeachingHappens2022" class="csl-entry" role="listitem">
-Kirschner, Paul, Carl Hendrick, and Jim Heal. 2022. <em>How <span>Teaching Happens</span>: <span>Seminal Works</span> in <span>Teaching</span> and <span>Teacher Effectiveness</span> and <span>What They Mean</span> in <span>Practice</span></em>. London: Routledge. <a href="https://doi.org/10.4324/9781003228165">https://doi.org/10.4324/9781003228165</a>.
-</div>
-<div id="ref-leeImpactGenerativeAI2025" class="csl-entry" role="listitem">
-Lee, Hao-Ping (Hank), Advait Sarkar, Lev Tankelevitch, Ian Drosos, Sean Rintel, Richard Banks, and Nicholas Wilson. 2025. <span>“The <span>Impact</span> of <span>Generative AI</span> on <span>Critical Thinking</span>: <span>Self-Reported Reductions</span> in <span>Cognitive Effort</span> and <span>Confidence Effects From</span> a <span>Survey</span> of <span>Knowledge Workers</span>.”</span> In. <a href="https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/">https://www.microsoft.com/en-us/research/publication/the-impact-of-generative-ai-on-critical-thinking-self-reported-reductions-in-cognitive-effort-and-confidence-effects-from-a-survey-of-knowledge-workers/</a>.
-</div>
-<div id="ref-oakleyMemoryParadoxWhy2025" class="csl-entry" role="listitem">
-Oakley, Barbara, Michael Johnston, Kenzen Chen, Eulho Jung, and Terrence Sejnowski. 2025. <span>“The <span>Memory Paradox</span>: <span>Why Our Brains Need Knowledge</span> in an <span>Age</span> of <span>AI</span>.”</span> May 12, 2025. <a href="https://doi.org/10.31234/osf.io/3xye5_v2">https://doi.org/10.31234/osf.io/3xye5_v2</a>.
-</div>
-<div id="ref-swellerDevelopmentCognitiveLoad2023" class="csl-entry" role="listitem">
-Sweller, John. 2023. <span>“The <span>Development</span> of <span>Cognitive Load Theory</span>: <span>Replication Crises</span> and <span>Incorporation</span> of <span>Other Theories Can Lead</span> to <span>Theory Expansion</span>.”</span> <em>Educational Psychology Review</em> 35 (4): 95. <a href="https://doi.org/10.1007/s10648-023-09817-2">https://doi.org/10.1007/s10648-023-09817-2</a>.
-</div>
-<div id="ref-swellerCognitiveLoadTheory2024" class="csl-entry" role="listitem">
-———. 2024. <span>“Cognitive Load Theory and Individual Differences.”</span> <em>Learning and Individual Differences</em> 110 (February): 102423. <a href="https://doi.org/10.1016/j.lindif.2024.102423">https://doi.org/10.1016/j.lindif.2024.102423</a>.
-</div>
-<div id="ref-yangEffectivenessChatGPTAssisting2025" class="csl-entry" role="listitem">
-Yang, Tzu-Chi, Yi-Chuan Hsu, and Jiun-Yu Wu. 2025. <span>“The Effectiveness of <span>ChatGPT</span> in Assisting High School Students in Programming Learning: Evidence from a Quasi-Experimental Research.”</span> <em>Interactive Learning Environments</em>, January, 1–18. <a href="https://doi.org/10.1080/10494820.2025.2450659">https://doi.org/10.1080/10494820.2025.2450659</a>.
-</div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ellis2025,
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{ellis,
   author = {Ellis, Andrew},
-  title = {How {Skill} {Acquisition} {Works}},
-  date = {2025-06-23},
+  title = {Wie Man {Kompetenz} Erwirbt},
   url = {https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/},
   langid = {en}
 }
-</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ellis2025" class="csl-entry quarto-appendix-citeas" role="listitem">
-Ellis, Andrew. 2025. <span>“How Skill Acquisition Works.”</span> June
-23, 2025. <a href="https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/">https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/</a>.
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-ellis" class="csl-entry quarto-appendix-citeas" role="listitem">
+Ellis, Andrew. n.d. <span>“Wie Man Kompetenz Erwirbt.”</span> <a href="https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/">https://virtuelleakademie.github.io/denken-statt-delegieren/workshop/skill-acquisition/</a>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -1726,8 +1656,8 @@ Ellis, Andrew. 2025. <span>“How Skill Acquisition Works.”</span> June
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../workshop/learning-environment/index.html" class="pagination-link" aria-label="Productive Struggle by Design">
-        <span class="nav-page-text">Productive Struggle by Design</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../workshop/learning-environment/index.html" class="pagination-link" aria-label="Produktive Anstrengung durch Design">
+        <span class="nav-page-text">Produktive Anstrengung durch Design</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -20,10 +20,10 @@ about:
       href: https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/
 ---
 
-[english version](index-en.qmd)
+[deutsche version](index.qmd)
 
 
-In diesem Workshop erkunden wir gemeinsam die Wechselwirkung von KI-Unterstützung und kognitiver Arbeit, mit der Informationen erst wirklich hängen bleiben---denn manchmal ist die Anstrengung das Ziel. 
+In this workshop, we will explore the delicate balance between collaborating with AI  and preserving the cognitive work that makes new information stick---because sometimes the struggle really is the point.
 
 
 ## Workshop Website
