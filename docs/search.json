@@ -1,390 +1,10 @@
 [
   {
-<<<<<<< HEAD
     "objectID": "exercises/miro-board/index.html",
     "href": "exercises/miro-board/index.html",
     "title": "Miro Board",
     "section": "",
     "text": "View Miro board in new tab\n\n\n\n\n Back to top"
-=======
-    "objectID": "slides/how-humans-learn/long/index.html#what-you-just-experienced",
-    "href": "slides/how-humans-learn/long/index.html#what-you-just-experienced",
-    "title": "How We Build Expertise",
-    "section": "What You Just Experienced",
-    "text": "What You Just Experienced\nYour Three Research Modes:\n\n\nMode 1: Without AI\nClassical sources, prior knowledge\nLikely felt: Slower, more effortful, uncertain\n\nMode 2: Single AI Prompt\nOne well-crafted question\nLikely felt: Fast, confident, comprehensive\n\nMode 3: Collaborative AI\nIterative, follow-up questions\nLikely felt: Engaging, interactive, refined\n\n\n\n\n\n\n\nThe Critical Question:\n\n\nWhich mode will you remember a week from now?\nThe immediate “feel” doesn’t predict long-term learning…"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#from-15-minutes-to-15-weeks",
-    "href": "slides/how-humans-learn/long/index.html#from-15-minutes-to-15-weeks",
-    "title": "How We Build Expertise",
-    "section": "From 15 Minutes to 15 Weeks",
-    "text": "From 15 Minutes to 15 Weeks\nWhy Short-Term Experience Misleads:\n\nYour exercise (15 minutes): Different modes felt different\nReal learning (15 weeks): Repeated practice literally rewires your brain\nThe gap: What feels efficient now may prevent expertise later\nThe illusion: AI collaboration felt engaging, but did it build lasting knowledge?\n\n. . .\n\n\n\n\n\n\nWarning\n\n\nKey insight: We optimize for immediate comfort, not long-term capability."
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#when-collaborative-ai-helps-vs.-hurts",
-    "href": "slides/how-humans-learn/long/index.html#when-collaborative-ai-helps-vs.-hurts",
-    "title": "How We Build Expertise",
-    "section": "When Collaborative AI Helps vs. Hurts",
-    "text": "When Collaborative AI Helps vs. Hurts\nThe Nuanced Reality:\n\n\n✅ Collaborative AI Can Help When:\n\nClarifying your thinking: “Does my logic make sense?”\nOvercoming specific obstacles: “I’m stuck on this one step”\nChecking understanding: “Is my interpretation correct?”\nReducing irrelevant load: Grammar, formatting, citations\n\nYou maintain cognitive control\n\n\n\n❌ Collaborative AI Hurts When:\n\nGenerating core ideas: “What should I think about this?”\nDoing the reasoning: “How should I solve this?”\nMaking connections: “How does this relate to…?”\nReplacing struggle: “This is hard, help me”\n\nAI drives the cognitive process\n\n\nThe test: Are you using AI to enhance your thinking or replace it?"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#why-schools-exist-the-knowledge-divide",
-    "href": "slides/how-humans-learn/long/index.html#why-schools-exist-the-knowledge-divide",
-    "title": "How We Build Expertise",
-    "section": "Why Schools Exist: The Knowledge Divide",
-    "text": "Why Schools Exist: The Knowledge Divide\n\n\n🧬 Biologically Primary\nWe evolved to learn:\n\nSpeaking & understanding\nRecognizing faces\n\nReading social cues\nBasic problem solving\n\nNatural discovery works!\n\n\n\n🎓 Biologically Secondary\nWe didn’t evolve to learn:\n\nReading & writing\nMathematics & algebra\nProgramming & analysis\nScientific reasoning\n\nNeeds explicit teaching!\n\n\n\n\n\n\n\n\nImportant\n\n\nAI assumes all knowledge is primary—but academic skills need structured struggle."
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#the-learning-journey-novice-expert",
-    "href": "slides/how-humans-learn/long/index.html#the-learning-journey-novice-expert",
-    "title": "How We Build Expertise",
-    "section": "The Learning Journey: Novice → Expert",
-    "text": "The Learning Journey: Novice → Expert\n\n\n\n\n\ngraph LR\n    A[😰 Novice&lt;br/&gt;Struggle & Errors] --&gt; B[🤔 Intermediate&lt;br/&gt;Patterns Emerge]\n    B --&gt; C[🎯 Expert&lt;br/&gt;Automatic & Fast]\n    \n    style A fill:#ff6b6b,stroke:#333,stroke-width:3px\n    style B fill:#ffe66d,stroke:#333,stroke-width:3px\n    style C fill:#4ecdc4,stroke:#333,stroke-width:3px\n\n\n\n\n\n\n\nNovice: Step-by-step conscious reasoning (high effort)\nIntermediate: Chunking patterns, some automation (moderate effort)\n\nExpert: Instant recognition, can’t explain! (low effort)\n\n\nKey insight: The struggle creates the expertise—you can’t skip it!"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#act-r-theory-how-minds-actually-work",
-    "href": "slides/how-humans-learn/long/index.html#act-r-theory-how-minds-actually-work",
-    "title": "How We Build Expertise",
-    "section": "ACT-R Theory: How Minds Actually Work",
-    "text": "ACT-R Theory: How Minds Actually Work\nTwo Memory Systems Working Together:\n\n\n🧠 Declarative Memory\n“Knowing That”\n\nChunks: ~3 pieces of info bound together\nFacts: “Paris is capital of France”\nRules: “To isolate x, subtract from both sides”\nLike a network: Connected nodes we search through\n\nSlow, conscious retrieval\n\n\n\n⚡ Procedural Memory\n“Knowing How”\n\nProductions: IF-THEN atomic thinking steps\n“IF see ax = b THEN rewrite as x = b/a”\nModular: Each learned independently\nCompete: Strongest production wins\n\nFast, effortless performance\n\n\nThe learning journey: Chunks → Practice → Productions → Expertise"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#productions-your-brains-if-then-rules",
-    "href": "slides/how-humans-learn/long/index.html#productions-your-brains-if-then-rules",
-    "title": "How We Build Expertise",
-    "section": "Productions: Your Brain’s IF-THEN Rules",
-    "text": "Productions: Your Brain’s IF-THEN Rules\nProductions are the “atomic thinking steps” of problem-solving:\n\nIF my goal is to solve for x, AND I see equation 3x + 5 = 20, THEN subtract 5 from both sides\nIF I’m stuck on a programming bug, AND code won’t compile, THEN check syntax first\n\nIF I need to remember a phone number, AND can’t write it down, THEN repeat it internally\n\n\n\n\n\n\n\n\nProduction Competition in Action\n\n\nWhen you see 3x + 5 = 20, multiple productions compete:\n\nProduction A: “Guess and check values” (weak, novice)\nProduction B: “Subtract 5 from both sides” (strong, practiced)\nWinner: Strongest production fires automatically\n\nPractice strengthens winning productions!"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#why-transfer-is-so-limited",
-    "href": "slides/how-humans-learn/long/index.html#why-transfer-is-so-limited",
-    "title": "How We Build Expertise",
-    "section": "Why Transfer Is So Limited",
-    "text": "Why Transfer Is So Limited\nScott Young’s Key Insight:\n\n\nTransfer only occurs when skills share productions\n\nChess strategy ≠ Business strategy (no shared productions)\nAlgebra ≠ Geometry (few shared productions)\n\nPython ≠ JavaScript (some shared algorithmic thinking)\n\nThe data confirms: Transfer is linear in number of shared productions!\n\nWhy school feels “useless”:\n\nYou learn 50% of needed productions\nCan’t solve real problems (missing key steps)\nBUT learning the other 50% is now twice as fast!\n\nSchool creates learning potential, not immediate performance"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#knowledge-compilation-in-action",
-    "href": "slides/how-humans-learn/long/index.html#knowledge-compilation-in-action",
-    "title": "How We Build Expertise",
-    "section": "Knowledge Compilation in Action",
-    "text": "Knowledge Compilation in Action\nHow “atomic thinking steps” become automatic procedures:\n\n\n\n\n\ngraph LR\n    A[📚 Declarative Chunks&lt;br/&gt;\"ax = b means divide&lt;br/&gt;both sides by a\"] --&gt; B[🔄 Practice&lt;br/&gt;Apply rule in&lt;br/&gt;many problems]\n    B --&gt; C[⚡ Production Rule&lt;br/&gt;\"IF see ax = b&lt;br/&gt;THEN answer x = b/a\"]\n    \n    style A fill:#ffe66d,stroke:#333,stroke-width:2px\n    style B fill:#ffb3ba,stroke:#333,stroke-width:2px\n    style C fill:#4ecdc4,stroke:#333,stroke-width:2px\n\n\n\n\n\n\n\nStart: Hold rule consciously in working memory (slow, effortful)\nPractice: Each successful use strengthens the production\nCompetition: Stronger productions win over weaker alternatives\n\nCompilation: Direct pattern→response connection forms\nResult: Automatic “atomic thinking step” (fast, effortless)\n\n\nAI provides step 5 without steps 1-4!"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#why-some-things-are-easy-others-hard",
-    "href": "slides/how-humans-learn/long/index.html#why-some-things-are-easy-others-hard",
-    "title": "How We Build Expertise",
-    "section": "Why Some Things Are Easy, Others Hard",
-    "text": "Why Some Things Are Easy, Others Hard\nProcedural Memory Examples You Know:\n\nAlphabet forward: Automatic procedural memory → Easy!\nAlphabet backward: Must use declarative memory → Hard!\n\nRecite forward → Hold in working memory → Manually reverse → Say result\n\nTyping your name: Procedural muscle memory → Effortless\nSpelling your name aloud: Declarative retrieval → Requires thought\nPhone number repetition: Rehearsal keeps chunks active in declarative memory\nPhone number from memory: If practiced enough, becomes procedural\n\n. . .\n\n\n\n\n\n\nImportant\n\n\nKey insight: The same information accessed through different memory systems feels completely different to perform!"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#the-working-memory-bottleneck",
-    "href": "slides/how-humans-learn/long/index.html#the-working-memory-bottleneck",
-    "title": "How We Build Expertise",
-    "section": "The Working Memory Bottleneck",
-    "text": "The Working Memory Bottleneck\n\n\n😰 Novice Problem:\n(x + 3)(x - 2) = 0\n7+ pieces to track: - What is x? - Parentheses meaning? - Operations involved? - Why equals zero? - How to solve?\n🧠💥 Overload!\n\n🎯 Expert Problem:\n(x + 3)(x - 2) = 0\n1 pattern recognized: - “Factored form → x = -3 or x = 2”\n🧠✓ Easy!\n\n🤖 AI Problem:\n(x + 3)(x - 2) = 0\n0 processing: - Copy → Paste → Answer\n🧠❌ No learning!"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#how-the-brain-actually-learns",
-    "href": "slides/how-humans-learn/long/index.html#how-the-brain-actually-learns",
-    "title": "How We Build Expertise",
-    "section": "How the Brain Actually Learns",
-    "text": "How the Brain Actually Learns\nThe Prediction Error System:\n\nBrain predicts: “If I try this approach, it should work”\nReality check: “Did it work as expected?”\nPrediction error: Gap between expected and actual\nNeural update: Brain adjusts based on the error\n\n. . .\n\n\n\n\n\n\nAI Eliminates Learning Signals\n\n\n\nNo predictions (AI provides instant answers)\nNo attempts (students don’t try solutions)\n\nNo errors (AI is always “correct”)\nNo learning (brain has nothing to update)"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#the-expertise-illusion",
-    "href": "slides/how-humans-learn/long/index.html#the-expertise-illusion",
-    "title": "How We Build Expertise",
-    "section": "The Expertise Illusion",
-    "text": "The Expertise Illusion\n\n\n❌ What AI Creates:\n\nPerfect answers without understanding\nSurface fluency, fragile knowledge\nFalse confidence in abilities\nComplete dependency on tools\n\n\n\n\n✅ What Real Learning Creates:\n\nDeep understanding through struggle\nRobust knowledge that transfers\nAccurate self-assessment\nTrue intellectual autonomy\n\n\n\nThe dangerous mistake: Confusing AI’s performance with your own learning."
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#the-research-reality-check",
-    "href": "slides/how-humans-learn/long/index.html#the-research-reality-check",
-    "title": "How We Build Expertise",
-    "section": "The Research Reality Check",
-    "text": "The Research Reality Check\nRecent studies reveal alarming trends:\n\n68% reduction in critical thinking among high AI users\nSurface learning only in programming students using ChatGPT\n\nFlynn Effect reversal: IQ scores declining since we stopped memorizing\nStudents can’t solve basic problems without AI assistance\n\n\n\n\n\n\n\n\nWarning\n\n\nWe abandoned proven learning methods just as neuroscience proved why they work!"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#the-two-paths-forward",
-    "href": "slides/how-humans-learn/long/index.html#the-two-paths-forward",
-    "title": "How We Build Expertise",
-    "section": "The Two Paths Forward",
-    "text": "The Two Paths Forward\n\n\n\n\n\ngraph TD\n    A[Learning Challenge] --&gt; B{Your Choice}\n    B --&gt;|AI Shortcut| C[🏃‍♂️ Fast Answer]\n    B --&gt;|Learning Path| D[🧗‍♀️ Productive Struggle]\n    C --&gt; E[❌ Dependency & Fragility]\n    D --&gt; F[✅ Expertise & Transfer]\n    \n    style C fill:#ff6b6b,stroke:#333,stroke-width:2px\n    style E fill:#ff6b6b,stroke:#333,stroke-width:2px\n    style D fill:#4ecdc4,stroke:#333,stroke-width:2px\n    style F fill:#4ecdc4,stroke:#333,stroke-width:2px"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#practical-guidelines-beyond-the-exercise",
-    "href": "slides/how-humans-learn/long/index.html#practical-guidelines-beyond-the-exercise",
-    "title": "How We Build Expertise",
-    "section": "Practical Guidelines: Beyond the Exercise",
-    "text": "Practical Guidelines: Beyond the Exercise\n\n\n\n\n\n\nScaling Up From 5 to 20 Minutes\n\n\nYour exercise: 5-minute sessions showed immediate differences in experience\nReal learning: 20+ minutes of struggle creates the brain changes that build expertise\nBefore Any AI Consultation:\n\nMinimum 20 minutes of independent attempt (not the 5 from exercise!)\nDocument your thinking: What you tried and why\nIdentify specific obstacles: Where exactly are you stuck?\nThen use AI strategically: To overcome obstacles, not replace thinking\n\n\n\n\n\nRed flag test: If you can’t solve similar problems without AI after 5 attempts, you’re building dependency, not expertise."
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#designing-learning-environments-for-growth",
-    "href": "slides/how-humans-learn/long/index.html#designing-learning-environments-for-growth",
-    "title": "How We Build Expertise",
-    "section": "Designing Learning Environments for Growth",
-    "text": "Designing Learning Environments for Growth\nThe Cultural Shift Required:\n\n\n❌ Product-Focused Culture\n\n“Get the right answer quickly”\nStruggle = failure or incompetence\n\nErrors are problems to hide\nSpeed and efficiency valued\nAI use = being “smart”\n\n\n\n\n✅ Process-Focused Culture\n\n“Show me your thinking”\nStruggle = growth in progress\nErrors are learning opportunities\nDepth and understanding valued\nAI use = strategic choice\n\n\n\n\n\n\n\n\n\nImportant\n\n\nKey insight: Students avoid struggle when environments punish confusion and reward quick answers."
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#creating-struggle-positive-classrooms",
-    "href": "slides/how-humans-learn/long/index.html#creating-struggle-positive-classrooms",
-    "title": "How We Build Expertise",
-    "section": "Creating Struggle-Positive Classrooms",
-    "text": "Creating Struggle-Positive Classrooms\nWhat This Looks Like in Practice:\n\nCelebrate productive confusion: “That’s a great question—you’re thinking deeply!”\nAssess process, not just products: Grade thinking steps, not just final answers\nShare expert struggles: Show how professionals work through problems messily\nTime for thinking: Built-in struggle time before any external help\nModel uncertainty: Teachers saying “I’m not sure, let me think…”\n\n. . .\n\n\n\n\n\n\nThe Environment Test\n\n\nStudents should feel safe to be confused and proud of their thinking process, not just their final answers."
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#what-this-means-for-teaching",
-    "href": "slides/how-humans-learn/long/index.html#what-this-means-for-teaching",
-    "title": "How We Build Expertise",
-    "section": "What This Means for Teaching",
-    "text": "What This Means for Teaching\n\n\n❌ Don’t:\n\nAllow immediate AI consultation\nAccept AI-generated work as learning\nSkip the “struggling” phase\n\nTreat all students as experts\n\n✅ Do:\n\nProtect struggle time\nTeach process, not just content\nScaffold complexity appropriately\nCelebrate productive confusion\n\n\nThe Goal:\nStudents who say:\n“I could use AI, but then I wouldn’t learn anything. Let me try this myself first.”\nThis is the future: Learners who choose growth over shortcuts."
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#your-takeaway-challenge",
-    "href": "slides/how-humans-learn/long/index.html#your-takeaway-challenge",
-    "title": "How We Build Expertise",
-    "section": "Your Takeaway Challenge",
-    "text": "Your Takeaway Challenge\n\n\n\n\n\n\nThe Expertise Question\n\n\nFor your next learning challenge, ask yourself:\n“Am I using this tool to enhance my thinking or replace it?”\nChoose tools that make you think harder, not think less.\n\n\n\n\nRemember: Your confusion isn’t a bug—it’s the feature that builds expertise!"
-  },
-  {
-    "objectID": "slides/how-humans-learn/long/index.html#questions-discussion",
-    "href": "slides/how-humans-learn/long/index.html#questions-discussion",
-    "title": "How We Build Expertise",
-    "section": "Questions & Discussion",
-    "text": "Questions & Discussion\nHow might we redesign learning experiences to embrace productive struggle while leveraging AI appropriately?"
-  },
-  {
-    "objectID": "exercises/index.html",
-    "href": "exercises/index.html",
-    "title": "Exercise: Think, don’t delegate",
-    "section": "",
-    "text": "This activity investigates how we process information by probing various research modes and reflecting on how each affects comprehension and reasoning.",
-    "crumbs": [
-      "Workshop",
-      "Exercise: Think, don't delegate"
-    ]
-  },
-  {
-    "objectID": "exercises/index.html#learning-objectives",
-    "href": "exercises/index.html#learning-objectives",
-    "title": "Exercise: Think, don’t delegate",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nStrengthen knowledge of cognitive psychology principles and their application in learning and research.\nGain insight into how AI influences cognitive processes like critical thinking and comprehension.\nLearn to evaluate when and how AI helps or hinders learning in educational, research and productive contexts.",
-    "crumbs": [
-      "Workshop",
-      "Exercise: Think, don't delegate"
-    ]
-  },
-  {
-    "objectID": "exercises/index.html#task-10-minutes",
-    "href": "exercises/index.html#task-10-minutes",
-    "title": "Exercise: Think, don’t delegate",
-    "section": "Task (10 minutes)",
-    "text": "Task (10 minutes)\nIn this exercise, each of us will investigate two of the four questions below through different research modes, either with or without using a chatbot, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows. Each research session is limited to 5 minutes, mimicking the standard scenario for quick online research.\n\npick any of the four questions below and gather relevant information without using a chatbot.\npick any of the remaining three questions and gather relevant information using a chatbot.\n\nPlease collect the information on the provided flipcharts.\n\n\nExercise Flow\nChoose 2 of 4 Questions → Apply 2 Different Research Modes\n                                             ↓\n                     Question 1 → Mode 1: Without Chatbot (5 min)\n                     Question 2 → Mode 2: With Chatbot (5 min)  \n                                             ↓\n                              Gather Relevant Information & Questions\n\n\n\n\n\n\n\nResearch Questions\n\n\n\n\n\n\nHow does text-only learning shape comprehension, and what factors govern its effectiveness?\nHow do brief summaries influence comprehension, and which elements drive their success?\nHow does crafting a personal explanation boost critical thinking, and what are its limits?\nWhat makes partner feedback such an effective learning tool, and how can you use it best?\n\n\n\n\n\n\n\n\n\n\nReflection (20 minutes)\n\n\n\n\n\nAfter engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps:\n\nThink (2 minute): Take a moment to reflect individually on questions below.\n\nPair (8 minutes): Discuss your reflections with a partner and compare your insights.\n\nShare (12 minutes): Share key takeaways with the group.\n\n\nQuestions to Consider\n\nHow did the different sessions differ regarding how you learned and how you experienced that learning?\nIs there a difference in your ability to recall the information?\nWhat pros and cons did you experience using chatbots for research?\nWhat’s your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?\n\n\n\n\n\n\n\n\n\n\n\nKey Takeaway\n\n\n\n\n\nWe explored how AI processes information and its impact on human learning. We generally find that using chatbots can reduce cognitive engagement. According to a recent study on the cognitive cost of using an LLM for essay writing (Kosmyna et al. 2025), this actually shows in lower brain activity, resulting in a lack of comprehension as well as in worse memorization of their own original text written on the topic.\nThe key take away is: When learning new concepts, use AI assistants strategically—to handle irrelevant administrative tasks and scaffold your thinking, not to bypass the productive struggle that builds genuine understanding. The cognitive effort you experience when grappling with new ideas isn’t a bug to be fixed; it’s the very mechanism through which expertise develops.",
-    "crumbs": [
-      "Workshop",
-      "Exercise: Think, don't delegate"
-    ]
-  },
-  {
-    "objectID": "workshop/prompting/index.html",
-    "href": "workshop/prompting/index.html",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "",
-    "text": "Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. However, employing effective prompting techniques is critical. This affects whether LLMs support meaningful learning or potentially allow students to bypass learning altogether. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#overview",
-    "href": "workshop/prompting/index.html#overview",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "",
-    "text": "Large Language Models (LLMs) can greatly enhance education by providing explanations, examples, and instant feedback. However, employing effective prompting techniques is critical. This affects whether LLMs support meaningful learning or potentially allow students to bypass learning altogether. Thoughtfully constructed prompts use principles from cognitive science, promoting active student engagement and deeper understanding."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#key-principles-for-educational-prompting",
-    "href": "workshop/prompting/index.html#key-principles-for-educational-prompting",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "Key Principles for Educational Prompting",
-    "text": "Key Principles for Educational Prompting\n\n1. Retrieval Practice\nEncourage recall of learned information to strengthen memory.\n\n\n\n\n\n\nTutor:\n\n\n\nQuiz me on three key points from the organic chemistry lecture on reaction kinetics [provided as PDF].\n\n\n\n\n2. Scaffolding\nBreak complex tasks into smaller steps to guide students gradually.\n\n\n\n\n\n\nTutor:\n\n\n\nFirst, give the balanced equation for this [chemical] reaction. Now, what are the initial concentrations?\n\n\n\n\n3. Metacognition\nPromote self-reflection and justification of reasoning.\n\n\n\n\n\n\nTutor:\n\n\n\nExplain why you chose this method for determining equilibrium. Are there assumptions you’ve made?\n\n\n\n\n4. Cognitive Load Management\nChunk information clearly to prevent overload.\n\n\n\n\n\n\nTutor:\n\n\n\nDefine entropy briefly. Next, explain how entropy differs from enthalpy."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#effective-prompting-techniques",
-    "href": "workshop/prompting/index.html#effective-prompting-techniques",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "Effective Prompting Techniques",
-    "text": "Effective Prompting Techniques\n\nSet Clear Roles and Contexts\nProvide explicit roles to guide the LLM’s responses.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nYou are an organic chemistry tutor helping a first-year student.\n\n\n\n\nSpecify Tasks and Formats Clearly\nBe specific to ensure precise responses.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nExplain ionic bonding using a real-world analogy suitable for freshmen.\n\n\n\n\nUse Examples or Templates\nDemonstrate the desired output.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nProvide a solution formatted as follows: First state the concept, then illustrate with a concrete chemistry example.\n\n\n\n\nChain-of-Thought and Reasoning\nAsk the LLM to detail its reasoning or provide multiple approaches.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nStep-by-step, explain how to identify the limiting reagent in this reaction.\n\n\n\n\n\n\n\n\n✅\n\n\n\nInstruct the LLM to think first: “Explain your reasoning first, then state the answer.”\n\n\n\n\n\n\n\n\n❌\n\n\n\nInstruct the LLM to give the answer first: “State the answer first, then explain your reasoning.”\n\n\n\n\nIterative Refinement\nTreat prompting as an interactive process, refining outputs through conversation.\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSimplify the previous explanation and provide a metaphor.\n\n\n\n\nUse Markdown Formatting\nUse Markdown formatting to make the prompt more readable (e.g. lists, bold, italics, etc.).\n\n\n\n\n\n\nBasic Markdown Formatting\n\n\n\n\n\n# Heading level 1\n## Heading level 2\n### Heading level 3\n\n**Bold text**\n\n*Italic text*\n\n1. List item 1\n2. List item 2\n3. List item 3\nUse delimiters (e.g. ---, \"\"\") to indicate different roles or parts of a prompt."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#example-teaching-activities",
-    "href": "workshop/prompting/index.html#example-teaching-activities",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "Example Teaching Activities",
-    "text": "Example Teaching Activities\n\nIllustrative Analogies\n\n\n\n\n\n\nExample Prompt:\n\n\n\nCreate an everyday analogy to illustrate Le Châtelier’s principle.\n\n\n\n\nPractice Questions Generation\n\n\n\n\n\n\nExample Prompt:\n\n\n\nCreate three practice questions on acid-base titrations at varying difficulty levels.\n\n\n\n\n\n\n\n\nNote that the task of generating practice questions is a complex task that requires a good understanding of the topic. It will be necessary to provide the LLM with a template for the questions, and to provide examples of how to format the questions. Additionally, you will need to consider how to define task difficulty very carefully.\n\n\n\n\n\nLesson Planning\n\n\n\n\n\n\nExample Prompt:\n\n\n\nOutline a 50-minute lesson plan on the ideal gas law with an interactive demonstration.\n\n\n\n\nInteractive Problem Solving\n\n\n\n\n\n\nExample Prompt:\n\n\n\nGuide me through solving a galvanic cell problem, providing hints without revealing the solution immediately."
-  },
-  {
-    "objectID": "workshop/prompting/index.html#example-student-activities",
-    "href": "workshop/prompting/index.html#example-student-activities",
-    "title": "Effective Prompting Strategies in Education",
-    "section": "Example Student Activities",
-    "text": "Example Student Activities\n\nClarifying Concepts\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSimplify and explain the concept of electrons behaving as waves.\n\n\n\n\nCreating Study Guides\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSummarize thermodynamics laws and generate two review questions for each.\n\n\n\n\nSelf-Explanation and Reflection\n\n\n\n\n\n\nExample Prompt:\n\n\n\nEvaluate my explanation of buffer solutions and ask a clarifying follow-up question.\n\n\n\n\nError-Checking Practice\n\n\n\n\n\n\nExample Prompt:\n\n\n\nReview my solution to this equilibrium problem, identify mistakes, and guide me in correcting them.\n\n\n\n\nBrainstorming Project Ideas\n\n\n\n\n\n\nExample Prompt:\n\n\n\nSuggest three practical applications of electrochemistry suitable for a student project."
-  },
-  {
-    "objectID": "workshop/index.html",
-    "href": "workshop/index.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Type\n Topic\n Duration\n\n\n\n\n Input\nHow Chatbots Think\n10 min\n\n\n Exercise\nThink, don’t delegate\n30 min",
-    "crumbs": [
-      "Workshop",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "workshop/index.html#further-reading",
-    "href": "workshop/index.html#further-reading",
-    "title": "Schedule",
-    "section": "Further Reading",
-    "text": "Further Reading\n\nHow Humans Learn\nHow Skill Acquisition Works - From Novice to Expert: The Science of Learning\nProductive Struggle by Design — Teaching in the Age of AI",
-    "crumbs": [
-      "Workshop",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "workshop/how-chatbots-think/index.html",
-    "href": "workshop/how-chatbots-think/index.html",
-    "title": "How Chatbots Think",
-    "section": "",
-    "text": "This presentation shows the functionality of how Large Language Models (LLMs) comprehend text and arrive at their answers.",
-    "crumbs": [
-      "Workshop",
-      "How Chatbots Think"
-    ]
-  },
-  {
-    "objectID": "workshop/how-chatbots-think/index.html#presentation",
-    "href": "workshop/how-chatbots-think/index.html#presentation",
-    "title": "How Chatbots Think",
-    "section": " Presentation",
-    "text": "Presentation\n    View webpage in full screen",
-    "crumbs": [
-      "Workshop",
-      "How Chatbots Think"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Think, Don't Delegate",
-    "section": "",
-    "text": "In this workshop, we will explore the delicate balance between collaborating with AI and preserving the cognitive work that makes new information stick—because sometimes the struggle really is the point."
-  },
-  {
-    "objectID": "index.html#workshop-website",
-    "href": "index.html#workshop-website",
-    "title": "Think, Don't Delegate",
-    "section": "Workshop Website",
-    "text": "Workshop Website\n virtuelleakademie.github.io/denken-statt-delegieren/"
-  },
-  {
-    "objectID": "workshop/how-humans-learn/index.html",
-    "href": "workshop/how-humans-learn/index.html",
-    "title": "How Humans Learn",
-    "section": "",
-    "text": "This presentation reveals why offloading cognitive processing to AI can undermine the development of genuine expertise. Through ACT-R (Anderson 2013, 2007) theory, it explains how learning transforms declarative knowledge into procedural skills via productive struggle. The process involves grappling with confusion, making mistakes, and adjusting strategies—steps that are easily bypassed when using AI.\nThe key takeaway: Struggling, confusion and effort aren’t obstacles to learning—they’re the very mechanisms that build lasting expertise.",
-    "crumbs": [
-      "Workshop",
-      "How Humans Learn"
-    ]
-  },
-  {
-    "objectID": "workshop/how-humans-learn/index.html#presentation",
-    "href": "workshop/how-humans-learn/index.html#presentation",
-    "title": "How Humans Learn",
-    "section": " Presentation",
-    "text": "Presentation\n    View slides in full screen",
-    "crumbs": [
-      "Workshop",
-      "How Humans Learn"
-    ]
-  },
-  {
-    "objectID": "workshop/learning-environment/index.html",
-    "href": "workshop/learning-environment/index.html",
-    "title": "Productive Struggle by Design",
-    "section": "",
-    "text": "As James Lang argues in Cheating Lessons (Lang 2013), “cheating is an inappropriate response to a learning environment that’s not working for the student.” Rather than focusing on student behavior, we must design learning environments that make productive struggle the most rewarding path.\nResearch on “desirable difficulties” (R. A. Bjork 1994; E. L. Bjork and Bjork 2011) shows that learning requires cognitive effort—when we remove struggle, we remove learning. Yet students are often not given incentives to engage with effortful processing. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.",
-    "crumbs": [
-      "Workshop",
-      "Productive Struggle by Design"
-    ]
-  },
-  {
-    "objectID": "workshop/learning-environment/index.html#core-principle",
-    "href": "workshop/learning-environment/index.html#core-principle",
-    "title": "Productive Struggle by Design",
-    "section": "",
-    "text": "As James Lang argues in Cheating Lessons (Lang 2013), “cheating is an inappropriate response to a learning environment that’s not working for the student.” Rather than focusing on student behavior, we must design learning environments that make productive struggle the most rewarding path.\nResearch on “desirable difficulties” (R. A. Bjork 1994; E. L. Bjork and Bjork 2011) shows that learning requires cognitive effort—when we remove struggle, we remove learning. Yet students are often not given incentives to engage with effortful processing. The goal is creating environments where students choose to engage in this effortful processing because they understand its necessity for deep learning.",
-    "crumbs": [
-      "Workshop",
-      "Productive Struggle by Design"
-    ]
-  },
-  {
-    "objectID": "workshop/learning-environment/index.html#evidence-based-environmental-design",
-    "href": "workshop/learning-environment/index.html#evidence-based-environmental-design",
-    "title": "Productive Struggle by Design",
-    "section": "Evidence-Based Environmental Design",
-    "text": "Evidence-Based Environmental Design\n\n1. Lower-Stakes Assessment (Lang 2013)\nReplace high-stakes single assessments with frequent, lower-stakes evaluations:\n\n\n\n\n\n\nResearch-Based Approach\n\n\n\nInstead of a final exam worth 50%, use:\n\nFive tests worth 10% each\nWeekly reflection journals\nMultiple opportunities to demonstrate learning\n\nThis reduces anxiety-driven shortcuts while improving retention through the testing effect (Roediger and Karpicke 2006).\n\n\n\n\n2. Intrinsic Motivation Design (Lang 2013)\nBuild courses around meaningful problems rather than content coverage:\nCoverage-Based: “Read Chapter 7 on climate change”\nProblem-Based: “Analyze how climate patterns in your hometown have changed using local weather data”\nProblems rooted in students’ environments may tap intrinsic motivation and therefore be less prone to AI generation.\n\n\n3. Spaced Repetition (Cepeda et al. 2006)\nDistribute practice across time rather than massing it:\nWeek 1: Introduce concept A\nWeek 3: Review concept A while learning B  \nWeek 6: Apply concepts A & B to new context\nWeek 10: Connect A & B to concept C\nResearch shows spaced practice improves long-term retention by 200-300%.\n\n\n4. Retrieval Practice (Roediger and Karpicke 2006)\nUse testing as a learning tool, not just assessment:\n\n\n\n\n\n\nImplementation Strategy\n\n\n\nLow-stakes retrieval opportunities:\n\nStart each class with a 2-minute quiz on previous material\nWeekly “brain dumps” where students write everything they remember\nPeer teaching exercises\nPractice problems without looking at notes first\n\nResearch shows retrieval practice produces better transfer than repeated studying.\n\n\n\n\n5. Interleaved Practice (Rohrer 2012)\nMix different types of problems within assignments:\nInstead of 20 algebra problems, then 20 geometry problems, mix them:\n\nProblems 1, 4, 7: Algebra\nProblems 2, 5, 8: Geometry\nProblems 3, 6, 9: Word problems requiring both\n\nInterleaving improves discrimination between similar concepts and long-term retention.\n\n\n6. Cognitive Load Management (Sweller 2023)\nDesign instruction to optimize working memory capacity while preserving productive struggle:\nFor Novices:\n\nProvide worked examples before independent practice\nReduce extraneous cognitive load while maintaining intrinsic challenge\n\nFor Advanced Learners:\n\nIncrease element interactivity gradually\nEncourage productive struggle through appropriately difficult tasks\nFocus on germane (learning-productive) cognitive load\n\n\n\n7. Desirable Difficulties (R. A. Bjork 1994)\nIntentionally introduce challenges that slow initial performance but enhance long-term learning:\n\n\n\n\n\n\nThe Paradox of Learning\n\n\n\nConditions that make performance look good during training often fail to support learning. The following difficulties feel harder and less efficient in the moment, but produce superior long-term retention and transfer:\n\nGeneration Effect: Having students generate answers (even incorrect ones) before receiving information\nSpacing Effect: Distributing practice over time rather than massing it\nTesting Effect: Using retrieval practice instead of passive review\nInterleaving: Mixing different types of problems instead of blocking them\n\n\n\n\n\n8. Productive Struggle Zones\nCreate structured opportunities for effortful processing:\nFind the optimal difficulty level for learning:\n\nToo Easy: Students disengage; no learning occurs\nToo Hard: Students become overwhelmed; working memory overloads\nJust Right: Students experience productive struggle; learning occurs\n\nDesign Implementation:\n\nStart with student’s current capability level\nAdd one new element of complexity\nProvide support for struggle, not elimination of it\nAllow adequate time for effortful processing",
-    "crumbs": [
-      "Workshop",
-      "Productive Struggle by Design"
-    ]
-  },
-  {
-    "objectID": "workshop/learning-environment/index.html#subject-specific-applications",
-    "href": "workshop/learning-environment/index.html#subject-specific-applications",
-    "title": "Productive Struggle by Design",
-    "section": "Subject-Specific Applications",
-    "text": "Subject-Specific Applications\n\nMathematicsWritingScienceProgramming\n\n\nApply Interleaving:\n\nMix problem types within practice sets\nAlternate between different mathematical procedures\nInclude word problems requiring strategy selection\n\nUse Worked Examples:\n\nShow step-by-step solutions before independent practice\nGradually fade support as expertise develops\n\n\n\nImplement Spaced Revision:\n\nDraft → Week gap → Revision → Week gap → Final edit\nMultiple low-stakes feedback loops\n\nDesign-Based Learning:\n\nConnect writing to real problems\nAuthentic audiences beyond the instructor\n\n\n\nRetrieval Practice Applications:\n\nPredict-observe-explain cycles with delayed feedback\nConcept mapping from memory before consulting notes\n\nDesirable Difficulties:\n\nGenerate hypotheses before receiving information\nExplain phenomena before learning the mechanism\n\nStruggle with “failed” experiments that reveal misconceptions\n\n\n\nCognitive Load Considerations:\n\nWorked examples for syntax, problem-solving for logic\nPair programming as cognitive apprenticeship\nDebug others’ code to build pattern recognition",
-    "crumbs": [
-      "Workshop",
-      "Productive Struggle by Design"
-    ]
-  },
-  {
-    "objectID": "workshop/learning-environment/index.html#embracing-the-struggle",
-    "href": "workshop/learning-environment/index.html#embracing-the-struggle",
-    "title": "Productive Struggle by Design",
-    "section": "Embracing the Struggle",
-    "text": "Embracing the Struggle\nHelp students understand that cognitive effort is not a design flaw to be eliminated, but the very mechanism of learning:\n\n\n\n\n\n\nReframing Difficulty\n\n\n\nInstead of: “This is too hard”\nReframe as: “My brain is working hard to build new connections”\nInstead of: “I don’t get it”\nReframe as: “I’m in the productive struggle zone where learning happens”\nInstead of: “I made a mistake”\nReframe as: “I generated useful information about my current understanding”\nInstead of: “This should be easier”\nReframe as: “Appropriate difficulty is necessary for growth”",
-    "crumbs": [
-      "Workshop",
-      "Productive Struggle by Design"
-    ]
-  },
-  {
-    "objectID": "workshop/learning-environment/index.html#making-struggle-and-errors-part-of-the-journey",
-    "href": "workshop/learning-environment/index.html#making-struggle-and-errors-part-of-the-journey",
-    "title": "Productive Struggle by Design",
-    "section": "Making Struggle and Errors Part of the Journey",
-    "text": "Making Struggle and Errors Part of the Journey\n\nStruggle Documentation Strategies\n\n\n\n\n\n\nThe Learning Process Portfolio\n\n\n\nTrack the struggle, not just the solution:\n\nConfusion Logs: Students document what confused them and why it was valuable\nError Analysis Sheets: Systematic reflection on mistakes and misconceptions\nStruggle Time Tracking: Record time spent in productive struggle (celebrate this!)\n“Aha!” Moment Documentation: Connect struggles to breakthrough insights\nMethod Evolution Maps: Show how problem-solving approaches improved over time\n\n\n\n\n\nError-Positive Assessment Design\nMake errors valuable, not penalized:\n\n\n\n\n\n\nError-Friendly Grading\n\n\n\n\nError Portfolio Bonus: Extra credit for collecting and analyzing mistakes\nMost Valuable Error: Students nominate their most instructive mistake\nError Pattern Recognition: Points for identifying recurring error types\nTeaching Your Mistake: Students explain their errors to help others avoid them\nMistake-to-Mastery Progression: Grade improvement from error to correction\n\n\n\n\n\nStructured Struggle Activities\nDesign specific activities that normalize productive difficulty:\nPre-Learning Struggle (Generation Effect):\n\nAttempt problems before instruction\nGenerate possible solutions to unfamiliar challenges\nPredict outcomes before demonstrations\nCreate questions about upcoming material\n\nDuring-Learning Struggle:\n\nThink-Pair-Share Confusion: Share what’s unclear, then work together\nError Speed Dating: Rotate through common mistakes, discuss each\nProductive Failure Challenges: Deliberately tackle problems slightly above current level\nExplain-Before-You-Know: Attempt explanations before receiving information\n\nPost-Learning Struggle:\n\nTransfer Challenges: Apply concepts to novel situations\nError Diagnosis: Identify mistakes in sample work\nPeer Coaching: Help others through their productive struggles\n\n\n\nCreating a Culture of Productive Failure\nEnvironmental changes that celebrate struggle:\n\n\n\n\n\n\nClassroom Culture Shifts\n\n\n\nVisual Environment:\n\n“Beautiful Mistakes” Wall: Display instructive errors with analysis\nStruggle Tracker Charts: Visual progress through difficult concepts\nProblem-Solving Journey Maps: Show the messy path to understanding\n\nLanguage Environment:\n\n“I’m confused and that’s perfect”: Normalize confusion as learning\n“What a beautiful mistake!”: Celebrate errors that reveal thinking\n“That struggle is your brain growing”: Connect effort to growth\n“Errors are data”: Frame mistakes as information, not failure\n\nActivity Environment:\n\nDaily Struggle Sharing: 2-minute reflections on productive difficulties\nError of the Day: Collective analysis of valuable mistakes\nConfusion Conferences: One-on-one discussions about struggles\nMistake-Making Competitions: Gamify error generation and analysis\n\n\n\n\n\nScaffolding Productive Struggle\nSupport systems that maintain challenge while preventing overwhelm:\nThe Struggle Support Ladder:\n\nIndependent Attempt (5-10 minutes minimum)\nPeer Consultation (share struggles, not solutions)\nResource Access (strategic hints, not full answers)\nInstructor Coaching (guide thinking, don’t solve)\nCollaborative Problem-Solving (work together on remaining challenges)\n\nStrategic Hint System:\n\nProcess Hints (not content): “What type of problem is this?”\nStrategy Suggestions: “What worked for similar problems?”\nError Alerts: “Check your third step” (without giving the answer)\nMetacognitive Prompts: “What are you thinking right now?”",
-    "crumbs": [
-      "Workshop",
-      "Productive Struggle by Design"
-    ]
-  },
-  {
-    "objectID": "workshop/learning-environment/index.html#the-environmental-perspective",
-    "href": "workshop/learning-environment/index.html#the-environmental-perspective",
-    "title": "Productive Struggle by Design",
-    "section": "The Environmental Perspective",
-    "text": "The Environmental Perspective\nThe goal is not to eliminate struggle, but to design learning environments where productive struggle becomes the most rewarding and supported path to achieving the outcomes we want for students—deep understanding, durable skills, and authentic expertise.\nWhen environments align with how humans actually learn through effortful processing, students naturally choose deeper engagement because they experience the satisfaction of genuine capability development.",
-    "crumbs": [
-      "Workshop",
-      "Productive Struggle by Design"
-    ]
->>>>>>> feature/skill-acquisition
   },
   {
     "objectID": "workshop/skill-acquisition/index.html",
@@ -552,12 +172,11 @@
     ]
   },
   {
-<<<<<<< HEAD
     "objectID": "workshop/index.html",
     "href": "workshop/index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Type\n Topic\n Duration\n\n\n\n\n Input\nHow Chatbots Think\n7 min\n\n\n Exercise\nThink, don’t delegate\n25 min\n\n\n Input\nHow Humans Learn\n7 min\n\n\n Input\nClosing Remarks\n1 min",
+    "text": "Type\n Topic\n Duration\n\n\n\n\n Input\nHow Chatbots Think\n10 min\n\n\n Exercise\nThink, don’t delegate\n30 min",
     "crumbs": [
       "Workshop",
       "Schedule"
@@ -568,7 +187,7 @@
     "href": "workshop/index.html#further-reading",
     "title": "Schedule",
     "section": "Further Reading",
-    "text": "Further Reading\n\nHow Skill Acquisition Works - From Novice to Expert: The Science of Learning\nProductive Struggle by Design — Teaching in the Age of AI",
+    "text": "Further Reading\n\nHow Humans Learn\nHow Skill Acquisition Works - From Novice to Expert: The Science of Learning\nProductive Struggle by Design — Teaching in the Age of AI",
     "crumbs": [
       "Workshop",
       "Schedule"
@@ -601,14 +220,7 @@
     "href": "index.html",
     "title": "Think, Don't Delegate",
     "section": "",
-    "text": "June 23, 2025\n15:30 - 17:00\nSIPBB, Aarbergstrasse 46, 2503 Biel"
-  },
-  {
-    "objectID": "index.html#instructors",
-    "href": "index.html#instructors",
-    "title": "Think, Don't Delegate",
-    "section": "Instructors",
-    "text": "Instructors\nDr. Andrew Ellis and Dr. Stefan Hackstein are research associates at the Virtual Academy of the Bern University of Applied Sciences. Together, they develop AI-powered educational tools that complement rather than replace human cognition.\n\n Andrew is your designated human for this workshop. A cognitive psychologist by trade, his focus for today is on why human brains need productive struggle to learn, and why clicking “regenerate response” doesn’t count as critical thinking.\n Stefan will address all things AI in this workshop. With a background as a physicist and data scientist, he’s particularly skilled at explaining why your prompts aren’t quite working as expected.\n\nIn this workshop, they will explore the delicate balance between collaborating with AI and preserving the cognitive work that makes learning stick—because sometimes the struggle really is the point."
+    "text": "In this workshop, we will explore the delicate balance between collaborating with AI and preserving the cognitive work that makes new information stick—because sometimes the struggle really is the point."
   },
   {
     "objectID": "index.html#workshop-website",
@@ -732,18 +344,18 @@
     "href": "exercises/index.html#learning-objectives",
     "title": "Exercise: Think, don’t delegate",
     "section": "Learning Objectives",
-    "text": "Learning Objectives\n\nStrengthen knowledge of cognitive psychology principles and their application in learning and research.\nGain insight into how AI influences cognitive processes like critical thinking and comprehension.\nLearn to evaluate when and how AI helps or hinders learning in educational and research contexts.",
+    "text": "Learning Objectives\n\nStrengthen knowledge of cognitive psychology principles and their application in learning and research.\nGain insight into how AI influences cognitive processes like critical thinking and comprehension.\nLearn to evaluate when and how AI helps or hinders learning in educational, research and productive contexts.",
     "crumbs": [
       "Workshop",
       "Exercise: Think, don't delegate"
     ]
   },
   {
-    "objectID": "exercises/index.html#task-15-minutes",
-    "href": "exercises/index.html#task-15-minutes",
+    "objectID": "exercises/index.html#task-10-minutes",
+    "href": "exercises/index.html#task-10-minutes",
     "title": "Exercise: Think, don’t delegate",
-    "section": "Task (15 minutes)",
-    "text": "Task (15 minutes)\n\n\nExercise Flow\n4 Research Questions → Choose 3 Questions → Apply 3 Different Research Modes\n                                             ↓\n                     Question 1 → Mode 1: Without Chatbot (5 min)\n                     Question 2 → Mode 2: With Chatbot Only (5 min)  \n                     Question 3 → Mode 3: With Chatbot Collaboration (5 min)\n                                             ↓\n                                    Record insights on Miro Board\n\nIn this exercise, we will explore three of the four questions below through different research modes, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows.\nImportant: You will use a different question for each research mode (3 questions total, one per mode). Choose any three questions from the list below, but ensure you follow the sequence of research modes in order.\n\n\n\n\n\n\nResearch Questions\n\n\n\n\n\n\nHow does text-only learning shape comprehension, and what factors govern its effectiveness?\nHow do brief summaries influence comprehension, and which elements drive their success?\nHow does crafting a personal explanation boost critical thinking, and what are its limits?\nWhat makes partner feedback such an effective learning tool, and how can you use it best?\n\n\n\n\n\n\n\n\n\n\nTask per Research Mode\n\n\n\n\n\nFor each research mode, you’ll work on a different question. Focus on the following:\n\nHow does the learner acquire knowledge using this approach?\nWhen and how is that approach beneficial?\nWhat are the pros and cons of this approach?\n\nAdd your answer as a sticky note in this Miro Board, within the frame for your question.\n\n\n\n\n\n\n\n\n\nResearch Modes\n\n\n\n\n\nThere are 3 sessions (5 minutes each) to approach the question differently:\n\nWithout Chatbot: Research or discuss using classical sources or prior knowledge.\nWith Chatbot Only: Use a single well-crafted prompt to get the best possible answer.\nWith Chatbot Collaboration: Interact with the chatbot iteratively—ask follow-up questions, refine the answer collaboratively.\n\nA short example will be shown for each mode before starting.\n\n\n\n\n\n\n\n\n\nReflection (10 minutes)\n\n\n\n\n\nAfter engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps:\n\nThink (1 minute): Take a moment to reflect individually on questions below.\n\nPair (3 minutes): Discuss your reflections with a partner and compare your insights.\n\nShare (6 minutes): Share key takeaways with the group.\n\n\nQuestions to Consider\n\nHow did the different sessions differ regarding how you learned and how you experienced that learning?\nWhat pros and cons did you experience using chatbots for learning?\nWhat’s your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?\n\n\n\n\n\n\n\nKey Takeaway\nWe explored how AI processes information and its impact on human learning. We generally find that using chatbots can reduce cognitive engagement. According to a recent study on the cognitive cost of using an LLM for essay writing (Kosmyna et al. 2025), this actually shows in lower brain activity, resulting in a lack of comprehension as well as in worse memorization of their own original text written on the topic.\nThe key take away is: When learning new concepts, use AI assistants strategically—to handle irrelevant administrative tasks and scaffold your thinking, not to bypass the productive struggle that builds genuine understanding. The cognitive effort you experience when grappling with new ideas isn’t a bug to be fixed; it’s the very mechanism through which expertise develops.",
+    "section": "Task (10 minutes)",
+    "text": "Task (10 minutes)\nIn this exercise, each of us will investigate two of the four questions below through different research modes, either with or without using a chatbot, helping us experience the varying methods of inquiry while gaining valuable insights for the discussion that follows. Each research session is limited to 5 minutes, mimicking the standard scenario for quick online research.\n\npick any of the four questions below and gather relevant information without using a chatbot.\npick any of the remaining three questions and gather relevant information using a chatbot.\n\nPlease collect the information on the provided flipcharts.\n\n\nExercise Flow\nChoose 2 of 4 Questions → Apply 2 Different Research Modes\n                                             ↓\n                     Question 1 → Mode 1: Without Chatbot (5 min)\n                     Question 2 → Mode 2: With Chatbot (5 min)  \n                                             ↓\n                              Gather Relevant Information & Questions\n\n\n\n\n\n\n\nResearch Questions\n\n\n\n\n\n\nHow does text-only learning shape comprehension, and what factors govern its effectiveness?\nHow do brief summaries influence comprehension, and which elements drive their success?\nHow does crafting a personal explanation boost critical thinking, and what are its limits?\nWhat makes partner feedback such an effective learning tool, and how can you use it best?\n\n\n\n\n\n\n\n\n\n\nReflection (20 minutes)\n\n\n\n\n\nAfter engaging in fast-paced research and experiencing first hand how chatbots are usually applied in this context, we now want to reflect on the experience using the following steps:\n\nThink (2 minute): Take a moment to reflect individually on questions below.\n\nPair (8 minutes): Discuss your reflections with a partner and compare your insights.\n\nShare (12 minutes): Share key takeaways with the group.\n\n\nQuestions to Consider\n\nHow did the different sessions differ regarding how you learned and how you experienced that learning?\nIs there a difference in your ability to recall the information?\nWhat pros and cons did you experience using chatbots for research?\nWhat’s your advice on when and how to use Chatbots for learning something new? Does it apply to novices and experts alike?\n\n\n\n\n\n\n\n\n\n\n\nKey Takeaway\n\n\n\n\n\nWe explored how AI processes information and its impact on human learning. We generally find that using chatbots can reduce cognitive engagement. According to a recent study on the cognitive cost of using an LLM for essay writing (Kosmyna et al. 2025), this actually shows in lower brain activity, resulting in a lack of comprehension as well as in worse memorization of their own original text written on the topic.\nThe key take away is: When learning new concepts, use AI assistants strategically—to handle irrelevant administrative tasks and scaffold your thinking, not to bypass the productive struggle that builds genuine understanding. The cognitive effort you experience when grappling with new ideas isn’t a bug to be fixed; it’s the very mechanism through which expertise develops.",
     "crumbs": [
       "Workshop",
       "Exercise: Think, don't delegate"
@@ -811,68 +423,5 @@
     "title": "How Humans Learn",
     "section": "Teaching That Matches How Brains Learn",
     "text": "Teaching That Matches How Brains Learn\n\n\n\n\n\n1. Respect the Developmental Sequence\n\n\n\nWeak methods must come first—they’re not a bug, they’re a feature\nProceduralization requires extensive practice with deliberative processes\nCompilation happens automatically after sufficient repetition\n\n\n\n\n\n\n\n2. Calibrate Cognitive Load\n\n\n\nNovices need simplified, sequential presentation\nExperts can handle complex, parallel processing\nThe same material must be presented differently based on expertise level\n\n\n\n\n\n\n\n\n3. Protect the Struggle Window\n\n\n\nAllow sufficient time for independent struggle before AI consultation\nDocument thinking process before seeking external help\nMultiple attempts required before accessing solutions\n\n\n\n\n\n\n\n4. Scaffold, Don’t Substitute\n\n\n\nUse AI to reduce irrelevant cognitive load, not eliminate all effort\nProvide worked examples that show the process, not just answers\nGradually fade support as competence develops\n\n\n\n\n\n\n\n\nThe Key Insight:\n\n\nAI is an expert-level tool. Using it before building foundational skills through weak methods isn’t just ineffective—it actively prevents the very processes that create expertise.\nDesign learning experiences that match how brains actually develop competence."
-=======
-    "objectID": "exercises/miro-board/index.html",
-    "href": "exercises/miro-board/index.html",
-    "title": "Miro Board",
-    "section": "",
-    "text": "View Miro board in new tab\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "slides/how-humans-learn/short/index.html#what-you-just-experienced",
-    "href": "slides/how-humans-learn/short/index.html#what-you-just-experienced",
-    "title": "How We Build Expertise",
-    "section": "What You Just Experienced",
-    "text": "What You Just Experienced\nYour Three Research Modes:\n\n\nWithout AI\nClassical sources\nFelt: Slower, effortful, uncertain\n\nSingle AI Prompt\nOne question\nFelt: Fast, confident, comprehensive\n\nCollaborative AI\nIterative questions\nFelt: Engaging, interactive, refined\n\n. . .\n\n\n\n\n\n\nThe Critical Question:\n\n\nWhich mode will you remember and transfer a week from now?\nThe immediate “feel” doesn’t predict long-term learning…"
-  },
-  {
-    "objectID": "slides/how-humans-learn/short/index.html#why-schools-exist-the-knowledge-divide",
-    "href": "slides/how-humans-learn/short/index.html#why-schools-exist-the-knowledge-divide",
-    "title": "How We Build Expertise",
-    "section": "Why Schools Exist: The Knowledge Divide",
-    "text": "Why Schools Exist: The Knowledge Divide\n\n\n🧬 Biologically Primary\nWe evolved to learn:\n\nSpeaking & understanding\nRecognizing faces\n\nReading social cues\nBasic problem solving\n\nNatural discovery works!\n\n\n\n🎓 Biologically Secondary\nWe didn’t evolve to learn:\n\nReading & writing\nMathematics & algebra\nProgramming & analysis\nScientific reasoning\n\nNeeds explicit teaching & struggle!\n\n\n\n\n\n\n\n\nImportant\n\n\nAI assumes all knowledge is primary—but academic skills need structured practice."
-  },
-  {
-    "objectID": "slides/how-humans-learn/short/index.html#how-expertise-actually-develops",
-    "href": "slides/how-humans-learn/short/index.html#how-expertise-actually-develops",
-    "title": "How We Build Expertise",
-    "section": "How Expertise Actually Develops",
-    "text": "How Expertise Actually Develops\nThe Brain’s Learning System:\n\n\n🧠 Declarative Memory\n“Knowing That”\n\nFacts and rules you hold consciously\nSlow, effortful retrieval\nExample: “To solve 3x + 5 = 20, subtract 5 from both sides”\n\n\n\n\n⚡ Procedural Memory\n“Knowing How”\n\nAutomatic “atomic thinking steps”\nFast, effortless execution\nExample: See 3x + 5 = 20 → instantly know x = 5\n\n\n\nThe journey: Facts → Thousands of practice cycles → Automatic procedures → Expertise\nWhy struggle matters: Each practice attempt strengthens the neural pathways that create expertise"
-  },
-  {
-    "objectID": "slides/how-humans-learn/short/index.html#productions-your-brains-atomic-thinking-steps",
-    "href": "slides/how-humans-learn/short/index.html#productions-your-brains-atomic-thinking-steps",
-    "title": "How We Build Expertise",
-    "section": "Productions: Your Brain’s Atomic Thinking Steps",
-    "text": "Productions: Your Brain’s Atomic Thinking Steps\nHow Complex Skills Are Built:\n\n\nProductions = IF-THEN Rules\n\nIF see “3x + 5 = 20” THEN subtract 5 from both sides\nIF stuck on code THEN check syntax first\nIF need to remember phone number THEN repeat internally\n\nEach one is an “atomic thinking step”\n\n\n\nProduction Competition\nWhen you see 3x + 5 = 20: - Production A: “Guess and check” (weak) - Production B: “Subtract 5” (strong) - Winner: Strongest fires automatically\nPractice strengthens winning productions\n\n. . .\n\n\n\n\n\n\nNote\n\n\nWhy this matters: Complex expertise = thousands of these atomic steps compiled together. AI provides final answers without building the atomic steps."
-  },
-  {
-    "objectID": "slides/how-humans-learn/short/index.html#the-ai-bypass-problem",
-    "href": "slides/how-humans-learn/short/index.html#the-ai-bypass-problem",
-    "title": "How We Build Expertise",
-    "section": "The AI Bypass Problem",
-    "text": "The AI Bypass Problem\nThree Ways Learning Is Disrupted:\n\nNo Prediction Errors: Brain learns from gaps between “what I expect” and “what happens”—AI eliminates this entirely\nNo Memory Formation: Information that isn’t actively processed isn’t stored—AI provides answers without processing\nNo Procedural Development: Expertise requires thousands of “atomic thinking steps”—AI skips this building process\n\n. . .\n\n\n\n\n\n\nWarning\n\n\nResult: Surface fluency without deep understanding, complete dependency on tools"
-  },
-  {
-    "objectID": "slides/how-humans-learn/short/index.html#the-research-reality",
-    "href": "slides/how-humans-learn/short/index.html#the-research-reality",
-    "title": "How We Build Expertise",
-    "section": "The Research Reality",
-    "text": "The Research Reality\nWhat Studies Show About AI Use in Learning:\n\n68% reduction in critical thinking among high AI users\nSurface learning only in programming students using ChatGPT\n\nFlynn Effect reversal: IQ scores declining since we stopped memorizing\nStudents can’t solve basic problems without AI after repeated AI-assisted attempts\n\n. . .\n\n\n\n\n\n\nWarning\n\n\nWe abandoned proven learning methods just as neuroscience proved why they work!"
-  },
-  {
-    "objectID": "slides/how-humans-learn/short/index.html#practical-guidelines",
-    "href": "slides/how-humans-learn/short/index.html#practical-guidelines",
-    "title": "How We Build Expertise",
-    "section": "Practical Guidelines",
-    "text": "Practical Guidelines\n\n\n\n\n\n\nThe Strategic AI Use Framework\n\n\nBefore Any AI Consultation:\n\nMinimum 20 minutes of independent struggle (not 5 from exercise!)\nDocument your thinking: What you tried and why you’re stuck\nUse AI strategically: To overcome specific obstacles, not replace thinking\n\nThe Test: Are you using AI to enhance your thinking or replace it?\nRed Flag: If you can’t solve similar problems without AI after 5 attempts, you’re building dependency, not expertise"
-  },
-  {
-    "objectID": "slides/how-humans-learn/short/index.html#your-choice",
-    "href": "slides/how-humans-learn/short/index.html#your-choice",
-    "title": "How We Build Expertise",
-    "section": "Your Choice",
-    "text": "Your Choice\n\n\n❌ The Shortcut Path:\n\nPerfect answers without understanding\nFragile knowledge that doesn’t transfer\nComplete dependency on tools\nFalse confidence in abilities\n\n\n\n\n✅ The Learning Path:\n\nDeep understanding through struggle\nRobust knowledge that transfers\nTrue intellectual autonomy\nAccurate self-assessment\n\n\n\n\n\n\n\n\n\nThe Goal:\n\n\nStudents who say: “I could use AI, but then I wouldn’t learn anything. Let me try this myself first.”\nYour confusion isn’t a bug—it’s the feature that builds expertise!"
->>>>>>> feature/skill-acquisition
   }
 ]
